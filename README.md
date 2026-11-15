@@ -76,3 +76,10 @@ The production canonical origin is `https://www.cloudssupply.site`, configured i
 Vercel serves the generated page directories directly using `vercel.json`; do not add a catch-all rewrite to the home page. Existing `/#product/...` and other legacy hash routes are converted to their matching clean paths in the browser.
 
 After deployment, verify the domain in Google Search Console and submit `https://www.cloudssupply.site/sitemap_index.xml` under Sitemaps. Sitemap generation does not submit the site to Search Console or guarantee Google indexing. Adding a product to the catalog and its original article automatically adds its page and sitemap entry on the next build.
+
+
+## On-page SEO
+
+All 73 routes have an individual title, description, canonical URL, social preview metadata, and one main H1. Product copy for search is maintained in `src/product-seo.json`; main-page and provider metadata, breadcrumbs, collections, and Product/FAQ schema are assembled in `src/seo.js`. FAQ content is shared between the visible page and structured data through `src/faqs.js`. Category guidance and contextual links are in `src/CategoryGuide.jsx`.
+
+`npm run build` pre-renders every route and runs the SEO audit automatically. After a build, `npm run check:seo` checks unique metadata, one H1 per route, canonical tags, original articles, product breadcrumbs, structured data, and internal-link destinations. The complete per-page review is saved to `reports/on-page-seo.csv`. Do not add fabricated reviews, stock availability, credit guarantees, or publication dates to structured data.

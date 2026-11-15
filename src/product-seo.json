@@ -1,0 +1,206 @@
+{
+  "101": {
+    "title": "AWS Free Trial Account",
+    "description": "Review the AWS free-trial account option, billing requirements, eligibility, and setup details before placing an order."
+  },
+  "102": {
+    "title": "AWS 8 vCPU Account",
+    "description": "Explore the AWS 8-vCPU account tier for a compact project. Read the guide to quota scope, regions, and ongoing resource charges."
+  },
+  "103": {
+    "title": "AWS 32 vCPU Account",
+    "description": "Compare the AWS 32-vCPU account option and review its compute label, regional scope, and deployment requirements."
+  },
+  "104": {
+    "title": "AWS 64 vCPU Account",
+    "description": "Review the AWS 64-vCPU listing, including the compute quota to confirm and the details to agree before account delivery."
+  },
+  "105": {
+    "title": "AWS 128 vCPU Account",
+    "description": "Explore the AWS 128-vCPU account tier. Check service quotas, region, billing, and the planned workload in the product guide."
+  },
+  "106": {
+    "title": "AWS 256 vCPU Account",
+    "description": "Read about the AWS 256-vCPU account option and confirm how the advertised capacity applies to your intended AWS services."
+  },
+  "107": {
+    "title": "AWS 512 vCPU Account",
+    "description": "Compare the AWS 512-vCPU account listing and review quota verification, workload planning, and provider usage costs."
+  },
+  "108": {
+    "title": "AWS $1K Credit Account",
+    "description": "Review the AWS $1,000 credit account option. Confirm credit eligibility, applicable services, expiration, and billing conditions."
+  },
+  "109": {
+    "title": "AWS $5K Credit Account",
+    "description": "Explore the AWS $5,000 credit account tier and the credit-validity, eligibility, and usage conditions to check before ordering."
+  },
+  "110": {
+    "title": "AWS $10K Credit Account",
+    "description": "Read the AWS $10,000 credit account guide, with practical checks for credit scope, validity, and ongoing provider billing."
+  },
+  "111": {
+    "title": "AWS $25K Credit Account",
+    "description": "Compare the AWS $25,000 credit account listing. Confirm the eligible services, credit terms, and account requirements."
+  },
+  "112": {
+    "title": "AWS $50K Credit Account",
+    "description": "Review the AWS $50,000 credit account option and clarify the credit balance, eligible usage, validity, and billing requirements."
+  },
+  "113": {
+    "title": "AWS $100K Credit Account",
+    "description": "Explore the AWS $100,000 credit account tier. Read the product guide before confirming credit eligibility and account terms."
+  },
+  "114": {
+    "title": "AWS Bedrock 10 RPM / 5 vCPU",
+    "description": "Review the AWS Bedrock 10-RPM, 5-vCPU option, including model access, region, quota scope, and account handover."
+  },
+  "115": {
+    "title": "AWS Bedrock 50 RPM / 5 vCPU",
+    "description": "Compare the AWS Bedrock 50-RPM, 5-vCPU listing and check the request allowance, model permissions, and billing details."
+  },
+  "124": {
+    "title": "AWS Bedrock 10 RPM / 32 vCPU",
+    "description": "Explore the AWS Bedrock 10-RPM, 32-vCPU account. Read about scheduled AI workflows, quota checks, and account delivery."
+  },
+  "116": {
+    "title": "AWS Bedrock 10K RPM / 32 vCPU",
+    "description": "Review the AWS Bedrock 10K-RPM, 32-vCPU listing and confirm the request quota, model region, and compute designation."
+  },
+  "117": {
+    "title": "AWS Bedrock 10K RPM / 256 vCPU",
+    "description": "Compare the AWS Bedrock 10K-RPM, 256-vCPU account option. Check the model permissions and meaning of both capacity labels."
+  },
+  "118": {
+    "title": "Kiro Enabled AWS Account",
+    "description": "Explore the Kiro-enabled AWS account listing, with an original guide to development access, account scope, and handover details."
+  },
+  "119": {
+    "title": "AWS Bedrock 256 vCPU / 10K RPM — F5",
+    "description": "Review the 256-vCPU, 10K-RPM Bedrock listing. Confirm the advertised 4.6, 4.7, 4.8, and F5 support before ordering."
+  },
+  "120": {
+    "title": "AWS Bedrock 384 vCPU / 10K RPM — F5",
+    "description": "Explore the 384-vCPU, 10K-RPM Bedrock account and clarify its listed 4.6, 4.7, 4.8, and F5 support conditions."
+  },
+  "121": {
+    "title": "AWS Bedrock 512 vCPU / 10K RPM — F5",
+    "description": "Compare the 512-vCPU, 10K-RPM Bedrock listing and review the advertised 4.6, 4.7, 4.8, and F5 support details."
+  },
+  "122": {
+    "title": "AWS Bedrock 1024 vCPU / 10K RPM — F5",
+    "description": "Read the 1024-vCPU, 10K-RPM Bedrock account guide. Verify the stated model versions, F5 support, quota scope, and region."
+  },
+  "123": {
+    "title": "AWS Bedrock 1920 vCPU / 10K RPM — F5",
+    "description": "Explore the 1920-vCPU, 10K-RPM Bedrock listing. Confirm model versions, F5 support, account limits, and billing scope."
+  },
+  "301": {
+    "title": "Google Cloud $300 + $10 Prepaid Account",
+    "description": "Review the Google Cloud $300 plus $10 prepaid variation and distinguish the listed account price from provider payment requirements."
+  },
+  "302": {
+    "title": "Google Cloud Pay As You Go — $10 Payment",
+    "description": "Compare the Google Cloud Pay As You Go option requiring a $10 provider payment. Review account pricing and billing separately."
+  },
+  "303": {
+    "title": "Google Cloud Pay As You Go — 20 CAD Payment",
+    "description": "Explore the Google Cloud Pay As You Go variation with a 20 CAD payment requirement and review the account purchase details."
+  },
+  "304": {
+    "title": "Google Cloud $2,000 Credit Account",
+    "description": "Read about the Google Cloud $2,000 credit account variation. Confirm credit conditions, eligibility, and the current price quote."
+  },
+  "305": {
+    "title": "Google Cloud $5,000 Credit Account",
+    "description": "Compare the Google Cloud $5,000 credit account option. Review credit validity, usage conditions, and provider billing requirements."
+  },
+  "306": {
+    "title": "Google Cloud $25,000 Credit Account",
+    "description": "Explore the Google Cloud $25,000 credit account variation and the eligibility, credit scope, and account details to verify."
+  },
+  "307": {
+    "title": "Azure Free Trial — $200 Credit",
+    "description": "Review the Azure free-trial account with a listed $200 credit benefit. Confirm trial eligibility, validity, and billing requirements."
+  },
+  "308": {
+    "title": "Azure Pay As You Go — $200 Credit",
+    "description": "Compare the Azure Pay-As-You-Go account with a listed $200 credit benefit and review its account and provider payment conditions."
+  },
+  "309": {
+    "title": "Azure $1K Tier 1 — Claude Support",
+    "description": "Explore the Azure $1K Tier 1 listing labeled for Claude support. Verify its credit designation, model access, and account scope."
+  },
+  "310": {
+    "title": "Azure $5K Credit Account",
+    "description": "Read the Azure $5,000 credit account guide. Confirm credit eligibility, applicable services, account access, and ongoing charges."
+  },
+  "311": {
+    "title": "DigitalOcean 3-Droplet Account",
+    "description": "Explore the DigitalOcean three-Droplet account listing. Check resource allowances, region, billing, and account access details."
+  },
+  "312": {
+    "title": "Linode Free Trial — $100 Credit",
+    "description": "Review the Linode trial account with a listed $100 credit benefit and confirm credit validity, eligibility, and resource limits."
+  },
+  "313": {
+    "title": "OVHcloud 34 vCPU Account",
+    "description": "Compare the OVHcloud 34-vCPU account listing and clarify the advertised compute designation, region, and provider billing."
+  },
+  "314": {
+    "title": "Oracle Cloud Free Trial — $300",
+    "description": "Explore the Oracle Cloud free-trial listing labeled $300. Confirm the trial benefit, eligibility, billing, and account conditions."
+  },
+  "315": {
+    "title": "Hetzner 5-Server Account",
+    "description": "Read the Hetzner five-server account guide and confirm resource limits, account access, regions, and ongoing provider charges."
+  },
+  "316": {
+    "title": "Amazon SES SMTP — 50K Limit",
+    "description": "Review the Amazon SES SMTP 50K-limit listing. Verify the sending-limit period, account region, and email configuration details."
+  },
+  "317": {
+    "title": "Amazon SES SMTP — 100K Limit",
+    "description": "Compare the Amazon SES SMTP 100K-limit account and clarify sending limits, region, configuration, and provider usage fees."
+  },
+  "318": {
+    "title": "UpCloud $500 Credit Account",
+    "description": "Explore the UpCloud account with a listed $500 credit benefit. Review credit eligibility, funding conditions, and billing details."
+  },
+  "319": {
+    "title": "Atlantic Cloud Free Trial Account",
+    "description": "Read the Atlantic Cloud free-trial account guide and confirm trial requirements, resource allowances, and account access."
+  },
+  "320": {
+    "title": "Alibaba Cloud Free Trial Account",
+    "description": "Review the Alibaba Cloud free-trial listing and confirm eligible services, regional requirements, billing, and account handover."
+  },
+  "321": {
+    "title": "AWS Marketplace Account",
+    "description": "Explore the AWS Marketplace account listing and review purchasing permissions, seller requirements, and account access details."
+  },
+  "1": {
+    "title": "AWS Cloud Starter Service",
+    "description": "Review the AWS Cloud Starter service package, including the proposed setup scope and the provider billing details to confirm."
+  },
+  "2": {
+    "title": "Google Cloud Starter Service",
+    "description": "Explore the Google Cloud Starter service and review its proposed onboarding scope, project requirements, and account ownership."
+  },
+  "3": {
+    "title": "Azure Cloud Starter Service",
+    "description": "Read about the Azure Cloud Starter service package and confirm setup deliverables, access arrangements, and provider costs."
+  },
+  "4": {
+    "title": "DigitalOcean Starter Service",
+    "description": "Compare the DigitalOcean Starter onboarding service and review the proposed account setup and project handover details."
+  },
+  "5": {
+    "title": "AWS Launch Plus Service",
+    "description": "Explore the AWS Launch Plus service package. Review its intended setup scope, project requirements, and support arrangements."
+  },
+  "6": {
+    "title": "Google Cloud Launch Plus Service",
+    "description": "Review the Google Cloud Launch Plus service and agree on the final onboarding scope, access arrangements, and deliverables."
+  }
+}

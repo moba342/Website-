@@ -1,34 +1,79 @@
 import {allProducts,allProviders,findProduct,findProvider,productHref,providerHref} from './catalog-data.js';
 import {routeHref,pageRoutes} from './router.js';
 import {siteUrl,siteName} from './site-config.js';
+import {faqs} from './faqs.js';
+import productSeo from './product-seo.json';
 const pages={
- home:['Cloud Accounts & Bedrock API Marketplace','Compare cloud accounts, AWS Bedrock API options, cloud credits, and hosting accounts. Explore product specifications, prices, and original guides at CloudsSupply.store.'],
- 'all-products':['All Cloud Products & Services','Explore every cloud account and service, with individual product guides, specifications, prices, and Telegram ordering.'],
- 'cloud-service-accounts':['Cloud Service Accounts','Compare Google Cloud, Azure, DigitalOcean, Linode, Oracle Cloud, and other cloud account variations and listed prices.'],
- 'aws-standard':['AWS Standard Accounts','Compare AWS trial, compute, and credit account options. Review specifications and individual product guides before choosing an account.'],
- 'bedrock-api':['AWS Bedrock API Accounts','Explore AWS Bedrock API account variations, request-rate labels, compute specifications, prices, and original product guides.'],
- 'aws-account-configurator':['Compare AWS Account Variations','Choose an AWS trial, compute, credit, Bedrock API, or Kiro account variation and review its price and specifications.'],
- contact:['Contact & Order Support','Contact CloudsSupply.store by phone or Telegram for product questions, order updates, account delivery, and refund requests.'],
- faq:['Frequently Asked Questions','Find answers about cloud account products, pricing, ordering on Telegram, delivery, and refund reviews.'],
- refund:['Refund Policy','Read the refund review process, order requirements, delivery information, and support contact details for CloudsSupply.store.']
+ home:['Cloud Accounts & AWS Bedrock APIs','Compare AWS, Google Cloud, Azure, hosting, and Bedrock API accounts. Explore prices, specifications, and original product guides at CloudsSupply.store.'],
+ 'all-products':['Cloud Accounts, Credits & API Products','Browse cloud accounts, credit tiers, hosting services, and AI API products. Compare specifications and prices, then read the original product guides.'],
+ 'cloud-service-accounts':['Cloud Service Accounts — Compare Providers','Compare Google Cloud, Azure, DigitalOcean, Oracle, and other cloud account variations. Review credit labels, provider payments, and listed account prices.'],
+ 'aws-standard':['AWS Standard Accounts — Compute & Credits','Compare AWS trial accounts, vCPU tiers, and cloud credit options. Read product guides and confirm quotas, billing, and eligibility before ordering.'],
+ 'bedrock-api':['AWS Bedrock API Accounts — Prices & Guides','Compare AWS Bedrock API accounts by RPM and vCPU labels. Review model access, quota details, listed prices, and original product guides.'],
+ 'aws-account-configurator':['Compare AWS Account Variations & Prices','Choose an AWS trial, compute, credit, Bedrock, or Kiro variation. Compare prices and quantities, then review the dedicated product guide.'],
+ contact:['Contact & Order Support','Contact CloudsSupply.store at +1 (458) 262-4274 or Telegram @Eljh_Miller for product guidance, delivery updates, and refund review requests.'],
+ faq:['Cloud Account FAQs — Orders & Delivery','Get answers about cloud account products, credits, Telegram ordering, account access, 30 minutes–1 hour delivery, and refund reviews.'],
+ refund:['Refund Policy & Review Process','Read how to request a refund review, what order details to provide, and the proposed terms for delivery issues and completed services.']
 };
-export const seoPages=[...pageRoutes.map(route=>({route,path:routeHref(route),type:'page'})),...allProviders.map(p=>({route:'provider/'+p.slug,path:providerHref(p),type:'provider'})),...allProducts.map(p=>({route:'product/'+p.pageSlug,path:productHref(p),type:'product'}))];
+const providerDescriptions={
+ aws:'Compare AWS trial, compute, credit, Bedrock API, and Kiro account variations. Review prices and choose an original guide for your intended configuration.',
+ 'google-cloud':'Compare Google Cloud prepaid, Pay As You Go, and credit account variations. Review account prices, required provider payments, and individual guides.',
+ azure:'Explore Azure trial, Pay-As-You-Go, $1K Tier 1, and $5K credit account options. Compare listed prices, account conditions, and original product guides.',
+ digitalocean:'Review the DigitalOcean three-Droplet account option, listed price, resource allowances, billing considerations, and the original product guide.',
+ linode:'Explore the Linode trial account with a listed $100 credit benefit. Review account pricing, trial eligibility, credit conditions, and product guidance.',
+ ovhcloud:'Compare the OVHcloud account option labeled 34 vCPUs. Review its listed price and the compute, regional, and billing details to clarify before ordering.',
+ oracle:'Review the Oracle Cloud free-trial account listing labeled $300. Explore the account price, trial conditions, and original guide before ordering.',
+ hetzner:'Explore the Hetzner five-server account listing. Review account pricing, resource allowances, billing conditions, and the individual product guide.',
+ 'amazon-ses':'Compare Amazon SES SMTP account listings with 50K and 100K sending-limit labels. Review prices, limit conditions, and email setup guides.',
+ upcloud:'Review the UpCloud account with a listed $500 credit benefit. Explore pricing, funding conditions, billing requirements, and the original product guide.',
+ atlantic:'Explore the Atlantic Cloud free-trial account option. Review pricing, trial requirements, resource allowances, and the original product guide.',
+ alibaba:'Review the Alibaba Cloud free-trial account listing. Explore its price, regional and billing requirements, and original guidance for account selection.',
+ 'aws-marketplace':'Explore the AWS Marketplace account option and listed price. Review purchasing permissions, account requirements, and the original product guide.'
+};
+const money=value=>new Intl.NumberFormat('en-US',{style:'currency',currency:'USD'}).format(value);
+export const seoPages=[...pageRoutes.map(route=>({route,path:routeHref(route),type:'page',name:pages[route][0]})),...allProviders.map(p=>({route:'provider/'+p.slug,path:providerHref(p),type:'provider',name:p.title})),...allProducts.map(p=>({route:'product/'+p.pageSlug,path:productHref(p),type:'product',name:p.name}))];
+function collectionItems(route,provider){
+ if(provider)return provider.variants;
+ if(route==='home')return allProviders;
+ if(route==='cloud-service-accounts')return allProviders.filter(p=>p.slug!=='aws');
+ if(route==='all-products')return allProducts;
+ const aws=allProviders.find(p=>p.slug==='aws').variants;
+ if(route==='aws-account-configurator')return aws;
+ if(route==='bedrock-api')return aws.filter(p=>['Amazon Bedrock','AI development'].includes(p.kind));
+ if(route==='aws-standard')return aws.filter(p=>!['Amazon Bedrock','AI development'].includes(p.kind));
+ return [];
+}
 export function metadataFor(route){
  const product=findProduct(route),provider=findProvider(route),known=!!product||!!provider||!!pages[route];
- const [title,description]=product?[product.name,product.desc]:provider?[provider.title,provider.guide.summary]:pages[route]||['Page not found','The requested page could not be found. Browse our cloud account catalog.'];
+ const data=product?productSeo[product.id]:null;
+ const title=product?(data?.title||product.name):provider?provider.title:pages[route]?.[0]||'Page not found';
+ const description=product?(data?.description||product.desc):provider?(providerDescriptions[provider.slug]||provider.guide.summary):pages[route]?.[1]||'The requested page could not be found. Browse our cloud account catalog.';
  const url=siteUrl+routeHref(route),image=siteUrl+(product?.image||provider?.image||'/products/premium/cloud-console-v2.jpg');
- const organization={'@type':'Organization','@id':siteUrl+'/#organization',name:siteName,url:siteUrl+'/',logo:siteUrl+'/brand/cloudssupply-logo.png',telephone:'+14582624274',sameAs:['https://t.me/Eljh_Miller']};
- const graph=[organization,{'@type':'WebSite','@id':siteUrl+'/#website',url:siteUrl+'/',name:siteName,publisher:{'@id':organization['@id']}},{'@type':'WebPage','@id':url+'#webpage',url,name:title+' | '+siteName,description,isPartOf:{'@id':siteUrl+'/#website'}}];
- if(product){const item={'@type':'Product','@id':url+'#product',name:product.name,description:product.desc,image,sku:String(product.id),brand:{'@type':'Brand',name:product.provider},url};if(product.price!=null)item.offers={'@type':'Offer',url,price:product.price,priceCurrency:'USD',seller:{'@id':organization['@id']}};graph.push(item);}
- if(known&&route!=='home')graph.push({'@type':'BreadcrumbList',itemListElement:[{'@type':'ListItem',position:1,name:'Home',item:siteUrl+'/'},{'@type':'ListItem',position:2,name:title,item:url}]});
- return {title:title+' | '+siteName,description,url,image,robots:known?'index, follow':'noindex, follow',schema:{'@context':'https://schema.org','@graph':graph}};
+ const imageAlt=(product?.name||provider?.name||'CloudsSupply.store cloud accounts')+' — cloud infrastructure illustration';
+ const organization={'@type':'Organization','@id':siteUrl+'/#organization',name:siteName,url:siteUrl+'/',logo:{'@type':'ImageObject',url:siteUrl+'/brand/cloudssupply-logo.png',width:2172,height:724},telephone:'+14582624274',sameAs:['https://t.me/Eljh_Miller'],contactPoint:{'@type':'ContactPoint',telephone:'+14582624274',contactType:'customer support',url:siteUrl+'/contact/'}};
+ const items=collectionItems(route,provider);
+ const webPage={'@type':product?'ItemPage':route==='contact'?'ContactPage':route==='faq'?'FAQPage':items.length?'CollectionPage':'WebPage','@id':url+'#webpage',url,name:title+' | '+siteName,description,inLanguage:'en',isPartOf:{'@id':siteUrl+'/#website'}};
+ const graph=[organization,{'@type':'WebSite','@id':siteUrl+'/#website',url:siteUrl+'/',name:siteName,inLanguage:'en',publisher:{'@id':organization['@id']}},webPage];
+ if(product){const item={'@type':'Product','@id':url+'#product',name:product.name,description:product.desc,image,sku:String(product.id),brand:{'@type':'Brand',name:product.provider},url};if(product.price!=null)item.offers={'@type':'Offer',url,price:product.price,priceCurrency:'USD',seller:{'@id':organization['@id']}};graph.push(item);webPage.mainEntity={'@id':item['@id']};}
+ if(items.length){const list={'@type':'ItemList','@id':url+'#collection',name:product?product.name:title,numberOfItems:items.length,itemListElement:items.map((p,index)=>({'@type':'ListItem',position:index+1,name:p.title||p.name,url:siteUrl+(p.variants?providerHref(p):productHref(p))}))};graph.push(list);webPage.mainEntity={'@id':list['@id']};}
+ if(route==='faq')webPage.mainEntity=faqs.map(([question,answer])=>({'@type':'Question',name:question,acceptedAnswer:{'@type':'Answer',text:answer}}));
+ if(known&&route!=='home'){
+  const crumbs=[['Home','/']];
+  if(product||provider)crumbs.push(['Products','/all-products/']);
+  if(product){const group=allProviders.find(p=>p.slug===product.providerSlug);if(group)crumbs.push([group.name,providerHref(group)]);}
+  crumbs.push([product?.name||provider?.name||title,routeHref(route)]);
+  const breadcrumb={'@type':'BreadcrumbList','@id':url+'#breadcrumbs',itemListElement:crumbs.map(([name,path],index)=>({'@type':'ListItem',position:index+1,name,item:siteUrl+path}))};graph.push(breadcrumb);webPage.breadcrumb={'@id':breadcrumb['@id']};
+ }
+ return {title:title+' | '+siteName,description,url,image,imageAlt,robots:known?'index, follow, max-image-preview:large':'noindex, follow',schema:{'@context':'https://schema.org','@graph':graph}};
 }
+export function socialMetadata(m){return {
+ properties:{'og:title':m.title,'og:description':m.description,'og:url':m.url,'og:image':m.image,'og:image:alt':m.imageAlt,'og:type':m.schema['@graph'].some(node=>node['@type']==='Product')?'product':'website','og:site_name':siteName,'og:locale':'en_US'},
+ names:{'twitter:card':'summary_large_image','twitter:title':m.title,'twitter:description':m.description,'twitter:image':m.image,'twitter:image:alt':m.imageAlt}
+};}
 export function applyPageMetadata(route){
  const m=metadataFor(route);document.title=m.title;
  function meta(attr,key,content){let el=document.head.querySelector(`meta[${attr}="${key}"]`);if(!el){el=document.createElement('meta');el.setAttribute(attr,key);document.head.append(el)}el.content=content;}
  meta('name','description',m.description);meta('name','robots',m.robots);
- for(const [key,value] of Object.entries({'og:title':m.title,'og:description':m.description,'og:url':m.url,'og:image':m.image,'og:type':route.startsWith('product/')?'product':'website','og:site_name':siteName}))meta('property',key,value);
- for(const [key,value] of Object.entries({'twitter:card':'summary_large_image','twitter:title':m.title,'twitter:description':m.description,'twitter:image':m.image}))meta('name',key,value);
+ const social=socialMetadata(m);for(const [key,value] of Object.entries(social.properties))meta('property',key,value);for(const [key,value] of Object.entries(social.names))meta('name',key,value);
  let canonical=document.head.querySelector('link[rel="canonical"]');if(!canonical){canonical=document.createElement('link');canonical.rel='canonical';document.head.append(canonical)}canonical.href=m.url;
  let schema=document.getElementById('page-schema');if(!schema){schema=document.createElement('script');schema.type='application/ld+json';schema.id='page-schema';document.head.append(schema)}schema.textContent=JSON.stringify(m.schema);
 }
