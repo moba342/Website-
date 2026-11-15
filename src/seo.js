@@ -3,8 +3,9 @@ import {routeHref,pageRoutes} from './router.js';
 import {siteUrl,siteName} from './site-config.js';
 import {faqs} from './faqs.js';
 import productSeo from './product-seo.json';
+import {homepageTitle,homepageDescription,featuredAwsIds,homepageFaqs} from './homepage-seo.js';
 const pages={
- home:['Cloud Accounts & AWS Bedrock APIs','Compare AWS, Google Cloud, Azure, hosting, and Bedrock API accounts. Explore prices, specifications, and original product guides at CloudsSupply.store.'],
+ home:['Buy AWS Accounts & AWS Bedrock API Access',homepageDescription],
  'all-products':['Cloud Accounts, Credits & API Products','Browse cloud accounts, credit tiers, hosting services, and AI API products. Compare specifications and prices, then read the original product guides.'],
  'cloud-service-accounts':['Cloud Service Accounts — Compare Providers','Compare Google Cloud, Azure, DigitalOcean, Oracle, and other cloud account variations. Review credit labels, provider payments, and listed account prices.'],
  'aws-standard':['AWS Standard Accounts — Compute & Credits','Compare AWS trial accounts, vCPU tiers, and cloud credit options. Read product guides and confirm quotas, billing, and eligibility before ordering.'],
@@ -33,7 +34,7 @@ const money=value=>new Intl.NumberFormat('en-US',{style:'currency',currency:'USD
 export const seoPages=[...pageRoutes.map(route=>({route,path:routeHref(route),type:'page',name:pages[route][0]})),...allProviders.map(p=>({route:'provider/'+p.slug,path:providerHref(p),type:'provider',name:p.title})),...allProducts.map(p=>({route:'product/'+p.pageSlug,path:productHref(p),type:'product',name:p.name}))];
 function collectionItems(route,provider){
  if(provider)return provider.variants;
- if(route==='home')return allProviders;
+ if(route==='home')return featuredAwsIds.map(id=>allProducts.find(p=>p.id===id));
  if(route==='cloud-service-accounts')return allProviders.filter(p=>p.slug!=='aws');
  if(route==='all-products')return allProducts;
  const aws=allProviders.find(p=>p.slug==='aws').variants;
@@ -47,13 +48,21 @@ export function metadataFor(route){
  const data=product?productSeo[product.id]:null;
  const title=product?(data?.title||product.name):provider?provider.title:pages[route]?.[0]||'Page not found';
  const description=product?(data?.description||product.desc):provider?(providerDescriptions[provider.slug]||provider.guide.summary):pages[route]?.[1]||'The requested page could not be found. Browse our cloud account catalog.';
+ const pageTitle=route==='home'?homepageTitle:title+' | '+siteName;
  const url=siteUrl+routeHref(route),image=siteUrl+(product?.image||provider?.image||'/products/premium/cloud-console-v2.jpg');
  const imageAlt=(product?.name||provider?.name||'CloudsSupply.store cloud accounts')+' — cloud infrastructure illustration';
  const organization={'@type':'Organization','@id':siteUrl+'/#organization',name:siteName,url:siteUrl+'/',logo:{'@type':'ImageObject',url:siteUrl+'/brand/cloudssupply-logo.png',width:2172,height:724},telephone:'+14582624274',sameAs:['https://t.me/Eljh_Miller'],contactPoint:{'@type':'ContactPoint',telephone:'+14582624274',contactType:'customer support',url:siteUrl+'/contact/'}};
  const items=collectionItems(route,provider);
- const webPage={'@type':product?'ItemPage':route==='contact'?'ContactPage':route==='faq'?'FAQPage':items.length?'CollectionPage':'WebPage','@id':url+'#webpage',url,name:title+' | '+siteName,description,inLanguage:'en',isPartOf:{'@id':siteUrl+'/#website'}};
+ const webPage={'@type':product?'ItemPage':route==='contact'?'ContactPage':route==='faq'?'FAQPage':items.length?'CollectionPage':'WebPage','@id':url+'#webpage',url,name:pageTitle,description,inLanguage:'en',isPartOf:{'@id':siteUrl+'/#website'}};
  const graph=[organization,{'@type':'WebSite','@id':siteUrl+'/#website',url:siteUrl+'/',name:siteName,inLanguage:'en',publisher:{'@id':organization['@id']}},webPage];
- if(product){const item={'@type':'Product','@id':url+'#product',name:product.name,description:product.desc,image,sku:String(product.id),brand:{'@type':'Brand',name:product.provider},url};if(product.price!=null)item.offers={'@type':'Offer',url,price:product.price,priceCurrency:'USD',seller:{'@id':organization['@id']}};graph.push(item);webPage.mainEntity={'@id':item['@id']};}
+ const productNode=p=>{const productUrl=siteUrl+productHref(p);const item={'@type':'Product','@id':productUrl+'#product',name:p.name,description:p.desc,image:siteUrl+p.image,sku:String(p.id),brand:{'@type':'Brand',name:p.provider},url:productUrl};if(p.price!=null)item.offers={'@type':'Offer',url:productUrl,price:p.price,priceCurrency:'USD',seller:{'@id':organization['@id']}};return item;};
+ if(product){const item=productNode(product);graph.push(item);webPage.mainEntity={'@id':item['@id']};}
+ if(route==='home'){
+  graph.push(...items.map(productNode));
+  const faq={'@type':'FAQPage','@id':url+'#aws-faq',mainEntity:homepageFaqs.map(([q,a])=>({'@type':'Question',name:q,acceptedAnswer:{'@type':'Answer',text:a}}))};
+  graph.push(faq);webPage.hasPart={'@id':faq['@id']};
+ }
+
  if(items.length){const list={'@type':'ItemList','@id':url+'#collection',name:product?product.name:title,numberOfItems:items.length,itemListElement:items.map((p,index)=>({'@type':'ListItem',position:index+1,name:p.title||p.name,url:siteUrl+(p.variants?providerHref(p):productHref(p))}))};graph.push(list);webPage.mainEntity={'@id':list['@id']};}
  if(route==='faq')webPage.mainEntity=faqs.map(([question,answer])=>({'@type':'Question',name:question,acceptedAnswer:{'@type':'Answer',text:answer}}));
  if(known&&route!=='home'){
@@ -63,7 +72,7 @@ export function metadataFor(route){
   crumbs.push([product?.name||provider?.name||title,routeHref(route)]);
   const breadcrumb={'@type':'BreadcrumbList','@id':url+'#breadcrumbs',itemListElement:crumbs.map(([name,path],index)=>({'@type':'ListItem',position:index+1,name,item:siteUrl+path}))};graph.push(breadcrumb);webPage.breadcrumb={'@id':breadcrumb['@id']};
  }
- return {title:title+' | '+siteName,description,url,image,imageAlt,robots:known?'index, follow, max-image-preview:large':'noindex, follow',schema:{'@context':'https://schema.org','@graph':graph}};
+ return {title:pageTitle,description,url,image,imageAlt,robots:known?'index, follow, max-image-preview:large':'noindex, follow',schema:{'@context':'https://schema.org','@graph':graph}};
 }
 export function socialMetadata(m){return {
  properties:{'og:title':m.title,'og:description':m.description,'og:url':m.url,'og:image':m.image,'og:image:alt':m.imageAlt,'og:type':m.schema['@graph'].some(node=>node['@type']==='Product')?'product':'website','og:site_name':siteName,'og:locale':'en_US'},

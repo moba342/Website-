@@ -83,3 +83,8 @@ After deployment, verify the domain in Google Search Console and submit `https:/
 All 73 routes have an individual title, description, canonical URL, social preview metadata, and one main H1. Product copy for search is maintained in `src/product-seo.json`; main-page and provider metadata, breadcrumbs, collections, and Product/FAQ schema are assembled in `src/seo.js`. FAQ content is shared between the visible page and structured data through `src/faqs.js`. Category guidance and contextual links are in `src/CategoryGuide.jsx`.
 
 `npm run build` pre-renders every route and runs the SEO audit automatically. After a build, `npm run check:seo` checks unique metadata, one H1 per route, canonical tags, original articles, product breadcrumbs, structured data, and internal-link destinations. The complete per-page review is saved to `reports/on-page-seo.csv`. Do not add fabricated reviews, stock availability, credit guarantees, or publication dates to structured data.
+
+
+## Homepage keyword strategy
+
+The AWS-focused homepage uses the approved title, description, H1, and six-section structure in `src/homepage-seo.js`. See `docs/homepage-seo.md` for keyword placement, landing-page links, structured data, and the confirmed decision to retain the working `.site` canonical domain.

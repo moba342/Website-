@@ -1,6 +1,7 @@
 import {readFile,writeFile,mkdir,access} from 'node:fs/promises';
 import {resolve} from 'node:path';
 import {seoPages,metadataFor} from '../.ssr/entry-server.js';
+import {homepageTitle,homepageDescription,homepageH1,homepageHeadings,featuredAwsIds,homepageFaqs} from '../src/homepage-seo.js';
 const aws=JSON.parse(await readFile('src/aws-products.json','utf8'));
 const cloud=JSON.parse(await readFile('src/cloud-service-products.json','utf8'));
 const starters=JSON.parse(await readFile('src/starter-products.json','utf8'));
@@ -24,6 +25,20 @@ for(const page of seoPages){
  const schema=JSON.parse(html.match(/id="page-schema">(.*?)<\/script>/s)?.[1]||'null');
  check(!!schema,'missing structured data');
  const graph=schema?.['@graph']||[];
+ for(const item of graph.filter(node=>node['@type']==='Product')){
+  const original=productsById.get(item.sku);
+  check(!!original&&item.name===original.name,'product identity mismatch');
+  check(original?.price==null?!item.offers:item.offers?.price===original.price&&item.offers.priceCurrency==='USD','structured price mismatch');
+ }
+ if(page.route==='home'){
+  check(meta.title===homepageTitle&&meta.description===homepageDescription,'homepage search copy mismatch');
+  check(text(headings[0]?.[1]||'')===homepageH1,'homepage H1 mismatch');
+  const h2=[...html.matchAll(/<h2(?:\s[^>]*)?>(.*?)<\/h2>/gs)].map(m=>text(m[1]));
+  check(JSON.stringify(h2)===JSON.stringify(homepageHeadings),'homepage H2 structure mismatch');
+  check(graph.filter(n=>n['@type']==='Product').length===featuredAwsIds.length,'homepage featured-product schema mismatch');
+  check(graph.find(n=>n['@type']==='FAQPage')?.mainEntity.length===homepageFaqs.length,'homepage FAQ schema mismatch');
+ }
+
  if(page.type==='product'){
   const item=graph.find(item=>item['@type']==='Product');
   check(!!item,'missing Product structured data');
