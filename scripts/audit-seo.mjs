@@ -2,6 +2,7 @@ import {readFile,writeFile,mkdir,access} from 'node:fs/promises';
 import {resolve} from 'node:path';
 import {seoPages,metadataFor} from '../.ssr/entry-server.js';
 import {homepageTitle,homepageDescription,homepageH1,homepageHeadings,featuredAwsIds,homepageFaqs} from '../src/homepage-seo.js';
+import {apiKeyTitle,apiKeyDescription,apiKeyH1,apiKeyFaqs} from '../src/api-key-content.js';
 const aws=JSON.parse(await readFile('src/aws-products.json','utf8'));
 const cloud=JSON.parse(await readFile('src/cloud-service-products.json','utf8'));
 const starters=JSON.parse(await readFile('src/starter-products.json','utf8'));
@@ -39,6 +40,12 @@ for(const page of seoPages){
   check(graph.find(n=>n['@type']==='FAQPage')?.mainEntity.length===homepageFaqs.length,'homepage FAQ schema mismatch');
  }
 
+ if(page.route==='aws-bedrock-api-key'){
+  check(meta.title===apiKeyTitle&&meta.description===apiKeyDescription,'API-key page search copy mismatch');
+  check(text(headings[0]?.[1]||'')===apiKeyH1,'API-key page H1 mismatch');
+  check(html.includes('class="api-key-article"'),'missing API-key access article');
+  check(graph.find(n=>n['@type']==='FAQPage')?.mainEntity.length===apiKeyFaqs.length,'API-key FAQ schema mismatch');
+ }
  if(page.type==='product'){
   const item=graph.find(item=>item['@type']==='Product');
   check(!!item,'missing Product structured data');

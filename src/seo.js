@@ -3,6 +3,7 @@ import {routeHref,pageRoutes} from './router.js';
 import {siteUrl,siteName} from './site-config.js';
 import {faqs} from './faqs.js';
 import productSeo from './product-seo.json';
+import {apiKeyTitle,apiKeyDescription,apiKeyFaqs} from './api-key-content.js';
 import {homepageTitle,homepageDescription,featuredAwsIds,homepageFaqs} from './homepage-seo.js';
 const pages={
  home:['Buy AWS Accounts & AWS Bedrock API Access',homepageDescription],
@@ -10,6 +11,7 @@ const pages={
  'cloud-service-accounts':['Buy Cloud Accounts Online – AWS, Azure & GCP','Explore cloud accounts for sale, including Google Cloud, Azure, DigitalOcean, Oracle and more. Compare account options, cloud credits and prices at CloudsSupply.'],
  'aws-standard':['AWS Standard Accounts — Compute & Credits','Compare AWS trial accounts, vCPU tiers, and cloud credit options. Read product guides and confirm quotas, billing, and eligibility before ordering.'],
  'bedrock-api':['Buy AWS Bedrock Accounts & API Access','Explore AWS Bedrock accounts and API access options with 10 RPM, 50 RPM and 10K RPM tiers. Compare vCPU configurations, model access and prices at CloudsSupply.'],
+ 'aws-bedrock-api-key':['Buy AWS Bedrock API Key & Accounts',apiKeyDescription],
  'aws-account-configurator':['Compare AWS Account Variations & Prices','Choose an AWS trial, compute, credit, Bedrock, or Kiro variation. Compare prices and quantities, then review the dedicated product guide.'],
  contact:['Contact CloudsSupply','Contact CloudsSupply for AWS, Bedrock API, Google Cloud and Azure account questions. Get help with product selection, delivery, orders and refund requests.'],
  faq:['Cloud Account FAQs – Orders & Delivery','Find answers about AWS and cloud accounts, Bedrock API access, cloud credits, ordering, delivery, account eligibility and refunds at CloudsSupply.'],
@@ -39,6 +41,7 @@ function collectionItems(route,provider){
  if(route==='all-products')return allProducts;
  const aws=allProviders.find(p=>p.slug==='aws').variants;
  if(route==='aws-account-configurator')return aws;
+ if(route==='aws-bedrock-api-key')return aws.filter(p=>p.kind==='Amazon Bedrock');
  if(route==='bedrock-api')return aws.filter(p=>['Amazon Bedrock','AI development'].includes(p.kind));
  if(route==='aws-standard')return aws.filter(p=>!['Amazon Bedrock','AI development'].includes(p.kind));
  return [];
@@ -48,7 +51,7 @@ export function metadataFor(route){
  const data=product?productSeo[product.id]:null;
  const title=product?(data?.title||product.name):provider?provider.title:pages[route]?.[0]||'Page not found';
  const description=product?(data?.description||product.desc):provider?(providerDescriptions[provider.slug]||provider.guide.summary):pages[route]?.[1]||'The requested page could not be found. Browse our cloud account catalog.';
- const pageTitle=route==='home'?homepageTitle:route==='contact'?'Contact CloudsSupply | Cloud Account Sales & Support':['cloud-service-accounts','bedrock-api','faq','refund'].includes(route)?title+' | CloudsSupply':title+' | '+siteName;
+ const pageTitle=route==='home'?homepageTitle:route==='aws-bedrock-api-key'?apiKeyTitle:route==='contact'?'Contact CloudsSupply | Cloud Account Sales & Support':['cloud-service-accounts','bedrock-api','faq','refund'].includes(route)?title+' | CloudsSupply':title+' | '+siteName;
  const url=siteUrl+routeHref(route),image=siteUrl+(product?.image||provider?.image||'/products/premium/cloud-console-v2.jpg');
  const imageAlt=(product?.name||provider?.name||'CloudsSupply.store cloud accounts')+' — cloud infrastructure illustration';
  const organization={'@type':'Organization','@id':siteUrl+'/#organization',name:siteName,url:siteUrl+'/',logo:{'@type':'ImageObject',url:siteUrl+'/brand/cloudssupply-logo.png',width:2172,height:724},telephone:'+14582624274',sameAs:['https://t.me/Eljh_Miller'],contactPoint:{'@type':'ContactPoint',telephone:'+14582624274',contactType:'customer support',url:siteUrl+'/contact/'}};
@@ -63,10 +66,15 @@ export function metadataFor(route){
   graph.push(faq);webPage.hasPart={'@id':faq['@id']};
  }
 
+ if(route==='aws-bedrock-api-key'){
+  graph.push(...items.map(productNode));
+  const faq={'@type':'FAQPage','@id':url+'#api-key-faq',mainEntity:apiKeyFaqs.map(([q,a])=>({'@type':'Question',name:q,acceptedAnswer:{'@type':'Answer',text:a}}))};graph.push(faq);webPage.hasPart={'@id':faq['@id']};
+ }
  if(items.length){const list={'@type':'ItemList','@id':url+'#collection',name:product?product.name:title,numberOfItems:items.length,itemListElement:items.map((p,index)=>({'@type':'ListItem',position:index+1,name:p.title||p.name,url:siteUrl+(p.variants?providerHref(p):productHref(p))}))};graph.push(list);webPage.mainEntity={'@id':list['@id']};}
  if(route==='faq')webPage.mainEntity=faqs.map(([question,answer])=>({'@type':'Question',name:question,acceptedAnswer:{'@type':'Answer',text:answer}}));
  if(known&&route!=='home'){
   const crumbs=[['Home','/']];
+  if(route==='aws-bedrock-api-key')crumbs.push(['AWS Bedrock API','/bedrock-api/']);
   if(product||provider)crumbs.push(['Products','/all-products/']);
   if(product){const group=allProviders.find(p=>p.slug===product.providerSlug);if(group)crumbs.push([group.name,providerHref(group)]);}
   crumbs.push([product?.name||provider?.name||title,routeHref(route)]);

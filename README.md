@@ -80,7 +80,7 @@ After deployment, verify the domain in Google Search Console and submit `https:/
 
 ## On-page SEO
 
-All 73 routes have an individual title, description, canonical URL, social preview metadata, and one main H1. Product copy for search is maintained in `src/product-seo.json`; main-page and provider metadata, breadcrumbs, collections, and Product/FAQ schema are assembled in `src/seo.js`. FAQ content is shared between the visible page and structured data through `src/faqs.js`. Category guidance and contextual links are in `src/CategoryGuide.jsx`.
+All 74 routes have an individual title, description, canonical URL, social preview metadata, and one main H1. Product copy for search is maintained in `src/product-seo.json`; main-page and provider metadata, breadcrumbs, collections, and Product/FAQ schema are assembled in `src/seo.js`. FAQ content is shared between the visible page and structured data through `src/faqs.js`. Category guidance and contextual links are in `src/CategoryGuide.jsx`.
 
 `npm run build` pre-renders every route and runs the SEO audit automatically. After a build, `npm run check:seo` checks unique metadata, one H1 per route, canonical tags, original articles, product breadcrumbs, structured data, and internal-link destinations. The complete per-page review is saved to `reports/on-page-seo.csv`. Do not add fabricated reviews, stock availability, credit guarantees, or publication dates to structured data.
 
@@ -88,3 +88,8 @@ All 73 routes have an individual title, description, canonical URL, social previ
 ## Homepage keyword strategy
 
 The AWS-focused homepage uses the approved title, description, H1, and six-section structure in `src/homepage-seo.js`. See `docs/homepage-seo.md` for keyword placement, landing-page links, structured data, and the confirmed decision to retain the working `.site` canonical domain.
+
+
+## Bedrock API-key landing page
+
+`/aws-bedrock-api-key/` is a dedicated, pre-rendered page for API-key and account-access intent, linked from the homepage, Bedrock guide, and footer. Its approved search copy and FAQs live in `src/api-key-content.js`. It compares existing Bedrock account variations and makes API-key inclusion an order detail to confirm rather than inventing separate key-only products. See `docs/aws-bedrock-api-key-seo.md`. The sitemap and SEO report now cover 74 routes.

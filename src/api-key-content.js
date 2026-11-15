@@ -1,0 +1,10 @@
+export const apiKeyTitle='Buy AWS Bedrock API Key & Accounts | CloudsSupply';
+export const apiKeyDescription='Buy AWS Bedrock API key access and explore available account options. Compare RPM limits, AI model access, specifications, and pricing at CloudsSupply.';
+export const apiKeyH1='Buy AWS Bedrock API Key & Accounts';
+export const apiKeyFaqs=[
+ ['What is included when I buy AWS Bedrock API key access?','The exact scope depends on the selected account variation and the terms confirmed for your order. Ask whether an API key is included, which account and region it relates to, what model permissions apply, and how access will be handed over. The catalog does not assume an unrestricted key is included with every account.'],
+ ['Are AWS Bedrock API keys sold separately from accounts?','The prices on this page refer to the listed Bedrock account variations. If you need a key-only arrangement, ask the seller whether that option is available and request its exact scope and price before payment. Do not treat an account price as a separate API-key price.'],
+ ['How do 10 RPM, 50 RPM, and 10K RPM options differ?','These are the request-rate labels shown in the catalog. Confirm which model and AWS region each advertised rate applies to, whether other request or token conditions apply, and how the separate vCPU designation should be interpreted for the selected account.'],
+ ['Does AWS Bedrock API pricing include model usage charges?','The listed price is the account purchase price. Confirm provider billing and model usage charges separately, along with any eligible credits or required provider payments. An advertised request quota is not a statement that model usage is included in the purchase price.'],
+ ['How long does account access or an included API key take to arrive?','Account access and any API key included in your order are delivered within 30 minutes–1 hour after order and payment confirmation. Keep the confirmed specifications and order reference, and contact support if you need a delivery update.']
+];
