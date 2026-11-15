@@ -9,7 +9,7 @@ const pages={
  'all-products':['Cloud Accounts, Credits & API Products','Browse cloud accounts, credit tiers, hosting services, and AI API products. Compare specifications and prices, then read the original product guides.'],
  'cloud-service-accounts':['Buy Cloud Accounts Online – AWS, Azure & GCP','Explore cloud accounts for sale, including Google Cloud, Azure, DigitalOcean, Oracle and more. Compare account options, cloud credits and prices at CloudsSupply.'],
  'aws-standard':['AWS Standard Accounts — Compute & Credits','Compare AWS trial accounts, vCPU tiers, and cloud credit options. Read product guides and confirm quotas, billing, and eligibility before ordering.'],
- 'bedrock-api':['AWS Bedrock API Accounts — Prices & Guides','Compare AWS Bedrock API accounts by RPM and vCPU labels. Review model access, quota details, listed prices, and original product guides.'],
+ 'bedrock-api':['Buy AWS Bedrock Accounts & API Access','Explore AWS Bedrock accounts and API access options with 10 RPM, 50 RPM and 10K RPM tiers. Compare vCPU configurations, model access and prices at CloudsSupply.'],
  'aws-account-configurator':['Compare AWS Account Variations & Prices','Choose an AWS trial, compute, credit, Bedrock, or Kiro variation. Compare prices and quantities, then review the dedicated product guide.'],
  contact:['Contact & Order Support','Contact CloudsSupply.store at +1 (458) 262-4274 or Telegram @Eljh_Miller for product guidance, delivery updates, and refund review requests.'],
  faq:['Cloud Account FAQs — Orders & Delivery','Get answers about cloud account products, credits, Telegram ordering, account access, 30 minutes–1 hour delivery, and refund reviews.'],
@@ -48,7 +48,7 @@ export function metadataFor(route){
  const data=product?productSeo[product.id]:null;
  const title=product?(data?.title||product.name):provider?provider.title:pages[route]?.[0]||'Page not found';
  const description=product?(data?.description||product.desc):provider?(providerDescriptions[provider.slug]||provider.guide.summary):pages[route]?.[1]||'The requested page could not be found. Browse our cloud account catalog.';
- const pageTitle=route==='home'?homepageTitle:route==='cloud-service-accounts'?title+' | CloudsSupply':title+' | '+siteName;
+ const pageTitle=route==='home'?homepageTitle:['cloud-service-accounts','bedrock-api'].includes(route)?title+' | CloudsSupply':title+' | '+siteName;
  const url=siteUrl+routeHref(route),image=siteUrl+(product?.image||provider?.image||'/products/premium/cloud-console-v2.jpg');
  const imageAlt=(product?.name||provider?.name||'CloudsSupply.store cloud accounts')+' — cloud infrastructure illustration';
  const organization={'@type':'Organization','@id':siteUrl+'/#organization',name:siteName,url:siteUrl+'/',logo:{'@type':'ImageObject',url:siteUrl+'/brand/cloudssupply-logo.png',width:2172,height:724},telephone:'+14582624274',sameAs:['https://t.me/Eljh_Miller'],contactPoint:{'@type':'ContactPoint',telephone:'+14582624274',contactType:'customer support',url:siteUrl+'/contact/'}};
