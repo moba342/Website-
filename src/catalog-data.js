@@ -1,3 +1,4 @@
+import {routeHref} from './router.js';
 import aws from './aws-products.json';
 import cloud from './cloud-service-products.json';
 import starters from './starter-products.json';
@@ -8,8 +9,8 @@ const providerSlugFor=p=>cloud.find(v=>v.name===p.provider||v.name===p.category)
 const enrich=p=>({...p,desc:articles[p.id].description,editorial:articles[p.id],providerSlug:providerSlugFor(p),pageSlug:slugify(p.name)+'-'+p.id});
 export const allProducts=[...aws,...cloud.flatMap(p=>p.variants),...starters].map(enrich);
 export const starterProducts=allProducts.filter(p=>p.id<100);
-export const productHref=p=>'#product/'+(p.pageSlug||slugify(p.name)+'-'+p.id);
-export const providerHref=p=>'#provider/'+(typeof p==='string'?p:p.slug);
+export const productHref=p=>routeHref('product/'+(p.pageSlug||slugify(p.name)+'-'+p.id));
+export const providerHref=p=>routeHref('provider/'+(typeof p==='string'?p:p.slug));
 const awsProvider={slug:'aws',name:'Amazon Web Services',provider:'Amazon Web Services',title:'Buy AWS Account',color:'#ffad42',initials:'AWS',image:'/products/premium/cloud-console-v2.jpg',variants:allProducts.filter(p=>aws.some(variant=>variant.id===p.id))};
 export const allProviders=[awsProvider,...cloud.map(p=>({...p,provider:p.name,variants:allProducts.filter(v=>p.variants.some(x=>x.id===v.id))}))].map(p=>({...p,guide:guides[p.slug],description:guides[p.slug].summary}));
 export const findProduct=route=>allProducts.find(p=>route==='product/'+p.pageSlug);
