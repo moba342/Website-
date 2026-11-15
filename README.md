@@ -4,7 +4,12 @@ Responsive React + Vite storefront with product and provider pages, original pro
 
 ## Links
 
+- [GitHub repository](https://github.com/moba342/Website-)
 - [Live website](https://cloudcart-store-mobarak.giftedcondor8.chatgpt.site/)
+- [AWS Standard](https://cloudcart-store-mobarak.giftedcondor8.chatgpt.site/#aws-standard)
+- [Bedrock API](https://cloudcart-store-mobarak.giftedcondor8.chatgpt.site/#bedrock-api)
+- [FAQ](https://cloudcart-store-mobarak.giftedcondor8.chatgpt.site/#faq)
+- [Refund Policy](https://cloudcart-store-mobarak.giftedcondor8.chatgpt.site/#refund)
 - [All product pages](https://cloudcart-store-mobarak.giftedcondor8.chatgpt.site/#all-products)
 - [Cloud Service Accounts](https://cloudcart-store-mobarak.giftedcondor8.chatgpt.site/#cloud-service-accounts)
 - [Contact](https://cloudcart-store-mobarak.giftedcondor8.chatgpt.site/#contact)
