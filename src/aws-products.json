@@ -285,6 +285,26 @@
     "regularPrice": 90
   },
   {
+    "id": 124,
+    "provider": "Amazon Web Services",
+    "short": "aws",
+    "name": "AWS Ai Bedrock 10 RPM 32vCPUs",
+    "category": "AWS",
+    "price": 120,
+    "regularPrice": 120,
+    "userPrice": true,
+    "referencePrice": false,
+    "color": "#8b5cde",
+    "desc": "Explore a Bedrock account option labeled 10 RPM and 32 vCPUs. Confirm the applicable model, region, request quota, and compute allocation before ordering.",
+    "features": [
+      "10 RPM · 32 vCPUs",
+      "Confirm model access and quotas"
+    ],
+    "tag": null,
+    "image": "/products/premium/cloud-console-v2.jpg",
+    "kind": "Amazon Bedrock"
+  },
+  {
     "id": 116,
     "provider": "Amazon Web Services",
     "short": "aws",

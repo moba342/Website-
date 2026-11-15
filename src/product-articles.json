@@ -948,5 +948,24 @@
         "body": "Keep a short record of decisions, unresolved questions, and account responsibilities after the service. Review provider costs independently from the service price. The goal is a clearer route from your current project state to the next action you can own and manage."
       }
     ]
+  },
+  "124": {
+    "description": "Explore a Bedrock account option labeled 10 RPM and 32 vCPUs. Confirm the applicable model, region, request quota, and compute allocation before ordering.",
+    "articleTitle": "Planning a measured Bedrock workflow with 10 RPM and 32 vCPUs",
+    "intro": "A small request allowance can suit a workflow that runs on a deliberate schedule. This $120 listing combines a 10-RPM label with a 32-vCPU designation, giving you two separate details to clarify before choosing it for an AI project.",
+    "sections": [
+      {
+        "heading": "Start with the timing of your requests",
+        "body": "Consider a prototype that sends prompts at intervals rather than serving many simultaneous conversations. Write down how frequently it needs an answer and how retries will be handled. Ask the seller which model and region the 10-RPM description applies to, and confirm any additional token or request restrictions."
+      },
+      {
+        "heading": "Understand what the compute label covers",
+        "body": "The 32-vCPU designation should be explained independently of Bedrock access. Ask whether it describes an account quota or another part of the proposed configuration. It does not, by itself, establish a reserved machine allocation, model throughput, or guaranteed response time. Provider resource charges are separate from the listed account price."
+      },
+      {
+        "heading": "Check the handover against your intended setup",
+        "body": "Before confirming payment, agree on the account access, model permissions, and any API key included in your order. Keep the confirmed specifications with your order reference. Delivery is scheduled within 30 minutes–1 hour after order and payment confirmation; then run a small, controlled request to check that the configuration fits your application."
+      }
+    ]
   }
 }
