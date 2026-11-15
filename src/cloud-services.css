@@ -8,3 +8,23 @@
 .cloud-variant-options{display:flex;flex-direction:column;gap:5px;margin-top:12px}.cloud-variant-options button{display:flex;align-items:center;justify-content:space-between;gap:9px;text-align:left;padding:9px 10px;background:#f7f9f3;border:1px solid #e1e8d8;border-radius:4px;color:#627851;line-height:1.6;font-size:10px}.cloud-variant-options button[aria-pressed=true]{border-color:#8aa669;background:#edf4e1;color:#344e2c}.cloud-variant-options small{font-size:8px;white-space:nowrap;color:#6d805b}.cloud-variant-options button:hover{border-color:#97ac7c}.cloud-provider-body>p{min-height:44px}.cloud-selection{margin-top:15px}.cloud-services-toolbar{scroll-margin-top:15px}@media(max-width:760px){.cloud-variant-options button{font-size:11px;padding:11px 10px}.cloud-variant-options small{font-size:9px}}
 
 .cloud-price-note a{color:#486537;display:inline-flex;align-items:center;gap:3px;text-decoration:underline;text-underline-offset:3px}.cloud-quote-note{font-size:10px!important;color:#7b704a!important;line-height:1.8;background:#faf7ed;border:1px solid #eee4c8;border-radius:4px;padding:10px;margin:12px 0 0!important;min-height:0!important}
+
+/* Keep the open account menu in the same navy palette as the storefront. */
+.cloud-provider-card{overflow:visible;position:relative}
+.cloud-provider-card:has(.account-variant-trigger[aria-expanded="true"]){z-index:5}
+.account-variant-select{position:relative;width:100%;min-width:0;color-scheme:dark}
+.account-variant-trigger{display:flex;align-items:center;justify-content:space-between;gap:12px;width:100%;min-height:46px;padding:12px;text-align:left;background:#0d192c;border:1px solid #38577d;border-radius:5px;color:#c8dfff;font:inherit;font-size:11px;line-height:1.7;cursor:pointer}
+.account-variant-trigger>span{min-width:0;overflow-wrap:anywhere}
+.account-variant-trigger>svg{flex-shrink:0;color:#8fb8ec;transition:transform .15s}
+.account-variant-trigger[aria-expanded="true"]>svg{transform:rotate(180deg)}
+.account-variant-trigger:hover{border-color:#608ac5}
+.account-variant-trigger:focus-visible,.account-variant-trigger[aria-expanded="true"]{outline:2px solid #61a5ff;outline-offset:3px}
+.account-variant-menu{position:absolute;z-index:10;top:calc(100% + 9px);left:0;right:0;max-height:290px;overflow-y:auto;overscroll-behavior:contain;list-style:none;padding:5px;margin:0;border:1px solid #38577d;border-radius:7px;background:#101f34;color:#c8dfff;box-shadow:0 16px 35px #0007;scrollbar-color:#38577d #101f34}
+.account-variant-menu>li{display:flex;align-items:center;gap:8px;min-height:42px;padding:9px 8px;border-radius:4px;font-size:11px;line-height:1.6;cursor:pointer}
+.account-variant-menu>li>svg{flex-shrink:0;color:#78b2ff}
+.account-variant-menu>li>span{flex:1;min-width:0;overflow-wrap:anywhere}
+.account-variant-menu>li>small{flex-shrink:0;font-size:9px;color:#a6c9f7;white-space:nowrap}
+.account-variant-menu>li[aria-selected="true"]{background:#1b3c66;color:#edf5ff}
+.account-variant-menu>li[data-active="true"]{background:#244e7e;color:#fff;box-shadow:inset 0 0 0 1px #5694e8}
+.variant-check-hidden{visibility:hidden}
+@media(max-width:760px){.account-variant-trigger{font-size:12px;min-height:48px}.account-variant-menu>li{min-height:44px}.account-variant-menu{max-height:270px}}
