@@ -1,0 +1,73 @@
+/* Shared type scale: readable content and controls at every screen size. */
+:root{
+  --type-body:clamp(14px,.2vw + 13.3px,16px);
+  --type-label:14px;
+  --type-caption:12px;
+  --type-h1:clamp(30px,2vw + 22px,44px);
+  --type-h2:clamp(24px,1vw + 20px,30px);
+  --type-h3:clamp(18px,.4vw + 16px,21px);
+}
+body.midnight-site{font-size:16px;line-height:1.65;-webkit-text-size-adjust:100%}
+#root h1{font-size:var(--type-h1);line-height:1.2;letter-spacing:-.035em;overflow-wrap:anywhere}
+#root h1 em{font-size:inherit;line-height:inherit;letter-spacing:inherit}
+#root .market-hero h1{font-size:clamp(32px,2.5vw + 22px,48px)}
+#root h2{font-size:var(--type-h2);line-height:1.3;letter-spacing:-.025em;overflow-wrap:anywhere}
+#root h3{font-size:var(--type-h3);line-height:1.45;letter-spacing:-.015em;overflow-wrap:anywhere}
+#root h4{font-size:16px;line-height:1.5}
+#root p{font-size:var(--type-body);line-height:1.8}
+#root :is(.editorial-guide>section>p,.editorial-lead){font-size:16px;line-height:1.85}
+#root :is(button,.button,.market-button,.text-button,.market-link,.market-view){font-size:var(--type-label);line-height:1.5}
+#root :is(.button,.market-button,.add-button){min-height:44px}
+#root :is(input,select,textarea){font-size:16px;line-height:1.5;min-width:0}
+#root :is(form label,.variant-label,.cloud-variant-label,.detail-quantity-label){font-size:14px;line-height:1.6}
+#root :is(.eyebrow,.market-eyebrow,.product-category,.market-provider-label>small,.market-provider-label>span,.collection-breadcrumb,.product-breadcrumb,.product-breadcrumb a,.service-breadcrumb){font-size:12px;line-height:1.6;letter-spacing:.06em}
+#root :is(.product-title,.cloud-provider-body h2){font-size:20px;line-height:1.45;letter-spacing:-.025em}
+#root :is(.product-body li,.modal-body li,.cloud-selection>span,.selected-specs>span,.detail-specs>span,.service-reassurance,.service-line-total,.cloud-line-total){font-size:14px;line-height:1.7}
+#root :is(.selected-specs h2,.detail-specs h2,.detail-sidebar h2){font-size:17px;line-height:1.5}
+#root :is(small,.product-bottom>div>span,.detail-price span,.service-price-note,.cloud-provider-price small,.market-card-bottom>div>small,.market-card-bottom strong span,.market-stats strong>span,.market-stats small,.footer-status,.footer-bottom,.delivery-notice p){font-size:12px;line-height:1.7}
+#root :is(.pricing-source,.cloud-source-link,.service-source,.cloud-product-article-link,.configurator-product-link,.provider-option-order,.market-quick-buy,.detail-related-bottom a){font-size:13px;line-height:1.7;overflow-wrap:anywhere}
+#root :is(.collection-pills span,.cloud-provider-image>span,.market-provider-picture>span,.market-data-label,.market-search-row>span,.detail-image-caption,.service-gallery-caption){font-size:12px;line-height:1.6}
+#root :is(.contact-methods strong){font-size:20px;overflow-wrap:anywhere}
+#root :is(.contact-quick-links a,.contact-quick-links button,.contact-refund-section .policy-block h2){font-size:16px}
+#root :is(.contact-page .field-optional,.contact-page form>small){font-size:12px}
+#root :is(.faq-list summary,.market-faq-list summary){font-size:16px;line-height:1.6}
+#root :is(.footer-main>div>a:not(:first-child),.footer-main>div>button){font-size:14px;line-height:1.65}
+#root .nav nav{font-size:14px;gap:16px}
+#root .announcement{font-size:12px;line-height:1.5}
+#root .announcement button{font-size:12px}
+#root .market-table-wrap th{font-size:13px;line-height:1.6}
+#root .market-table-wrap td,#root .market-table-wrap td:first-child a{font-size:14px;line-height:1.6}
+#root .market-table-wrap table{min-width:620px}
+#root :is(.account-variant-trigger,.account-variant-menu>li){font-size:14px;line-height:1.6;min-height:48px}
+#root .account-variant-menu>li>small{font-size:12px;white-space:normal;text-align:right;max-width:90px}
+#root .account-variant-menu{max-height:320px}
+#root .account-variant-menu>li{align-items:flex-start}
+#root .account-variant-menu>li>svg{margin-top:4px}
+#root :is(.delivery-notice strong,.delivery-bottom-dock .delivery-notice strong){font-size:14px;line-height:1.6}
+#root .delivery-bottom-dock .delivery-notice p{font-size:12px;line-height:1.7}
+#root .detail-sidebar>button>span{font-size:14px;line-height:1.7}
+#root .detail-sidebar>button{font-size:12px}
+#root .detail-sidebar>a{font-size:14px;line-height:1.6}
+#root .service-details dl{font-size:14px;line-height:1.7}
+#root .service-details dl>div{font-size:inherit}
+@media(min-width:761px) and (max-width:1100px){
+  #root :is(.product-grid,.market-provider-grid,.detail-related-grid){grid-template-columns:repeat(2,minmax(0,1fr))}
+}
+@media(max-width:760px){
+  #root :is(.market-section-head,.section-top){flex-wrap:wrap;gap:16px}
+  #root :is(.market-button,.button){white-space:normal;text-align:center}
+  #root .nav nav{gap:0}
+  #root .cloud-card-purchase{gap:8px}
+  #root .cloud-card-purchase .button{padding:12px 8px}
+  #root :is(.cloud-card-purchase label,.cloud-line-total strong){font-size:13px}
+  #root .cloud-card-purchase input{width:42px}
+  #root .account-variant-menu{max-height:min(320px,50dvh)}
+  #root .account-variant-menu>li{padding:10px 7px;gap:6px}
+  #root .footer-bottom{flex-wrap:wrap;gap:12px}
+  #root .market-provider-strip{flex-wrap:wrap;justify-content:flex-start}
+  #root .market-search-row{flex-wrap:wrap}
+  #root .market-search-row label{max-width:none}
+  #root .delivery-bottom-dock .delivery-notice{padding:12px 14px}
+}
+#root :is(.contact-grid>*,form label){min-width:0}
+#root form :is(input,select,textarea){max-width:100%;width:100%}

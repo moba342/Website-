@@ -16,6 +16,7 @@ import {RefundPolicyContent} from './RefundPolicyContent.jsx';
 import {deliveryMessage,contactDetails} from './contact-details.js';
 import {allProducts,starterProducts,findProduct,findProvider,productHref} from './catalog-data.js';
 import {ProductPage,ProviderPage} from './ProductPages.jsx';
+import './responsive-type.css';
 document.body.classList.add('midnight-site');
 const products=[...awsProducts,...starterProducts];
 const money=value=>new Intl.NumberFormat('en-US',{style:'currency',currency:'USD'}).format(value);
