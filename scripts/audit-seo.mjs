@@ -3,6 +3,7 @@ import {resolve} from 'node:path';
 import {seoPages,metadataFor} from '../.ssr/entry-server.js';
 import {homepageTitle,homepageDescription,homepageH1,homepageHeadings,featuredAwsIds,homepageFaqs} from '../src/homepage-seo.js';
 import {apiKeyTitle,apiKeyDescription,apiKeyH1,apiKeyFaqs} from '../src/api-key-content.js';
+const providerCopy=JSON.parse(await readFile('src/provider-seo.json','utf8'));
 const aws=JSON.parse(await readFile('src/aws-products.json','utf8'));
 const cloud=JSON.parse(await readFile('src/cloud-service-products.json','utf8'));
 const starters=JSON.parse(await readFile('src/starter-products.json','utf8'));
@@ -40,6 +41,13 @@ for(const page of seoPages){
   check(graph.find(n=>n['@type']==='FAQPage')?.mainEntity.length===homepageFaqs.length,'homepage FAQ schema mismatch');
  }
 
+ if(page.type==='provider'){
+  const copy=providerCopy[page.route.split('/')[1]];
+  if(copy){
+   check(meta.title===copy.title&&meta.description===copy.description,'provider search copy mismatch');
+   check(text(headings[0]?.[1]||'')===copy.h1,'provider H1 mismatch');
+  }
+ }
  if(page.route==='aws-bedrock-api-key'){
   check(meta.title===apiKeyTitle&&meta.description===apiKeyDescription,'API-key page search copy mismatch');
   check(text(headings[0]?.[1]||'')===apiKeyH1,'API-key page H1 mismatch');

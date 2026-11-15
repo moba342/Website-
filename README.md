@@ -93,3 +93,8 @@ The AWS-focused homepage uses the approved title, description, H1, and six-secti
 ## Bedrock API-key landing page
 
 `/aws-bedrock-api-key/` is a dedicated, pre-rendered page for API-key and account-access intent, linked from the homepage, Bedrock guide, and footer. Its approved search copy and FAQs live in `src/api-key-content.js`. It compares existing Bedrock account variations and makes API-key inclusion an order detail to confirm rather than inventing separate key-only products. See `docs/aws-bedrock-api-key-seo.md`. The sitemap and SEO report now cover 74 routes.
+
+
+## Provider product-page SEO
+
+The approved metadata, headings, keyword strategy, and introductory copy for 12 cloud providers are in `src/provider-seo.json`. Provider collections use that copy while individual account variations retain distinct SEO metadata and original articles. See `docs/provider-product-seo.md` for canonical URLs and primary keywords. The build audit checks these provider-page contracts.
