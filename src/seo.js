@@ -7,7 +7,7 @@ import {homepageTitle,homepageDescription,featuredAwsIds,homepageFaqs} from './h
 const pages={
  home:['Buy AWS Accounts & AWS Bedrock API Access',homepageDescription],
  'all-products':['Cloud Accounts, Credits & API Products','Browse cloud accounts, credit tiers, hosting services, and AI API products. Compare specifications and prices, then read the original product guides.'],
- 'cloud-service-accounts':['Cloud Service Accounts — Compare Providers','Compare Google Cloud, Azure, DigitalOcean, Oracle, and other cloud account variations. Review credit labels, provider payments, and listed account prices.'],
+ 'cloud-service-accounts':['Buy Cloud Accounts Online – AWS, Azure & GCP','Explore cloud accounts for sale, including Google Cloud, Azure, DigitalOcean, Oracle and more. Compare account options, cloud credits and prices at CloudsSupply.'],
  'aws-standard':['AWS Standard Accounts — Compute & Credits','Compare AWS trial accounts, vCPU tiers, and cloud credit options. Read product guides and confirm quotas, billing, and eligibility before ordering.'],
  'bedrock-api':['AWS Bedrock API Accounts — Prices & Guides','Compare AWS Bedrock API accounts by RPM and vCPU labels. Review model access, quota details, listed prices, and original product guides.'],
  'aws-account-configurator':['Compare AWS Account Variations & Prices','Choose an AWS trial, compute, credit, Bedrock, or Kiro variation. Compare prices and quantities, then review the dedicated product guide.'],
@@ -48,7 +48,7 @@ export function metadataFor(route){
  const data=product?productSeo[product.id]:null;
  const title=product?(data?.title||product.name):provider?provider.title:pages[route]?.[0]||'Page not found';
  const description=product?(data?.description||product.desc):provider?(providerDescriptions[provider.slug]||provider.guide.summary):pages[route]?.[1]||'The requested page could not be found. Browse our cloud account catalog.';
- const pageTitle=route==='home'?homepageTitle:title+' | '+siteName;
+ const pageTitle=route==='home'?homepageTitle:route==='cloud-service-accounts'?title+' | CloudsSupply':title+' | '+siteName;
  const url=siteUrl+routeHref(route),image=siteUrl+(product?.image||provider?.image||'/products/premium/cloud-console-v2.jpg');
  const imageAlt=(product?.name||provider?.name||'CloudsSupply.store cloud accounts')+' — cloud infrastructure illustration';
  const organization={'@type':'Organization','@id':siteUrl+'/#organization',name:siteName,url:siteUrl+'/',logo:{'@type':'ImageObject',url:siteUrl+'/brand/cloudssupply-logo.png',width:2172,height:724},telephone:'+14582624274',sameAs:['https://t.me/Eljh_Miller'],contactPoint:{'@type':'ContactPoint',telephone:'+14582624274',contactType:'customer support',url:siteUrl+'/contact/'}};
