@@ -98,3 +98,8 @@ The AWS-focused homepage uses the approved title, description, H1, and six-secti
 ## Provider product-page SEO
 
 The approved metadata, headings, keyword strategy, and introductory copy for 12 cloud providers are in `src/provider-seo.json`. Provider collections use that copy while individual account variations retain distinct SEO metadata and original articles. See `docs/provider-product-seo.md` for canonical URLs and primary keywords. The build audit checks these provider-page contracts.
+
+
+## Product variant SEO
+
+All 45 supplied account-variant SEO records are applied by product ID in `src/product-seo.json`; six existing service packages retain their prior SEO. Titles are complete search titles including the brand suffix. Product pages use the configured H1 and description while preserving original articles, catalog IDs, URLs, and prices. See `docs/product-variant-seo.md` and `reports/product-variant-seo.csv` for the full mapping.

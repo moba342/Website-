@@ -50,9 +50,9 @@ function collectionItems(route,provider){
 export function metadataFor(route){
  const product=findProduct(route),provider=findProvider(route),known=!!product||!!provider||!!pages[route];
  const data=product?productSeo[product.id]:null,providerCopy=provider?providerSeo[provider.slug]:null;
- const title=product?(data?.title||product.name):provider?(providerCopy?.h1||provider.title):pages[route]?.[0]||'Page not found';
+ const title=product?(data?.h1||product.name):provider?(providerCopy?.h1||provider.title):pages[route]?.[0]||'Page not found';
  const description=product?(data?.description||product.desc):provider?(providerCopy?.description||providerDescriptions[provider.slug]||provider.guide.summary):pages[route]?.[1]||'The requested page could not be found. Browse our cloud account catalog.';
- const pageTitle=providerCopy?providerCopy.title:route==='home'?homepageTitle:route==='aws-bedrock-api-key'?apiKeyTitle:route==='contact'?'Contact CloudsSupply | Cloud Account Sales & Support':['cloud-service-accounts','bedrock-api','faq','refund'].includes(route)?title+' | CloudsSupply':title+' | '+siteName;
+ const pageTitle=product?(data?.title||product.name+' | '+siteName):providerCopy?providerCopy.title:route==='home'?homepageTitle:route==='aws-bedrock-api-key'?apiKeyTitle:route==='contact'?'Contact CloudsSupply | Cloud Account Sales & Support':['cloud-service-accounts','bedrock-api','faq','refund'].includes(route)?title+' | CloudsSupply':title+' | '+siteName;
  const url=siteUrl+routeHref(route),image=siteUrl+(product?.image||provider?.image||'/products/premium/cloud-console-v2.jpg');
  const imageAlt=(product?.name||provider?.name||'CloudsSupply.store cloud accounts')+' — cloud infrastructure illustration';
  const organization={'@type':'Organization','@id':siteUrl+'/#organization',name:siteName,url:siteUrl+'/',logo:{'@type':'ImageObject',url:siteUrl+'/brand/cloudssupply-logo.png',width:2172,height:724},telephone:'+14582624274',sameAs:['https://t.me/Eljh_Miller'],contactPoint:{'@type':'ContactPoint',telephone:'+14582624274',contactType:'customer support',url:siteUrl+'/contact/'}};

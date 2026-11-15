@@ -3,6 +3,7 @@ import {resolve} from 'node:path';
 import {seoPages,metadataFor} from '../.ssr/entry-server.js';
 import {homepageTitle,homepageDescription,homepageH1,homepageHeadings,featuredAwsIds,homepageFaqs} from '../src/homepage-seo.js';
 import {apiKeyTitle,apiKeyDescription,apiKeyH1,apiKeyFaqs} from '../src/api-key-content.js';
+const productCopy=JSON.parse(await readFile('src/product-seo.json','utf8'));
 const providerCopy=JSON.parse(await readFile('src/provider-seo.json','utf8'));
 const aws=JSON.parse(await readFile('src/aws-products.json','utf8'));
 const cloud=JSON.parse(await readFile('src/cloud-service-products.json','utf8'));
@@ -56,6 +57,8 @@ for(const page of seoPages){
  }
  if(page.type==='product'){
   const item=graph.find(item=>item['@type']==='Product');
+  const copy=productCopy[item?.sku];
+  if(copy){check(meta.title===copy.title&&meta.description===copy.description,'product search copy mismatch');check(text(headings[0]?.[1]||'')===copy.h1,'product H1 mismatch');}
   check(!!item,'missing Product structured data');
   const original=productsById.get(item?.sku);
   check(!!original&&item.name===original.name,'product identity mismatch');
@@ -71,6 +74,8 @@ for(const page of seoPages){
  check(html.includes('property="og:image:alt"'),'missing social image description');
  rows.push([page.type,meta.url,meta.title,meta.title.length,meta.description,meta.description.length,text(headings[0]?.[1]||''),graph.map(n=>n['@type']).join('; ')]);
 }
+const productRows=seoPages.filter(page=>page.type==='product').map(page=>{const item=metadataFor(page.route).schema['@graph'].find(n=>n['@type']==='Product'),copy=productCopy[item.sku];return [item.sku,item.name,metadataFor(page.route).url,copy?.sourceProduct||'Existing service package',copy?.primaryKeyword||'',copy?.secondaryKeywords?.join('; ')||'',copy?.title||'',copy?.description||'',copy?.h1||''];});
 const csv=fields=>fields.map(v=>'"'+String(v).replaceAll('"','""')+'"').join(',');
 await mkdir('reports',{recursive:true});await writeFile('reports/on-page-seo.csv',[['Type','URL','Title','Title characters','Description','Description characters','H1','Structured data'],...rows].map(csv).join('\n')+'\n');
+await writeFile('reports/product-variant-seo.csv',[['Product ID','Catalog product','Canonical URL','Supplied product label','Primary keyword','Secondary keywords','SEO title','Meta description','H1'],...productRows].map(csv).join('\n')+'\n');
 if(failures.length){console.error(failures.join('\n'));process.exitCode=1}else console.log(`SEO audit passed: ${rows.length} pages have one H1, unique metadata, canonical URLs, structured data, and working internal links. Report: reports/on-page-seo.csv`);
