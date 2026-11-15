@@ -1,0 +1,555 @@
+[
+  {
+    "slug": "google-cloud",
+    "name": "Google Cloud",
+    "title": "Buy Google Cloud Account",
+    "color": "#4285f4",
+    "initials": "GCP",
+    "description": "Review Google Cloud prepaid, pay-as-you-go, and credit account options with separate purchase and provider-payment details.",
+    "image": "/products/premium/cloud-console-v2.jpg",
+    "variants": [
+      {
+        "id": 301,
+        "name": "Google Cloud — $300 + $10 Prepaid",
+        "variant": "$300 + $10 Prepaid",
+        "category": "Google Cloud",
+        "provider": "Google Cloud",
+        "short": "GCP",
+        "kind": "Cloud service account",
+        "price": 70,
+        "color": "#4285f4",
+        "desc": "Google Cloud account option labeled $300 plus $10 prepaid. The credit or funding amounts in the tier name are separate from the listed account price.",
+        "features": [
+          "$300 + $10 Prepaid",
+          "Confirm account details before purchase"
+        ],
+        "image": "/products/premium/cloud-console-v2.jpg",
+        "referencePrice": true,
+        "userPrice": false,
+        "sourceUrl": "https://accsmarket.shop/cloud-service/"
+      },
+      {
+        "id": 302,
+        "name": "Google Cloud — Pay As You Go $10 Payment Required",
+        "variant": "Pay As You Go $10 Payment Required",
+        "category": "Google Cloud",
+        "provider": "Google Cloud",
+        "short": "GCP",
+        "kind": "Cloud service account",
+        "price": 55,
+        "color": "#4285f4",
+        "desc": "A Google Cloud pay-as-you-go option with a stated $10 provider payment requirement. Account purchase and ongoing usage charges are separate.",
+        "features": [
+          "Pay As You Go $10 Payment Required",
+          "Confirm account details before purchase"
+        ],
+        "image": "/products/premium/cloud-console-v2.jpg",
+        "referencePrice": true,
+        "userPrice": false,
+        "sourceUrl": "https://accsmarket.shop/cloud-service/"
+      },
+      {
+        "id": 303,
+        "name": "Google Cloud — Pay As You Go 20 CAD Payment Required",
+        "variant": "Pay As You Go 20 CAD Payment Required",
+        "category": "Google Cloud",
+        "provider": "Google Cloud",
+        "short": "GCP",
+        "kind": "Cloud service account",
+        "price": 60,
+        "color": "#4285f4",
+        "desc": "Google Cloud pay-as-you-go account option with a 20 CAD provider payment requirement. Review the currency and billing arrangement before ordering.",
+        "features": [
+          "Pay As You Go 20 CAD Payment Required",
+          "Confirm account details before purchase"
+        ],
+        "image": "/products/premium/cloud-console-v2.jpg",
+        "referencePrice": true,
+        "userPrice": false,
+        "sourceUrl": "https://accsmarket.shop/cloud-service/"
+      },
+      {
+        "id": 304,
+        "name": "Google Cloud — $2,000 Credits Account",
+        "variant": "$2,000 Credits Account",
+        "category": "Google Cloud",
+        "provider": "Google Cloud",
+        "short": "GCP",
+        "kind": "Cloud service account",
+        "price": null,
+        "color": "#4285f4",
+        "desc": "A requested Google Cloud $2,000-credit tier with quote-only pricing. Confirm the exact balance and terms rather than substituting another credit amount.",
+        "features": [
+          "$2,000 Credits Account",
+          "Confirm account details before purchase"
+        ],
+        "image": "/products/premium/cloud-console-v2.jpg",
+        "referencePrice": false,
+        "userPrice": false,
+        "sourceUrl": null,
+        "priceNote": "No exact reference match. The reference lists $1,300 Credits Account; the requested $2,000 tier requires a quote."
+      },
+      {
+        "id": 305,
+        "name": "Google Cloud — $5,000 Credits Account",
+        "variant": "$5,000 Credits Account",
+        "category": "Google Cloud",
+        "provider": "Google Cloud",
+        "short": "GCP",
+        "kind": "Cloud service account",
+        "price": 1050,
+        "color": "#4285f4",
+        "desc": "Explore the Google Cloud $5,000-credit account tier for a planned project budget. Confirm credit validity, eligible charges, and billing ownership.",
+        "features": [
+          "$5,000 Credits Account",
+          "Confirm account details before purchase"
+        ],
+        "image": "/products/premium/cloud-console-v2.jpg",
+        "referencePrice": true,
+        "userPrice": false,
+        "sourceUrl": "https://accsmarket.shop/cloud-service/"
+      },
+      {
+        "id": 306,
+        "name": "Google Cloud — $25,000 Credits Account",
+        "variant": "$25,000 Credits Account",
+        "category": "Google Cloud",
+        "provider": "Google Cloud",
+        "short": "GCP",
+        "kind": "Cloud service account",
+        "price": 5500,
+        "color": "#4285f4",
+        "desc": "A Google Cloud $25,000-credit account option for a larger spending plan. Review the balance, timing, eligible usage, and account responsibilities.",
+        "features": [
+          "$25,000 Credits Account",
+          "Confirm account details before purchase"
+        ],
+        "image": "/products/premium/cloud-console-v2.jpg",
+        "referencePrice": true,
+        "userPrice": false,
+        "sourceUrl": "https://accsmarket.shop/cloud-service/"
+      }
+    ]
+  },
+  {
+    "slug": "azure",
+    "name": "Azure",
+    "title": "Buy Azure Account",
+    "color": "#0089d6",
+    "initials": "AZ",
+    "description": "Explore Azure trial, pay-as-you-go, and credit listings, including the separately labeled Claude-related option.",
+    "image": "/products/premium/cloud-console-v2.jpg",
+    "variants": [
+      {
+        "id": 307,
+        "name": "Azure — Free Trial with $200 Credit",
+        "variant": "Free Trial with $200 Credit",
+        "category": "Azure",
+        "provider": "Azure",
+        "short": "AZ",
+        "kind": "Cloud service account",
+        "price": 25,
+        "color": "#0089d6",
+        "desc": "Azure trial account option labeled with $200 credit. Confirm trial eligibility, credit conditions, and what happens when the trial ends.",
+        "features": [
+          "Free Trial with $200 Credit",
+          "Confirm account details before purchase"
+        ],
+        "image": "/products/premium/cloud-console-v2.jpg",
+        "referencePrice": true,
+        "userPrice": false,
+        "sourceUrl": "https://accsmarket.shop/cloud-service/"
+      },
+      {
+        "id": 308,
+        "name": "Azure — Pay-As-You-Go with $200 Credit",
+        "variant": "Pay-As-You-Go with $200 Credit",
+        "category": "Azure",
+        "provider": "Azure",
+        "short": "AZ",
+        "kind": "Cloud service account",
+        "price": 25,
+        "color": "#0089d6",
+        "desc": "Azure pay-as-you-go account listing carrying a $200-credit label. Confirm the relationship between credit eligibility and the account’s billing setup.",
+        "features": [
+          "Pay-As-You-Go with $200 Credit",
+          "Confirm account details before purchase"
+        ],
+        "image": "/products/premium/cloud-console-v2.jpg",
+        "referencePrice": true,
+        "userPrice": false,
+        "sourceUrl": "https://accsmarket.shop/cloud-service/"
+      },
+      {
+        "id": 309,
+        "name": "Azure — Azure $1K Tier 1 Support Claude",
+        "variant": "Azure $1K Tier 1 Support Claude",
+        "category": "Azure",
+        "provider": "Azure",
+        "short": "AZ",
+        "kind": "Cloud service account",
+        "price": 180,
+        "color": "#0089d6",
+        "desc": "Azure account option labeled $1K Tier 1 Support Claude. Confirm the meaning of the credit, support tier, and model-access wording before purchase.",
+        "features": [
+          "Azure $1K Tier 1 Support Claude",
+          "Confirm account details before purchase"
+        ],
+        "image": "/products/premium/cloud-console-v2.jpg",
+        "referencePrice": true,
+        "userPrice": false,
+        "sourceUrl": "https://accsmarket.shop/cloud-service/"
+      },
+      {
+        "id": 310,
+        "name": "Azure — Azure $5K Credit Account",
+        "variant": "Azure $5K Credit Account",
+        "category": "Azure",
+        "provider": "Azure",
+        "short": "AZ",
+        "kind": "Cloud service account",
+        "price": 750,
+        "color": "#0089d6",
+        "desc": "Explore the Azure $5K-credit account option for a defined cloud project. Confirm credit validity, eligible usage, and any additional billing conditions.",
+        "features": [
+          "Azure $5K Credit Account",
+          "Confirm account details before purchase"
+        ],
+        "image": "/products/premium/cloud-console-v2.jpg",
+        "referencePrice": true,
+        "userPrice": false,
+        "sourceUrl": "https://accsmarket.shop/cloud-service/"
+      }
+    ]
+  },
+  {
+    "slug": "digitalocean",
+    "name": "DigitalOcean",
+    "title": "Buy DigitalOcean Account",
+    "color": "#0080ff",
+    "initials": "DO",
+    "description": "Review the three-Droplet DigitalOcean account option and distinguish the account limit from paid running resources.",
+    "image": "/products/premium/cloud-console-v2.jpg",
+    "variants": [
+      {
+        "id": 311,
+        "name": "DigitalOcean — DO 3 Droplet",
+        "variant": "DO 3 Droplet",
+        "category": "DigitalOcean",
+        "provider": "DigitalOcean",
+        "short": "DO",
+        "kind": "Cloud service account",
+        "price": 25,
+        "color": "#0080ff",
+        "desc": "DigitalOcean account option labeled for three Droplets. Confirm the actual account limit, region requirements, and resource billing before purchase.",
+        "features": [
+          "DO 3 Droplet",
+          "Confirm account details before purchase"
+        ],
+        "image": "/products/premium/cloud-console-v2.jpg",
+        "referencePrice": true,
+        "userPrice": false,
+        "sourceUrl": "https://accsmarket.shop/cloud-service/"
+      }
+    ]
+  },
+  {
+    "slug": "linode",
+    "name": "Linode",
+    "title": "Buy Linode Account",
+    "color": "#24a65a",
+    "initials": "LN",
+    "description": "Explore the Linode trial account option with its stated $100-credit label and account-specific eligibility conditions.",
+    "image": "/products/premium/cloud-console-v2.jpg",
+    "variants": [
+      {
+        "id": 312,
+        "name": "Linode — Free Trial $100 Credit",
+        "variant": "Free Trial $100 Credit",
+        "category": "Linode",
+        "provider": "Linode",
+        "short": "LN",
+        "kind": "Cloud service account",
+        "price": 25,
+        "color": "#24a65a",
+        "desc": "Linode trial account option carrying a $100-credit label. Confirm eligibility, remaining credit, trial conditions, and any required payment steps.",
+        "features": [
+          "Free Trial $100 Credit",
+          "Confirm account details before purchase"
+        ],
+        "image": "/products/premium/cloud-console-v2.jpg",
+        "referencePrice": true,
+        "userPrice": false,
+        "sourceUrl": "https://accsmarket.shop/cloud-service/"
+      }
+    ]
+  },
+  {
+    "slug": "ovhcloud",
+    "name": "OVHcloud",
+    "title": "Buy OVHcloud Account",
+    "color": "#253fa6",
+    "initials": "OVH",
+    "description": "Assess the OVHcloud 34-vCPU account label against the service and region your project needs.",
+    "image": "/products/premium/cloud-console-v2.jpg",
+    "variants": [
+      {
+        "id": 313,
+        "name": "OVHcloud — 34 vCPUs",
+        "variant": "34 vCPUs",
+        "category": "OVHcloud",
+        "provider": "OVHcloud",
+        "short": "OVH",
+        "kind": "Cloud service account",
+        "price": 30,
+        "color": "#253fa6",
+        "desc": "OVHcloud account listing labeled 34 vCPUs. Verify the resource or quota meaning, regional scope, and applicable service conditions before ordering.",
+        "features": [
+          "34 vCPUs",
+          "Confirm account details before purchase"
+        ],
+        "image": "/products/premium/cloud-console-v2.jpg",
+        "referencePrice": true,
+        "userPrice": false,
+        "sourceUrl": "https://accsmarket.shop/cloud-service/"
+      }
+    ]
+  },
+  {
+    "slug": "oracle",
+    "name": "Oracle Cloud",
+    "title": "Buy Oracle Cloud Account",
+    "color": "#bb4735",
+    "initials": "OCI",
+    "description": "Review the Oracle Cloud trial account option and clarify the $300 label before committing to an evaluation.",
+    "image": "/products/premium/cloud-console-v2.jpg",
+    "variants": [
+      {
+        "id": 314,
+        "name": "Oracle Cloud — Free Trial $300",
+        "variant": "Free Trial $300",
+        "category": "Oracle Cloud",
+        "provider": "Oracle Cloud",
+        "short": "OCI",
+        "kind": "Cloud service account",
+        "price": 45,
+        "color": "#bb4735",
+        "desc": "Oracle Cloud trial account option labeled with $300. Confirm what the amount represents, its validity, and the account’s eligibility conditions.",
+        "features": [
+          "Free Trial $300",
+          "Confirm account details before purchase"
+        ],
+        "image": "/products/premium/cloud-console-v2.jpg",
+        "referencePrice": true,
+        "userPrice": false,
+        "sourceUrl": "https://accsmarket.shop/cloud-service/"
+      }
+    ]
+  },
+  {
+    "slug": "hetzner",
+    "name": "Hetzner",
+    "title": "Buy Hetzner Account",
+    "color": "#d73647",
+    "initials": "HZ",
+    "description": "Explore the Hetzner five-server account option with a clear distinction between account capacity and infrastructure charges.",
+    "image": "/products/premium/cloud-console-v2.jpg",
+    "variants": [
+      {
+        "id": 315,
+        "name": "Hetzner — Hetzner 5 Server Account",
+        "variant": "Hetzner 5 Server Account",
+        "category": "Hetzner",
+        "provider": "Hetzner",
+        "short": "HZ",
+        "kind": "Cloud service account",
+        "price": 50,
+        "color": "#d73647",
+        "desc": "Hetzner account option labeled for five servers. Confirm the account limit, resource eligibility, and normal usage billing before purchase.",
+        "features": [
+          "Hetzner 5 Server Account",
+          "Confirm account details before purchase"
+        ],
+        "image": "/products/premium/cloud-console-v2.jpg",
+        "referencePrice": true,
+        "userPrice": false,
+        "sourceUrl": "https://accsmarket.shop/cloud-service/"
+      }
+    ]
+  },
+  {
+    "slug": "amazon-ses",
+    "name": "Amazon SES",
+    "title": "Buy Amazon SES Account",
+    "color": "#ec9a30",
+    "initials": "SES",
+    "description": "Compare the SES 50K and 100K SMTP limit options after confirming the allowance period and sending conditions.",
+    "image": "/products/premium/cloud-console-v2.jpg",
+    "variants": [
+      {
+        "id": 316,
+        "name": "Amazon SES — SMTP 50K Limits",
+        "variant": "SMTP 50K Limits",
+        "category": "Amazon SES",
+        "provider": "Amazon SES",
+        "short": "SES",
+        "kind": "Cloud service account",
+        "price": 750,
+        "color": "#ec9a30",
+        "desc": "Amazon SES account option labeled SMTP 50K Limits. Confirm the sending allowance, applicable period, region, and account access before ordering.",
+        "features": [
+          "SMTP 50K Limits",
+          "Confirm account details before purchase"
+        ],
+        "image": "/products/premium/cloud-console-v2.jpg",
+        "referencePrice": true,
+        "userPrice": false,
+        "sourceUrl": "https://accsmarket.shop/cloud-service/"
+      },
+      {
+        "id": 317,
+        "name": "Amazon SES — SMTP 100K Limits",
+        "variant": "SMTP 100K Limits",
+        "category": "Amazon SES",
+        "provider": "Amazon SES",
+        "short": "SES",
+        "kind": "Cloud service account",
+        "price": 1250,
+        "color": "#ec9a30",
+        "desc": "An Amazon SES option labeled SMTP 100K Limits. Review the allowance period, sending rate, regional details, and operating responsibilities.",
+        "features": [
+          "SMTP 100K Limits",
+          "Confirm account details before purchase"
+        ],
+        "image": "/products/premium/cloud-console-v2.jpg",
+        "referencePrice": true,
+        "userPrice": false,
+        "sourceUrl": "https://accsmarket.shop/cloud-service/"
+      }
+    ]
+  },
+  {
+    "slug": "upcloud",
+    "name": "UpCloud",
+    "title": "Buy UpCloud Account",
+    "color": "#8056d9",
+    "initials": "UP",
+    "description": "Review the UpCloud account option carrying a $500-credit label and confirm the actual funding conditions.",
+    "image": "/products/premium/cloud-console-v2.jpg",
+    "variants": [
+      {
+        "id": 318,
+        "name": "UpCloud — $500 Credit",
+        "variant": "$500 Credit",
+        "category": "UpCloud",
+        "provider": "UpCloud",
+        "short": "UP",
+        "kind": "Cloud service account",
+        "price": 30,
+        "color": "#8056d9",
+        "desc": "UpCloud account option carrying a $500-credit label. Confirm the available balance, validity, eligible usage, and provider billing requirements.",
+        "features": [
+          "$500 Credit",
+          "Confirm account details before purchase"
+        ],
+        "image": "/products/premium/cloud-console-v2.jpg",
+        "referencePrice": true,
+        "userPrice": false,
+        "sourceUrl": "https://accsmarket.shop/cloud-service/"
+      }
+    ]
+  },
+  {
+    "slug": "atlantic",
+    "name": "Atlantic",
+    "title": "Buy Atlantic Account",
+    "color": "#2b7f99",
+    "initials": "ATL",
+    "description": "Explore the Atlantic cloud trial account option for a limited hosting evaluation with a planned review point.",
+    "image": "/products/premium/cloud-console-v2.jpg",
+    "variants": [
+      {
+        "id": 319,
+        "name": "Atlantic — Atlantic Cloud Free Trial",
+        "variant": "Atlantic Cloud Free Trial",
+        "category": "Atlantic",
+        "provider": "Atlantic",
+        "short": "ATL",
+        "kind": "Cloud service account",
+        "price": 30,
+        "color": "#2b7f99",
+        "desc": "Atlantic account option described as a cloud free trial. Confirm trial scope, account requirements, and any costs outside the account purchase.",
+        "features": [
+          "Atlantic Cloud Free Trial",
+          "Confirm account details before purchase"
+        ],
+        "image": "/products/premium/cloud-console-v2.jpg",
+        "referencePrice": true,
+        "userPrice": false,
+        "sourceUrl": "https://accsmarket.shop/cloud-service/"
+      }
+    ]
+  },
+  {
+    "slug": "alibaba",
+    "name": "Alibaba Cloud",
+    "title": "Buy Alibaba Cloud Account",
+    "color": "#f18a29",
+    "initials": "ALI",
+    "description": "Review the Alibaba Cloud trial account option against the account requirements and regional needs of your project.",
+    "image": "/products/premium/cloud-console-v2.jpg",
+    "variants": [
+      {
+        "id": 320,
+        "name": "Alibaba Cloud — Alibaba Cloud Free Trial",
+        "variant": "Alibaba Cloud Free Trial",
+        "category": "Alibaba Cloud",
+        "provider": "Alibaba Cloud",
+        "short": "ALI",
+        "kind": "Cloud service account",
+        "price": 50,
+        "color": "#f18a29",
+        "desc": "Alibaba Cloud account option described as a free trial. Review eligibility, account requirements, regional needs, and the trial’s actual terms.",
+        "features": [
+          "Alibaba Cloud Free Trial",
+          "Confirm account details before purchase"
+        ],
+        "image": "/products/premium/cloud-console-v2.jpg",
+        "referencePrice": true,
+        "userPrice": false,
+        "sourceUrl": "https://accsmarket.shop/cloud-service/"
+      }
+    ]
+  },
+  {
+    "slug": "aws-marketplace",
+    "name": "AWS Marketplace",
+    "title": "Buy AWS Marketplace Account",
+    "color": "#687c49",
+    "initials": "AWS",
+    "description": "Explore the AWS Marketplace account listing and ask what the verified label establishes for your intended activity.",
+    "image": "/products/premium/cloud-console-v2.jpg",
+    "variants": [
+      {
+        "id": 321,
+        "name": "AWS Marketplace — Verified Marketplace Account",
+        "variant": "Verified Marketplace Account",
+        "category": "AWS Marketplace",
+        "provider": "AWS Marketplace",
+        "short": "AWS",
+        "kind": "Cloud service account",
+        "price": 90,
+        "color": "#687c49",
+        "desc": "AWS Marketplace account listing labeled Verified Marketplace Account. Confirm the exact verification scope and permitted account use before purchase.",
+        "features": [
+          "Verified Marketplace Account",
+          "Confirm account details before purchase"
+        ],
+        "image": "/products/premium/cloud-console-v2.jpg",
+        "referencePrice": true,
+        "userPrice": false,
+        "sourceUrl": "https://accsmarket.shop/cloud-service/"
+      }
+    ]
+  }
+]

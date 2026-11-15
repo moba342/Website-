@@ -1,0 +1,439 @@
+[
+  {
+    "id": 101,
+    "provider": "Amazon Web Services",
+    "short": "aws",
+    "name": "AWS Free Trial",
+    "category": "AWS",
+    "price": 15,
+    "color": "#2c9b81",
+    "desc": "An AWS trial account option for a focused first experiment. Review eligibility, billing requirements, and trial conditions before making a purchase.",
+    "features": [
+      "AWS trial account option",
+      "Eligibility and provider terms apply"
+    ],
+    "tag": null,
+    "image": "/products/premium/cloud-console-v2.jpg",
+    "kind": "Getting started",
+    "referencePrice": true,
+    "regularPrice": 20
+  },
+  {
+    "id": 102,
+    "provider": "Amazon Web Services",
+    "short": "aws",
+    "name": "AWS 8VCPU",
+    "category": "AWS",
+    "price": 18,
+    "color": "#ec9a30",
+    "desc": "Explore the AWS 8-vCPU account tier for a compact project. Confirm the quota scope, region, and ongoing resource charges with the seller.",
+    "features": [
+      "8 vCPU account tier",
+      "Confirm regions and service quotas"
+    ],
+    "tag": null,
+    "image": "/products/premium/cloud-console-v2.jpg",
+    "kind": "Cloud compute",
+    "referencePrice": true,
+    "regularPrice": 25
+  },
+  {
+    "id": 103,
+    "provider": "Amazon Web Services",
+    "short": "aws",
+    "name": "AWS 32 vCPU",
+    "category": "AWS",
+    "price": 35,
+    "color": "#ec9a30",
+    "desc": "Compare the AWS 32-vCPU account option for a project with several planned components. Check quota applicability and deployment requirements before ordering.",
+    "features": [
+      "32 vCPU account tier",
+      "Confirm regions and service quotas"
+    ],
+    "tag": null,
+    "image": "/products/premium/cloud-console-v2.jpg",
+    "kind": "Cloud compute",
+    "referencePrice": true,
+    "regularPrice": 40
+  },
+  {
+    "id": 104,
+    "provider": "Amazon Web Services",
+    "short": "aws",
+    "name": "AWS 64 vCPU",
+    "category": "AWS",
+    "price": 45,
+    "color": "#ec9a30",
+    "desc": "Review the AWS 64-vCPU account tier for a broader compute plan. Discuss concurrent jobs, regional quotas, and usage billing before purchase.",
+    "features": [
+      "64 vCPU account tier",
+      "Confirm regions and service quotas"
+    ],
+    "tag": null,
+    "image": "/products/premium/cloud-console-v2.jpg",
+    "kind": "Cloud compute",
+    "referencePrice": true,
+    "regularPrice": 55
+  },
+  {
+    "id": 105,
+    "provider": "Amazon Web Services",
+    "short": "aws",
+    "name": "AWS 128 vCPU",
+    "category": "AWS",
+    "price": 120,
+    "color": "#ec9a30",
+    "desc": "An AWS 128-vCPU account listing for a larger capacity requirement. Verify service quotas and account details against your own deployment plan.",
+    "features": [
+      "128 vCPU account tier",
+      "Confirm regions and service quotas"
+    ],
+    "tag": null,
+    "image": "/products/premium/cloud-console-v2.jpg",
+    "kind": "Cloud compute",
+    "referencePrice": true,
+    "regularPrice": 120
+  },
+  {
+    "id": 106,
+    "provider": "Amazon Web Services",
+    "short": "aws",
+    "name": "AWS 256 vCPU",
+    "category": "AWS",
+    "price": 190,
+    "color": "#ec9a30",
+    "desc": "Explore the AWS 256-vCPU account tier with a detailed resource plan. Confirm quota scope, regional availability, and account handover terms.",
+    "features": [
+      "256 vCPU account tier",
+      "Confirm regions and service quotas"
+    ],
+    "tag": null,
+    "image": "/products/premium/cloud-console-v2.jpg",
+    "kind": "Cloud compute",
+    "referencePrice": true,
+    "regularPrice": 190
+  },
+  {
+    "id": 107,
+    "provider": "Amazon Web Services",
+    "short": "aws",
+    "name": "AWS 512 vCPU",
+    "category": "AWS",
+    "price": 299,
+    "color": "#ec9a30",
+    "desc": "Review the AWS 512-vCPU option for a substantial compute requirement. Request precise account and quota details before choosing this tier.",
+    "features": [
+      "512 vCPU account tier",
+      "Confirm regions and service quotas"
+    ],
+    "tag": null,
+    "image": "/products/premium/cloud-console-v2.jpg",
+    "kind": "Cloud compute",
+    "referencePrice": true,
+    "regularPrice": 299
+  },
+  {
+    "id": 108,
+    "provider": "Amazon Web Services",
+    "short": "aws",
+    "name": "AWS 1k Credit",
+    "category": "AWS",
+    "price": 250,
+    "color": "#c18a25",
+    "desc": "An AWS 1k-credit account option for a limited cloud spending plan. Confirm the balance, expiration, eligible services, and account purchase price separately.",
+    "features": [
+      "1K credit tier",
+      "Confirm eligibility and credit terms"
+    ],
+    "tag": null,
+    "image": "/products/premium/cloud-console-v2.jpg",
+    "kind": "Cloud credits",
+    "referencePrice": true,
+    "regularPrice": 250
+  },
+  {
+    "id": 109,
+    "provider": "Amazon Web Services",
+    "short": "aws",
+    "name": "AWS 5k Credit",
+    "category": "AWS",
+    "price": 999,
+    "color": "#c18a25",
+    "desc": "Compare the AWS 5k-credit account tier for a phased pilot. Review credit restrictions and remaining validity before assigning a project budget.",
+    "features": [
+      "5K credit tier",
+      "Confirm eligibility and credit terms"
+    ],
+    "tag": null,
+    "image": "/products/premium/cloud-console-v2.jpg",
+    "kind": "Cloud credits",
+    "referencePrice": true,
+    "regularPrice": 999
+  },
+  {
+    "id": 110,
+    "provider": "Amazon Web Services",
+    "short": "aws",
+    "name": "AWS 10k Credit",
+    "category": "AWS",
+    "price": 2499,
+    "color": "#c18a25",
+    "desc": "An AWS 10k-credit account listing for a project with several spending categories. Confirm eligible usage and credit terms before purchase.",
+    "features": [
+      "10K credit tier",
+      "Confirm eligibility and credit terms"
+    ],
+    "tag": null,
+    "image": "/products/premium/cloud-console-v2.jpg",
+    "kind": "Cloud credits",
+    "referencePrice": true,
+    "regularPrice": 2499
+  },
+  {
+    "id": 111,
+    "provider": "Amazon Web Services",
+    "short": "aws",
+    "name": "AWS 25k Credit",
+    "category": "AWS",
+    "price": 4999,
+    "color": "#c18a25",
+    "desc": "Review the AWS 25k-credit account option for a longer project schedule. Match the remaining credit validity to your planned milestones.",
+    "features": [
+      "25K credit tier",
+      "Confirm eligibility and credit terms"
+    ],
+    "tag": null,
+    "image": "/products/premium/cloud-console-v2.jpg",
+    "kind": "Cloud credits",
+    "referencePrice": true,
+    "regularPrice": 4999
+  },
+  {
+    "id": 112,
+    "provider": "Amazon Web Services",
+    "short": "aws",
+    "name": "AWS 50k Credit",
+    "category": "AWS",
+    "price": 7500,
+    "color": "#c18a25",
+    "desc": "An AWS 50k-credit account tier for a substantial project budget. Review account responsibilities, credit conditions, and ongoing charges before ordering.",
+    "features": [
+      "50K credit tier",
+      "Confirm eligibility and credit terms"
+    ],
+    "tag": null,
+    "image": "/products/premium/cloud-console-v2.jpg",
+    "kind": "Cloud credits",
+    "referencePrice": true,
+    "regularPrice": 7500
+  },
+  {
+    "id": 113,
+    "provider": "Amazon Web Services",
+    "short": "aws",
+    "name": "AWS 100k Credit",
+    "category": "AWS",
+    "price": 13000,
+    "color": "#c18a25",
+    "desc": "Explore the AWS 100k-credit account listing with a formal purchasing review. Confirm the exact balance, validity, eligibility, and account terms.",
+    "features": [
+      "100K credit tier",
+      "Confirm eligibility and credit terms"
+    ],
+    "tag": null,
+    "image": "/products/premium/cloud-console-v2.jpg",
+    "kind": "Cloud credits",
+    "referencePrice": true,
+    "regularPrice": 13000
+  },
+  {
+    "id": 114,
+    "provider": "Amazon Web Services",
+    "short": "aws",
+    "name": "AWS Ai Bedrock 10 RPM 5vCPU",
+    "category": "AWS",
+    "price": 70,
+    "color": "#8b5cde",
+    "desc": "A Bedrock account listing labeled 10 RPM and 5 vCPUs. Confirm the applicable models, quota scope, and request conditions before ordering.",
+    "features": [
+      "10 RPM · 5 vCPUs",
+      "Confirm model access and quotas"
+    ],
+    "tag": null,
+    "image": "/products/premium/cloud-console-v2.jpg",
+    "kind": "Amazon Bedrock",
+    "referencePrice": true,
+    "regularPrice": 70
+  },
+  {
+    "id": 115,
+    "provider": "Amazon Web Services",
+    "short": "aws",
+    "name": "AWS Ai Bedrock 50 RPM 5vCPUs",
+    "category": "AWS",
+    "price": 90,
+    "color": "#8b5cde",
+    "desc": "Compare the Bedrock option labeled 50 RPM and 5 vCPUs for a more active evaluation. Confirm model access and quota details directly.",
+    "features": [
+      "50 RPM · 5 vCPUs",
+      "Confirm model access and quotas"
+    ],
+    "tag": null,
+    "image": "/products/premium/cloud-console-v2.jpg",
+    "kind": "Amazon Bedrock",
+    "referencePrice": true,
+    "regularPrice": 90
+  },
+  {
+    "id": 116,
+    "provider": "Amazon Web Services",
+    "short": "aws",
+    "name": "AWS Ai Bedrock 10K RPM 32vCPUs",
+    "category": "AWS",
+    "price": 150,
+    "color": "#8b5cde",
+    "desc": "A Bedrock listing labeled 10K RPM and 32 vCPUs. Review request quotas, model permissions, and the meaning of each capacity label.",
+    "features": [
+      "10K RPM · 32 vCPUs",
+      "Confirm model access and quotas"
+    ],
+    "tag": null,
+    "image": "/products/premium/cloud-console-v2.jpg",
+    "kind": "Amazon Bedrock",
+    "referencePrice": true,
+    "regularPrice": 150
+  },
+  {
+    "id": 117,
+    "provider": "Amazon Web Services",
+    "short": "aws",
+    "name": "AWS Ai Bedrock 10K RPM 256vCPUs",
+    "category": "AWS",
+    "price": null,
+    "color": "#8b5cde",
+    "desc": "An unpriced Bedrock option labeled 10K RPM and 256 vCPUs. Request an exact quote and written specifications for this distinct listing.",
+    "features": [
+      "10K RPM · 256 vCPUs",
+      "Confirm model access and quotas"
+    ],
+    "tag": null,
+    "image": "/products/premium/cloud-console-v2.jpg",
+    "kind": "Amazon Bedrock",
+    "referencePrice": false,
+    "regularPrice": null
+  },
+  {
+    "id": 118,
+    "provider": "Amazon Web Services",
+    "short": "aws",
+    "name": "Kiro Enabled Account",
+    "category": "AWS",
+    "price": 180,
+    "color": "#6159dd",
+    "desc": "Explore the Kiro-enabled account option for a development workflow. Confirm the access level, eligibility, and billing arrangements before purchase.",
+    "features": [
+      "Kiro-enabled account option",
+      "Confirm access and eligibility"
+    ],
+    "tag": null,
+    "image": "/products/premium/cloud-console-v2.jpg",
+    "kind": "AI development",
+    "referencePrice": true,
+    "regularPrice": 180
+  },
+  {
+    "id": 119,
+    "provider": "Amazon Web Services",
+    "short": "aws",
+    "name": "AWS Bedrock 256vCPUs 10K RPM — 4.6, 4.7, 4.8, F5 Supported",
+    "category": "AWS",
+    "price": 2499,
+    "color": "#8b5cde",
+    "desc": "A 256-vCPU, 10K-RPM Bedrock listing carrying the supplied 4.6, 4.7, 4.8 and F5 support label. Confirm those labels for your intended setup.",
+    "features": [
+      "10K RPM · 256 vCPUs",
+      "4.6, 4.7, 4.8, F5 Supported"
+    ],
+    "tag": null,
+    "image": "/products/premium/cloud-console-v2.jpg",
+    "kind": "Amazon Bedrock",
+    "referencePrice": true,
+    "regularPrice": 2499
+  },
+  {
+    "id": 120,
+    "provider": "Amazon Web Services",
+    "short": "aws",
+    "name": "AWS Bedrock 384vCPUs 10K RPM — 4.6, 4.7, 4.8, F5 Supported",
+    "category": "AWS",
+    "price": 4500,
+    "color": "#8b5cde",
+    "desc": "Compare the 384-vCPU, 10K-RPM Bedrock option and its listed support labels. Review its differences from adjacent tiers before ordering.",
+    "features": [
+      "10K RPM · 384 vCPUs",
+      "4.6, 4.7, 4.8, F5 Supported"
+    ],
+    "tag": null,
+    "image": "/products/premium/cloud-console-v2.jpg",
+    "kind": "Amazon Bedrock",
+    "referencePrice": true,
+    "regularPrice": 4500
+  },
+  {
+    "id": 121,
+    "provider": "Amazon Web Services",
+    "short": "aws",
+    "name": "AWS Bedrock 512vCPUs 10K RPM — 4.6, 4.7, 4.8, F5 Supported",
+    "category": "AWS",
+    "price": 5500,
+    "color": "#8b5cde",
+    "desc": "A Bedrock account option labeled 512 vCPUs and 10K RPM, with supplied version-support wording. Confirm the complete account specification.",
+    "features": [
+      "10K RPM · 512 vCPUs",
+      "4.6, 4.7, 4.8, F5 Supported"
+    ],
+    "tag": null,
+    "image": "/products/premium/cloud-console-v2.jpg",
+    "kind": "Amazon Bedrock",
+    "referencePrice": true,
+    "regularPrice": 5500
+  },
+  {
+    "id": 122,
+    "provider": "Amazon Web Services",
+    "short": "aws",
+    "name": "AWS Bedrock 1024vCPUs 10K RPM — 4.6, 4.7, 4.8, F5 Supported",
+    "category": "AWS",
+    "price": 8000,
+    "color": "#8b5cde",
+    "desc": "Review the 1024-vCPU, 10K-RPM Bedrock listing for a documented capacity requirement. Confirm model support, regional scope, and account terms.",
+    "features": [
+      "10K RPM · 1024 vCPUs",
+      "4.6, 4.7, 4.8, F5 Supported"
+    ],
+    "tag": null,
+    "image": "/products/premium/cloud-console-v2.jpg",
+    "kind": "Amazon Bedrock",
+    "referencePrice": true,
+    "regularPrice": 8000
+  },
+  {
+    "id": 123,
+    "provider": "Amazon Web Services",
+    "short": "aws",
+    "name": "AWS Bedrock 1920vCPUs 10K RPM — 4.6, 4.7, 4.8, F5 Supported",
+    "category": "AWS",
+    "price": 9500,
+    "color": "#8b5cde",
+    "desc": "The catalog’s 1920-vCPU, 10K-RPM Bedrock option with listed support wording. Review the specification and rollout requirements before purchase.",
+    "features": [
+      "10K RPM · 1920 vCPUs",
+      "4.6, 4.7, 4.8, F5 Supported"
+    ],
+    "tag": null,
+    "image": "/products/premium/cloud-console-v2.jpg",
+    "kind": "Amazon Bedrock",
+    "referencePrice": true,
+    "regularPrice": 9500
+  }
+]

@@ -1,0 +1,197 @@
+{
+  "aws": {
+    "summary": "Compare AWS trial, compute, credit, Bedrock, and Kiro options by the specification you actually need.",
+    "title": "Choose an AWS account by its purpose",
+    "intro": "The AWS collection brings several different kinds of account offers together. A compute tier, a credit balance, and an AI-access label answer different questions, so start with the work the account is intended to support.",
+    "sections": [
+      {
+        "heading": "Find the right comparison",
+        "body": "Use compute listings when discussing regional capacity labels, credit listings when reviewing a funded project stage, and Bedrock options when clarifying model and request access. Each individual product page explains the questions relevant to that offer."
+      },
+      {
+        "heading": "Keep the dimensions separate",
+        "body": "Confirm quotas, balances, model permissions, and account control independently. The account purchase price is distinct from provider usage fees. Choose a variant only after its particular conditions match the project rather than assuming one larger number resolves every requirement."
+      }
+    ]
+  },
+  "google-cloud": {
+    "summary": "Review Google Cloud prepaid, pay-as-you-go, and credit account options with separate purchase and provider-payment details.",
+    "title": "Separate the parts of a Google Cloud offer",
+    "intro": "Google Cloud options in this collection are described through different billing and credit arrangements. Understanding that arrangement is a useful first step before comparing the advertised account prices.",
+    "sections": [
+      {
+        "heading": "Read amounts in context",
+        "body": "Some tier names refer to a balance or a required provider payment, while the storefront shows an account purchase price in USD. The 20 CAD option adds another currency to the discussion. Keep each amount attached to its purpose."
+      },
+      {
+        "heading": "Open the exact variant",
+        "body": "The individual pages explain each option and its current price status. The requested $2,000-credit tier remains quote-only rather than borrowing the price of a different balance. Confirm validity and eligibility before deciding which arrangement suits your project."
+      }
+    ]
+  },
+  "azure": {
+    "summary": "Explore Azure trial, pay-as-you-go, and credit listings, including the separately labeled Claude-related option.",
+    "title": "Make the Azure account arrangement explicit",
+    "intro": "The Azure collection contains account options whose names combine billing descriptions, credit amounts, and access wording. Those elements should be clarified individually before a price comparison becomes a purchase decision.",
+    "sections": [
+      {
+        "heading": "Start with the billing question",
+        "body": "Decide whether you are looking for a limited trial evaluation or an ongoing account arrangement. Ask how any named credit applies to the particular account and which provider conditions remain to be met."
+      },
+      {
+        "heading": "Verify additional labels",
+        "body": "The Tier 1 and Claude wording needs an explanation tied to the access you want. It should not be read as a general support entitlement. Use the detailed product guide to prepare a precise inquiry before agreeing on the account and delivery terms."
+      }
+    ]
+  },
+  "digitalocean": {
+    "summary": "Review the three-Droplet DigitalOcean account option and distinguish the account limit from paid running resources.",
+    "title": "Plan the resource roles before the account",
+    "intro": "This DigitalOcean collection currently contains one named option: DO 3 Droplet. The number is a starting point for discussing the account, not a description of a complete application environment.",
+    "sections": [
+      {
+        "heading": "Turn the limit into an inventory",
+        "body": "List the resource roles you expect to need and whether they must exist at the same time. That inventory makes the account question more concrete than choosing a provider solely by its initial purchase price."
+      },
+      {
+        "heading": "Clarify the resource costs",
+        "body": "Confirm the exact account limit and any remaining setup conditions. Discuss normal provider charges independently. The product page provides a more detailed guide for evaluating this specific tier and its account responsibilities."
+      }
+    ]
+  },
+  "linode": {
+    "summary": "Explore the Linode trial account option with its stated $100-credit label and account-specific eligibility conditions.",
+    "title": "Use a Linode trial for a contained evaluation",
+    "intro": "The current Linode offer is described by a trial and a credit amount. A useful evaluation begins with the hosting question you want to answer, then checks whether the particular account terms make that test practical.",
+    "sections": [
+      {
+        "heading": "Define the result first",
+        "body": "Choose a small task and a review date. This keeps the trial from turning into a collection of resources without a decision about what they are meant to demonstrate."
+      },
+      {
+        "heading": "Confirm the credit terms",
+        "body": "Ask about the available balance, validity, eligible usage, and any provider requirements. Account purchase and future resource charges are separate. Open the individual listing for its original guide and the current account price."
+      }
+    ]
+  },
+  "ovhcloud": {
+    "summary": "Assess the OVHcloud 34-vCPU account label against the service and region your project needs.",
+    "title": "Connect an OVHcloud tier to a specific environment",
+    "intro": "The OVHcloud option in this catalog is distinguished by a 34-vCPU label. Its relevance depends on what that label describes for the particular account and how it relates to your intended environment.",
+    "sections": [
+      {
+        "heading": "Describe the deployment context",
+        "body": "Explain the type of resource and region you plan to use. Include dependencies that affect the account choice. Those details make the capacity question easier to review."
+      },
+      {
+        "heading": "Ask for an explicit definition",
+        "body": "Confirm whether the amount refers to a quota or another allocation and what steps remain before use. The individual product article explores that review without treating the label as proof of running hardware or a measured performance result."
+      }
+    ]
+  },
+  "oracle": {
+    "summary": "Review the Oracle Cloud trial account option and clarify the $300 label before committing to an evaluation.",
+    "title": "Give an Oracle Cloud trial a clear endpoint",
+    "intro": "A trial account can answer a platform question when the work is limited and the conditions are understood. The Oracle Cloud option should be reviewed through its actual eligibility and allowance details.",
+    "sections": [
+      {
+        "heading": "Limit the first test",
+        "body": "Describe a specific piece of work rather than an entire future deployment. Decide what would make the evaluation useful and what information you need to gather."
+      },
+      {
+        "heading": "Separate trial and continuation",
+        "body": "Confirm the available balance, validity, and remaining account steps. Plan who will review or remove resources at the end. The dedicated product guide explains how to keep the initial trial decision separate from an ongoing billing arrangement."
+      }
+    ]
+  },
+  "hetzner": {
+    "summary": "Explore the Hetzner five-server account option with a clear distinction between account capacity and infrastructure charges.",
+    "title": "Make a five-server limit understandable",
+    "intro": "The Hetzner listing uses an account-limit label to describe its position in the collection. An inventory of the project’s proposed resources makes that label much more useful.",
+    "sections": [
+      {
+        "heading": "Name the intended roles",
+        "body": "Explain what would run on each proposed resource and whether all of them are needed together. Keep test environments visible in the plan instead of treating them as an afterthought."
+      },
+      {
+        "heading": "Confirm the account boundary",
+        "body": "Ask what the server count applies to and whether it suits the intended resources. The account purchase does not itself establish that paid servers are included. Open the product article for a fuller discussion of planning and administration."
+      }
+    ]
+  },
+  "amazon-ses": {
+    "summary": "Compare the SES 50K and 100K SMTP limit options after confirming the allowance period and sending conditions.",
+    "title": "Compare email limits in the context of your workflow",
+    "intro": "Amazon SES account offers in this collection have two sending-limit labels. A useful comparison needs more than total volume: it needs an explanation of how messages are distributed and how the allowance applies.",
+    "sections": [
+      {
+        "heading": "Describe message timing",
+        "body": "Identify whether the application sends steadily or around specific events. Keep total message count separate from the rate at which messages may be issued."
+      },
+      {
+        "heading": "Review each option directly",
+        "body": "The 50K and 100K product pages discuss the period, regional conditions, account access, and operational responsibilities to clarify. Neither listing is a delivery guarantee. Choose only after the defined allowance fits your permission-based messaging workflow."
+      }
+    ]
+  },
+  "upcloud": {
+    "summary": "Review the UpCloud account option carrying a $500-credit label and confirm the actual funding conditions.",
+    "title": "Begin an UpCloud credit evaluation with a budget question",
+    "intro": "The UpCloud offer is described by a credit amount rather than a resource count. Its usefulness depends on whether the available balance and conditions suit the work you plan to test.",
+    "sections": [
+      {
+        "heading": "Choose a bounded project stage",
+        "body": "List the resources needed for one evaluation and the result that would make it worthwhile. This keeps the credit discussion connected to a defined task."
+      },
+      {
+        "heading": "Verify the available allowance",
+        "body": "Confirm validity, eligible charges, and any additional funding requirement. The $500 label is separate from the account purchase price. The individual guide explains how to plan the experiment and its eventual continuation or cleanup."
+      }
+    ]
+  },
+  "atlantic": {
+    "summary": "Explore the Atlantic cloud trial account option for a limited hosting evaluation with a planned review point.",
+    "title": "Treat a hosting trial as a decision process",
+    "intro": "The Atlantic option is a trial account listing. Evaluate it by identifying what you want to learn about the platform and how you will decide whether to continue after the initial test.",
+    "sections": [
+      {
+        "heading": "Choose your own criteria",
+        "body": "Think about the administrative tasks and project requirements you want to review. A short list is easier to evaluate than an open-ended exploration of everything a platform might offer."
+      },
+      {
+        "heading": "Ask about trial scope",
+        "body": "Confirm eligibility, duration, allowances, and charges for the exact account. Trial wording does not remove the storefront’s account purchase price. Read the product guide to plan a clear beginning, review, and endpoint for the evaluation."
+      }
+    ]
+  },
+  "alibaba": {
+    "summary": "Review the Alibaba Cloud trial account option against the account requirements and regional needs of your project.",
+    "title": "Prepare before evaluating an Alibaba Cloud account",
+    "intro": "A useful account inquiry describes the project without exposing confidential information. The Alibaba Cloud trial option should be considered through its actual terms and the limited work you intend to evaluate.",
+    "sections": [
+      {
+        "heading": "Write a compact brief",
+        "body": "List the intended resources, region, and setup questions. Decide what would count as a useful first result. This gives the seller a focused account requirement to discuss."
+      },
+      {
+        "heading": "Clarify outstanding steps",
+        "body": "Ask what identity, eligibility, or billing requirements remain and which allowances apply. The individual product article explains how to keep provider conditions, account purchase, and the evaluation plan distinct."
+      }
+    ]
+  },
+  "aws-marketplace": {
+    "summary": "Explore the AWS Marketplace account listing and ask what the verified label establishes for your intended activity.",
+    "title": "Define the purpose of a Marketplace account",
+    "intro": "The Marketplace collection currently has one account option with a verified label. The next step is to establish the exact activity it supports and the checks that the seller says have been completed.",
+    "sections": [
+      {
+        "heading": "Name the intended activity",
+        "body": "Explain the business or account workflow you need, then ask whether the offered arrangement fits it. Avoid inferring a particular selling capability or provider approval from the short product label."
+      },
+      {
+        "heading": "Keep control arrangements explicit",
+        "body": "Review ownership, business details, billing contacts, and recovery. The product article provides an original guide to the questions that should be answered before purchase, including the scope of verification and any remaining provider processes."
+      }
+    ]
+  }
+}

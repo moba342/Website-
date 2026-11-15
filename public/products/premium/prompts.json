@@ -1,0 +1,22 @@
+{
+  "tool": "built-in image_gen",
+  "created": "2026-11-15",
+  "assets": [
+    {
+      "name": "compute",
+      "prompt": "Use case: product-mockup. Asset type: premium cloud compute product image for CloudCart, a midnight navy and electric-blue cloud accounts marketplace. Create one exceptionally polished photorealistic 3D studio product render, landscape 3:2. A sculptural transparent smoked-glass cloud suspended just above a precise stacked titanium server core on a low square obsidian pedestal. Cobalt blue illuminated internal circuits, restrained cyan edge lighting, micro-machined brushed metal, soft reflections, convincing glass refraction, architectural product photography. Dark midnight navy seamless background (#080e1a), subtle ground fog and soft grounded shadow. Main sculpture centered with generous breathing room around all edges, crisp silhouette readable as a small ecommerce thumbnail. Premium editorial technology campaign, sophisticated minimal composition, high-end ray-traced rendering, no clutter. No logos, no letters, no numbers, no captions, no watermark. The website adds real provider marks and tier text separately."
+    },
+    {
+      "name": "credits",
+      "prompt": "Use case: product-mockup. Asset type: premium cloud credits ecommerce photograph for a midnight navy cloud marketplace. Create one landscape 3:2 high-end ray-traced 3D studio render of three offset black titanium credit cards with illuminated amber-gold edges floating above a round smoked glass platform, a small sculptural glass cloud floating behind them. Cards are blank unbranded physical forms with a single elegant square chip inset, not credit card numbers. Fine metal machining, believable glass refraction, glossy obsidian surface, warm amber light balanced with subtle cobalt blue fill, dramatic controlled studio shadows. Background seamless deep midnight navy #080e1a. Centered object, spacious crop-safe margins, clear silhouette at small thumbnail sizes, sophisticated luxury technology campaign, minimal. No text, letters, numbers, currency symbols, branding, logos, watermarks."
+    },
+    {
+      "name": "ai",
+      "prompt": "Use case: product-mockup. Asset type: premium AI cloud API ecommerce image, midnight navy and blue technology storefront. One landscape 3:2 photorealistic studio 3D render: a floating optical-glass cube with a luminous neural network of tiny violet and electric-blue points and filaments inside, above a precision black titanium AI processor with elegant radiating circuit traces on an obsidian pedestal. Luxurious restrained materials, deep glass refraction and internal caustics, cinematic violet/cyan rim lights, subtle volumetric atmosphere, meticulously crafted industrial product photography. Seamless midnight navy #080e1a background, centered composition with generous safe margins and legible silhouette, exceptionally refined ray tracing. No words, no logos, no numbers, no watermarks. One coherent hero object, no busy backdrop."
+    },
+    {
+      "name": "network",
+      "prompt": "Use case: product-mockup. Asset type: premium multicloud account ecommerce imagery for CloudCart's dark navy storefront. Create one landscape 3:2 photorealistic 3D product photograph: a large exquisite frosted optical-glass cloud standing above three compact machined titanium server monoliths on a circular obsidian platform. Fine arcs of cyan and electric-blue light connect the monoliths into a subtle cloud network. Refined glass refraction, brushed silver metal, realistic soft floor reflections, deep midnight navy #080e1a seamless studio background, cinematic controlled light, extremely sophisticated high-end technology campaign. Centered sculpture, ample breathing room at edges, readable as small thumbnail, visually distinct from a square microchip. No logo, brand name, letters, text, numbers, watermark."
+    }
+  ]
+}

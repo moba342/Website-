@@ -1,0 +1,167 @@
+{
+  "checked": "2026-11-15",
+  "requestedReference": "https://accsmarket.shop/cloud-service/",
+  "note": "Prices extracted from the published comparison table. Previously unspecified Standard Account entries use the named entry-level tier, displayed explicitly. Google Cloud $2,000 Credits Account has no exact match and remains unpriced. AWS Standard and Bedrock API prices are unchanged.",
+  "matches": [
+    {
+      "provider": "Google Cloud",
+      "variant": "$300 + $10 Prepaid",
+      "price": 70.0,
+      "currency": "USD",
+      "source": "https://accsmarket.shop/cloud-service/",
+      "mapping": "exact variant match"
+    },
+    {
+      "provider": "Google Cloud",
+      "variant": "Pay As You Go $10 Payment Required",
+      "price": 55.0,
+      "currency": "USD",
+      "source": "https://accsmarket.shop/cloud-service/",
+      "mapping": "exact variant match"
+    },
+    {
+      "provider": "Google Cloud",
+      "variant": "Pay As You Go 20 CAD Payment Required",
+      "price": 60.0,
+      "currency": "USD",
+      "source": "https://accsmarket.shop/cloud-service/",
+      "mapping": "exact variant match"
+    },
+    {
+      "provider": "Google Cloud",
+      "variant": "$5,000 Credits Account",
+      "price": 1050.0,
+      "currency": "USD",
+      "source": "https://accsmarket.shop/cloud-service/",
+      "mapping": "exact variant match"
+    },
+    {
+      "provider": "Google Cloud",
+      "variant": "$25,000 Credits Account",
+      "price": 5500.0,
+      "currency": "USD",
+      "source": "https://accsmarket.shop/cloud-service/",
+      "mapping": "exact variant match"
+    },
+    {
+      "provider": "Azure",
+      "variant": "Free Trial with $200 Credit",
+      "price": 25.0,
+      "currency": "USD",
+      "source": "https://accsmarket.shop/cloud-service/",
+      "mapping": "exact variant match"
+    },
+    {
+      "provider": "Azure",
+      "variant": "Pay-As-You-Go with $200 Credit",
+      "price": 25.0,
+      "currency": "USD",
+      "source": "https://accsmarket.shop/cloud-service/",
+      "mapping": "exact variant match"
+    },
+    {
+      "provider": "Azure",
+      "variant": "Azure $1K Tier 1 Support Claude",
+      "price": 180.0,
+      "currency": "USD",
+      "source": "https://accsmarket.shop/cloud-service/",
+      "mapping": "exact variant match"
+    },
+    {
+      "provider": "Azure",
+      "variant": "Azure $5K Credit Account",
+      "price": 750.0,
+      "currency": "USD",
+      "source": "https://accsmarket.shop/cloud-service/",
+      "mapping": "exact variant match"
+    },
+    {
+      "provider": "DigitalOcean",
+      "variant": "DO 3 Droplet",
+      "price": 25.0,
+      "currency": "USD",
+      "source": "https://accsmarket.shop/cloud-service/",
+      "mapping": "entry-level reference tier for previously unspecified Standard Account"
+    },
+    {
+      "provider": "Linode",
+      "variant": "Free Trial $100 Credit",
+      "price": 25.0,
+      "currency": "USD",
+      "source": "https://accsmarket.shop/cloud-service/",
+      "mapping": "entry-level reference tier for previously unspecified Standard Account"
+    },
+    {
+      "provider": "OVHcloud",
+      "variant": "34 vCPUs",
+      "price": 30.0,
+      "currency": "USD",
+      "source": "https://accsmarket.shop/cloud-service/",
+      "mapping": "entry-level reference tier for previously unspecified Standard Account"
+    },
+    {
+      "provider": "Oracle Cloud",
+      "variant": "Free Trial $300",
+      "price": 45.0,
+      "currency": "USD",
+      "source": "https://accsmarket.shop/cloud-service/",
+      "mapping": "entry-level reference tier for previously unspecified Standard Account"
+    },
+    {
+      "provider": "Hetzner",
+      "variant": "Hetzner 5 Server Account",
+      "price": 50.0,
+      "currency": "USD",
+      "source": "https://accsmarket.shop/cloud-service/",
+      "mapping": "entry-level reference tier for previously unspecified Standard Account"
+    },
+    {
+      "provider": "Amazon SES",
+      "variant": "SMTP 50K Limits",
+      "price": 750.0,
+      "currency": "USD",
+      "source": "https://accsmarket.shop/cloud-service/",
+      "mapping": "exact variant match"
+    },
+    {
+      "provider": "Amazon SES",
+      "variant": "SMTP 100K Limits",
+      "price": 1250.0,
+      "currency": "USD",
+      "source": "https://accsmarket.shop/cloud-service/",
+      "mapping": "exact variant match"
+    },
+    {
+      "provider": "UpCloud",
+      "variant": "$500 Credit",
+      "price": 30.0,
+      "currency": "USD",
+      "source": "https://accsmarket.shop/cloud-service/",
+      "mapping": "entry-level reference tier for previously unspecified Standard Account"
+    },
+    {
+      "provider": "Atlantic",
+      "variant": "Atlantic Cloud Free Trial",
+      "price": 30.0,
+      "currency": "USD",
+      "source": "https://accsmarket.shop/cloud-service/",
+      "mapping": "entry-level reference tier for previously unspecified Standard Account"
+    },
+    {
+      "provider": "Alibaba Cloud",
+      "variant": "Alibaba Cloud Free Trial",
+      "price": 50.0,
+      "currency": "USD",
+      "source": "https://accsmarket.shop/cloud-service/",
+      "mapping": "entry-level reference tier for previously unspecified Standard Account"
+    },
+    {
+      "provider": "AWS Marketplace",
+      "variant": "Verified Marketplace Account",
+      "price": 90.0,
+      "currency": "USD",
+      "source": "https://accsmarket.shop/cloud-service/",
+      "mapping": "entry-level reference tier for previously unspecified Standard Account"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+import aws from './aws-products.json';
+import cloud from './cloud-service-products.json';
+import starters from './starter-products.json';
+import articles from './product-articles.json';
+import guides from './provider-guides.json';
+export const slugify=value=>value.toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'');
+const providerSlugFor=p=>cloud.find(v=>v.name===p.provider||v.name===p.category)?.slug||'aws';
+const enrich=p=>({...p,desc:articles[p.id].description,editorial:articles[p.id],providerSlug:providerSlugFor(p),pageSlug:slugify(p.name)+'-'+p.id});
+export const allProducts=[...aws,...cloud.flatMap(p=>p.variants),...starters].map(enrich);
+export const starterProducts=allProducts.filter(p=>p.id<100);
+export const productHref=p=>'#product/'+(p.pageSlug||slugify(p.name)+'-'+p.id);
+export const providerHref=p=>'#provider/'+(typeof p==='string'?p:p.slug);
+const awsProvider={slug:'aws',name:'Amazon Web Services',provider:'Amazon Web Services',title:'Buy AWS Account',color:'#ffad42',initials:'AWS',image:'/products/premium/cloud-console-v2.jpg',variants:allProducts.filter(p=>p.id>=101&&p.id<=123)};
+export const allProviders=[awsProvider,...cloud.map(p=>({...p,provider:p.name,variants:allProducts.filter(v=>p.variants.some(x=>x.id===v.id))}))].map(p=>({...p,guide:guides[p.slug],description:guides[p.slug].summary}));
+export const findProduct=route=>allProducts.find(p=>route==='product/'+p.pageSlug);
+export const findProvider=route=>allProviders.find(p=>route==='provider/'+p.slug);

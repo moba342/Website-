@@ -1,0 +1,3 @@
+import React,{useEffect,useRef}from'react';
+import{DeliveryNotice}from'./ContactPage.jsx';
+export default function DeliveryDock(){const ref=useRef(null);useEffect(()=>{const update=()=>{if(ref.current)document.documentElement.style.setProperty('--delivery-dock-space',Math.ceil(ref.current.getBoundingClientRect().height+46)+'px')};document.body.classList.add('has-delivery-dock');const observer=new ResizeObserver(update);observer.observe(ref.current);update();return()=>{observer.disconnect();document.body.classList.remove('has-delivery-dock');document.documentElement.style.removeProperty('--delivery-dock-space')}},[]);return <aside className="delivery-bottom-dock" aria-label="Delivery notice" ref={ref}><DeliveryNotice/></aside>}

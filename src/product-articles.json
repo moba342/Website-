@@ -1,0 +1,952 @@
+{
+  "101": {
+    "description": "An AWS trial account option for a focused first experiment. Review eligibility, billing requirements, and trial conditions before making a purchase.",
+    "articleTitle": "Plan a useful first AWS experiment",
+    "intro": "A trial account is most useful when it has a clear purpose. Instead of opening several services at once, choose one small task that will tell you whether the platform fits your project.",
+    "sections": [
+      {
+        "heading": "Start with one question",
+        "body": "Your first test might be a simple application, a storage workflow, or a development environment. Write down the result you want before choosing resources. A narrow experiment is easier to assess than an account filled with unfinished demonstrations."
+      },
+      {
+        "heading": "Treat trial terms as part of the product",
+        "body": "The product name does not establish which services qualify for a trial or how long an offer lasts. Ask about eligibility, existing account history, payment requirements, and any usage that could generate a bill."
+      },
+      {
+        "heading": "Finish with a cleanup plan",
+        "body": "Decide who will remove test resources and review billing when the experiment ends. Keep a short record of what worked, what was confusing, and what a paid deployment would require. Those notes turn a trial into a practical decision."
+      }
+    ]
+  },
+  "102": {
+    "description": "Explore the AWS 8-vCPU account tier for a compact project. Confirm the quota scope, region, and ongoing resource charges with the seller.",
+    "articleTitle": "Keep an 8-vCPU project focused",
+    "intro": "The 8-vCPU listing gives you a small capacity tier to discuss against a specific workload. The useful question is how your planned resources fit that tier, rather than whether the number looks sufficient on its own.",
+    "sections": [
+      {
+        "heading": "List the resources you actually need",
+        "body": "Separate the application, supporting processes, and test tasks in your plan. Note which must run together and which can run at different times. That simple inventory gives the seller something concrete to review."
+      },
+      {
+        "heading": "Clarify what the tier describes",
+        "body": "Ask whether the quoted vCPU amount refers to an account quota, a particular service, or another allocation. Confirm its region and relevant instance categories. An account label alone does not describe hardware already running for you."
+      },
+      {
+        "heading": "Measure before making the next move",
+        "body": "Choose a modest initial deployment and record its behavior under your own test conditions. Review cost alongside resource use. If the project grows, those observations provide a better basis for comparing a larger tier than a purely theoretical estimate."
+      }
+    ]
+  },
+  "103": {
+    "description": "Compare the AWS 32-vCPU account option for a project with several planned components. Check quota applicability and deployment requirements before ordering.",
+    "articleTitle": "Organize a 32-vCPU deployment plan",
+    "intro": "A project with multiple components needs an allocation plan as much as it needs a capacity figure. The 32-vCPU option is a useful point at which to make those components visible on paper.",
+    "sections": [
+      {
+        "heading": "Separate always-on and occasional work",
+        "body": "Identify what needs to remain available throughout the day and what runs only during testing or processing. Avoid assigning the whole tier to a single undifferentiated estimate. Make room in the discussion for temporary tasks and deployment changes."
+      },
+      {
+        "heading": "Check the boundaries of the number",
+        "body": "Have the seller identify the service, region, and quota category associated with the 32-vCPU listing. Then compare those boundaries with your intended resource types. Do not assume that every AWS service draws from the same account allowance."
+      },
+      {
+        "heading": "Create a comparison you can revisit",
+        "body": "Record the expected resource layout, unresolved questions, and actual operating costs once the project starts. This becomes a reusable comparison when you later consider 64 vCPUs or change the application architecture. The aim is a reasoned choice, not unused capacity."
+      }
+    ]
+  },
+  "104": {
+    "description": "Review the AWS 64-vCPU account tier for a broader compute plan. Discuss concurrent jobs, regional quotas, and usage billing before purchase.",
+    "articleTitle": "Give a 64-vCPU workload a clear schedule",
+    "intro": "The 64-vCPU account label is only one part of a compute purchase. A project that runs several tasks at different times may have very different needs from one that runs everything simultaneously.",
+    "sections": [
+      {
+        "heading": "Draw a workload calendar",
+        "body": "Mark the periods when application traffic, testing, and background processing are expected to overlap. Even a rough daily schedule can reveal where you need capacity and where resources would otherwise sit unused."
+      },
+      {
+        "heading": "Ask about the relevant quota category",
+        "body": "Bring that schedule to the seller and confirm which regional service limits the listing covers. Establish whether additional approval is needed for the resource types you intend to use. The product title is a starting point for that conversation."
+      },
+      {
+        "heading": "Define how you will judge the tier",
+        "body": "Choose your own measures for completion time, responsiveness, and spending. Review them after the first deployment cycle. A larger account tier should support a documented operating plan; it should not replace basic measurement or an understanding of provider charges."
+      }
+    ]
+  },
+  "105": {
+    "description": "An AWS 128-vCPU account listing for a larger capacity requirement. Verify service quotas and account details against your own deployment plan.",
+    "articleTitle": "Split a 128-vCPU plan into manageable parts",
+    "intro": "At the 128-vCPU tier, a single overall estimate can hide important differences between applications. Breaking the project into groups makes both the purchasing discussion and later administration more precise.",
+    "sections": [
+      {
+        "heading": "Describe the groups separately",
+        "body": "List customer-facing services, internal tools, development work, and scheduled processing as distinct groups. Give each an owner and a rough requirement. This makes it easier to see whether several groups depend on the same account assumptions."
+      },
+      {
+        "heading": "Match the listing to those requirements",
+        "body": "Ask which services and regions the stated vCPU tier applies to. Confirm any account restrictions and resource-specific approvals before treating the listing as suitable. A capacity label does not guarantee access to every instance family."
+      },
+      {
+        "heading": "Prepare the ownership rules early",
+        "body": "Decide who can create resources and who reviews their cost. Establish a process for retiring experiments and unused environments. These administrative choices are easier to make before several teams begin sharing a larger account than after responsibilities become unclear."
+      }
+    ]
+  },
+  "106": {
+    "description": "Explore the AWS 256-vCPU account tier with a detailed resource plan. Confirm quota scope, regional availability, and account handover terms.",
+    "articleTitle": "Make a 256-vCPU account purchase reviewable",
+    "intro": "A larger compute requirement often involves several people. The 256-vCPU listing becomes easier to evaluate when technical requirements, financial expectations, and account responsibilities are written in the same brief.",
+    "sections": [
+      {
+        "heading": "Prepare a short requirements document",
+        "body": "Describe the intended services, regions, workload groups, and expected launch sequence. Include questions you cannot yet answer. A concise document gives everyone involved a shared basis for discussing whether this account option fits."
+      },
+      {
+        "heading": "Keep capacity and spending separate",
+        "body": "The purchase price of the account is not the price of running 256 vCPUs. Ask how the listed tier relates to service quotas, then estimate the resources you would actually deploy. Review usage charges directly with the provider before committing to a launch."
+      },
+      {
+        "heading": "Agree on account control",
+        "body": "Clarify ownership, recovery details, and the handover process with the seller. Decide who will manage access afterward. These details matter as much as the headline tier when an account is intended to become part of a maintained project."
+      }
+    ]
+  },
+  "107": {
+    "description": "Review the AWS 512-vCPU option for a substantial compute requirement. Request precise account and quota details before choosing this tier.",
+    "articleTitle": "Put a 512-vCPU requirement through a practical review",
+    "intro": "The largest standard compute option in this collection deserves a specific justification. Start with the workload that creates the requirement, then work back to the account details needed to support it.",
+    "sections": [
+      {
+        "heading": "Explain where the requirement comes from",
+        "body": "Break the total into applications or processing groups and note the periods when they overlap. Identify whether the estimate reflects measured demand, a planned expansion, or an untested assumption. Those distinctions help prevent a purchase based only on a round number."
+      },
+      {
+        "heading": "Verify before planning a full launch",
+        "body": "Ask the seller to clarify the region, quota category, and resource types connected to the 512-vCPU label. Confirm relevant provider conditions. Do not treat a listing as a performance benchmark or as proof that resources are already allocated."
+      },
+      {
+        "heading": "Choose a controlled starting stage",
+        "body": "Plan an initial stage that tests the important assumptions before a wider rollout. Assign someone to review both usage and cost. A deliberate start makes it easier to correct a mismatch without involving the entire workload at once."
+      }
+    ]
+  },
+  "108": {
+    "description": "An AWS 1k-credit account option for a limited cloud spending plan. Confirm the balance, expiration, eligible services, and account purchase price separately.",
+    "articleTitle": "Give a 1k-credit balance a defined job",
+    "intro": "A credit account can be easier to evaluate when every part of the balance has a purpose. For the 1k tier, start with a short list of activities rather than treating the credit amount as a general invitation to explore.",
+    "sections": [
+      {
+        "heading": "Divide the experiment into checkpoints",
+        "body": "Write down what you want to build, what you need to test, and what would count as a useful result. Review spending between those steps. The goal is to learn something concrete before moving on to another resource or service."
+      },
+      {
+        "heading": "Read the credit conditions",
+        "body": "Ask about the actual balance, its remaining validity, eligible usage, and any requirements attached to it. The 1k label is a credit tier, not the account purchase price. Confirm both amounts independently."
+      },
+      {
+        "heading": "Plan for the end of the credit",
+        "body": "Decide whether the project will stop, move, or continue with normal billing once the available credit is used. Make that decision part of the initial plan so a small experiment does not become an unreviewed ongoing commitment."
+      }
+    ]
+  },
+  "109": {
+    "description": "Compare the AWS 5k-credit account tier for a phased pilot. Review credit restrictions and remaining validity before assigning a project budget.",
+    "articleTitle": "Use a 5k-credit pilot to answer a sequence of questions",
+    "intro": "A pilot benefits from stages: first prove that the basic approach works, then test a more realistic setup. The 5k-credit option can be discussed against that sequence without assuming the entire amount should be committed immediately.",
+    "sections": [
+      {
+        "heading": "Give each stage an outcome",
+        "body": "For example, separate the first working deployment from later integration or load testing. Define what you expect to learn from each stage and when you will review spending. A checkpoint is useful only if it can change the next decision."
+      },
+      {
+        "heading": "Inspect the balance rather than the headline",
+        "body": "Confirm the credit amount actually available, where it can be applied, and when it expires. Ask whether any charges are excluded. A larger credit tier is not automatically a better fit when its conditions do not match your pilot."
+      },
+      {
+        "heading": "Carry the learning into your next budget",
+        "body": "Keep notes on which resources were useful and which were unnecessary. At the end of the pilot, those observations can guide a normal operating budget. Credit should make a test easier to evaluate, not obscure its eventual cost."
+      }
+    ]
+  },
+  "110": {
+    "description": "An AWS 10k-credit account listing for a project with several spending categories. Confirm eligible usage and credit terms before purchase.",
+    "articleTitle": "Keep a 10k-credit project understandable across a team",
+    "intro": "When several people use one credit-funded account, a single remaining balance says little about where the budget is going. The 10k tier is worth evaluating alongside a plan for assigning and reviewing resource spending.",
+    "sections": [
+      {
+        "heading": "Make responsibilities visible",
+        "body": "Identify who owns each environment and which project purpose it serves. Agree on who can approve additional resources. These simple rules let the team discuss spending without relying on memory or a collection of informal messages."
+      },
+      {
+        "heading": "Check the credit boundaries together",
+        "body": "Ask for the balance, expiry, and eligible charges in writing. Share those details with the people planning the deployment. The purchasing contact and the technical team should be working from the same understanding of the account."
+      },
+      {
+        "heading": "Review the project at regular milestones",
+        "body": "Use each milestone to decide whether resources should stay, change, or be removed. A credit balance can make early costs less visible, so keep the future operating budget in view as well as the amount currently available."
+      }
+    ]
+  },
+  "111": {
+    "description": "Review the AWS 25k-credit account option for a longer project schedule. Match the remaining credit validity to your planned milestones.",
+    "articleTitle": "Make the calendar part of a 25k-credit decision",
+    "intro": "A project may have enough planned spending to justify a larger credit tier and still be a poor match for the credit’s timing. The 25k option should be assessed against both the amount and the schedule of expected work.",
+    "sections": [
+      {
+        "heading": "Place milestones on an actual timeline",
+        "body": "Include setup, development, testing, and any planned pauses. Ask whether the account would be active during all those stages or only some of them. A delayed launch can change how useful a credit-funded account will be."
+      },
+      {
+        "heading": "Confirm time-sensitive conditions",
+        "body": "Request the current balance and its expiration details before agreeing to a purchase. Check eligible services and any restrictions that affect your planned milestones. Do not assume a credit tier establishes a fresh validity period."
+      },
+      {
+        "heading": "Allow for changes in the project",
+        "body": "Decide what happens if development takes longer or the workload changes. Keep the account purchase price separate from provider usage and excluded charges. A clear timeline makes it easier to compare this option with a smaller tier or ordinary billing."
+      }
+    ]
+  },
+  "112": {
+    "description": "An AWS 50k-credit account tier for a substantial project budget. Review account responsibilities, credit conditions, and ongoing charges before ordering.",
+    "articleTitle": "Bring governance into a 50k-credit purchase",
+    "intro": "A larger credit balance does not remove the need for a controlled project budget. The 50k listing is most meaningful when the organization knows who owns the account and how decisions about its resources will be made.",
+    "sections": [
+      {
+        "heading": "Agree on how decisions are approved",
+        "body": "Identify the people responsible for technical changes, spending reviews, and account recovery. Make those roles explicit before the account is used by multiple contributors. Clear responsibilities prevent the headline balance from becoming the only form of oversight."
+      },
+      {
+        "heading": "Document the credit itself",
+        "body": "Confirm the available amount, remaining validity, eligible usage, and restrictions. Keep a record of the terms supplied for the specific account being discussed. General descriptions of a credit program do not establish the condition of an individual listing."
+      },
+      {
+        "heading": "Look beyond the initial balance",
+        "body": "Plan for excluded charges and for the point at which credit is no longer available. Review the expected operating cost of the project independently. That view helps you decide whether this tier supports a sustainable workload or only its initial phase."
+      }
+    ]
+  },
+  "113": {
+    "description": "Explore the AWS 100k-credit account listing with a formal purchasing review. Confirm the exact balance, validity, eligibility, and account terms.",
+    "articleTitle": "Evaluate a 100k-credit account as a complete purchase",
+    "intro": "The 100k tier is the largest credit option in this catalog. Its scale makes precise documentation more useful than a brief discussion of the headline amount. Treat the purchase as a collection of conditions that must fit the same project.",
+    "sections": [
+      {
+        "heading": "Describe the proposed use clearly",
+        "body": "List the workload, the teams involved, and the period over which you expect to operate it. Keep the estimate specific enough that you can compare it with eligible credit usage. Avoid assuming that a larger tier should automatically absorb every project expense."
+      },
+      {
+        "heading": "Resolve the commercial details",
+        "body": "Ask for the current balance, expiration, applicable restrictions, ownership arrangements, and account purchase price. Establish what is being offered before discussing payment. None of these details should be inferred from the 100k label alone."
+      },
+      {
+        "heading": "Set a review process after handover",
+        "body": "Assign responsibility for monitoring resources, billing, and remaining credit. Keep the future provider-funded operating cost visible. A well-documented purchase is easier to manage when the project changes or the credit-funded phase comes to an end."
+      }
+    ]
+  },
+  "114": {
+    "description": "A Bedrock account listing labeled 10 RPM and 5 vCPUs. Confirm the applicable models, quota scope, and request conditions before ordering.",
+    "articleTitle": "Use the 10-RPM Bedrock tier to define an initial test",
+    "intro": "The 10-RPM, 5-vCPU listing offers a specific set of labels to discuss for an AI project. Begin with a small interaction flow and identify what you want to learn from it before comparing larger account options.",
+    "sections": [
+      {
+        "heading": "Describe the intended interaction",
+        "body": "Explain whether a person will send requests manually or an application will issue them. Note the length and frequency of your intended tests. This gives the seller context for checking whether the listed configuration is relevant."
+      },
+      {
+        "heading": "Ask what the quota applies to",
+        "body": "Confirm the models, region, and account conditions associated with the 10-RPM label. Ask separately what the 5-vCPU designation describes. Do not assume those two figures define one universal allowance across all services."
+      },
+      {
+        "heading": "Keep observations from the first test",
+        "body": "Record the behavior of your own application, including how it handles a request it cannot complete. Use that information when evaluating another tier. The listing describes an account option; it is not a guarantee of response time or model availability."
+      }
+    ]
+  },
+  "115": {
+    "description": "Compare the Bedrock option labeled 50 RPM and 5 vCPUs for a more active evaluation. Confirm model access and quota details directly.",
+    "articleTitle": "Build a repeatable evaluation around the 50-RPM option",
+    "intro": "Moving from occasional AI requests to repeated testing changes what you need to observe. The 50-RPM, 5-vCPU option is worth discussing when you can describe the test sequence that creates the requirement.",
+    "sections": [
+      {
+        "heading": "Choose examples you can compare",
+        "body": "Prepare a small set of representative tasks and define how you will judge their results. Reusing the same evaluation cases makes it easier to understand whether a change in account configuration affects your own workflow."
+      },
+      {
+        "heading": "Clarify the listed request limit",
+        "body": "Ask which model and region the 50-RPM designation applies to and how other relevant quotas are handled. Confirm the meaning of the accompanying 5-vCPU label. A single advertised figure does not describe every constraint an application might encounter."
+      },
+      {
+        "heading": "Separate access from quality",
+        "body": "An account tier does not determine whether a model produces useful answers for your task. Evaluate that question through your own examples. Compare the account purchase price and provider usage charges only after the proposed access fits the evaluation you want to run."
+      }
+    ]
+  },
+  "116": {
+    "description": "A Bedrock listing labeled 10K RPM and 32 vCPUs. Review request quotas, model permissions, and the meaning of each capacity label.",
+    "articleTitle": "Read the 10K-RPM and 32-vCPU labels separately",
+    "intro": "Two capacity figures can make an account look straightforward while describing different parts of a proposed setup. The 10K-RPM, 32-vCPU option calls for a precise conversation about what each label actually covers.",
+    "sections": [
+      {
+        "heading": "Write down the request pattern",
+        "body": "Describe how many users or processes would issue requests and whether their activity overlaps. Include the type of model interaction you intend to test. That is more informative than choosing an account by request count alone."
+      },
+      {
+        "heading": "Confirm the complete quota picture",
+        "body": "Ask which models and regions the advertised RPM applies to and what additional request or token conditions matter for the intended workflow. Confirm the role of the 32-vCPU designation independently. Treat the two labels as specifications to verify, not as measured application performance."
+      },
+      {
+        "heading": "Test the application’s handling of limits",
+        "body": "Plan a controlled evaluation before relying on the account for a larger rollout. Observe how the application reacts when a request is delayed or rejected. Keep the seller’s account information and your own test findings as separate records."
+      }
+    ]
+  },
+  "117": {
+    "description": "An unpriced Bedrock option labeled 10K RPM and 256 vCPUs. Request an exact quote and written specifications for this distinct listing.",
+    "articleTitle": "Resolve the details of the unpriced 256-vCPU AI option",
+    "intro": "This listing is intentionally separate from the 256-vCPU Bedrock option that includes a model-support label. Its price was not established by an exact reference match, so the first step is clarification rather than assuming the two products are interchangeable.",
+    "sections": [
+      {
+        "heading": "Identify the exact option in your inquiry",
+        "body": "Use the full name AWS Ai Bedrock 10K RPM 256vCPUs when contacting the seller. Ask how it differs from other 256-vCPU entries and whether the distinction concerns account configuration, model access, or another condition."
+      },
+      {
+        "heading": "Request a complete quotation",
+        "body": "Ask for the purchase price, the region and models covered by the RPM label, and the meaning of the vCPU figure. Include any required account or billing conditions in the same discussion. A quote should identify the particular listing it covers."
+      },
+      {
+        "heading": "Compare after the specifications are clear",
+        "body": "Once the details are confirmed, compare this option with the priced Bedrock tiers. Keep the requested account price separate from future usage charges. The absence of a listed price should lead to a more specific inquiry, not an estimated amount presented as fact."
+      }
+    ]
+  },
+  "118": {
+    "description": "Explore the Kiro-enabled account option for a development workflow. Confirm the access level, eligibility, and billing arrangements before purchase.",
+    "articleTitle": "Evaluate a Kiro account through the work you want to do",
+    "intro": "An account listing should be judged against a real development activity. For the Kiro-enabled option, define the project task and the access you need before treating the product name as a complete description of the service.",
+    "sections": [
+      {
+        "heading": "Start with a concrete development task",
+        "body": "Choose a contained piece of work, such as reviewing an existing project or preparing a small feature. Identify what access the task requires and what information you are comfortable placing in the development environment."
+      },
+      {
+        "heading": "Ask what enabled access includes",
+        "body": "Confirm the sign-in method, available features or plan, applicable usage conditions, and any separate charges. Ask how account ownership and recovery will be handled. The word enabled does not establish a particular entitlement or duration."
+      },
+      {
+        "heading": "Set a handover checklist",
+        "body": "Before using the account for project work, establish who will manage access and billing. Keep confidential project material out of purchase messages. A useful account arrangement should fit the team’s workflow without making account control an unresolved part of development."
+      }
+    ]
+  },
+  "119": {
+    "description": "A 256-vCPU, 10K-RPM Bedrock listing carrying the supplied 4.6, 4.7, 4.8 and F5 support label. Confirm those labels for your intended setup.",
+    "articleTitle": "Check the support label on the 256-vCPU Bedrock tier",
+    "intro": "This product combines capacity figures with an additional support description. The listed 4.6, 4.7, 4.8 and F5 labels need to be clarified for the specific account rather than assumed to refer to a uniform set of available services.",
+    "sections": [
+      {
+        "heading": "Name the access you actually require",
+        "body": "Tell the seller which model or workflow you intend to use. Ask what each support label means in that context and which permissions must be present. A short, explicit requirement is easier to verify than a general request for AI access."
+      },
+      {
+        "heading": "Review capacity on its own terms",
+        "body": "Confirm the scope of 10K RPM and the 256-vCPU designation, including the relevant region. Keep those details separate from the support description. Capacity labels and model permissions answer different questions about an account."
+      },
+      {
+        "heading": "Record the agreed specification",
+        "body": "Keep the confirmed access, purchase price, and handover terms together before ordering. Use the same specification for an initial account review after delivery. This reduces the chance of comparing one advertised label with a different interpretation later."
+      }
+    ]
+  },
+  "120": {
+    "description": "Compare the 384-vCPU, 10K-RPM Bedrock option and its listed support labels. Review its differences from adjacent tiers before ordering.",
+    "articleTitle": "Make the middle Bedrock tier justify its place",
+    "intro": "The 384-vCPU option sits between the 256- and 512-vCPU listings that share a 10K-RPM headline. That makes it a useful comparison point: the reason to select it should come from the confirmed account differences, not simply its position in the catalog.",
+    "sections": [
+      {
+        "heading": "Compare the neighboring entries",
+        "body": "Write down what your application requires and ask how each tier meets those requirements. Identify any difference in quota scope, access conditions, or account setup. Do not assume a larger vCPU label increases every other allowance."
+      },
+      {
+        "heading": "Clarify the stated support range",
+        "body": "The product title includes 4.6, 4.7, 4.8 and F5 support. Ask the seller to define those labels and confirm the specific access you need. Keep that explanation alongside the regional and model details for the RPM figure."
+      },
+      {
+        "heading": "Keep the decision specific",
+        "body": "If the 384-vCPU tier is the right fit, document why. That note will be useful when another person reviews the purchase or when the workload changes. A good comparison explains both the required capacity and the conditions attached to it."
+      }
+    ]
+  },
+  "121": {
+    "description": "A Bedrock account option labeled 512 vCPUs and 10K RPM, with supplied version-support wording. Confirm the complete account specification.",
+    "articleTitle": "Give a 512-vCPU Bedrock plan operating boundaries",
+    "intro": "A larger AI account option is easier to evaluate when its intended use has boundaries. Identify the application, access requirements, and people responsible for the account before deciding whether the 512-vCPU tier is appropriate.",
+    "sections": [
+      {
+        "heading": "Define the workload ownership",
+        "body": "List the applications or teams expected to use the account and who will approve changes. Separate planned production use from evaluation work. This keeps the account discussion tied to an actual operating arrangement."
+      },
+      {
+        "heading": "Translate the catalog labels",
+        "body": "Ask how the seller defines 512 vCPUs, 10K RPM, and the listed 4.6, 4.7, 4.8 and F5 support. Confirm regions, model permissions, and other applicable conditions. None of these labels should be treated as a substitute for your application requirements."
+      },
+      {
+        "heading": "Plan a documented acceptance review",
+        "body": "Agree on the account details that will be checked after handover. Keep the review focused on access and the promised configuration, rather than assuming a performance result. Discuss future provider charges separately from the account purchase price."
+      }
+    ]
+  },
+  "122": {
+    "description": "Review the 1024-vCPU, 10K-RPM Bedrock listing for a documented capacity requirement. Confirm model support, regional scope, and account terms.",
+    "articleTitle": "Prepare a purchasing brief for the 1024-vCPU tier",
+    "intro": "A four-digit vCPU label can attract attention, but it does not explain a project’s needs. The 1024-vCPU Bedrock option is best approached with a purchasing brief that makes the required account configuration understandable to everyone involved.",
+    "sections": [
+      {
+        "heading": "Connect the requirement to the project",
+        "body": "Describe the application, its expected request pattern, and the people who will operate it. Note which requirements are already known and which still need a test. This prevents an unverified assumption from becoming an account specification."
+      },
+      {
+        "heading": "Ask for explicit interpretations",
+        "body": "Confirm what the 1024-vCPU and 10K-RPM labels cover. Ask the seller to explain the 4.6, 4.7, 4.8 and F5 wording for the exact account. Record the model, region, access, and billing conditions relevant to your intended use."
+      },
+      {
+        "heading": "Agree on how the purchase is reviewed",
+        "body": "Establish who will approve the specification and who will inspect the account after handover. A consistent written brief helps technical and purchasing contacts assess the same offer. It also provides a useful reference if the project later changes."
+      }
+    ]
+  },
+  "123": {
+    "description": "The catalog’s 1920-vCPU, 10K-RPM Bedrock option with listed support wording. Review the specification and rollout requirements before purchase.",
+    "articleTitle": "Approach the 1920-vCPU option in stages",
+    "intro": "The 1920-vCPU tier is the largest Bedrock capacity label in this collection. A staged evaluation helps keep a substantial account decision connected to evidence about the proposed setup and the project that will use it.",
+    "sections": [
+      {
+        "heading": "Begin with the reason for this tier",
+        "body": "Explain why a smaller account option is not the intended choice. Distinguish a current requirement from a possible future expansion. This makes the purchasing discussion more useful than a request for the largest available number."
+      },
+      {
+        "heading": "Confirm all advertised dimensions",
+        "body": "Review the meaning of the 1920-vCPU label, the scope of 10K RPM, and the listed 4.6, 4.7, 4.8 and F5 support. Ask for the applicable regions, models, and account conditions. These are separate parts of the offer."
+      },
+      {
+        "heading": "Use a limited acceptance stage",
+        "body": "Agree on an initial review of the account’s access and configuration before depending on it for a wider rollout. Identify the person responsible for billing and account control. The product title alone should not carry those operational decisions."
+      }
+    ]
+  },
+  "301": {
+    "description": "Google Cloud account option labeled $300 plus $10 prepaid. The credit or funding amounts in the tier name are separate from the listed account price.",
+    "articleTitle": "Read the three amounts in a prepaid Google Cloud offer",
+    "intro": "This option combines an account purchase price with a tier name that contains two other amounts. Understanding what each amount represents is more useful than treating the entire title as one financial promise.",
+    "sections": [
+      {
+        "heading": "Identify each amount separately",
+        "body": "Ask what the $300 refers to, how the $10 prepaid amount is handled, and whether any further provider payment is required. Keep the account purchase price on a separate line in your comparison."
+      },
+      {
+        "heading": "Match the offer to one project",
+        "body": "Describe the work you intend to run and ask which credit, funding, or eligibility conditions apply to it. Confirm validity and billing ownership rather than assuming the named amounts can be used without restrictions."
+      },
+      {
+        "heading": "Review the account after handover",
+        "body": "Check the agreed billing arrangement and available balance before creating resources. Establish who will monitor spending and what happens when any promotional balance ends. A prepaid label should make the arrangement clearer, not replace those practical checks."
+      }
+    ]
+  },
+  "302": {
+    "description": "A Google Cloud pay-as-you-go option with a stated $10 provider payment requirement. Account purchase and ongoing usage charges are separate.",
+    "articleTitle": "Understand the payment step in a Google Cloud PAYG account",
+    "intro": "This listing describes a pay-as-you-go arrangement with a $10 payment requirement in its name. The useful distinction is between buying the account option and meeting the provider’s billing conditions for using it.",
+    "sections": [
+      {
+        "heading": "Clarify the required payment",
+        "body": "Ask who makes the payment, when it is due, and how it relates to the account’s billing setup. Do not assume the amount is included in the account purchase price or that it represents the project’s future operating cost."
+      },
+      {
+        "heading": "Plan for normal usage billing",
+        "body": "Describe your intended workload and decide who will review the provider’s charges. A pay-as-you-go arrangement should be evaluated through the resources you expect to use, not just through its initial payment requirement."
+      },
+      {
+        "heading": "Confirm ongoing control",
+        "body": "Ask how billing contacts, access, and recovery will be managed after handover. Keep these arrangements in writing alongside the quoted purchase price. The goal is an account setup whose responsibilities remain clear once the first project starts."
+      }
+    ]
+  },
+  "303": {
+    "description": "Google Cloud pay-as-you-go account option with a 20 CAD provider payment requirement. Review the currency and billing arrangement before ordering.",
+    "articleTitle": "Keep currencies clear in the 20-CAD Google Cloud option",
+    "intro": "The account purchase price in this storefront is displayed in US dollars, while this product’s name refers to a provider payment in Canadian dollars. Those amounts serve different purposes and should not be combined without explanation.",
+    "sections": [
+      {
+        "heading": "Separate purchase and provider funding",
+        "body": "Ask the seller to describe the 20 CAD payment step and whether it remains outstanding. Keep that answer separate from the USD account price shown here. Confirm any other payment or billing requirements for your particular account."
+      },
+      {
+        "heading": "Check the billing arrangement",
+        "body": "Review the billing contact, applicable payment method, and who will manage future charges. If your team works in another currency, decide how it will record and review those costs. The product name does not establish an exchange rate."
+      },
+      {
+        "heading": "Start with a shared record",
+        "body": "Write down the agreed account details and the currencies involved before payment. That record gives both the technical and purchasing contact the same understanding of the offer. It is particularly useful when the account will be administered by someone other than the buyer."
+      }
+    ]
+  },
+  "304": {
+    "description": "A requested Google Cloud $2,000-credit tier with quote-only pricing. Confirm the exact balance and terms rather than substituting another credit amount.",
+    "articleTitle": "Ask for an exact quote on the Google Cloud 2,000-credit tier",
+    "intro": "This product remains quote-only because the supplied price reference did not contain an exact match. The reference’s different credit tier is not treated as a substitute for the $2,000 option requested for this catalog.",
+    "sections": [
+      {
+        "heading": "Use the complete tier name",
+        "body": "When contacting the seller, identify this as the Google Cloud $2,000 Credits Account. Ask whether that exact option is available and request its account purchase price. A similarly named account may have a different balance or set of conditions."
+      },
+      {
+        "heading": "Confirm what the balance covers",
+        "body": "Ask for the actual available amount, validity period, eligible usage, and billing requirements. These details determine how the account can be evaluated for a project. They should be established independently of a general credit label."
+      },
+      {
+        "heading": "Compare only confirmed offers",
+        "body": "Once a quotation is supplied, compare it with the 5,000- and 25,000-credit options using the same questions. Keep the quote tied to a specific account configuration. Until then, the page intentionally avoids displaying an estimated purchase price as a verified amount."
+      }
+    ]
+  },
+  "305": {
+    "description": "Explore the Google Cloud $5,000-credit account tier for a planned project budget. Confirm credit validity, eligible charges, and billing ownership.",
+    "articleTitle": "Connect a Google Cloud 5,000-credit tier to a project budget",
+    "intro": "A credit tier becomes easier to evaluate when the project has an outline budget. For the $5,000 option, list the activities expected to use the account and the point at which each activity will be reviewed.",
+    "sections": [
+      {
+        "heading": "Assign the balance to project stages",
+        "body": "Separate setup, development, evaluation, and any later launch work. Decide what information from each stage would justify continuing. This makes the credit balance part of a project decision rather than a target to spend."
+      },
+      {
+        "heading": "Verify the account-specific terms",
+        "body": "Ask for the balance actually available, its remaining validity, and the charges it can cover. Clarify any billing obligations that remain outside the credit. A tier label does not establish the condition of an individual account."
+      },
+      {
+        "heading": "Prepare for the next funding stage",
+        "body": "Decide how the project would operate after the credit-funded period. Identify the person who will review resource costs and remove unused environments. Those choices make it easier to compare this option with a smaller trial or an ordinary billing setup."
+      }
+    ]
+  },
+  "306": {
+    "description": "A Google Cloud $25,000-credit account option for a larger spending plan. Review the balance, timing, eligible usage, and account responsibilities.",
+    "articleTitle": "Review a Google Cloud 25,000-credit offer against the schedule",
+    "intro": "A substantial credit tier can still be a poor fit if its timing does not match the work. The $25,000 option should be reviewed alongside the project calendar and the people responsible for managing the account.",
+    "sections": [
+      {
+        "heading": "Explain when resources will be needed",
+        "body": "Map the phases of development and testing, including likely pauses or dependencies. Ask whether the credit’s remaining validity suits that schedule. Do not assume that purchase creates a new eligibility period."
+      },
+      {
+        "heading": "Document the credit conditions",
+        "body": "Confirm the actual balance, eligible usage, restrictions, and any separate billing requirements. Keep those details with the account purchase quotation. A larger advertised amount does not reduce the importance of those conditions."
+      },
+      {
+        "heading": "Name the owners of the account",
+        "body": "Decide who will control access, monitor spending, and approve resource changes. Keep responsibility for the future operating budget visible as well. This creates a clearer handover than treating the credit balance as the only item that needs confirmation."
+      }
+    ]
+  },
+  "307": {
+    "description": "Azure trial account option labeled with $200 credit. Confirm trial eligibility, credit conditions, and what happens when the trial ends.",
+    "articleTitle": "Give an Azure trial a clear beginning and end",
+    "intro": "The Azure trial listing is a useful place to define a limited evaluation. Its $200-credit label should be considered alongside the actual trial conditions, not treated as an unrestricted balance or an account purchase price.",
+    "sections": [
+      {
+        "heading": "Choose a small evaluation goal",
+        "body": "Decide what you want to learn about the platform and which resources are necessary to learn it. Keep the first project contained enough that it can be reviewed without several unrelated services obscuring the result."
+      },
+      {
+        "heading": "Confirm the trial conditions",
+        "body": "Ask about eligibility, the available credit, validity, and any service restrictions for the account being offered. Check whether payment information or other provider steps are still required. The product label does not resolve those account-specific questions."
+      },
+      {
+        "heading": "Decide what follows the evaluation",
+        "body": "Establish whether you intend to stop the project or discuss an ongoing billing arrangement. Review resources at the end of the trial rather than leaving that decision open. A useful trial produces a clear next step, including the option not to continue."
+      }
+    ]
+  },
+  "308": {
+    "description": "Azure pay-as-you-go account listing carrying a $200-credit label. Confirm the relationship between credit eligibility and the account’s billing setup.",
+    "articleTitle": "Separate Azure PAYG billing from the 200-credit label",
+    "intro": "This Azure product combines pay-as-you-go wording with a credit amount. Before choosing it, ask how those two parts of the offer apply to the specific account and which conditions remain for the buyer.",
+    "sections": [
+      {
+        "heading": "Clarify the account arrangement",
+        "body": "Ask the seller to explain the subscription and billing setup in plain terms. Confirm whether credit is currently available and how its use relates to provider charges. Do not infer those details merely from the account title."
+      },
+      {
+        "heading": "Review the project’s normal costs",
+        "body": "List the resources you intend to deploy and identify who will monitor their charges. Any credit should be considered separately from the ongoing cost of those resources. This prevents the initial balance from concealing the eventual operating arrangement."
+      },
+      {
+        "heading": "Check account and billing control",
+        "body": "Agree on access, contact details, recovery, and responsibility for future invoices before ordering. Keep a record of the confirmed credit conditions as well. A purchasing decision is clearer when both the account setup and the billing obligations are understood."
+      }
+    ]
+  },
+  "309": {
+    "description": "Azure account option labeled $1K Tier 1 Support Claude. Confirm the meaning of the credit, support tier, and model-access wording before purchase.",
+    "articleTitle": "Clarify the Azure 1K Tier 1 Claude listing",
+    "intro": "This title contains several distinct labels: a credit amount, a tier description, and a model name. Treat each as an item to verify for your intended project rather than as a complete promise of access or support.",
+    "sections": [
+      {
+        "heading": "Describe the model requirement",
+        "body": "Explain which interaction or development task you want to carry out. Ask whether the offered account has the relevant access and what account, region, or service conditions apply. Keep your requirement specific enough to check."
+      },
+      {
+        "heading": "Ask what Tier 1 describes",
+        "body": "Have the seller define the tier and the kind of support referred to in the listing. Clarify how the $1K amount is applied and whether it has restrictions or an expiration. Avoid assuming that support wording refers to a provider-backed support agreement."
+      },
+      {
+        "heading": "Record a clear specification",
+        "body": "Keep the confirmed access, balance conditions, account purchase price, and delivery terms together. A precise specification is easier to compare with another Azure option and more useful during handover than the abbreviated title by itself."
+      }
+    ]
+  },
+  "310": {
+    "description": "Explore the Azure $5K-credit account option for a defined cloud project. Confirm credit validity, eligible usage, and any additional billing conditions.",
+    "articleTitle": "Put the Azure 5K-credit tier into a resource plan",
+    "intro": "A credit amount is only useful in relation to the work it can support. The Azure $5K listing should be evaluated with a short resource plan and a clear understanding of the account’s actual credit conditions.",
+    "sections": [
+      {
+        "heading": "Outline the expected work",
+        "body": "Identify the environments and activities that would use the account. Separate initial evaluation from any later rollout. This makes it easier to compare the proposed balance with a realistic schedule rather than a broad estimate."
+      },
+      {
+        "heading": "Verify the balance and its limits",
+        "body": "Ask for the credit actually available, its remaining validity, eligible charges, and any requirements attached to the account. Keep the account purchase price separate from the $5K figure in the product name."
+      },
+      {
+        "heading": "Plan for continued administration",
+        "body": "Assign responsibility for access, billing reviews, and unused resources. Discuss what happens when the credit-funded stage ends. Those decisions help establish whether the account fits a maintained project rather than just the first round of experimentation."
+      }
+    ]
+  },
+  "311": {
+    "description": "DigitalOcean account option labeled for three Droplets. Confirm the actual account limit, region requirements, and resource billing before purchase.",
+    "articleTitle": "Plan a compact DigitalOcean setup around three Droplets",
+    "intro": "The DO 3 Droplet listing gives a simple account-limit label to review. Its usefulness depends on how you intend to divide your project, and on confirmation of the specific account conditions behind that label.",
+    "sections": [
+      {
+        "heading": "Write down the intended roles",
+        "body": "Describe what each proposed Droplet would do and whether all three need to run together. Keep experimentation and ongoing application work distinct. This helps you assess the arrangement without assuming the account includes running resources."
+      },
+      {
+        "heading": "Confirm the limit and account conditions",
+        "body": "Ask what the three-Droplet designation means, whether any provider steps remain, and which regions or resource requirements matter for your project. Account access, account limits, and paid infrastructure are separate parts of the discussion."
+      },
+      {
+        "heading": "Keep the setup easy to maintain",
+        "body": "Decide who will manage the account and review its charges. Set a point at which the project’s resource layout will be reconsidered. A compact starting arrangement is most useful when it remains understandable as the application changes."
+      }
+    ]
+  },
+  "312": {
+    "description": "Linode trial account option carrying a $100-credit label. Confirm eligibility, remaining credit, trial conditions, and any required payment steps.",
+    "articleTitle": "Make a Linode trial answer a practical hosting question",
+    "intro": "A trial with a stated credit amount can support a focused evaluation when the conditions fit the project. Start by identifying the hosting question you need to answer rather than choosing resources simply because a credit label is present.",
+    "sections": [
+      {
+        "heading": "Choose a contained workload",
+        "body": "Describe a small application or testing task and the resources you expect it to need. Keep the evaluation separate from any plan to move an entire project. A clear scope makes the trial’s result easier to interpret."
+      },
+      {
+        "heading": "Review the 100-credit conditions",
+        "body": "Ask how much credit is actually available, when it expires, which charges it covers, and whether the account still requires provider actions. The $100 amount is part of the tier name and is distinct from the account purchase price."
+      },
+      {
+        "heading": "Close the evaluation deliberately",
+        "body": "Decide when to review the result and whether resources will remain afterward. Keep notes about account administration as well as the application test. A successful trial should leave you with a reasoned next step and no ambiguous responsibility for ongoing charges."
+      }
+    ]
+  },
+  "313": {
+    "description": "OVHcloud account listing labeled 34 vCPUs. Verify the resource or quota meaning, regional scope, and applicable service conditions before ordering.",
+    "articleTitle": "Understand what 34 vCPUs means in this OVHcloud offer",
+    "intro": "The OVHcloud listing uses a capacity figure as its main distinction. To assess it, connect that figure to the specific service and region you intend to use, rather than assuming it describes a ready-to-run configuration.",
+    "sections": [
+      {
+        "heading": "Explain the intended environment",
+        "body": "Describe the application and the type of resource you expect to create. Include regional requirements or dependencies that affect the choice. Those details let the seller address the account option in the context of a real project."
+      },
+      {
+        "heading": "Ask for the capacity definition",
+        "body": "Confirm whether 34 vCPUs refers to an account quota, service allocation, or another condition. Establish what approvals or account steps remain. The title alone does not describe individual server sizes or an included deployment."
+      },
+      {
+        "heading": "Compare the whole arrangement",
+        "body": "Review access, account control, purchase price, and provider usage charges together. Decide who will manage future changes. A capacity label is useful when it is supported by a clear description of the account you will actually administer."
+      }
+    ]
+  },
+  "314": {
+    "description": "Oracle Cloud trial account option labeled with $300. Confirm what the amount represents, its validity, and the account’s eligibility conditions.",
+    "articleTitle": "Keep an Oracle Cloud trial separate from a long-term plan",
+    "intro": "A trial is a chance to evaluate a defined piece of work before deciding on an ongoing arrangement. The Oracle Cloud listing’s $300 label should be checked against the particular account and the purpose of that evaluation.",
+    "sections": [
+      {
+        "heading": "Define the trial’s purpose",
+        "body": "Choose a limited task and identify which resources would be needed to complete it. Do not let the stated amount determine the experiment by itself. The result should help answer a question about the project, not merely demonstrate that an account can be opened."
+      },
+      {
+        "heading": "Verify the offer conditions",
+        "body": "Ask what balance is available, how long it remains valid, and which usage or account requirements apply. Clarify any payment or provider steps that must still be completed. Account purchase and provider funding are separate matters."
+      },
+      {
+        "heading": "Decide how the trial ends",
+        "body": "Set a review date and agree on who will remove or retain resources. If the project continues, examine the normal billing arrangement independently. That creates a cleaner transition than assuming the trial label establishes future costs or access."
+      }
+    ]
+  },
+  "315": {
+    "description": "Hetzner account option labeled for five servers. Confirm the account limit, resource eligibility, and normal usage billing before purchase.",
+    "articleTitle": "Give the five-server Hetzner tier a clear inventory",
+    "intro": "A five-server account label is easier to evaluate when the project has a resource inventory. This listing should be compared with the roles you need to cover, not interpreted as five paid servers already supplied.",
+    "sections": [
+      {
+        "heading": "List the jobs to be hosted",
+        "body": "Separate the main application, supporting tools, and any testing environment. Decide which resources must exist together. This makes it easier to discuss whether the named account limit fits your intended arrangement."
+      },
+      {
+        "heading": "Check the account-specific meaning",
+        "body": "Ask whether the five-server designation reflects a current limit and whether it applies to your intended resources. Confirm any remaining account requirements and the conditions relevant to the regions you plan to use."
+      },
+      {
+        "heading": "Agree on administration after purchase",
+        "body": "Identify who will control account access, resource creation, and billing reviews. Keep provider infrastructure charges separate from the account purchase price. A well-understood limit is useful; a limit without a plan for the resources beneath it is less informative."
+      }
+    ]
+  },
+  "316": {
+    "description": "Amazon SES account option labeled SMTP 50K Limits. Confirm the sending allowance, applicable period, region, and account access before ordering.",
+    "articleTitle": "Read an SES 50K limit as a specification to verify",
+    "intro": "The SMTP 50K listing presents a sending-limit label, but the label alone does not establish the allowance’s time period or the way it applies to the account. Clarify those details before comparing it with your messaging needs.",
+    "sections": [
+      {
+        "heading": "Describe the messages you intend to send",
+        "body": "Explain whether the workflow involves receipts, service notifications, or another permission-based message type. Identify who is responsible for the recipient list and the application that sends the messages. Keep customer data out of the purchase conversation."
+      },
+      {
+        "heading": "Ask how the limit is defined",
+        "body": "Confirm the amount, time window, sending rate, region, and any account conditions that apply. Ask whether your intended identities and access arrangements need additional steps. A headline sending limit is not a delivery guarantee."
+      },
+      {
+        "heading": "Plan for ongoing message quality",
+        "body": "Agree within your own team how failed deliveries, complaints, and address changes will be handled. Review usage and account access regularly. The purchase decision should fit a responsible sending workflow as well as the numerical limit in the listing."
+      }
+    ]
+  },
+  "317": {
+    "description": "An Amazon SES option labeled SMTP 100K Limits. Review the allowance period, sending rate, regional details, and operating responsibilities.",
+    "articleTitle": "Look beyond volume in the SES 100K option",
+    "intro": "A larger sending-limit label does not by itself explain whether an account fits a messaging workflow. The SMTP 100K option should be reviewed against the pattern of messages and the account conditions needed to send them.",
+    "sections": [
+      {
+        "heading": "Map the sending pattern",
+        "body": "Describe how messages are distributed over time and whether activity is steady or concentrated around particular events. Keep message volume separate from the number of messages the application may try to send at once. Both deserve discussion."
+      },
+      {
+        "heading": "Confirm the exact allowance",
+        "body": "Ask what period the 100K figure covers, which regional account settings apply, and how sending-rate conditions are defined. Establish any remaining setup or access requirements before assuming the listed option is ready for your application."
+      },
+      {
+        "heading": "Assign operational responsibility",
+        "body": "Decide who will maintain recipient permissions, investigate failed deliveries, and review sending behavior. Account purchase does not remove those responsibilities. A clear operating process makes it easier to judge whether the larger limit is relevant to your actual use case."
+      }
+    ]
+  },
+  "318": {
+    "description": "UpCloud account option carrying a $500-credit label. Confirm the available balance, validity, eligible usage, and provider billing requirements.",
+    "articleTitle": "Use the UpCloud 500-credit label as a budgeting question",
+    "intro": "This account option is described by a credit amount. The first decision is not how to consume that amount, but whether the account’s actual credit conditions fit the project you want to evaluate.",
+    "sections": [
+      {
+        "heading": "Keep the first environment contained",
+        "body": "Describe one useful test and identify the resources it would require. Decide what you expect to learn and when you will review the result. A clear evaluation scope makes the credit offer easier to compare with other account options."
+      },
+      {
+        "heading": "Confirm the account’s credit details",
+        "body": "Ask what balance remains, when it expires, what charges it can cover, and whether additional funding is required. The $500 tier label is not the account purchase price, and it does not establish an unrestricted spending allowance."
+      },
+      {
+        "heading": "Plan the cleanup and continuation",
+        "body": "Assign someone to review the resources after the experiment. If the work will continue, examine normal usage charges and account responsibilities separately. This keeps the initial credit decision connected to the longer-term cost of the project."
+      }
+    ]
+  },
+  "319": {
+    "description": "Atlantic account option described as a cloud free trial. Confirm trial scope, account requirements, and any costs outside the account purchase.",
+    "articleTitle": "Set a useful scope for an Atlantic cloud trial",
+    "intro": "A trial is easier to judge when it is attached to one hosting question. For the Atlantic account option, start by describing the environment you want to evaluate and the conditions that would make the evaluation meaningful.",
+    "sections": [
+      {
+        "heading": "Choose the comparison criteria",
+        "body": "Decide what matters to the project before creating resources. That might include the administrative workflow, resource setup, or compatibility with the way your team works. Use your own test criteria rather than assuming the trial name establishes particular capabilities."
+      },
+      {
+        "heading": "Clarify the trial arrangement",
+        "body": "Ask about eligibility, duration, included allowances, and any charges or payment steps that remain. Confirm the account details for the exact offer being discussed. A free-trial label does not mean the account itself has no purchase price."
+      },
+      {
+        "heading": "Finish with a clear decision",
+        "body": "Set a point to review the experiment and decide whether resources should remain. Identify who owns account administration and future billing. Those decisions make the trial a contained evaluation rather than an open-ended hosting commitment."
+      }
+    ]
+  },
+  "320": {
+    "description": "Alibaba Cloud account option described as a free trial. Review eligibility, account requirements, regional needs, and the trial’s actual terms.",
+    "articleTitle": "Prepare the questions for an Alibaba Cloud trial",
+    "intro": "An account purchase and a provider trial are separate arrangements. The Alibaba Cloud trial listing should be assessed by confirming the account conditions and then deciding what limited project would make useful use of them.",
+    "sections": [
+      {
+        "heading": "Write a short project brief",
+        "body": "Describe the workload, intended resources, and regional requirements. Keep the first evaluation focused enough to complete and review. A brief gives the seller context without requiring you to share confidential project material."
+      },
+      {
+        "heading": "Confirm the remaining requirements",
+        "body": "Ask about eligibility, identity or billing steps, trial duration, and included allowances. Establish which details are already in place and which the buyer must handle. The product title does not establish that every provider requirement has been completed."
+      },
+      {
+        "heading": "Review the result before expanding",
+        "body": "Decide how you will evaluate the account setup and project experience after the initial test. Keep expected usage charges and account-control responsibilities visible. A trial should support a reasoned platform decision rather than become the decision by default."
+      }
+    ]
+  },
+  "321": {
+    "description": "AWS Marketplace account listing labeled Verified Marketplace Account. Confirm the exact verification scope and permitted account use before purchase.",
+    "articleTitle": "Clarify the verified label on an AWS Marketplace account",
+    "intro": "The word verified can refer to different account checks. For this Marketplace option, ask exactly what has been verified and what the account is intended to let its owner do. Do not infer a particular seller entitlement from the abbreviated label.",
+    "sections": [
+      {
+        "heading": "Describe the intended marketplace activity",
+        "body": "Explain whether you need access for purchasing, managing a business workflow, or another purpose. Ask whether the offered account is appropriate for that activity and what additional provider processes may apply."
+      },
+      {
+        "heading": "Request the verification details",
+        "body": "Have the seller identify the completed checks and any outstanding requirements. Clarify ownership, business information, billing, and recovery arrangements. A verified label is not a substitute for confirming that the account can be used under the relevant provider conditions."
+      },
+      {
+        "heading": "Keep access and business control aligned",
+        "body": "Decide who will administer the account and maintain its contact details after handover. Review the agreed specification before placing an order. A marketplace account is most useful when its purpose and its control arrangements are equally clear."
+      }
+    ]
+  },
+  "1": {
+    "description": "An illustrative AWS onboarding service covering setup guidance, billing review, and a security checklist. Confirm the final service scope before ordering.",
+    "articleTitle": "Turn AWS Cloud Starter into a clear onboarding brief",
+    "intro": "Cloud Starter is listed as a service package rather than a promise of cloud credit or running infrastructure. Its value should be evaluated through the specific setup help you need and the scope agreed with the seller.",
+    "sections": [
+      {
+        "heading": "Choose the starting task",
+        "body": "Describe the project and the account work you want help with. Keep the first request focused on getting a usable foundation rather than solving every future architecture question. A clear brief makes the service easier to quote and review."
+      },
+      {
+        "heading": "Define the deliverables",
+        "body": "Discuss the account setup guidance, billing checklist, and security review named in the example listing. Agree on what will be delivered and how questions will be handled. These example services need a confirmed scope before a real order."
+      },
+      {
+        "heading": "Keep account ownership with you",
+        "body": "Decide how the guidance will be provided without sending passwords or access keys in purchase messages. Provider charges remain separate from the service price. A successful onboarding arrangement leaves the buyer able to administer the account after the work is complete."
+      }
+    ]
+  },
+  "2": {
+    "description": "An illustrative Google Cloud setup service with project guidance and an onboarding checklist. Agree on deliverables and support scope before purchase.",
+    "articleTitle": "Give Google Cloud Starter a focused project goal",
+    "intro": "A setup service works best when it is connected to a specific project goal. Google Cloud Starter is an example onboarding package, so the first conversation should establish the help required and the boundaries of that help.",
+    "sections": [
+      {
+        "heading": "Describe the project foundation",
+        "body": "Explain what you want the initial environment to support and which account or project setup tasks are unclear. Separate those tasks from later development work. This lets the service focus on a practical starting point."
+      },
+      {
+        "heading": "Agree on a visible result",
+        "body": "Review the project configuration guidance and getting-started support mentioned in the listing. Ask what form the guidance takes and when the work is considered complete. Do not assume an example service includes a particular infrastructure deployment."
+      },
+      {
+        "heading": "Plan how to manage the account afterward",
+        "body": "Identify who will own the project and review its billing. Keep credentials and payment details out of contact messages. The service purchase should leave you with clearer account responsibilities, while provider usage charges and any credit eligibility remain separate."
+      }
+    ]
+  },
+  "3": {
+    "description": "An illustrative Azure onboarding package with account and subscription setup guidance. Confirm deliverables, boundaries, and provider charges before ordering.",
+    "articleTitle": "Make Azure onboarding understandable before it starts",
+    "intro": "Azure Cloud Starter is a proposed setup service for a buyer who wants a clearer beginning. Evaluate it by defining the account and subscription questions you need answered rather than treating it as a ready-made deployment.",
+    "sections": [
+      {
+        "heading": "Identify the setup uncertainties",
+        "body": "List the decisions that currently block your project, including who will administer the account and how billing will be reviewed. Keep the initial brief short enough that the seller can respond with a concrete scope."
+      },
+      {
+        "heading": "Specify the service outcome",
+        "body": "Discuss the account guidance, subscription checklist, and getting-started support in the example listing. Agree on the expected deliverables and any follow-up period. No promotional credit, account approval, or infrastructure is established by the service name alone."
+      },
+      {
+        "heading": "Keep responsibilities explicit",
+        "body": "The buyer should understand who controls the account and what provider charges may arise from later resource use. Avoid sharing credentials through the storefront. The purpose of an onboarding service is to make the next step easier to manage, with a result both parties can review."
+      }
+    ]
+  },
+  "4": {
+    "description": "An illustrative DigitalOcean onboarding service with account guidance and a Droplet launch walkthrough. Confirm the walkthrough’s scope before purchase.",
+    "articleTitle": "Plan a useful DigitalOcean starter walkthrough",
+    "intro": "A guided first launch can be more useful than a long list of account features. DigitalOcean Starter is an example service package built around setup guidance, so its scope should follow the first task you want to complete.",
+    "sections": [
+      {
+        "heading": "Pick the first launch scenario",
+        "body": "Describe a small application or test environment and the questions you have about preparing it. Keep unrelated migration or scaling work outside the initial brief unless it is explicitly included in the agreement."
+      },
+      {
+        "heading": "Clarify what the walkthrough covers",
+        "body": "Ask how the Droplet launch guidance will be delivered and what preparation you need to do yourself. Agree on the expected result and the limits of follow-up help. The listing does not establish an included running server or paid resource allowance."
+      },
+      {
+        "heading": "Finish with operating responsibilities",
+        "body": "Decide who will review resource usage, maintain access, and remove the test environment if it is no longer needed. The onboarding service price is separate from provider charges. A useful walkthrough should leave the next administrative step clear as well as the first launch."
+      }
+    ]
+  },
+  "5": {
+    "description": "An illustrative expanded AWS onboarding service with planning and deployment guidance. Confirm the agreed deliverables and session scope before ordering.",
+    "articleTitle": "Use AWS Launch Plus to turn a plan into a reviewable sequence",
+    "intro": "Launch Plus is an example service that adds planning and a deployment walkthrough to the starter scope. It should be evaluated through the project decisions that need guidance, not through an assumption that the service includes a complete production launch.",
+    "sections": [
+      {
+        "heading": "Bring a project outline",
+        "body": "Describe the application, expected environments, and decisions you have not resolved. Identify which questions need a planning discussion and which can be answered through a practical walkthrough. That distinction helps set a useful agenda."
+      },
+      {
+        "heading": "Agree on the additional work",
+        "body": "Review what the architecture planning session and deployment walkthrough will actually cover. Establish any preparation, written outputs, and follow-up boundaries. A confirmed service brief is more meaningful than the package title by itself."
+      },
+      {
+        "heading": "Keep implementation ownership clear",
+        "body": "Decide which steps the buyer will carry out and how the guidance will be reviewed afterward. Provider usage fees, account eligibility, and production operations are separate considerations. The service should create a clearer sequence of actions without leaving responsibility for the account ambiguous."
+      }
+    ]
+  },
+  "6": {
+    "description": "An illustrative Google Cloud planning and onboarding service with a deployment walkthrough. Agree on the project brief and final scope before purchase.",
+    "articleTitle": "Shape Google Cloud Launch Plus around the decisions ahead",
+    "intro": "A planning service is useful when it helps move a specific project forward. Google Cloud Launch Plus is an example expanded onboarding package, so the discussion should begin with the decisions you need to make rather than a generic checklist.",
+    "sections": [
+      {
+        "heading": "Separate planning from implementation",
+        "body": "List the questions about the environment and the tasks involved in an initial deployment. Decide which require explanation, which require a demonstration, and which remain work for your own team. This gives the service a practical boundary."
+      },
+      {
+        "heading": "Define the session deliverables",
+        "body": "Ask what the architecture planning discussion and deployment walkthrough will produce. Agree on the preparation and any follow-up support before ordering. The example package does not establish an included project build, cloud credit, or paid infrastructure."
+      },
+      {
+        "heading": "Leave with a usable next-step record",
+        "body": "Keep a short record of decisions, unresolved questions, and account responsibilities after the service. Review provider costs independently from the service price. The goal is a clearer route from your current project state to the next action you can own and manage."
+      }
+    ]
+  }
+}
