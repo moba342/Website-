@@ -1,5 +1,6 @@
 export const pageRoutes=['home','all-products','cloud-service-accounts','aws-standard','bedrock-api','aws-bedrock-api-key','aws-account-configurator','contact','faq','refund'];
-export const isPageRoute=route=>pageRoutes.includes(route)||/^(product|provider)\/[a-z0-9-]+$/.test(route);
+export const utilityRoutes=['cart','checkout'];
+export const isPageRoute=route=>pageRoutes.includes(route)||utilityRoutes.includes(route)||/^(product|provider)\/[a-z0-9-]+$/.test(route);
 export function routeHref(route){return !route||route==='home'?'/':'/'+route.replace(/^\/+|\/+$/g,'')+'/';}
 export function readRoute(){
   if(typeof window==='undefined')return 'home';

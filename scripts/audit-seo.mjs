@@ -1,6 +1,6 @@
 import {readFile,writeFile,mkdir,access} from 'node:fs/promises';
 import {resolve} from 'node:path';
-import {seoPages,metadataFor} from '../.ssr/entry-server.js';
+import {seoPages,utilityPages,metadataFor} from '../.ssr/entry-server.js';
 import {homepageTitle,homepageDescription,homepageH1,homepageHeadings,featuredAwsIds,homepageFaqs} from '../src/homepage-seo.js';
 import {apiKeyTitle,apiKeyDescription,apiKeyH1,apiKeyFaqs} from '../src/api-key-content.js';
 const productCopy=JSON.parse(await readFile('src/product-seo.json','utf8'));
@@ -73,6 +73,15 @@ for(const page of seoPages){
  }
  check(html.includes('property="og:image:alt"'),'missing social image description');
  rows.push([page.type,meta.url,meta.title,meta.title.length,meta.description,meta.description.length,text(headings[0]?.[1]||''),graph.map(n=>n['@type']).join('; ')]);
+}
+for(const page of utilityPages){
+ const html=await readFile(fileFor(page.path),'utf8');
+ if(!/name="robots" content="noindex, follow"/.test(html))failures.push(page.path+': utility route must be noindex');
+ if([...html.matchAll(/<h1\b/g)].length!==1)failures.push(page.path+': expected one H1');
+ for(const name of ['pages-sitemap.xml','providers-sitemap.xml','products-sitemap.xml']){
+  const xml=await readFile(resolve('dist',name),'utf8');
+  if(xml.includes(metadataFor(page.route).url))failures.push(page.path+': utility route leaked into '+name);
+ }
 }
 const productRows=seoPages.filter(page=>page.type==='product').map(page=>{const item=metadataFor(page.route).schema['@graph'].find(n=>n['@type']==='Product'),copy=productCopy[item.sku];return [item.sku,item.name,metadataFor(page.route).url,copy?.sourceProduct||'Existing service package',copy?.primaryKeyword||'',copy?.secondaryKeywords?.join('; ')||'',copy?.title||'',copy?.description||'',copy?.h1||''];});
 const csv=fields=>fields.map(v=>'"'+String(v).replaceAll('"','""')+'"').join(',');

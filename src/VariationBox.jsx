@@ -32,7 +32,7 @@ export default function VariationBox({variants, value, onChange, onAdd, label='A
       {!valid && <span className="variation-error" role="alert">Enter a whole number from 1 to 99.</span>}
       <button type="button" className="variation-add" disabled={!valid} onClick={()=>onAdd(selected,qty)}><ShoppingBag size={16}/> Add to cart</button>
       <a className="variation-telegram" href={valid ? telegramOrderUrl([{...selected,qty}]) : undefined} aria-disabled={!valid} onClick={e=>{if(!valid)e.preventDefault()}}><Send size={16}/> Order on Telegram</a>
-      <p className="variation-order-note">Review your Telegram draft and send it to confirm availability and payment.</p>
+      <p className="variation-order-note">Add to cart for website checkout, or discuss this variation directly on Telegram.</p>
     </div>
     <ul className="variation-benefits">
       <li><ShieldCheck size={14}/><span>Confirm the selected specifications before ordering.</span></li>

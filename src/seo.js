@@ -1,5 +1,5 @@
 import {allProducts,allProviders,findProduct,findProvider,productHref,providerHref} from './catalog-data.js';
-import {routeHref,pageRoutes} from './router.js';
+import {routeHref,pageRoutes,utilityRoutes} from './router.js';
 import {siteUrl,siteName} from './site-config.js';
 import {faqs} from './faqs.js';
 import productSeo from './product-seo.json';
@@ -18,6 +18,8 @@ const pages={
  faq:['Cloud Account FAQs – Orders & Delivery','Find answers about AWS and cloud accounts, Bedrock API access, cloud credits, ordering, delivery, account eligibility and refunds at CloudsSupply.'],
  refund:['Refund Policy – Cloud Account Orders','Read the CloudsSupply refund policy for cloud account orders. Learn how delivery issues, duplicate payments, refund requests and reviews are handled.']
 };
+const utilityMetadata={cart:['Shopping Cart','Review your cloud account products and quantities before USDT checkout.'],checkout:['USDT Checkout','Review your order, select an available USDT network, and submit the transaction hash for manual confirmation.']};
+export const utilityPages=utilityRoutes.map(route=>({route,path:routeHref(route),type:'utility'}));
 const providerDescriptions={
  aws:'Compare AWS trial, compute, credit, Bedrock API, and Kiro account variations. Review prices and choose an original guide for your intended configuration.',
  'google-cloud':'Compare Google Cloud prepaid, Pay As You Go, and credit account variations. Review account prices, required provider payments, and individual guides.',
@@ -48,10 +50,10 @@ function collectionItems(route,provider){
  return [];
 }
 export function metadataFor(route){
- const product=findProduct(route),provider=findProvider(route),known=!!product||!!provider||!!pages[route];
+ const product=findProduct(route),provider=findProvider(route),known=!!product||!!provider||!!pages[route]||!!utilityMetadata[route];
  const data=product?productSeo[product.id]:null,providerCopy=provider?providerSeo[provider.slug]:null;
- const title=product?(data?.h1||product.name):provider?(providerCopy?.h1||provider.title):pages[route]?.[0]||'Page not found';
- const description=product?(data?.description||product.desc):provider?(providerCopy?.description||providerDescriptions[provider.slug]||provider.guide.summary):pages[route]?.[1]||'The requested page could not be found. Browse our cloud account catalog.';
+ const title=product?(data?.h1||product.name):provider?(providerCopy?.h1||provider.title):pages[route]?.[0]||utilityMetadata[route]?.[0]||'Page not found';
+ const description=product?(data?.description||product.desc):provider?(providerCopy?.description||providerDescriptions[provider.slug]||provider.guide.summary):pages[route]?.[1]||utilityMetadata[route]?.[1]||'The requested page could not be found. Browse our cloud account catalog.';
  const pageTitle=product?(data?.title||product.name+' | '+siteName):providerCopy?providerCopy.title:route==='home'?homepageTitle:route==='aws-bedrock-api-key'?apiKeyTitle:route==='contact'?'Contact CloudsSupply | Cloud Account Sales & Support':['cloud-service-accounts','aws-standard','bedrock-api','faq','refund'].includes(route)?title+' | CloudsSupply':title+' | '+siteName;
  const url=siteUrl+routeHref(route),image=siteUrl+(product?.image||provider?.image||'/products/premium/cloud-console-v2.jpg');
  const imageAlt=(product?.name||provider?.name||'CloudsSupply.store cloud accounts')+' — cloud infrastructure illustration';
@@ -81,7 +83,7 @@ export function metadataFor(route){
   crumbs.push([product?.name||provider?.name||title,routeHref(route)]);
   const breadcrumb={'@type':'BreadcrumbList','@id':url+'#breadcrumbs',itemListElement:crumbs.map(([name,path],index)=>({'@type':'ListItem',position:index+1,name,item:siteUrl+path}))};graph.push(breadcrumb);webPage.breadcrumb={'@id':breadcrumb['@id']};
  }
- return {title:pageTitle,description,url,image,imageAlt,robots:known?'index, follow, max-image-preview:large':'noindex, follow',schema:{'@context':'https://schema.org','@graph':graph}};
+ return {title:pageTitle,description,url,image,imageAlt,robots:known&&!utilityRoutes.includes(route)?'index, follow, max-image-preview:large':'noindex, follow',schema:{'@context':'https://schema.org','@graph':graph}};
 }
 export function socialMetadata(m){return {
  properties:{'og:title':m.title,'og:description':m.description,'og:url':m.url,'og:image':m.image,'og:image:alt':m.imageAlt,'og:type':m.schema['@graph'].some(node=>node['@type']==='Product')?'product':'website','og:site_name':siteName,'og:locale':'en_US'},
