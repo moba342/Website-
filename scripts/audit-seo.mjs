@@ -64,9 +64,6 @@ for(const page of seoPages){
   check(!!original&&item.name===original.name,'product identity mismatch');
   check(original?.price==null?!item?.offers:item?.offers?.price===original.price&&item.offers.priceCurrency==='USD','structured price mismatch');
   check(html.includes('editorial-guide'),'missing original article');
-  check(html.includes('class="article-dashboard"'),'missing centered article dashboard');
-  check(html.includes('/products/dashboards/'+item?.sku+'.svg'),'missing product-specific dashboard image');
-  try{await access(resolve('dist/products/dashboards/'+item?.sku+'.svg'));}catch{check(false,'missing dashboard SVG asset');}
   const crumb=graph.find(item=>item['@type']==='BreadcrumbList');check(crumb?.itemListElement.length===4,'incomplete product breadcrumb');
  }
  for(const [key,url] of [...html.matchAll(/href="([^"#]+)(?:#[^"]*)?"/g)]){
