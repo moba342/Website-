@@ -32,10 +32,11 @@ test('quote and scope confirmation items block the entire payment',()=>{
  }
  assert.equal(cart.cartSummary([]).canPay,false);
 });
-test('only the authorized BEP20 address is enabled; drafts freeze exact catalog totals',()=>{
+test('authorized network addresses are enabled; drafts freeze exact catalog totals',()=>{
  assert.equal(config.findPaymentNetwork('BEP20').address,'0x3bdb1efb243d1afcdf9780a84b5326e65dacf6c6');
- assert.equal(config.isConfiguredNetwork(config.findPaymentNetwork('TRC20')),false);
- assert.throws(()=>orders.createOrderDraft([line],'TRC20'));
+ assert.equal(config.findPaymentNetwork('TRC20').address,'TVQmggCyZymbEV3JqFcTznUZCWdcZrNXZY');
+ assert.equal(config.isConfiguredNetwork(config.findPaymentNetwork('TRC20')),true);
+ assert.throws(()=>orders.createOrderDraft([line],'UNKNOWN'));
  const order=orders.createOrderDraft([line],'BEP20',' @buyer ',' notes ');
  assert.match(order.id,/^CS-[A-F0-9]{16}$/);assert.equal(order.totalCents,Math.round(paid.price*100)*2);
  assert.equal(order.contact,'@buyer');assert.equal(order.notes,'notes');assert.equal(orders.draftPaymentIssue(order),'');
@@ -64,4 +65,15 @@ test('draft storage resumes reference, retains transaction hash and surfaces wri
 test('malformed saved drafts are ignored instead of rendered as payment instructions',()=>{
  storage.clear();storage.set('cloudssupply-order-drafts-v1',JSON.stringify([{id:'CS-BROKEN',items:[null]}]));
  assert.deepEqual(orders.loadOrderDrafts(),[]);
+});
+
+test('TRC20 instructions and receipt use the TRON receiver and hash format',()=>{
+ const order=orders.createOrderDraft([line],'TRC20'),hash='c'.repeat(64);
+ assert.equal(order.network,'TRC20');assert.equal(order.address,'TVQmggCyZymbEV3JqFcTznUZCWdcZrNXZY');
+ assert.equal(orders.draftPaymentIssue(order),'');
+ assert.equal(config.validTransactionHash('0x'+hash,'TRC20'),false);
+ assert.equal(config.validTransactionHash(hash,'TRC20'),true);
+ const text=new URL(orders.paymentReceiptUrl(order,hash)).searchParams.get('text');
+ for(const value of [order.address,'TRC20',hash,cart.usdt(order.totalCents)])assert.ok(text.includes(value));
+ assert.ok(!text.includes(config.findPaymentNetwork('BEP20').address));
 });
