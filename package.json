@@ -4,7 +4,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite --host 0.0.0.0",
-    "build": "vite build && vite build --ssr src/entry-server.jsx --outDir .ssr && node scripts/generate-seo.mjs && node scripts/audit-seo.mjs",
+    "build": "node scripts/generate-dashboards.mjs && vite build && vite build --ssr src/entry-server.jsx --outDir .ssr && node scripts/generate-seo.mjs && node scripts/audit-seo.mjs",
     "preview": "vite preview --host 0.0.0.0",
     "check:seo": "node scripts/audit-seo.mjs",
     "test": "node --test tests/checkout.test.mjs"
