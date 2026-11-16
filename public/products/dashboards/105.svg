@@ -1,32 +1,35 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="680" viewBox="0 0 1000 680" role="img" aria-labelledby="title description">
- <title id="title">AWS 128 vCPU — illustrative account dashboard</title>
- <desc id="description">Catalog credit tier: Not listed. Listed vCPU limit: 128 vCPUs. Illustration only; actual balance, eligibility, and regional quotas require confirmation.</desc>
- <defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#172b48"/><stop offset="1" stop-color="#0b172b"/></linearGradient><linearGradient id="card" x2="0" y2="1"><stop stop-color="#1a3455"/><stop offset="1" stop-color="#11243e"/></linearGradient></defs>
- <rect x="1" y="1" width="998" height="678" rx="22" fill="url(#bg)" stroke="#36577e" stroke-width="2"/>
- <path d="M1 80H999" stroke="#36577e"/>
- <rect x="30" y="24" width="31" height="31" rx="9" fill="#2672ed"/><path d="M37 45h16m-13-7h10" stroke="#fff" stroke-width="3" stroke-linecap="round"/>
- <g font-family="Arial,Helvetica,sans-serif"><text x="75" y="46" fill="#ecf5ff" font-size="21" font-weight="700">CloudsSupply</text>
- <rect x="765" y="24" width="203" height="32" rx="16" fill="#203a59" stroke="#41628b"/><text x="866" y="45" fill="#a7cdff" text-anchor="middle" font-size="12" letter-spacing="1.2">ILLUSTRATIVE PREVIEW</text>
- <text x="42" y="126" fill="#8db8ec" font-size="14" letter-spacing="2">ACCOUNT OVERVIEW</text>
- <text x="42" y="166" fill="#f0f6ff" font-size="28" font-weight="700">Amazon Web Services</text>
- <text x="42" y="198" fill="#9eb9db" font-size="18">AWS 128 vCPU</text>
- <rect x="42" y="234" width="446" height="212" rx="14" fill="url(#card)" stroke="#365a81"/>
- <rect x="512" y="234" width="446" height="212" rx="14" fill="url(#card)" stroke="#365a81"/>
- <circle cx="81" cy="275" r="17" fill="#234b64"/><text x="81" y="282" text-anchor="middle" fill="#72dcd1" font-size="22">$</text>
- <text x="110" y="281" fill="#bfd5ef" font-size="19">Credit balance</text>
- <text x="68" y="347" fill="#d9fff6" font-size="48" font-weight="700">Not listed</text>
- <text x="68" y="383" fill="#8fb2d3" font-size="16">Confirm available credits with support</text>
- <path d="M68 413H462" stroke="#2e506b" stroke-width="7" stroke-linecap="round"/>
- <rect x="540" y="258" width="30" height="30" rx="6" fill="#224c7d"/><rect x="548" y="266" width="14" height="14" rx="2" fill="none" stroke="#80baff" stroke-width="2"/>
- <text x="582" y="281" fill="#bfd5ef" font-size="19">vCPU limit</text>
- <text x="538" y="347" fill="#b5d8ff" font-size="48" font-weight="700">128 vCPUs</text>
- <text x="538" y="383" fill="#8fb2d3" font-size="16">Listed account tier · confirm region</text>
- <path d="M538 413H932" stroke="#2d4e75" stroke-width="7" stroke-linecap="round"/>
- <rect x="42" y="472" width="916" height="86" rx="12" fill="#101f35" stroke="#304968"/>
- <circle cx="77" cy="515" r="7" fill="#61afff"/>
- <text x="99" y="506" fill="#d5e7fc" font-size="17">Account specifications, clearly presented</text>
- <text x="99" y="535" fill="#8da9cc" font-size="15">Review credit terms and service quotas before ordering.</text>
- <path d="M42 590H958" stroke="#304968"/>
- <text x="42" y="620" fill="#aac5e8" font-size="15">Illustration only — not a screenshot or proof of account balance.</text>
- <text x="42" y="647" fill="#7e9abf" font-size="14">Actual credits, expiry, eligibility, and quotas must be confirmed for your order.</text>
- </g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="820" viewBox="0 0 1200 820" role="img" aria-labelledby="title description">
+ <title id="title">AWS 128 vCPU — Demo dashboard</title><desc id="description">Demo account console. Credit balance example: Not listed. vCPU limit example: 128 vCPUs. Generated from catalog specifications, not a live account screenshot.</desc>
+ <defs><clipPath id="frame"><rect x="1" y="1" width="1198" height="818" rx="12"/></clipPath></defs>
+ <g clip-path="url(#frame)" font-family="Arial,Helvetica,sans-serif">
+ <path d="M0 0H1200V820H0Z" fill="#f4f6fa"/>
+ <path d="M0 0H1200V64H0Z" fill="#132338"/>
+ <rect x="19" y="17" width="29" height="29" rx="6" fill="#2874e8"/><path d="M26 37h15m-12-8h9" stroke="#fff" stroke-width="2.5" stroke-linecap="round"/>
+ <text x="59" y="37" fill="#f3f7fd" font-size="18" font-weight="700">CloudsSupply</text>
+ <rect x="228" y="16" width="433" height="32" rx="5" fill="#253850" stroke="#40526b"/><circle cx="245" cy="31" r="5" stroke="#a0b0c5" fill="none"/><path d="m249 35 5 5" stroke="#a0b0c5"/><text x="267" y="37" fill="#aabbd1" font-size="13">Search services and account settings</text>
+ <rect x="862" y="16" width="179" height="32" rx="5" fill="#f0c77b"/><text x="951" y="37" text-anchor="middle" fill="#47300b" font-size="13" font-weight="700" letter-spacing=".7">DEMO DASHBOARD</text>
+ <circle cx="1080" cy="32" r="14" fill="#354d6b"/><text x="1080" y="37" text-anchor="middle" fill="#d9e8fa" font-size="12">CS</text><text x="1102" y="37" fill="#c0d0e3" font-size="13">Preview</text>
+ <path d="M0 64H184V820H0Z" fill="#fff"/><path d="M184 64V820" stroke="#d6dfe9"/>
+ <text x="21" y="103" fill="#53667e" font-size="12" font-weight="700" letter-spacing="1">ACCOUNT CONSOLE</text>
+ <rect x="12" y="124" width="160" height="40" rx="5" fill="#eaf2ff"/><rect x="12" y="129" width="3" height="30" rx="1" fill="#2973df"/>
+ <text x="28" y="150" fill="#175daf" font-size="15" font-weight="700">Overview</text>
+ <text x="28" y="194" fill="#52657b" font-size="15">Billing &amp; credits</text><text x="28" y="238" fill="#52657b" font-size="15">Service quotas</text><text x="28" y="282" fill="#52657b" font-size="15">API access</text><text x="28" y="326" fill="#52657b" font-size="15">Account settings</text>
+ <path d="M20 359H163" stroke="#e0e6ee"/><text x="24" y="390" fill="#8b99ab" font-size="12">CATALOG PREVIEW</text><text x="24" y="415" fill="#687b93" font-size="13">Product / 105</text>
+ <text x="218" y="103" fill="#58718f" font-size="14">Account console / Overview</text>
+ <text x="218" y="145" fill="#172b45" font-size="29" font-weight="700">Amazon Web Services</text>
+ <text x="218" y="176" fill="#60738e" font-size="17">AWS 128 vCPU</text>
+ <rect x="218" y="201" width="944" height="43" rx="5" fill="#eef4ff" stroke="#cdddf5"/><circle cx="239" cy="222" r="8" fill="#3276cf"/><text x="239" y="227" text-anchor="middle" fill="white" font-size="13" font-weight="700">i</text><text x="257" y="228" fill="#3c5d86" font-size="14">Demo dashboard — sample catalog view. No live account data or verified balance.</text>
+ <rect x="218" y="268" width="459" height="163" rx="7" fill="#fff" stroke="#d3dce8"/><rect x="703" y="268" width="459" height="163" rx="7" fill="#fff" stroke="#d3dce8"/>
+ <text x="242" y="303" fill="#435771" font-size="17" font-weight="600">Credit balance</text><text x="651" y="301" fill="#7c8da3" text-anchor="end" font-size="12">DEMO</text>
+ <text x="242" y="365" fill="#152f4f" font-size="44" font-weight="700">Not listed</text><text x="242" y="404" fill="#6b7e96" font-size="14">Credit amount not specified in this listing</text>
+ <text x="727" y="303" fill="#435771" font-size="17" font-weight="600">vCPU limit</text><text x="1136" y="301" fill="#7c8da3" text-anchor="end" font-size="12">DEMO</text>
+ <text x="727" y="365" fill="#1e64b2" font-size="44" font-weight="700">128 vCPUs</text><text x="727" y="404" fill="#6b7e96" font-size="14">Listed account tier · confirm region and quota scope</text>
+ <rect x="218" y="455" width="944" height="218" rx="7" fill="#fff" stroke="#d3dce8"/>
+ <text x="240" y="484" fill="#657b95" font-size="13" font-weight="700">RESOURCE</text><text x="590" y="484" fill="#657b95" font-size="13" font-weight="700">LISTED SPECIFICATION</text><text x="885" y="484" fill="#657b95" font-size="13" font-weight="700">CONDITIONS</text>
+ <path d="M218 499H1162" stroke="#e4e9f0"/><text x="240" y="529" fill="#26364a" font-size="16">Cloud credits</text><text x="590" y="529" fill="#142c4b" font-size="17" font-weight="600">Not listed</text><text x="885" y="529" fill="#62748b" font-size="15">Not specified</text><path d="M218 551H1162" stroke="#e4e9f0"/><text x="240" y="581" fill="#26364a" font-size="16">Compute quota</text><text x="590" y="581" fill="#142c4b" font-size="17" font-weight="600">128 vCPUs</text><text x="885" y="581" fill="#62748b" font-size="15">Region dependent</text><path d="M218 603H1162" stroke="#e4e9f0"/><text x="240" y="633" fill="#26364a" font-size="16">API request quota</text><text x="590" y="633" fill="#142c4b" font-size="17" font-weight="600">Not listed</text><text x="885" y="633" fill="#62748b" font-size="15">Not specified</text>
+ <text x="240" y="656" fill="#7a8a9e" font-size="12">Values describe the selected catalog listing. Confirm account-specific availability before payment.</text>
+ <rect x="218" y="697" width="944" height="76" rx="6" fill="#eaf0f7"/>
+ <text x="239" y="725" fill="#3d5675" font-size="15" font-weight="700">Demo dashboard · Not an actual provider console screenshot</text>
+ <text x="239" y="751" fill="#617792" font-size="14">Actual credit balance, expiry, eligibility, and service quotas require confirmation.</text>
+ <text x="218" y="803" fill="#7e8da2" font-size="12">CloudsSupply / Product dashboard preview</text>
+ </g><rect x="1" y="1" width="1198" height="818" rx="12" fill="none" stroke="#a8bbd2" stroke-width="2"/></svg>
