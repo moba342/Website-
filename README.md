@@ -103,3 +103,8 @@ The approved metadata, headings, keyword strategy, and introductory copy for 12 
 ## Product variant SEO
 
 All 45 supplied account-variant SEO records are applied by product ID in `src/product-seo.json`; six existing service packages retain their prior SEO. Titles are complete search titles including the brand suffix. Product pages use the configured H1 and description while preserving original articles, catalog IDs, URLs, and prices. See `docs/product-variant-seo.md` and `reports/product-variant-seo.csv` for the full mapping.
+
+
+## Google Search Console
+
+Google HTML-file verification is configured in `public/googlee9c6c6adb26b90ba.html`. Keep it deployed at the site root. Finish ownership verification in the matching Google Search Console property, then submit `sitemap_index.xml`. See `docs/google-search-console.md`.
