@@ -1,5 +1,6 @@
 import {readFile,writeFile,mkdir,access} from 'node:fs/promises';
 import {resolve} from 'node:path';
+import {siteUrl} from '../src/site-config.js';
 import {seoPages,utilityPages,metadataFor} from '../.ssr/entry-server.js';
 import {homepageTitle,homepageDescription,homepageH1,homepageHeadings,featuredAwsIds,homepageFaqs} from '../src/homepage-seo.js';
 import {apiKeyTitle,apiKeyDescription,apiKeyH1,apiKeyFaqs} from '../src/api-key-content.js';
@@ -83,6 +84,19 @@ for(const page of utilityPages){
   if(xml.includes(metadataFor(page.route).url))failures.push(page.path+': utility route leaked into '+name);
  }
 }
+const sitemapUrls=[];
+for(const name of ['pages','providers','products']){
+ const xml=await readFile(resolve('dist',name+'-sitemap.xml'),'utf8');
+ sitemapUrls.push(...[...xml.matchAll(/<loc>(.*?)<\/loc>/g)].map(m=>m[1]));
+}
+const expectedUrls=seoPages.map(page=>siteUrl+page.path);
+if(sitemapUrls.length!==expectedUrls.length||new Set(sitemapUrls).size!==expectedUrls.length||expectedUrls.some(url=>!sitemapUrls.includes(url)))failures.push('Sitemaps must contain every public canonical URL exactly once.');
+for(const filename of ['sitemap.xml','sitemap_index.xml']){
+ const xml=await readFile(resolve('dist',filename),'utf8');
+ const urls=[...xml.matchAll(/<loc>(.*?)<\/loc>/g)].map(m=>m[1]);
+ if(urls.length!==3||['pages','providers','products'].some(name=>!urls.includes(siteUrl+'/'+name+'-sitemap.xml')))failures.push(filename+': incorrect sitemap origin or children');
+}
+if(!(await readFile('dist/robots.txt','utf8')).includes('Sitemap: '+siteUrl+'/sitemap_index.xml'))failures.push('robots.txt must advertise the canonical sitemap.');
 const productRows=seoPages.filter(page=>page.type==='product').map(page=>{const item=metadataFor(page.route).schema['@graph'].find(n=>n['@type']==='Product'),copy=productCopy[item.sku];return [item.sku,item.name,metadataFor(page.route).url,copy?.sourceProduct||'Existing service package',copy?.primaryKeyword||'',copy?.secondaryKeywords?.join('; ')||'',copy?.title||'',copy?.description||'',copy?.h1||''];});
 const csv=fields=>fields.map(v=>'"'+String(v).replaceAll('"','""')+'"').join(',');
 await mkdir('reports',{recursive:true});await writeFile('reports/on-page-seo.csv',[['Type','URL','Title','Title characters','Description','Description characters','H1','Structured data'],...rows].map(csv).join('\n')+'\n');

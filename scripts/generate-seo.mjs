@@ -1,7 +1,7 @@
 import {readFile,writeFile,mkdir} from 'node:fs/promises';
 import {dirname,resolve} from 'node:path';
 import {seoPages,utilityPages,metadataFor,socialMetadata,renderPage} from '../.ssr/entry-server.js';
-const origin='https://www.cloudssupply.site';
+import {siteUrl as origin} from '../src/site-config.js';
 const template=await readFile('dist/index.html','utf8');
 const escape=value=>String(value).replaceAll('&','&amp;').replaceAll('"','&quot;').replaceAll('<','&lt;').replaceAll('>','&gt;');
 function html(route){const meta=metadataFor(route);let head=`<title>${escape(meta.title)}</title><meta name="description" content="${escape(meta.description)}"/><meta name="robots" content="${meta.robots}"/><link rel="canonical" href="${meta.url}"/>`;

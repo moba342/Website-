@@ -67,7 +67,7 @@ Production build passed. Browser checks covered product/provider routes, origina
 
 ## Search indexing
 
-The production canonical origin is `https://www.cloudssupply.site`, configured in `src/site-config.js`. `npm run build` produces pre-rendered HTML for all pages, products, and providers, plus:
+The production canonical origin is `https://buyaws-account.vercel.app`, configured in `src/site-config.js`. `npm run build` produces pre-rendered HTML for all pages, products, and providers, plus:
 
 - `/sitemap_index.xml` and `/sitemap.xml`: sitemap indexes
 - `/pages-sitemap.xml`, `/providers-sitemap.xml`, `/products-sitemap.xml`
@@ -75,7 +75,7 @@ The production canonical origin is `https://www.cloudssupply.site`, configured i
 
 Vercel serves the generated page directories directly using `vercel.json`; do not add a catch-all rewrite to the home page. Existing `/#product/...` and other legacy hash routes are converted to their matching clean paths in the browser.
 
-After deployment, verify the domain in Google Search Console and submit `https://www.cloudssupply.site/sitemap_index.xml` under Sitemaps. Sitemap generation does not submit the site to Search Console or guarantee Google indexing. Adding a product to the catalog and its original article automatically adds its page and sitemap entry on the next build.
+After deployment, verify the domain in Google Search Console and submit `https://buyaws-account.vercel.app/sitemap_index.xml` under Sitemaps. Sitemap generation does not submit the site to Search Console or guarantee Google indexing. Adding a product to the catalog and its original article automatically adds its page and sitemap entry on the next build.
 
 
 ## On-page SEO
@@ -87,7 +87,7 @@ All 74 routes have an individual title, description, canonical URL, social previ
 
 ## Homepage keyword strategy
 
-The AWS-focused homepage uses the approved title, description, H1, and six-section structure in `src/homepage-seo.js`. See `docs/homepage-seo.md` for keyword placement, landing-page links, structured data, and the confirmed decision to retain the working `.site` canonical domain.
+The AWS-focused homepage uses the approved title, description, H1, and six-section structure in `src/homepage-seo.js`. See `docs/homepage-seo.md` for keyword placement, landing-page links, structured data, and the current production canonical domain.
 
 
 ## Bedrock API-key landing page

@@ -1,8 +1,8 @@
 # Homepage SEO — CloudsSupply
 
-Active canonical URL: https://www.cloudssupply.site/
+Active canonical URL: https://buyaws-account.vercel.app/
 
-The proposed https://cloudssupply.store/ hostname returned Vercel `DEPLOYMENT_NOT_FOUND`. The owner confirmed keeping `.site` as the canonical domain for now. Connect and verify the new domain before planning a domain migration.
+The owner requested indexing the working https://buyaws-account.vercel.app/ deployment on 2026-11-23. Canonical URLs, structured data, and sitemaps now use that origin. The previous .site Search Console property does not cover this hostname; verify and submit its sitemap as a separate URL-prefix property.
 
 ## Search intent and keywords
 
