@@ -9,5 +9,5 @@ export function artworkType(p){
   if(/vCPU|droplet|server account|cloud compute/i.test(text)||p.category==='AWS'||p.provider==='Amazon Web Services'||p.slug==='aws')return 'compute';
   return 'network';
 }
-export const artworkImage=p=>'/products/premium/cloud-console-v2-1200.webp';
+export const artworkImage=p=>'/products/studio/'+(['ai','kiro'].includes(artworkType(p))?'ai-processor':['credits','trial'].includes(artworkType(p))?'cloud-credits':'cloud-infrastructure')+'-1200.webp';
 export const artworkDescriptions={trial:'cloud trial access key and open portal',compute:'cloud compute server stack',credits:'cloud credit account',ai:'Bedrock AI neural processor',kiro:'Kiro developer code terminal',smtp:'SMTP email server and envelope',marketplace:'cloud software storefront',network:'multicloud infrastructure network'};

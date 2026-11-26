@@ -56,7 +56,7 @@ try{
  await page.goto(origin+'/checkout/');await page.getByRole('heading',{name:'Your order needs a price confirmation.'}).waitFor();
  results.push({test:'remove item, quote-only cart blocks payment, tampered stored price ignored',status:'PASS'});
  await page.goto(origin+'/cart/');await page.evaluate(()=>{localStorage.clear();});await page.goto(origin+'/');
- await page.locator('.market-provider-card').first().getByRole('button',{name:'Add To Card',exact:true}).click();await page.waitForURL('**/checkout/');assert.ok((await page.locator('.payment-order-lines').innerText()).length>0);
+ await page.locator('.studio-product-card').first().getByRole('button',{name:/^Add To Card:/}).click();await page.waitForURL('**/checkout/');assert.ok((await page.locator('.payment-order-lines').innerText()).length>0);
  results.push({test:'homepage direct-checkout CTA retains selected product',status:'PASS'});
  assert.deepEqual(errors,[],'browser console or layout errors');
  await writeFile(output,JSON.stringify({origin,viewportWidths:widths,pagesTested:manifest.length,errors,results},null,2)+'\n');

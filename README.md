@@ -213,3 +213,11 @@ Run `npm run check:syntax`, `npm test`, `npm run build`, then `npm run preview`.
 Preview builds automatically use noindex when VERCEL_ENV is preview; VITE_SITE_NOINDEX=true is an explicit alternative. The original .site Google verification file is retained. A real Google HTML meta token can be supplied through GOOGLE_SITE_VERIFICATION at build time. No fake DNS/token values or indexing claims are generated.
 
 The old Vercel alias redirects public URLs to the production origin; its noindex cart and checkout remain available so existing browser-local drafts are not stranded by the origin change. Provider prices and wallet receiving addresses remain unchanged.
+
+## CloudsSupply Studio redesign
+
+The current storefront uses an original light editorial design with navy product stages and cobalt accents, shared across all pages. Product artwork has separate compute, credits and AI treatments in `public/products/studio/`, with original provider SVG logos layered in HTML.
+
+`src/studio-design.css` contains the shared responsive design system. `src/StudioMotion.jsx` adds progressive scroll reveals, pointer-aware card lighting and reading progress. Ambient motion and pointer effects respect reduced-motion and touch preferences. Server-rendered content remains visible without JavaScript.
+
+See `docs/studio-redesign.md` for implementation/validation notes and `docs/studio-artwork.md` for the built-in image-generation prompt set and saved assets. Run `node scripts/studio-motion-qa.mjs http://localhost:4181` against the production preview for motion and payment-panel checks. Historical Lighthouse reports predate this design; new homepage reports are in `seo/lighthouse/studio/`.

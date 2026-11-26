@@ -1,0 +1,33 @@
+{
+  "errors": [],
+  "results": [
+    {
+      "page": "/",
+      "status": "PASS"
+    },
+    {
+      "page": "/aws-bedrock-api-key/",
+      "status": "PASS"
+    },
+    {
+      "page": "/refund/",
+      "status": "PASS"
+    },
+    {
+      "page": "/cart/",
+      "status": "PASS"
+    },
+    {
+      "page": "/checkout/",
+      "status": "PASS"
+    },
+    {
+      "test": "BEP20 payment instructions render",
+      "status": "PASS"
+    },
+    {
+      "test": "reduced motion and touch effects disabled",
+      "status": "PASS"
+    }
+  ]
+}
