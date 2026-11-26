@@ -6,6 +6,7 @@ Target: https://www.cloudssupply.site/. Status: PASS.
 
 The production crawl checks 200 responses, initial-HTML canonical origin, social page type, robots directives, complete visible content, JSON-LD, primary/secondary phrases, sitemap XML membership and origin, verification endpoints, real 404s and alternate-host redirect chains. HTTP-only apex requests use Vercel’s HTTPS upgrade followed by the apex-to-www redirect; this two-hop platform chain is measured, not hidden. Local content/schema/link/keyword checks are separate and are cross-checked against the same production artifact by the browser/live test suite. Raw response summaries: evidence/http-live.json. Mobile/desktop lab results are in LIGHTHOUSE-MOBILE-REPORT.md and LIGHTHOUSE-DESKTOP-REPORT.md.
 
+- https://buyaws-account.vercel.app/: 308 → https://www.cloudssupply.site/ → 200
 - http://cloudssupply.site/: 308 → https://cloudssupply.site/ → 308 → https://www.cloudssupply.site/ → 200
 - https://cloudssupply.site/: 308 → https://www.cloudssupply.site/ → 200
 - http://www.cloudssupply.site/: 308 → https://www.cloudssupply.site/ → 200

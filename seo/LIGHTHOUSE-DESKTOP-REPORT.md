@@ -16,11 +16,11 @@ Actual Lighthouse reports, not estimated scores. Local environment: production p
 
 | Page | Performance | Accessibility | Best Practices | SEO | LCP | CLS | Saved report |
 |---|---|---|---|---|---|---|---|
-| home | 100 | 100 | 100 | 100 | 0.49 s | 0.000 | [HTML](lighthouse/live-desktop-home.report.html) |
-| category | 100 | 100 | 100 | 100 | 0.52 s | 0.000 | [HTML](lighthouse/live-desktop-category.report.html) |
-| provider | 100 | 100 | 100 | 100 | 0.49 s | 0.000 | [HTML](lighthouse/live-desktop-provider.report.html) |
-| product | 100 | 100 | 100 | 100 | 0.52 s | 0.000 | [HTML](lighthouse/live-desktop-product.report.html) |
-| products | 100 | 100 | 100 | 100 | 0.55 s | 0.000 | [HTML](lighthouse/live-desktop-products.report.html) |
+| home | 100 | 100 | 100 | 100 | 0.51 s | 0.000 | [HTML](lighthouse/live-desktop-home.report.html) |
+| category | 100 | 100 | 100 | 100 | 0.49 s | 0.000 | [HTML](lighthouse/live-desktop-category.report.html) |
+| provider | 100 | 100 | 100 | 100 | 0.48 s | 0.000 | [HTML](lighthouse/live-desktop-provider.report.html) |
+| product | 100 | 100 | 100 | 100 | 0.49 s | 0.000 | [HTML](lighthouse/live-desktop-product.report.html) |
+| products | 100 | 100 | 100 | 100 | 0.53 s | 0.000 | [HTML](lighthouse/live-desktop-products.report.html) |
 
 A temporary uncompressed local preview produced reproducibly lower mobile scores on product/provider pages; text compression was added to represent actual Vercel delivery, and the complete suite was rerun. Intermediate reports are retained under baseline/intermediate-uncompressed-*.json.
 

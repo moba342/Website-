@@ -573,7 +573,7 @@
   ],
   "assets": [
     {
-      "path": "/assets/index-By2UGA1O.js",
+      "path": "/assets/index-gVHGjTIv.js",
       "status": 200,
       "error": null
     },
@@ -699,6 +699,23 @@
     }
   ],
   "redirects": [
+    {
+      "url": "https://buyaws-account.vercel.app/",
+      "status": 200,
+      "effectiveUrl": "https://www.cloudssupply.site/",
+      "chain": [
+        {
+          "status": 308,
+          "location": "https://www.cloudssupply.site/"
+        },
+        {
+          "status": 200,
+          "location": null
+        }
+      ],
+      "error": null,
+      "loop": false
+    },
     {
       "url": "http://cloudssupply.site/",
       "status": 200,
@@ -835,6 +852,7 @@
       "noindex": true
     }
   ],
+  "indexValid": true,
   "sitemapValid": true,
   "sitemapCount": 74,
   "failures": []

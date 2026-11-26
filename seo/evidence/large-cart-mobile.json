@@ -1,0 +1,10 @@
+{
+  "cart": {
+    "overflow": false,
+    "offenders": []
+  },
+  "checkout": {
+    "overflow": false,
+    "offenders": []
+  }
+}

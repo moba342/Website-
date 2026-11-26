@@ -16,11 +16,11 @@ Actual Lighthouse reports, not estimated scores. Local environment: production p
 
 | Page | Performance | Accessibility | Best Practices | SEO | LCP | CLS | Saved report |
 |---|---|---|---|---|---|---|---|
-| home | 100 | 100 | 100 | 100 | 1.13 s | 0.000 | [HTML](lighthouse/live-mobile-home.report.html) |
+| home | 100 | 100 | 100 | 100 | 1.11 s | 0.000 | [HTML](lighthouse/live-mobile-home.report.html) |
 | category | 100 | 100 | 100 | 100 | 0.95 s | 0.000 | [HTML](lighthouse/live-mobile-category.report.html) |
 | provider | 99 | 100 | 100 | 100 | 2.14 s | 0.000 | [HTML](lighthouse/live-mobile-provider.report.html) |
-| product | 99 | 100 | 100 | 100 | 2.14 s | 0.000 | [HTML](lighthouse/live-mobile-product.report.html) |
-| products | 100 | 100 | 100 | 100 | 1.10 s | 0.000 | [HTML](lighthouse/live-mobile-products.report.html) |
+| product | 98 | 100 | 100 | 100 | 2.30 s | 0.000 | [HTML](lighthouse/live-mobile-product.report.html) |
+| products | 100 | 100 | 100 | 100 | 1.13 s | 0.000 | [HTML](lighthouse/live-mobile-products.report.html) |
 
 A temporary uncompressed local preview produced reproducibly lower mobile scores on product/provider pages; text compression was added to represent actual Vercel delivery, and the complete suite was rerun. Intermediate reports are retained under baseline/intermediate-uncompressed-*.json.
 

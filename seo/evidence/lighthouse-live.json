@@ -11,12 +11,12 @@
       "seo": 100
     },
     "metrics": {
-      "first-contentful-paint": 1128.901,
-      "largest-contentful-paint": 1128.901,
+      "first-contentful-paint": 1109.036,
+      "largest-contentful-paint": 1109.036,
       "total-blocking-time": 0,
       "cumulative-layout-shift": 0,
-      "speed-index": 1128.901,
-      "interactive": 1128.901
+      "speed-index": 1109.036,
+      "interactive": 1109.036
     },
     "failures": [
       {
@@ -459,8 +459,8 @@
             {
               "url": "https://www.cloudssupply.site/products/premium/cloud-console-v2-800.webp",
               "cacheLifetimeMs": 604800000,
-              "totalBytes": 24565,
-              "wastedBytes": 2456.4999999999995
+              "totalBytes": 24566,
+              "wastedBytes": 2456.5999999999995
             }
           ],
           "sortedBy": [
@@ -471,7 +471,7 @@
           ],
           "debugData": {
             "type": "debugdata",
-            "wastedBytes": 2456.4999999999995
+            "wastedBytes": 2456.5999999999995
           }
         }
       },
@@ -563,44 +563,44 @@
               "value": {
                 "type": "network-tree",
                 "chains": {
-                  "4AEE5EA7E241032C0F8144A8B0235CE1": {
+                  "7546D2B70BA91D2B3BDF324264884ECC": {
                     "url": "https://www.cloudssupply.site/",
-                    "navStartToEndTime": 247,
-                    "transferSize": 11310,
+                    "navStartToEndTime": 220,
+                    "transferSize": 11315,
                     "isLongest": true,
                     "children": {
-                      "32760.7": {
+                      "34771.7": {
                         "url": "https://www.cloudssupply.site/assets/index-BIDq6nTb.css",
-                        "navStartToEndTime": 331,
-                        "transferSize": 36175,
+                        "navStartToEndTime": 309,
+                        "transferSize": 36225,
                         "isLongest": true,
                         "children": {
-                          "32760.147": {
+                          "34771.148": {
                             "url": "https://www.cloudssupply.site/fonts/ibm-plex-mono-400.woff2",
-                            "navStartToEndTime": 649,
-                            "transferSize": 10164,
+                            "navStartToEndTime": 604,
+                            "transferSize": 10192,
                             "isLongest": true,
                             "children": {}
                           },
-                          "32760.148": {
+                          "34771.149": {
                             "url": "https://www.cloudssupply.site/fonts/ibm-plex-mono-500.woff2",
-                            "navStartToEndTime": 632,
-                            "transferSize": 10325,
+                            "navStartToEndTime": 593,
+                            "transferSize": 10270,
                             "children": {}
                           }
                         }
                       },
-                      "32760.4": {
-                        "url": "https://www.cloudssupply.site/assets/index-By2UGA1O.js",
-                        "navStartToEndTime": 355,
-                        "transferSize": 77745,
+                      "34771.4": {
+                        "url": "https://www.cloudssupply.site/assets/index-gVHGjTIv.js",
+                        "navStartToEndTime": 300,
+                        "transferSize": 77798,
                         "children": {}
                       }
                     }
                   }
                 },
                 "longestChain": {
-                  "duration": 649
+                  "duration": 604
                 }
               }
             },
@@ -629,7 +629,7 @@
         "id": "render-blocking-insight",
         "title": "Render-blocking requests",
         "score": 0,
-        "display": "Est savings of 240 ms",
+        "display": "Est savings of 260 ms",
         "details": {
           "type": "table",
           "headings": [
@@ -652,7 +652,7 @@
           "items": [
             {
               "url": "https://www.cloudssupply.site/assets/index-BIDq6nTb.css",
-              "totalBytes": 36175,
+              "totalBytes": 36225,
               "wastedMs": 300
             }
           ]
@@ -661,7 +661,7 @@
     ],
     "report": "seo/lighthouse/live-mobile-home.report.html",
     "lighthouseVersion": "13.6.0",
-    "fetchTime": "2026-11-26T20:15:34.593Z"
+    "fetchTime": "2026-11-26T20:23:05.479Z"
   },
   {
     "mode": "mobile",
@@ -675,12 +675,12 @@
       "seo": 100
     },
     "metrics": {
-      "first-contentful-paint": 945.525,
-      "largest-contentful-paint": 945.525,
+      "first-contentful-paint": 949.618,
+      "largest-contentful-paint": 949.618,
       "total-blocking-time": 0,
       "cumulative-layout-shift": 0,
-      "speed-index": 945.525,
-      "interactive": 945.5250000000001
+      "speed-index": 949.618,
+      "interactive": 949.6180000000002
     },
     "failures": [
       {
@@ -816,8 +816,8 @@
             {
               "url": "https://www.cloudssupply.site/products/premium/cloud-console-v2-800.webp",
               "cacheLifetimeMs": 604800000,
-              "totalBytes": 24601,
-              "wastedBytes": 2460.0999999999995
+              "totalBytes": 24591,
+              "wastedBytes": 2459.0999999999995
             }
           ],
           "sortedBy": [
@@ -828,7 +828,7 @@
           ],
           "debugData": {
             "type": "debugdata",
-            "wastedBytes": 2460.0999999999995
+            "wastedBytes": 2459.0999999999995
           }
         }
       },
@@ -920,50 +920,50 @@
               "value": {
                 "type": "network-tree",
                 "chains": {
-                  "F66C9B22B5392911D51F0C6EA1302DF8": {
+                  "0E00DD46863410A17C644ABB53975CA6": {
                     "url": "https://www.cloudssupply.site/aws-standard/",
-                    "navStartToEndTime": 215,
-                    "transferSize": 7380,
+                    "navStartToEndTime": 255,
+                    "transferSize": 7377,
                     "isLongest": true,
                     "children": {
-                      "32779.7": {
+                      "34788.7": {
                         "url": "https://www.cloudssupply.site/assets/index-BIDq6nTb.css",
-                        "navStartToEndTime": 306,
-                        "transferSize": 36178,
+                        "navStartToEndTime": 343,
+                        "transferSize": 36201,
                         "isLongest": true,
                         "children": {
-                          "32779.102": {
+                          "34788.102": {
                             "url": "https://www.cloudssupply.site/fonts/ibm-plex-mono-600.woff2",
-                            "navStartToEndTime": 602,
+                            "navStartToEndTime": 627,
                             "transferSize": 10310,
                             "isLongest": true,
                             "children": {}
                           },
-                          "32779.101": {
-                            "url": "https://www.cloudssupply.site/fonts/ibm-plex-mono-500.woff2",
-                            "navStartToEndTime": 376,
-                            "transferSize": 10302,
+                          "34788.100": {
+                            "url": "https://www.cloudssupply.site/fonts/ibm-plex-mono-400.woff2",
+                            "navStartToEndTime": 414,
+                            "transferSize": 10263,
                             "children": {}
                           },
-                          "32779.100": {
-                            "url": "https://www.cloudssupply.site/fonts/ibm-plex-mono-400.woff2",
-                            "navStartToEndTime": 375,
-                            "transferSize": 10215,
+                          "34788.101": {
+                            "url": "https://www.cloudssupply.site/fonts/ibm-plex-mono-500.woff2",
+                            "navStartToEndTime": 414,
+                            "transferSize": 10231,
                             "children": {}
                           }
                         }
                       },
-                      "32779.4": {
-                        "url": "https://www.cloudssupply.site/assets/index-By2UGA1O.js",
-                        "navStartToEndTime": 307,
-                        "transferSize": 77744,
+                      "34788.4": {
+                        "url": "https://www.cloudssupply.site/assets/index-gVHGjTIv.js",
+                        "navStartToEndTime": 325,
+                        "transferSize": 77801,
                         "children": {}
                       }
                     }
                   }
                 },
                 "longestChain": {
-                  "duration": 602
+                  "duration": 627
                 }
               }
             },
@@ -992,7 +992,7 @@
         "id": "render-blocking-insight",
         "title": "Render-blocking requests",
         "score": 0,
-        "display": "Est savings of 100 ms",
+        "display": "Est savings of 110 ms",
         "details": {
           "type": "table",
           "headings": [
@@ -1015,7 +1015,7 @@
           "items": [
             {
               "url": "https://www.cloudssupply.site/assets/index-BIDq6nTb.css",
-              "totalBytes": 36178,
+              "totalBytes": 36201,
               "wastedMs": 150
             }
           ]
@@ -1024,7 +1024,7 @@
     ],
     "report": "seo/lighthouse/live-mobile-category.report.html",
     "lighthouseVersion": "13.6.0",
-    "fetchTime": "2026-11-26T20:15:45.480Z"
+    "fetchTime": "2026-11-26T20:23:16.281Z"
   },
   {
     "mode": "mobile",
@@ -1038,12 +1038,12 @@
       "seo": 100
     },
     "metrics": {
-      "first-contentful-paint": 942.698,
-      "largest-contentful-paint": 2142.698,
+      "first-contentful-paint": 943.992,
+      "largest-contentful-paint": 2143.992,
       "total-blocking-time": 0,
       "cumulative-layout-shift": 0,
-      "speed-index": 1434.6852379992722,
-      "interactive": 2142.698
+      "speed-index": 1420.981245997268,
+      "interactive": 2143.992
     },
     "failures": [
       {
@@ -1099,381 +1099,6 @@
             "type": "debugdata",
             "metricSavings": {
               "FCP": 150,
-              "LCP": 150
-            }
-          }
-        }
-      },
-      {
-        "id": "unused-javascript",
-        "title": "Reduce unused JavaScript",
-        "score": 0,
-        "display": "Est savings of 37 KiB",
-        "details": {
-          "type": "opportunity",
-          "headings": [
-            {
-              "key": "url",
-              "valueType": "url",
-              "subItemsHeading": {
-                "key": "source",
-                "valueType": "code"
-              },
-              "label": "URL"
-            },
-            {
-              "key": "totalBytes",
-              "valueType": "bytes",
-              "subItemsHeading": {
-                "key": "sourceBytes"
-              },
-              "label": "Transfer Size"
-            },
-            {
-              "key": "wastedBytes",
-              "valueType": "bytes",
-              "subItemsHeading": {
-                "key": "sourceWastedBytes"
-              },
-              "label": "Est Savings"
-            }
-          ],
-          "items": [
-            {
-              "url": "https://www.cloudssupply.site/assets/react-vendor-BDdCVDbo.js",
-              "totalBytes": 70930,
-              "wastedBytes": 37584,
-              "wastedPercent": 52.98795646525177
-            }
-          ],
-          "overallSavingsMs": 150,
-          "overallSavingsBytes": 37584,
-          "sortedBy": [
-            "wastedBytes"
-          ],
-          "debugData": {
-            "type": "debugdata",
-            "metricSavings": {
-              "FCP": 0,
-              "LCP": 150
-            }
-          }
-        }
-      },
-      {
-        "id": "cache-insight",
-        "title": "Use efficient cache lifetimes",
-        "score": 0.5,
-        "display": "Est savings of 2 KiB",
-        "details": {
-          "type": "table",
-          "headings": [
-            {
-              "key": "url",
-              "valueType": "url",
-              "label": "Request"
-            },
-            {
-              "key": "cacheLifetimeMs",
-              "valueType": "ms",
-              "label": "Cache TTL",
-              "displayUnit": "duration"
-            },
-            {
-              "key": "totalBytes",
-              "valueType": "bytes",
-              "label": "Transfer Size",
-              "displayUnit": "kb",
-              "granularity": 1
-            }
-          ],
-          "items": [
-            {
-              "url": "https://www.cloudssupply.site/products/premium/cloud-console-v2-800.webp",
-              "cacheLifetimeMs": 604800000,
-              "totalBytes": 24606,
-              "wastedBytes": 2460.5999999999995
-            }
-          ],
-          "sortedBy": [
-            "wastedBytes"
-          ],
-          "skipSumming": [
-            "cacheLifetimeMs"
-          ],
-          "debugData": {
-            "type": "debugdata",
-            "wastedBytes": 2460.5999999999995
-          }
-        }
-      },
-      {
-        "id": "image-delivery-insight",
-        "title": "Improve image delivery",
-        "score": 0.5,
-        "display": "Est savings of 10 KiB",
-        "details": {
-          "type": "table",
-          "headings": [
-            {
-              "key": "node",
-              "valueType": "node",
-              "label": ""
-            },
-            {
-              "key": "url",
-              "valueType": "url",
-              "label": "URL",
-              "subItemsHeading": {
-                "key": "reason",
-                "valueType": "text"
-              }
-            },
-            {
-              "key": "totalBytes",
-              "valueType": "bytes",
-              "label": "Resource Size"
-            },
-            {
-              "key": "wastedBytes",
-              "valueType": "bytes",
-              "label": "Est Savings",
-              "subItemsHeading": {
-                "key": "wastedBytes",
-                "valueType": "bytes"
-              }
-            }
-          ],
-          "items": [
-            {
-              "node": {
-                "type": "node",
-                "lhId": "page-1-IMG",
-                "path": "1,HTML,1,BODY,0,DIV,7,FOOTER,0,DIV,0,DIV,0,A,0,SPAN,0,IMG",
-                "selector": "div > a > span.brand-logo > img",
-                "boundingRect": {
-                  "top": 3716,
-                  "bottom": 3779,
-                  "left": 22,
-                  "right": 272,
-                  "width": 250,
-                  "height": 63
-                },
-                "snippet": "<img src=\"https://www.cloudssupply.site/brand/cloudssupply-wordmark-440.webp\" srcset=\"/brand/cloudssupply-wordmark-440.webp 440w, /brand/cloudssupply-wordmark-7…\" sizes=\"(max-width:400px) 174px, (max-width:760px) 220px, 260px\" alt=\"CloudsSupply\" width=\"700\" height=\"176\" decoding=\"async\">",
-                "nodeLabel": "CloudsSupply"
-              },
-              "url": "https://www.cloudssupply.site/brand/cloudssupply-wordmark-440.webp",
-              "totalBytes": 18746,
-              "wastedBytes": 10606,
-              "subItems": {
-                "type": "subitems",
-                "items": [
-                  {
-                    "reason": "Increasing the image compression factor could improve this image’s download size",
-                    "wastedBytes": 10606
-                  }
-                ]
-              }
-            }
-          ],
-          "debugData": {
-            "type": "debugdata",
-            "wastedBytes": 10606
-          }
-        }
-      },
-      {
-        "id": "network-dependency-tree-insight",
-        "title": "Network dependency tree",
-        "score": 0,
-        "display": "",
-        "details": {
-          "type": "list",
-          "items": [
-            {
-              "type": "list-section",
-              "value": {
-                "type": "network-tree",
-                "chains": {
-                  "2E6B2F3D90A35DA51A42ABBF3B583C67": {
-                    "url": "https://www.cloudssupply.site/provider/google-cloud/",
-                    "navStartToEndTime": 240,
-                    "transferSize": 5930,
-                    "isLongest": true,
-                    "children": {
-                      "32797.7": {
-                        "url": "https://www.cloudssupply.site/assets/index-BIDq6nTb.css",
-                        "navStartToEndTime": 338,
-                        "transferSize": 36184,
-                        "isLongest": true,
-                        "children": {
-                          "32797.36": {
-                            "url": "https://www.cloudssupply.site/fonts/ibm-plex-mono-500.woff2",
-                            "navStartToEndTime": 415,
-                            "transferSize": 10234,
-                            "isLongest": true,
-                            "children": {}
-                          },
-                          "32797.37": {
-                            "url": "https://www.cloudssupply.site/fonts/ibm-plex-mono-600.woff2",
-                            "navStartToEndTime": 407,
-                            "transferSize": 10367,
-                            "children": {}
-                          },
-                          "32797.35": {
-                            "url": "https://www.cloudssupply.site/fonts/ibm-plex-mono-400.woff2",
-                            "navStartToEndTime": 404,
-                            "transferSize": 10215,
-                            "children": {}
-                          }
-                        }
-                      },
-                      "32797.4": {
-                        "url": "https://www.cloudssupply.site/assets/index-By2UGA1O.js",
-                        "navStartToEndTime": 308,
-                        "transferSize": 77829,
-                        "children": {}
-                      }
-                    }
-                  }
-                },
-                "longestChain": {
-                  "duration": 415
-                }
-              }
-            },
-            {
-              "type": "list-section",
-              "title": "Preconnected origins",
-              "description": "[preconnect](https://developer.chrome.com/docs/lighthouse/performance/uses-rel-preconnect/) hints help the browser establish a connection earlier in the page load, saving time when the first request for that origin is made. The following are the origins that the page preconnected to.",
-              "value": {
-                "type": "text",
-                "value": "No origins were preconnected"
-              }
-            },
-            {
-              "type": "list-section",
-              "title": "Preconnect candidates",
-              "description": "Add [preconnect](https://developer.chrome.com/docs/lighthouse/performance/uses-rel-preconnect/) hints to your most important origins, but try to use no more than 4",
-              "value": {
-                "type": "text",
-                "value": "No additional origins are good candidates for preconnecting"
-              }
-            }
-          ]
-        }
-      },
-      {
-        "id": "render-blocking-insight",
-        "title": "Render-blocking requests",
-        "score": 0,
-        "display": "Est savings of 140 ms",
-        "details": {
-          "type": "table",
-          "headings": [
-            {
-              "key": "url",
-              "valueType": "url",
-              "label": "URL"
-            },
-            {
-              "key": "totalBytes",
-              "valueType": "bytes",
-              "label": "Transfer Size"
-            },
-            {
-              "key": "wastedMs",
-              "valueType": "timespanMs",
-              "label": "Duration"
-            }
-          ],
-          "items": [
-            {
-              "url": "https://www.cloudssupply.site/assets/index-BIDq6nTb.css",
-              "totalBytes": 36184,
-              "wastedMs": 150
-            }
-          ]
-        }
-      }
-    ],
-    "report": "seo/lighthouse/live-mobile-provider.report.html",
-    "lighthouseVersion": "13.6.0",
-    "fetchTime": "2026-11-26T20:15:56.186Z"
-  },
-  {
-    "mode": "mobile",
-    "name": "product",
-    "url": "https://www.cloudssupply.site/product/aws-32-vcpu-103/",
-    "status": "TESTED",
-    "scores": {
-      "performance": 99,
-      "accessibility": 100,
-      "best-practices": 100,
-      "seo": 100
-    },
-    "metrics": {
-      "first-contentful-paint": 943,
-      "largest-contentful-paint": 2143,
-      "total-blocking-time": 0,
-      "cumulative-layout-shift": 0,
-      "speed-index": 943,
-      "interactive": 2143
-    },
-    "failures": [
-      {
-        "id": "largest-contentful-paint",
-        "title": "Largest Contentful Paint",
-        "score": 0.95,
-        "display": "2.1 s"
-      },
-      {
-        "id": "interactive",
-        "title": "Time to Interactive",
-        "score": 0.99,
-        "display": "2.1 s"
-      },
-      {
-        "id": "unused-css-rules",
-        "title": "Reduce unused CSS",
-        "score": 0,
-        "display": "Est savings of 29 KiB",
-        "details": {
-          "type": "opportunity",
-          "headings": [
-            {
-              "key": "url",
-              "valueType": "url",
-              "label": "URL"
-            },
-            {
-              "key": "totalBytes",
-              "valueType": "bytes",
-              "label": "Transfer Size"
-            },
-            {
-              "key": "wastedBytes",
-              "valueType": "bytes",
-              "label": "Est Savings"
-            }
-          ],
-          "items": [
-            {
-              "url": "https://www.cloudssupply.site/assets/index-BIDq6nTb.css",
-              "wastedBytes": 29455,
-              "wastedPercent": 81.72017395978402,
-              "totalBytes": 36044
-            }
-          ],
-          "overallSavingsMs": 150,
-          "overallSavingsBytes": 29455,
-          "sortedBy": [
-            "wastedBytes"
-          ],
-          "debugData": {
-            "type": "debugdata",
-            "metricSavings": {
-              "FCP": 100,
               "LCP": 150
             }
           }
@@ -1627,6 +1252,387 @@
                 "path": "1,HTML,1,BODY,0,DIV,7,FOOTER,0,DIV,0,DIV,0,A,0,SPAN,0,IMG",
                 "selector": "div > a > span.brand-logo > img",
                 "boundingRect": {
+                  "top": 3716,
+                  "bottom": 3779,
+                  "left": 22,
+                  "right": 272,
+                  "width": 250,
+                  "height": 63
+                },
+                "snippet": "<img src=\"https://www.cloudssupply.site/brand/cloudssupply-wordmark-440.webp\" srcset=\"/brand/cloudssupply-wordmark-440.webp 440w, /brand/cloudssupply-wordmark-7…\" sizes=\"(max-width:400px) 174px, (max-width:760px) 220px, 260px\" alt=\"CloudsSupply\" width=\"700\" height=\"176\" decoding=\"async\">",
+                "nodeLabel": "CloudsSupply"
+              },
+              "url": "https://www.cloudssupply.site/brand/cloudssupply-wordmark-440.webp",
+              "totalBytes": 18746,
+              "wastedBytes": 10606,
+              "subItems": {
+                "type": "subitems",
+                "items": [
+                  {
+                    "reason": "Increasing the image compression factor could improve this image’s download size",
+                    "wastedBytes": 10606
+                  }
+                ]
+              }
+            }
+          ],
+          "debugData": {
+            "type": "debugdata",
+            "wastedBytes": 10606
+          }
+        }
+      },
+      {
+        "id": "network-dependency-tree-insight",
+        "title": "Network dependency tree",
+        "score": 0,
+        "display": "",
+        "details": {
+          "type": "list",
+          "items": [
+            {
+              "type": "list-section",
+              "value": {
+                "type": "network-tree",
+                "chains": {
+                  "EB917D346E500798C9AB449886A0A466": {
+                    "url": "https://www.cloudssupply.site/provider/google-cloud/",
+                    "navStartToEndTime": 224,
+                    "transferSize": 5933,
+                    "isLongest": true,
+                    "children": {
+                      "34807.7": {
+                        "url": "https://www.cloudssupply.site/assets/index-BIDq6nTb.css",
+                        "navStartToEndTime": 315,
+                        "transferSize": 36204,
+                        "isLongest": true,
+                        "children": {
+                          "34807.35": {
+                            "url": "https://www.cloudssupply.site/fonts/ibm-plex-mono-400.woff2",
+                            "navStartToEndTime": 399,
+                            "transferSize": 10164,
+                            "isLongest": true,
+                            "children": {}
+                          },
+                          "34807.37": {
+                            "url": "https://www.cloudssupply.site/fonts/ibm-plex-mono-600.woff2",
+                            "navStartToEndTime": 398,
+                            "transferSize": 10382,
+                            "children": {}
+                          },
+                          "34807.36": {
+                            "url": "https://www.cloudssupply.site/fonts/ibm-plex-mono-500.woff2",
+                            "navStartToEndTime": 396,
+                            "transferSize": 10254,
+                            "children": {}
+                          }
+                        }
+                      },
+                      "34807.4": {
+                        "url": "https://www.cloudssupply.site/assets/index-gVHGjTIv.js",
+                        "navStartToEndTime": 310,
+                        "transferSize": 77801,
+                        "children": {}
+                      }
+                    }
+                  }
+                },
+                "longestChain": {
+                  "duration": 399
+                }
+              }
+            },
+            {
+              "type": "list-section",
+              "title": "Preconnected origins",
+              "description": "[preconnect](https://developer.chrome.com/docs/lighthouse/performance/uses-rel-preconnect/) hints help the browser establish a connection earlier in the page load, saving time when the first request for that origin is made. The following are the origins that the page preconnected to.",
+              "value": {
+                "type": "text",
+                "value": "No origins were preconnected"
+              }
+            },
+            {
+              "type": "list-section",
+              "title": "Preconnect candidates",
+              "description": "Add [preconnect](https://developer.chrome.com/docs/lighthouse/performance/uses-rel-preconnect/) hints to your most important origins, but try to use no more than 4",
+              "value": {
+                "type": "text",
+                "value": "No additional origins are good candidates for preconnecting"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "render-blocking-insight",
+        "title": "Render-blocking requests",
+        "score": 0,
+        "display": "Est savings of 140 ms",
+        "details": {
+          "type": "table",
+          "headings": [
+            {
+              "key": "url",
+              "valueType": "url",
+              "label": "URL"
+            },
+            {
+              "key": "totalBytes",
+              "valueType": "bytes",
+              "label": "Transfer Size"
+            },
+            {
+              "key": "wastedMs",
+              "valueType": "timespanMs",
+              "label": "Duration"
+            }
+          ],
+          "items": [
+            {
+              "url": "https://www.cloudssupply.site/assets/index-BIDq6nTb.css",
+              "totalBytes": 36204,
+              "wastedMs": 150
+            }
+          ]
+        }
+      }
+    ],
+    "report": "seo/lighthouse/live-mobile-provider.report.html",
+    "lighthouseVersion": "13.6.0",
+    "fetchTime": "2026-11-26T20:23:26.995Z"
+  },
+  {
+    "mode": "mobile",
+    "name": "product",
+    "url": "https://www.cloudssupply.site/product/aws-32-vcpu-103/",
+    "status": "TESTED",
+    "scores": {
+      "performance": 98,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100
+    },
+    "metrics": {
+      "first-contentful-paint": 1095.772,
+      "largest-contentful-paint": 2295.772,
+      "total-blocking-time": 0,
+      "cumulative-layout-shift": 0,
+      "speed-index": 1095.772,
+      "interactive": 2295.772
+    },
+    "failures": [
+      {
+        "id": "first-contentful-paint",
+        "title": "First Contentful Paint",
+        "score": 0.99,
+        "display": "1.1 s"
+      },
+      {
+        "id": "largest-contentful-paint",
+        "title": "Largest Contentful Paint",
+        "score": 0.93,
+        "display": "2.3 s"
+      },
+      {
+        "id": "interactive",
+        "title": "Time to Interactive",
+        "score": 0.99,
+        "display": "2.3 s"
+      },
+      {
+        "id": "unused-css-rules",
+        "title": "Reduce unused CSS",
+        "score": 0,
+        "display": "Est savings of 29 KiB",
+        "details": {
+          "type": "opportunity",
+          "headings": [
+            {
+              "key": "url",
+              "valueType": "url",
+              "label": "URL"
+            },
+            {
+              "key": "totalBytes",
+              "valueType": "bytes",
+              "label": "Transfer Size"
+            },
+            {
+              "key": "wastedBytes",
+              "valueType": "bytes",
+              "label": "Est Savings"
+            }
+          ],
+          "items": [
+            {
+              "url": "https://www.cloudssupply.site/assets/index-BIDq6nTb.css",
+              "wastedBytes": 29455,
+              "wastedPercent": 81.72017395978402,
+              "totalBytes": 36044
+            }
+          ],
+          "overallSavingsMs": 150,
+          "overallSavingsBytes": 29455,
+          "sortedBy": [
+            "wastedBytes"
+          ],
+          "debugData": {
+            "type": "debugdata",
+            "metricSavings": {
+              "FCP": 250,
+              "LCP": 150
+            }
+          }
+        }
+      },
+      {
+        "id": "unused-javascript",
+        "title": "Reduce unused JavaScript",
+        "score": 0,
+        "display": "Est savings of 37 KiB",
+        "details": {
+          "type": "opportunity",
+          "headings": [
+            {
+              "key": "url",
+              "valueType": "url",
+              "subItemsHeading": {
+                "key": "source",
+                "valueType": "code"
+              },
+              "label": "URL"
+            },
+            {
+              "key": "totalBytes",
+              "valueType": "bytes",
+              "subItemsHeading": {
+                "key": "sourceBytes"
+              },
+              "label": "Transfer Size"
+            },
+            {
+              "key": "wastedBytes",
+              "valueType": "bytes",
+              "subItemsHeading": {
+                "key": "sourceWastedBytes"
+              },
+              "label": "Est Savings"
+            }
+          ],
+          "items": [
+            {
+              "url": "https://www.cloudssupply.site/assets/react-vendor-BDdCVDbo.js",
+              "totalBytes": 70930,
+              "wastedBytes": 37584,
+              "wastedPercent": 52.98795646525177
+            }
+          ],
+          "overallSavingsMs": 150,
+          "overallSavingsBytes": 37584,
+          "sortedBy": [
+            "wastedBytes"
+          ],
+          "debugData": {
+            "type": "debugdata",
+            "metricSavings": {
+              "FCP": 0,
+              "LCP": 150
+            }
+          }
+        }
+      },
+      {
+        "id": "cache-insight",
+        "title": "Use efficient cache lifetimes",
+        "score": 0.5,
+        "display": "Est savings of 2 KiB",
+        "details": {
+          "type": "table",
+          "headings": [
+            {
+              "key": "url",
+              "valueType": "url",
+              "label": "Request"
+            },
+            {
+              "key": "cacheLifetimeMs",
+              "valueType": "ms",
+              "label": "Cache TTL",
+              "displayUnit": "duration"
+            },
+            {
+              "key": "totalBytes",
+              "valueType": "bytes",
+              "label": "Transfer Size",
+              "displayUnit": "kb",
+              "granularity": 1
+            }
+          ],
+          "items": [
+            {
+              "url": "https://www.cloudssupply.site/products/premium/cloud-console-v2-800.webp",
+              "cacheLifetimeMs": 604800000,
+              "totalBytes": 24601,
+              "wastedBytes": 2460.0999999999995
+            }
+          ],
+          "sortedBy": [
+            "wastedBytes"
+          ],
+          "skipSumming": [
+            "cacheLifetimeMs"
+          ],
+          "debugData": {
+            "type": "debugdata",
+            "wastedBytes": 2460.0999999999995
+          }
+        }
+      },
+      {
+        "id": "image-delivery-insight",
+        "title": "Improve image delivery",
+        "score": 0.5,
+        "display": "Est savings of 10 KiB",
+        "details": {
+          "type": "table",
+          "headings": [
+            {
+              "key": "node",
+              "valueType": "node",
+              "label": ""
+            },
+            {
+              "key": "url",
+              "valueType": "url",
+              "label": "URL",
+              "subItemsHeading": {
+                "key": "reason",
+                "valueType": "text"
+              }
+            },
+            {
+              "key": "totalBytes",
+              "valueType": "bytes",
+              "label": "Resource Size"
+            },
+            {
+              "key": "wastedBytes",
+              "valueType": "bytes",
+              "label": "Est Savings",
+              "subItemsHeading": {
+                "key": "wastedBytes",
+                "valueType": "bytes"
+              }
+            }
+          ],
+          "items": [
+            {
+              "node": {
+                "type": "node",
+                "lhId": "page-1-IMG",
+                "path": "1,HTML,1,BODY,0,DIV,7,FOOTER,0,DIV,0,DIV,0,A,0,SPAN,0,IMG",
+                "selector": "div > a > span.brand-logo > img",
+                "boundingRect": {
                   "top": 6246,
                   "bottom": 6309,
                   "left": 22,
@@ -1670,50 +1676,50 @@
               "value": {
                 "type": "network-tree",
                 "chains": {
-                  "4FC4E713D99664F48869CB6ABEAF3AA7": {
+                  "377E787FF73FE63AF21D476E519E4CDD": {
                     "url": "https://www.cloudssupply.site/product/aws-32-vcpu-103/",
-                    "navStartToEndTime": 209,
-                    "transferSize": 7613,
+                    "navStartToEndTime": 232,
+                    "transferSize": 7615,
                     "isLongest": true,
                     "children": {
-                      "32814.7": {
+                      "34829.7": {
                         "url": "https://www.cloudssupply.site/assets/index-BIDq6nTb.css",
-                        "navStartToEndTime": 285,
-                        "transferSize": 36178,
+                        "navStartToEndTime": 316,
+                        "transferSize": 36198,
                         "isLongest": true,
                         "children": {
-                          "32814.50": {
-                            "url": "https://www.cloudssupply.site/fonts/ibm-plex-mono-400.woff2",
-                            "navStartToEndTime": 374,
-                            "transferSize": 10164,
+                          "34829.52": {
+                            "url": "https://www.cloudssupply.site/fonts/ibm-plex-mono-600.woff2",
+                            "navStartToEndTime": 407,
+                            "transferSize": 10282,
                             "isLongest": true,
                             "children": {}
                           },
-                          "32814.52": {
-                            "url": "https://www.cloudssupply.site/fonts/ibm-plex-mono-600.woff2",
-                            "navStartToEndTime": 357,
-                            "transferSize": 10381,
+                          "34829.50": {
+                            "url": "https://www.cloudssupply.site/fonts/ibm-plex-mono-400.woff2",
+                            "navStartToEndTime": 392,
+                            "transferSize": 10222,
                             "children": {}
                           },
-                          "32814.51": {
+                          "34829.51": {
                             "url": "https://www.cloudssupply.site/fonts/ibm-plex-mono-500.woff2",
-                            "navStartToEndTime": 355,
-                            "transferSize": 10254,
+                            "navStartToEndTime": 390,
+                            "transferSize": 10244,
                             "children": {}
                           }
                         }
                       },
-                      "32814.4": {
-                        "url": "https://www.cloudssupply.site/assets/index-By2UGA1O.js",
-                        "navStartToEndTime": 310,
-                        "transferSize": 77719,
+                      "34829.4": {
+                        "url": "https://www.cloudssupply.site/assets/index-gVHGjTIv.js",
+                        "navStartToEndTime": 341,
+                        "transferSize": 77798,
                         "children": {}
                       }
                     }
                   }
                 },
                 "longestChain": {
-                  "duration": 374
+                  "duration": 407
                 }
               }
             },
@@ -1742,7 +1748,7 @@
         "id": "render-blocking-insight",
         "title": "Render-blocking requests",
         "score": 0,
-        "display": "Est savings of 90 ms",
+        "display": "Est savings of 240 ms",
         "details": {
           "type": "table",
           "headings": [
@@ -1765,8 +1771,8 @@
           "items": [
             {
               "url": "https://www.cloudssupply.site/assets/index-BIDq6nTb.css",
-              "totalBytes": 36178,
-              "wastedMs": 150
+              "totalBytes": 36198,
+              "wastedMs": 300
             }
           ]
         }
@@ -1774,7 +1780,7 @@
     ],
     "report": "seo/lighthouse/live-mobile-product.report.html",
     "lighthouseVersion": "13.6.0",
-    "fetchTime": "2026-11-26T20:16:06.534Z"
+    "fetchTime": "2026-11-26T20:23:37.430Z"
   },
   {
     "mode": "mobile",
@@ -1788,12 +1794,12 @@
       "seo": 100
     },
     "metrics": {
-      "first-contentful-paint": 1096.8200000000002,
-      "largest-contentful-paint": 1096.8200000000002,
+      "first-contentful-paint": 1126.835,
+      "largest-contentful-paint": 1126.835,
       "total-blocking-time": 0,
       "cumulative-layout-shift": 0,
-      "speed-index": 1096.8200000000002,
-      "interactive": 1096.8200000000002
+      "speed-index": 1126.835,
+      "interactive": 1126.835
     },
     "failures": [
       {
@@ -1935,8 +1941,8 @@
             {
               "url": "https://www.cloudssupply.site/products/premium/cloud-console-v2-800.webp",
               "cacheLifetimeMs": 604800000,
-              "totalBytes": 24572,
-              "wastedBytes": 2457.1999999999994
+              "totalBytes": 24659,
+              "wastedBytes": 2465.8999999999996
             }
           ],
           "sortedBy": [
@@ -1947,8 +1953,44 @@
           ],
           "debugData": {
             "type": "debugdata",
-            "wastedBytes": 2457.1999999999994
+            "wastedBytes": 2465.8999999999996
           }
+        }
+      },
+      {
+        "id": "forced-reflow-insight",
+        "title": "Forced reflow",
+        "score": 0,
+        "display": "",
+        "details": {
+          "type": "list",
+          "items": [
+            {
+              "type": "table",
+              "headings": [
+                {
+                  "key": "source",
+                  "valueType": "source-location",
+                  "label": "Source"
+                },
+                {
+                  "key": "reflowTime",
+                  "valueType": "ms",
+                  "granularity": 1,
+                  "label": "Total reflow time"
+                }
+              ],
+              "items": [
+                {
+                  "source": {
+                    "type": "text",
+                    "value": "[unattributed]"
+                  },
+                  "reflowTime": 34.356
+                }
+              ]
+            }
+          ]
         }
       },
       {
@@ -2039,50 +2081,50 @@
               "value": {
                 "type": "network-tree",
                 "chains": {
-                  "C239E5B661C9A369CDED4AF3FC3CE561": {
+                  "7006105B1ED06A8F7E61DED2671B0B4B": {
                     "url": "https://www.cloudssupply.site/all-products/",
-                    "navStartToEndTime": 215,
-                    "transferSize": 12947,
+                    "navStartToEndTime": 226,
+                    "transferSize": 12954,
                     "isLongest": true,
                     "children": {
-                      "32830.7": {
+                      "34847.7": {
                         "url": "https://www.cloudssupply.site/assets/index-BIDq6nTb.css",
-                        "navStartToEndTime": 300,
-                        "transferSize": 36203,
+                        "navStartToEndTime": 322,
+                        "transferSize": 36289,
                         "isLongest": true,
                         "children": {
-                          "32830.205": {
+                          "34847.205": {
                             "url": "https://www.cloudssupply.site/fonts/ibm-plex-mono-500.woff2",
-                            "navStartToEndTime": 383,
-                            "transferSize": 10208,
+                            "navStartToEndTime": 422,
+                            "transferSize": 10203,
                             "isLongest": true,
                             "children": {}
                           },
-                          "32830.206": {
-                            "url": "https://www.cloudssupply.site/fonts/ibm-plex-mono-600.woff2",
-                            "navStartToEndTime": 382,
-                            "transferSize": 10371,
+                          "34847.204": {
+                            "url": "https://www.cloudssupply.site/fonts/ibm-plex-mono-400.woff2",
+                            "navStartToEndTime": 419,
+                            "transferSize": 10165,
                             "children": {}
                           },
-                          "32830.204": {
-                            "url": "https://www.cloudssupply.site/fonts/ibm-plex-mono-400.woff2",
-                            "navStartToEndTime": 382,
-                            "transferSize": 10248,
+                          "34847.206": {
+                            "url": "https://www.cloudssupply.site/fonts/ibm-plex-mono-600.woff2",
+                            "navStartToEndTime": 418,
+                            "transferSize": 10317,
                             "children": {}
                           }
                         }
                       },
-                      "32830.4": {
-                        "url": "https://www.cloudssupply.site/assets/index-By2UGA1O.js",
-                        "navStartToEndTime": 337,
-                        "transferSize": 77717,
+                      "34847.4": {
+                        "url": "https://www.cloudssupply.site/assets/index-gVHGjTIv.js",
+                        "navStartToEndTime": 363,
+                        "transferSize": 77801,
                         "children": {}
                       }
                     }
                   }
                 },
                 "longestChain": {
-                  "duration": 383
+                  "duration": 422
                 }
               }
             },
@@ -2134,7 +2176,7 @@
           "items": [
             {
               "url": "https://www.cloudssupply.site/assets/index-BIDq6nTb.css",
-              "totalBytes": 36203,
+              "totalBytes": 36289,
               "wastedMs": 300
             }
           ]
@@ -2143,7 +2185,7 @@
     ],
     "report": "seo/lighthouse/live-mobile-products.report.html",
     "lighthouseVersion": "13.6.0",
-    "fetchTime": "2026-11-26T20:16:16.844Z"
+    "fetchTime": "2026-11-26T20:23:47.864Z"
   },
   {
     "mode": "desktop",
@@ -2157,12 +2199,12 @@
       "seo": 100
     },
     "metrics": {
-      "first-contentful-paint": 321.729,
-      "largest-contentful-paint": 489.729,
+      "first-contentful-paint": 347.451,
+      "largest-contentful-paint": 507.451,
       "total-blocking-time": 0,
       "cumulative-layout-shift": 0,
-      "speed-index": 432.18280475019776,
-      "interactive": 489.72900000000004
+      "speed-index": 380.99407000285834,
+      "interactive": 507.4510000000001
     },
     "failures": [
       {
@@ -2618,8 +2660,8 @@
             {
               "url": "https://www.cloudssupply.site/products/premium/cloud-console-v2-480.webp",
               "cacheLifetimeMs": 604800000,
-              "totalBytes": 12370,
-              "wastedBytes": 1236.9999999999998
+              "totalBytes": 12367,
+              "wastedBytes": 1236.6999999999998
             }
           ],
           "sortedBy": [
@@ -2630,7 +2672,7 @@
           ],
           "debugData": {
             "type": "debugdata",
-            "wastedBytes": 1236.9999999999998
+            "wastedBytes": 1236.6999999999998
           }
         }
       },
@@ -2722,44 +2764,44 @@
               "value": {
                 "type": "network-tree",
                 "chains": {
-                  "D00E8FA6DAC670507F0F25097990E4B1": {
+                  "6BC54B9E788C107DAF06535A374B87C1": {
                     "url": "https://www.cloudssupply.site/",
-                    "navStartToEndTime": 209,
-                    "transferSize": 11310,
+                    "navStartToEndTime": 215,
+                    "transferSize": 11314,
                     "isLongest": true,
                     "children": {
-                      "32850.7": {
+                      "34863.7": {
                         "url": "https://www.cloudssupply.site/assets/index-BIDq6nTb.css",
-                        "navStartToEndTime": 308,
-                        "transferSize": 36200,
+                        "navStartToEndTime": 313,
+                        "transferSize": 36201,
                         "isLongest": true,
                         "children": {
-                          "32850.149": {
-                            "url": "https://www.cloudssupply.site/fonts/ibm-plex-mono-500.woff2",
-                            "navStartToEndTime": 375,
-                            "transferSize": 10203,
+                          "34863.148": {
+                            "url": "https://www.cloudssupply.site/fonts/ibm-plex-mono-400.woff2",
+                            "navStartToEndTime": 393,
+                            "transferSize": 10169,
                             "isLongest": true,
                             "children": {}
                           },
-                          "32850.148": {
-                            "url": "https://www.cloudssupply.site/fonts/ibm-plex-mono-400.woff2",
-                            "navStartToEndTime": 374,
-                            "transferSize": 10257,
+                          "34863.149": {
+                            "url": "https://www.cloudssupply.site/fonts/ibm-plex-mono-500.woff2",
+                            "navStartToEndTime": 379,
+                            "transferSize": 10323,
                             "children": {}
                           }
                         }
                       },
-                      "32850.4": {
-                        "url": "https://www.cloudssupply.site/assets/index-By2UGA1O.js",
-                        "navStartToEndTime": 296,
-                        "transferSize": 77777,
+                      "34863.4": {
+                        "url": "https://www.cloudssupply.site/assets/index-gVHGjTIv.js",
+                        "navStartToEndTime": 299,
+                        "transferSize": 77801,
                         "children": {}
                       }
                     }
                   }
                 },
                 "longestChain": {
-                  "duration": 375
+                  "duration": 393
                 }
               }
             },
@@ -2811,7 +2853,7 @@
           "items": [
             {
               "url": "https://www.cloudssupply.site/assets/index-BIDq6nTb.css",
-              "totalBytes": 36200,
+              "totalBytes": 36201,
               "wastedMs": 80
             }
           ]
@@ -2820,7 +2862,7 @@
     ],
     "report": "seo/lighthouse/live-desktop-home.report.html",
     "lighthouseVersion": "13.6.0",
-    "fetchTime": "2026-11-26T20:16:36.984Z"
+    "fetchTime": "2026-11-26T20:23:58.552Z"
   },
   {
     "mode": "desktop",
@@ -2834,12 +2876,12 @@
       "seo": 100
     },
     "metrics": {
-      "first-contentful-paint": 281.81,
-      "largest-contentful-paint": 521.81,
+      "first-contentful-paint": 294.35400000000004,
+      "largest-contentful-paint": 494.35400000000004,
       "total-blocking-time": 0,
       "cumulative-layout-shift": 0,
-      "speed-index": 350.6837662493642,
-      "interactive": 521.81
+      "speed-index": 355.5427514990654,
+      "interactive": 494.35400000000004
     },
     "failures": [
       {
@@ -2928,7 +2970,7 @@
               "totalBytes": 36044
             }
           ],
-          "overallSavingsMs": 40,
+          "overallSavingsMs": 0,
           "overallSavingsBytes": 30079,
           "sortedBy": [
             "wastedBytes"
@@ -2937,7 +2979,7 @@
             "type": "debugdata",
             "metricSavings": {
               "FCP": 30,
-              "LCP": 40
+              "LCP": 0
             }
           }
         }
@@ -3035,8 +3077,8 @@
             {
               "url": "https://www.cloudssupply.site/products/premium/cloud-console-v2-480.webp",
               "cacheLifetimeMs": 604800000,
-              "totalBytes": 12322,
-              "wastedBytes": 1232.1999999999998
+              "totalBytes": 12370,
+              "wastedBytes": 1236.9999999999998
             }
           ],
           "sortedBy": [
@@ -3047,14 +3089,14 @@
           ],
           "debugData": {
             "type": "debugdata",
-            "wastedBytes": 3692.2999999999993
+            "wastedBytes": 3697.0999999999995
           }
         }
       },
       {
         "id": "image-delivery-insight",
         "title": "Improve image delivery",
-        "score": 0,
+        "score": 0.5,
         "display": "Est savings of 24 KiB",
         "details": {
           "type": "table",
@@ -3169,50 +3211,50 @@
               "value": {
                 "type": "network-tree",
                 "chains": {
-                  "C1B38EA602FB1CE95F8D8ED39C8218A7": {
+                  "F751F24F554161E5A29497DBC568B3EB": {
                     "url": "https://www.cloudssupply.site/aws-standard/",
-                    "navStartToEndTime": 248,
-                    "transferSize": 7380,
+                    "navStartToEndTime": 230,
+                    "transferSize": 7378,
                     "isLongest": true,
                     "children": {
-                      "32868.7": {
+                      "34896.7": {
                         "url": "https://www.cloudssupply.site/assets/index-BIDq6nTb.css",
-                        "navStartToEndTime": 328,
-                        "transferSize": 36175,
+                        "navStartToEndTime": 333,
+                        "transferSize": 36200,
                         "isLongest": true,
                         "children": {
-                          "32868.76": {
-                            "url": "https://www.cloudssupply.site/fonts/ibm-plex-mono-600.woff2",
-                            "navStartToEndTime": 404,
-                            "transferSize": 10281,
+                          "34896.75": {
+                            "url": "https://www.cloudssupply.site/fonts/ibm-plex-mono-500.woff2",
+                            "navStartToEndTime": 418,
+                            "transferSize": 10226,
                             "isLongest": true,
                             "children": {}
                           },
-                          "32868.75": {
-                            "url": "https://www.cloudssupply.site/fonts/ibm-plex-mono-500.woff2",
-                            "navStartToEndTime": 403,
-                            "transferSize": 10325,
+                          "34896.74": {
+                            "url": "https://www.cloudssupply.site/fonts/ibm-plex-mono-400.woff2",
+                            "navStartToEndTime": 417,
+                            "transferSize": 10167,
                             "children": {}
                           },
-                          "32868.74": {
-                            "url": "https://www.cloudssupply.site/fonts/ibm-plex-mono-400.woff2",
-                            "navStartToEndTime": 401,
-                            "transferSize": 10192,
+                          "34896.76": {
+                            "url": "https://www.cloudssupply.site/fonts/ibm-plex-mono-600.woff2",
+                            "navStartToEndTime": 415,
+                            "transferSize": 10382,
                             "children": {}
                           }
                         }
                       },
-                      "32868.4": {
-                        "url": "https://www.cloudssupply.site/assets/index-By2UGA1O.js",
-                        "navStartToEndTime": 334,
-                        "transferSize": 77717,
+                      "34896.4": {
+                        "url": "https://www.cloudssupply.site/assets/index-gVHGjTIv.js",
+                        "navStartToEndTime": 331,
+                        "transferSize": 77801,
                         "children": {}
                       }
                     }
                   }
                 },
                 "longestChain": {
-                  "duration": 404
+                  "duration": 418
                 }
               }
             },
@@ -3264,7 +3306,7 @@
           "items": [
             {
               "url": "https://www.cloudssupply.site/assets/index-BIDq6nTb.css",
-              "totalBytes": 36175
+              "totalBytes": 36200
             }
           ]
         }
@@ -3272,7 +3314,7 @@
     ],
     "report": "seo/lighthouse/live-desktop-category.report.html",
     "lighthouseVersion": "13.6.0",
-    "fetchTime": "2026-11-26T20:16:47.567Z"
+    "fetchTime": "2026-11-26T20:24:09.117Z"
   },
   {
     "mode": "desktop",
@@ -3286,12 +3328,12 @@
       "seo": 100
     },
     "metrics": {
-      "first-contentful-paint": 286.60900000000004,
-      "largest-contentful-paint": 486.60900000000004,
+      "first-contentful-paint": 280.08500000000004,
+      "largest-contentful-paint": 480.08500000000004,
       "total-blocking-time": 0,
       "cumulative-layout-shift": 0,
-      "speed-index": 353.989644168442,
-      "interactive": 486.6090000000001
+      "speed-index": 362.01718308384466,
+      "interactive": 480.08500000000004
     },
     "failures": [
       {
@@ -3585,50 +3627,50 @@
               "value": {
                 "type": "network-tree",
                 "chains": {
-                  "EB2A452DAB4094BD0FC9B785476D9F58": {
+                  "CB6A5C23E5DD86D4CFC8ED292DB1CB48": {
                     "url": "https://www.cloudssupply.site/provider/google-cloud/",
-                    "navStartToEndTime": 209,
-                    "transferSize": 5930,
+                    "navStartToEndTime": 238,
+                    "transferSize": 5933,
                     "isLongest": true,
                     "children": {
-                      "32884.7": {
+                      "34914.7": {
                         "url": "https://www.cloudssupply.site/assets/index-BIDq6nTb.css",
-                        "navStartToEndTime": 300,
-                        "transferSize": 36177,
+                        "navStartToEndTime": 333,
+                        "transferSize": 36257,
                         "isLongest": true,
                         "children": {
-                          "32884.36": {
-                            "url": "https://www.cloudssupply.site/fonts/ibm-plex-mono-500.woff2",
-                            "navStartToEndTime": 374,
-                            "transferSize": 10203,
+                          "34914.37": {
+                            "url": "https://www.cloudssupply.site/fonts/ibm-plex-mono-600.woff2",
+                            "navStartToEndTime": 410,
+                            "transferSize": 10282,
                             "isLongest": true,
                             "children": {}
                           },
-                          "32884.37": {
-                            "url": "https://www.cloudssupply.site/fonts/ibm-plex-mono-600.woff2",
-                            "navStartToEndTime": 373,
-                            "transferSize": 10381,
+                          "34914.36": {
+                            "url": "https://www.cloudssupply.site/fonts/ibm-plex-mono-500.woff2",
+                            "navStartToEndTime": 406,
+                            "transferSize": 10203,
                             "children": {}
                           },
-                          "32884.35": {
+                          "34914.35": {
                             "url": "https://www.cloudssupply.site/fonts/ibm-plex-mono-400.woff2",
-                            "navStartToEndTime": 372,
-                            "transferSize": 10215,
+                            "navStartToEndTime": 405,
+                            "transferSize": 10263,
                             "children": {}
                           }
                         }
                       },
-                      "32884.4": {
-                        "url": "https://www.cloudssupply.site/assets/index-By2UGA1O.js",
-                        "navStartToEndTime": 324,
-                        "transferSize": 77719,
+                      "34914.4": {
+                        "url": "https://www.cloudssupply.site/assets/index-gVHGjTIv.js",
+                        "navStartToEndTime": 325,
+                        "transferSize": 77801,
                         "children": {}
                       }
                     }
                   }
                 },
                 "longestChain": {
-                  "duration": 374
+                  "duration": 410
                 }
               }
             },
@@ -3680,7 +3722,7 @@
           "items": [
             {
               "url": "https://www.cloudssupply.site/assets/index-BIDq6nTb.css",
-              "totalBytes": 36177
+              "totalBytes": 36257
             }
           ]
         }
@@ -3688,7 +3730,7 @@
     ],
     "report": "seo/lighthouse/live-desktop-provider.report.html",
     "lighthouseVersion": "13.6.0",
-    "fetchTime": "2026-11-26T20:16:58.080Z"
+    "fetchTime": "2026-11-26T20:24:19.713Z"
   },
   {
     "mode": "desktop",
@@ -3702,12 +3744,12 @@
       "seo": 100
     },
     "metrics": {
-      "first-contentful-paint": 315.704,
-      "largest-contentful-paint": 515.704,
+      "first-contentful-paint": 321.2185,
+      "largest-contentful-paint": 491.2185,
       "total-blocking-time": 0,
       "cumulative-layout-shift": 0,
-      "speed-index": 347.3314335827106,
-      "interactive": 515.704
+      "speed-index": 435.2305809330572,
+      "interactive": 491.21850000000006
     },
     "failures": [
       {
@@ -3796,7 +3838,7 @@
               "totalBytes": 36044
             }
           ],
-          "overallSavingsMs": 40,
+          "overallSavingsMs": 10,
           "overallSavingsBytes": 30685,
           "sortedBy": [
             "wastedBytes"
@@ -3804,8 +3846,8 @@
           "debugData": {
             "type": "debugdata",
             "metricSavings": {
-              "FCP": 70,
-              "LCP": 40
+              "FCP": 80,
+              "LCP": 10
             }
           }
         }
@@ -3897,14 +3939,14 @@
             {
               "url": "https://www.cloudssupply.site/products/premium/cloud-console-v2-800.webp",
               "cacheLifetimeMs": 604800000,
-              "totalBytes": 24601,
-              "wastedBytes": 2460.0999999999995
+              "totalBytes": 24566,
+              "wastedBytes": 2456.5999999999995
             },
             {
               "url": "https://www.cloudssupply.site/products/premium/cloud-console-v2-480.webp",
               "cacheLifetimeMs": 604800000,
-              "totalBytes": 12385,
-              "wastedBytes": 1238.4999999999998
+              "totalBytes": 12322,
+              "wastedBytes": 1232.1999999999998
             }
           ],
           "sortedBy": [
@@ -3915,14 +3957,14 @@
           ],
           "debugData": {
             "type": "debugdata",
-            "wastedBytes": 3698.5999999999995
+            "wastedBytes": 3688.7999999999993
           }
         }
       },
       {
         "id": "image-delivery-insight",
         "title": "Improve image delivery",
-        "score": 0,
+        "score": 0.5,
         "display": "Est savings of 10 KiB",
         "details": {
           "type": "table",
@@ -3960,7 +4002,7 @@
             {
               "node": {
                 "type": "node",
-                "lhId": "page-0-IMG",
+                "lhId": "page-1-IMG",
                 "path": "1,HTML,1,BODY,0,DIV,5,HEADER,0,DIV,0,A,0,SPAN,0,IMG",
                 "selector": "div.container > a > span.brand-logo > img",
                 "boundingRect": {
@@ -4007,50 +4049,50 @@
               "value": {
                 "type": "network-tree",
                 "chains": {
-                  "2C2A8525EE878C8F19FAB14308EA14C1": {
+                  "771A5F8590AF19E6A56BCB8868E71319": {
                     "url": "https://www.cloudssupply.site/product/aws-32-vcpu-103/",
-                    "navStartToEndTime": 208,
-                    "transferSize": 7614,
+                    "navStartToEndTime": 216,
+                    "transferSize": 7615,
                     "isLongest": true,
                     "children": {
-                      "32910.7": {
+                      "34930.7": {
                         "url": "https://www.cloudssupply.site/assets/index-BIDq6nTb.css",
-                        "navStartToEndTime": 279,
-                        "transferSize": 36201,
+                        "navStartToEndTime": 312,
+                        "transferSize": 36204,
                         "isLongest": true,
                         "children": {
-                          "32910.45": {
-                            "url": "https://www.cloudssupply.site/fonts/ibm-plex-mono-500.woff2",
-                            "navStartToEndTime": 345,
-                            "transferSize": 10203,
+                          "34930.46": {
+                            "url": "https://www.cloudssupply.site/fonts/ibm-plex-mono-600.woff2",
+                            "navStartToEndTime": 383,
+                            "transferSize": 10282,
                             "isLongest": true,
                             "children": {}
                           },
-                          "32910.46": {
-                            "url": "https://www.cloudssupply.site/fonts/ibm-plex-mono-600.woff2",
-                            "navStartToEndTime": 345,
-                            "transferSize": 10318,
+                          "34930.45": {
+                            "url": "https://www.cloudssupply.site/fonts/ibm-plex-mono-500.woff2",
+                            "navStartToEndTime": 382,
+                            "transferSize": 10302,
                             "children": {}
                           },
-                          "32910.44": {
+                          "34930.44": {
                             "url": "https://www.cloudssupply.site/fonts/ibm-plex-mono-400.woff2",
-                            "navStartToEndTime": 342,
+                            "navStartToEndTime": 380,
                             "transferSize": 10215,
                             "children": {}
                           }
                         }
                       },
-                      "32910.4": {
-                        "url": "https://www.cloudssupply.site/assets/index-By2UGA1O.js",
-                        "navStartToEndTime": 301,
-                        "transferSize": 77744,
+                      "34930.4": {
+                        "url": "https://www.cloudssupply.site/assets/index-gVHGjTIv.js",
+                        "navStartToEndTime": 300,
+                        "transferSize": 77801,
                         "children": {}
                       }
                     }
                   }
                 },
                 "longestChain": {
-                  "duration": 345
+                  "duration": 383
                 }
               }
             },
@@ -4079,7 +4121,7 @@
         "id": "render-blocking-insight",
         "title": "Render-blocking requests",
         "score": 0,
-        "display": "Est savings of 70 ms",
+        "display": "Est savings of 80 ms",
         "details": {
           "type": "table",
           "headings": [
@@ -4102,7 +4144,7 @@
           "items": [
             {
               "url": "https://www.cloudssupply.site/assets/index-BIDq6nTb.css",
-              "totalBytes": 36201,
+              "totalBytes": 36204,
               "wastedMs": 80
             }
           ]
@@ -4111,7 +4153,7 @@
     ],
     "report": "seo/lighthouse/live-desktop-product.report.html",
     "lighthouseVersion": "13.6.0",
-    "fetchTime": "2026-11-26T20:17:08.485Z"
+    "fetchTime": "2026-11-26T20:24:30.102Z"
   },
   {
     "mode": "desktop",
@@ -4125,12 +4167,12 @@
       "seo": 100
     },
     "metrics": {
-      "first-contentful-paint": 348.045,
-      "largest-contentful-paint": 548.0450000000001,
+      "first-contentful-paint": 329.40999999999997,
+      "largest-contentful-paint": 529.41,
       "total-blocking-time": 0,
       "cumulative-layout-shift": 0,
-      "speed-index": 395.8478109978587,
-      "interactive": 548.0450000000001
+      "speed-index": 378.8883611661779,
+      "interactive": 529.41
     },
     "failures": [
       {
@@ -4271,12 +4313,12 @@
             {
               "url": "https://www.cloudssupply.site/assets/react-vendor-BDdCVDbo.js",
               "totalBytes": 70930,
-              "wastedBytes": 37470,
-              "wastedPercent": 52.82611725250963
+              "wastedBytes": 37582,
+              "wastedPercent": 52.98436003830195
             }
           ],
           "overallSavingsMs": 40,
-          "overallSavingsBytes": 37470,
+          "overallSavingsBytes": 37582,
           "sortedBy": [
             "wastedBytes"
           ],
@@ -4320,8 +4362,8 @@
             {
               "url": "https://www.cloudssupply.site/products/premium/cloud-console-v2-480.webp",
               "cacheLifetimeMs": 604800000,
-              "totalBytes": 12433,
-              "wastedBytes": 1243.2999999999997
+              "totalBytes": 12424,
+              "wastedBytes": 1242.3999999999996
             }
           ],
           "sortedBy": [
@@ -4332,7 +4374,7 @@
           ],
           "debugData": {
             "type": "debugdata",
-            "wastedBytes": 1243.2999999999997
+            "wastedBytes": 1242.3999999999996
           }
         }
       },
@@ -4468,50 +4510,50 @@
               "value": {
                 "type": "network-tree",
                 "chains": {
-                  "277E7B8E8E92B3683CD477B395FB661F": {
+                  "6B8FE78B3A111D7777FD6A1E53485204": {
                     "url": "https://www.cloudssupply.site/all-products/",
-                    "navStartToEndTime": 235,
-                    "transferSize": 12948,
+                    "navStartToEndTime": 237,
+                    "transferSize": 12955,
                     "isLongest": true,
                     "children": {
-                      "32928.7": {
+                      "34947.7": {
                         "url": "https://www.cloudssupply.site/assets/index-BIDq6nTb.css",
-                        "navStartToEndTime": 332,
-                        "transferSize": 36202,
+                        "navStartToEndTime": 319,
+                        "transferSize": 36228,
                         "isLongest": true,
                         "children": {
-                          "32928.207": {
+                          "34947.206": {
                             "url": "https://www.cloudssupply.site/fonts/ibm-plex-mono-600.woff2",
-                            "navStartToEndTime": 421,
-                            "transferSize": 10309,
+                            "navStartToEndTime": 404,
+                            "transferSize": 10281,
                             "isLongest": true,
                             "children": {}
                           },
-                          "32928.206": {
-                            "url": "https://www.cloudssupply.site/fonts/ibm-plex-mono-500.woff2",
-                            "navStartToEndTime": 418,
-                            "transferSize": 10256,
+                          "34947.204": {
+                            "url": "https://www.cloudssupply.site/fonts/ibm-plex-mono-400.woff2",
+                            "navStartToEndTime": 403,
+                            "transferSize": 10191,
                             "children": {}
                           },
-                          "32928.205": {
-                            "url": "https://www.cloudssupply.site/fonts/ibm-plex-mono-400.woff2",
-                            "navStartToEndTime": 418,
-                            "transferSize": 10205,
+                          "34947.205": {
+                            "url": "https://www.cloudssupply.site/fonts/ibm-plex-mono-500.woff2",
+                            "navStartToEndTime": 402,
+                            "transferSize": 10265,
                             "children": {}
                           }
                         }
                       },
-                      "32928.4": {
-                        "url": "https://www.cloudssupply.site/assets/index-By2UGA1O.js",
-                        "navStartToEndTime": 322,
-                        "transferSize": 77717,
+                      "34947.4": {
+                        "url": "https://www.cloudssupply.site/assets/index-gVHGjTIv.js",
+                        "navStartToEndTime": 317,
+                        "transferSize": 77798,
                         "children": {}
                       }
                     }
                   }
                 },
                 "longestChain": {
-                  "duration": 421
+                  "duration": 404
                 }
               }
             },
@@ -4563,7 +4605,7 @@
           "items": [
             {
               "url": "https://www.cloudssupply.site/assets/index-BIDq6nTb.css",
-              "totalBytes": 36202,
+              "totalBytes": 36228,
               "wastedMs": 80
             }
           ]
@@ -4572,6 +4614,6 @@
     ],
     "report": "seo/lighthouse/live-desktop-products.report.html",
     "lighthouseVersion": "13.6.0",
-    "fetchTime": "2026-11-26T20:17:18.846Z"
+    "fetchTime": "2026-11-26T20:24:40.467Z"
   }
 ]

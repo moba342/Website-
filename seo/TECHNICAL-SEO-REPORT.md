@@ -27,4 +27,4 @@ If DNS becomes misconfigured: open Vercel team mo-ba2 → website → Settings �
 
 ## Remaining limits
 
-No Google ranking, indexing, Search Console ownership, or field INP outcome is inferred from HTML checks. A passed JSON-LD or Lighthouse audit does not guarantee rich results. Existing sample service prices remain illustrative and require confirmation before payment.
+No Google ranking, indexing, Search Console ownership, or field INP outcome is inferred from HTML checks. The longest title is 65 characters; descriptions are at most 160 characters. Editorial length guidance is not treated as an artificial pass/fail limit for specific technical labels. A passed JSON-LD or Lighthouse audit does not guarantee rich results. Existing sample service prices remain illustrative and require confirmation before payment.

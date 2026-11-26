@@ -14,6 +14,7 @@ try{
  for(const entry of manifest){
   await page.goto(origin+entry.path,{waitUntil:'networkidle'});
   assert.equal(await page.locator('main h1').count(),1,entry.path+' H1');
+  assert.equal(await page.locator('meta[property="og:type"]').getAttribute('content'),entry.socialType,entry.path+' hydrated social type');
   assert.equal(await page.locator('head link[rel="canonical"]').getAttribute('href'),'https://www.cloudssupply.site'+entry.path);
   for(const width of widths){
    await page.setViewportSize({width,height:1000});
