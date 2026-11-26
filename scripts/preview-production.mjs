@@ -6,7 +6,7 @@ const args=process.argv.slice(2),port=Number(args[args.indexOf('--port')+1])||41
 const mime={'.html':'text/html; charset=utf-8','.js':'text/javascript; charset=utf-8','.css':'text/css; charset=utf-8','.svg':'image/svg+xml','.png':'image/png','.jpg':'image/jpeg','.webp':'image/webp','.woff2':'font/woff2','.xml':'application/xml; charset=utf-8','.txt':'text/plain; charset=utf-8','.json':'application/json; charset=utf-8'};
 createServer(async(req,res)=>{try{
  const url=new URL(req.url,'http://localhost'),host=req.headers.host?.split(':')[0],pathname=decodeURIComponent(url.pathname);
- if(['cloudssupply.site','buyaws-account.vercel.app'].includes(host)){res.writeHead(308,{Location:'https://www.cloudssupply.site'+pathname+url.search});res.end();return;}
+ if(['www.cloudssupply.site','buyaws-account.vercel.app'].includes(host)){res.writeHead(308,{Location:'https://cloudssupply.site'+pathname+url.search});res.end();return;}
  if(pathname==='/home/'||pathname==='/home'){res.writeHead(308,{Location:'/'+url.search});res.end();return;}
  let path=resolve(root,'.'+pathname);if(!path.startsWith(root+'/')&&path!==root){res.writeHead(403);res.end();return;}
  let info;try{info=await stat(path);}catch{}

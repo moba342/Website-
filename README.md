@@ -161,7 +161,7 @@ Checks: exactly one fixed, horizontally centered notice across all 72 routes; st
 
 ## Search indexing
 
-The production canonical origin is `https://www.cloudssupply.site`, configured in `src/site-config.js`. `npm run build` produces pre-rendered HTML for all pages, products, and providers, plus:
+The production canonical origin is `https://cloudssupply.site`, configured in `src/site-config.js`. `npm run build` produces pre-rendered HTML for all pages, products, and providers, plus:
 
 - `/sitemap_index.xml` and `/sitemap.xml`: sitemap indexes
 - `/pages-sitemap.xml`, `/providers-sitemap.xml`, `/products-sitemap.xml`
@@ -169,7 +169,7 @@ The production canonical origin is `https://www.cloudssupply.site`, configured i
 
 Vercel serves the generated page directories directly using `vercel.json`; do not add a catch-all rewrite to the home page. Existing `/#product/...` and other legacy hash routes are converted to their matching clean paths in the browser.
 
-After deployment, verify the domain in Google Search Console and submit `https://www.cloudssupply.site/sitemap_index.xml` under Sitemaps. Sitemap generation does not submit the site to Search Console or guarantee Google indexing. Adding a product to the catalog and its original article automatically adds its page and sitemap entry on the next build.
+After deployment, verify the domain in Google Search Console and submit `https://cloudssupply.site/sitemap_index.xml` under Sitemaps. Sitemap generation does not submit the site to Search Console or guarantee Google indexing. Adding a product to the catalog and its original article automatically adds its page and sitemap entry on the next build.
 
 
 ## On-page SEO

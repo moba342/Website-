@@ -1,7 +1,7 @@
 import {readFile,writeFile,mkdir} from 'node:fs/promises';
 const read=async(path,fallback=null)=>{try{return JSON.parse(await readFile(path,'utf8'))}catch{return fallback}};
 const audit=await read('seo/evidence/static-audit.json'),browser=await read('seo/evidence/browser-qa.json'),local=await read('seo/evidence/http-local.json'),live=await read('seo/evidence/http-live.json'),localLH=await read('seo/evidence/lighthouse-local.json',[]),liveLH=await read('seo/evidence/lighthouse-live.json',[]),manifest=await read('seo/evidence/page-manifest.json',[]);
-const origin='https://www.cloudssupply.site';
+const origin='https://cloudssupply.site';
 const write=(name,text)=>writeFile('seo/'+name,text.trim()+'\n');
 const csv=rows=>rows.map(row=>row.map(v=>'"'+String(v??'').replaceAll('"','""')+'"').join(',')).join('\n')+'\n';
 const lhRows=(data,mode)=>data.filter(r=>r.mode===mode).map(r=>`| ${r.name} | ${r.scores?.performance??'N/A'} | ${r.scores?.accessibility??'N/A'} | ${r.scores?.['best-practices']??'N/A'} | ${r.scores?.seo??'N/A'} | ${r.metrics?.['largest-contentful-paint']!=null?(r.metrics['largest-contentful-paint']/1000).toFixed(2)+' s':'N/A'} | ${r.metrics?.['cumulative-layout-shift']?.toFixed(3)??'N/A'} | [HTML](${r.report?.replace('seo/','')}) |`).join('\n');
@@ -26,7 +26,7 @@ ${audit?.commercialMapped||0} commercial pages have distinct normalized primary 
 Provider pages target the provider family; product pages target one named specification. Starter services target setup/planning work and remain explicitly illustrative. Credit tiers use their actual names; the Azure $1K Tier 1 Claude label is not asserted to prove a credit balance.
 
 Remaining review: broad AWS/Bedrock pages necessarily share terms. Product 117 (quote-only Bedrock API 10K RPM / 256 vCPU) and product 119 (256 vCPU / 10K RPM with listed version/F5 labels) are especially close; their visible specifications and original guides retain that distinction. Monitor query/page data before consolidating these genuinely separate listings. Unique primary assignments and different page scopes reduce obvious duplication but cannot prove the absence of ranking cannibalization. Use Search Console query/page exports to check whether multiple URLs compete for the same queries before merging or redirecting pages. Support/FAQ/refund pages use non-commercial intent. No keyword-stuffed hidden copy or meta-keywords tag was added.`);
-const redirects=[['Old URL','New URL','Status','Decision','Reason'],...manifest.filter(p=>p.type!=='utility').map(p=>['https://buyaws-account.vercel.app'+p.path,origin+p.path,'308 configured','Domain consolidation','Restore canonical production domain; verify live HTTP evidence']),...manifest.filter(p=>p.type==='product').map(p=>[origin+p.path,origin+p.path,'200 retained','No slug migration','Established descriptive product URL retained; numeric catalog ID preserves routing and orders']),...['/cart/','/checkout/'].map(path=>['https://buyaws-account.vercel.app'+path,'https://buyaws-account.vercel.app'+path,'200 noindex retained','Private utility exception','Preserve browser-origin-local existing cart and payment drafts']),['https://cloudssupply.site/:path*',origin+'/:path*','308 project-domain redirect','Apex consolidation','Registered apex on existing production project; preserves path/query'],[origin+'/home/',origin+'/','308 configured','Legacy alias','Remove duplicate homepage route']];
+const redirects=[['Old URL','New URL','Status','Decision','Reason'],...manifest.filter(p=>p.type!=='utility').map(p=>['https://buyaws-account.vercel.app'+p.path,origin+p.path,'308 configured','Domain consolidation','Restore canonical production domain; verify live HTTP evidence']),...manifest.filter(p=>p.type==='product').map(p=>[origin+p.path,origin+p.path,'200 retained','No slug migration','Established descriptive product URL retained; numeric catalog ID preserves routing and orders']),...['/cart/','/checkout/'].map(path=>['https://buyaws-account.vercel.app'+path,'https://buyaws-account.vercel.app'+path,'200 noindex retained','Private utility exception','Preserve browser-origin-local existing cart and payment drafts']),['https://www.cloudssupply.site/:path*',origin+'/:path*','308 project-domain redirect','WWW consolidation','Canonical apex configured on existing production project; preserves path/query'],[origin+'/home/',origin+'/','308 configured','Legacy alias','Remove duplicate homepage route']];
 await writeFile('seo/URL-REDIRECT-MAPPING.csv',csv(redirects));
 await write('TECHNICAL-SEO-REPORT.md',`# Technical SEO report
 
@@ -49,7 +49,7 @@ Canonical production origin: ${origin}/. Inventory: ${audit?.providers} provider
 
 Social metadata now uses website for collection/home pages and product only for an individual account Product.
 
-Source: vercel.json. Vercel project: website, linked to moba342/Website- main. The existing authenticated account was used to add cloudssupply.site to the same project with a 308 redirect to www.cloudssupply.site. The response and live TLS/redirect chain are saved in evidence/apex-project-assignment.json and evidence/http-live.json. Do not disable certificate validation.
+Source: vercel.json. Vercel project: website, linked to moba342/Website- main. The production primary hostname is cloudssupply.site; www.cloudssupply.site permanently redirects to it. The response and live TLS/redirect chain are saved in evidence/apex-project-assignment.json and evidence/http-live.json. Do not disable certificate validation.
 
 Local HTTP audit: ${local?local.failures.length===0?'PASS':'FAIL':'NOT TESTED'}. Final production HTTP audit: ${live?live.failures.length===0?'PASS':'FAIL':'NOT TESTED'}. Production field Core Web Vitals are NOT TESTED; lab metrics are documented separately.
 
@@ -116,7 +116,7 @@ Target: ${origin}/. Status: ${live?live.failures.length===0?'PASS':'FAIL':'NOT T
 
 ${live?`${live.pages.length} intended pages were fetched from production. Failed page/HTTP checks: ${live.failures.length}. Every title, description, H1, primary/secondary keyword, visible-content hash and JSON-LD hash is compared with the validated build, with image alt checks and linked asset requests. Unknown route response: ${live.missingPage.status}; noindex: ${live.missingPage.noindex}.`: 'Final production crawl has not run yet; no live-deployment success is claimed.'}
 
-The production crawl checks 200 responses, initial-HTML canonical origin, social page type, robots directives, complete visible content, JSON-LD, primary/secondary phrases, sitemap XML membership and origin, verification endpoints, real 404s and alternate-host redirect chains. HTTP-only apex requests use Vercel’s HTTPS upgrade followed by the apex-to-www redirect; this two-hop platform chain is measured, not hidden. Local content/schema/link/keyword checks are separate and are cross-checked against the same production artifact by the browser/live test suite. Raw response summaries: evidence/http-live.json. Mobile/desktop lab results are in LIGHTHOUSE-MOBILE-REPORT.md and LIGHTHOUSE-DESKTOP-REPORT.md.
+The production crawl checks 200 responses, initial-HTML canonical origin, social page type, robots directives, complete visible content, JSON-LD, primary/secondary phrases, sitemap XML membership and origin, verification endpoints, real 404s and alternate-host redirect chains. HTTP requests upgrade to HTTPS; www requests permanently redirect to the canonical apex domain. Local content/schema/link/keyword checks are separate and are cross-checked against the same production artifact by the browser/live test suite. Raw response summaries: evidence/http-live.json. Mobile/desktop lab results are in LIGHTHOUSE-MOBILE-REPORT.md and LIGHTHOUSE-DESKTOP-REPORT.md.
 
 ${live?.redirects?.map(r=>'- '+r.url+': '+(r.error||r.chain.map(h=>h.status+(h.location?' → '+h.location:'')).join(' → '))).join('\n')||'Redirects: NOT TESTED after deployment.'}
 
@@ -168,7 +168,7 @@ Prices, internal product IDs, contact details, payment addresses, 1 USD = 1 USDT
 - Hydrated server HTML safely, preserving browser-local carts and checkout drafts.
 - Self-hosted active fonts, optimized favicon/wordmark, delivered responsive WebP imagery, added a skip link and corrected accessible heading/button names.
 - Added source-controlled redirects, a realistic production preview, comprehensive static/HTTP/browser tests, and repeatable mobile/desktop Lighthouse runners.
-- Registered the missing apex hostname on the existing production Vercel project with a permanent www redirect and verified TLS when live evidence is present.
+- Configured the apex hostname as primary on the existing production Vercel project with a permanent www-to-apex redirect and verified TLS when live evidence is present.
 
 ## Evidence-based checklist
 

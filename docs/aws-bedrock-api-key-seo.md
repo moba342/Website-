@@ -1,6 +1,6 @@
 # AWS Bedrock API-key landing page
 
-Canonical URL: https://www.cloudssupply.site/aws-bedrock-api-key/
+Canonical URL: https://cloudssupply.site/aws-bedrock-api-key/
 
 Primary keyword: **aws bedrock api key**.
 

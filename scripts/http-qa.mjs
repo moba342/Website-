@@ -3,7 +3,7 @@ import {readFile,writeFile} from 'node:fs/promises';
 import {createHash} from 'node:crypto';
 import {parse} from 'parse5';
 import {XMLParser,XMLValidator} from 'fast-xml-parser';
-const origin=process.argv[2]||'http://localhost:4173',label=process.argv[3]||'local',canonical='https://www.cloudssupply.site';
+const origin=process.argv[2]||'http://localhost:4173',label=process.argv[3]||'local',canonical='https://cloudssupply.site';
 const manifest=JSON.parse(await readFile('seo/evidence/page-manifest.json','utf8')),pages=[];
 const hash=s=>createHash('sha256').update(s).digest('hex');
 function walk(n,fn){fn(n);for(const c of n.childNodes||[])walk(c,fn);}
@@ -41,7 +41,7 @@ for(const p of manifest){
 const missing=request(origin+'/nonexistent-seo-test-route/'),files=[];
 for(const path of ['/robots.txt','/sitemap_index.xml','/pages-sitemap.xml','/providers-sitemap.xml','/products-sitemap.xml','/googlee9c6c6adb26b90ba.html']){const r=request(origin+path);files.push({path,status:r.status,body:r.body,error:r.error});}
 const assetResults=[];for(const path of assets){const r=request(origin+path,false,'HEAD');assetResults.push({path,status:r.status,error:r.error||null});}
-const redirects=[],candidates=label==='live'?['https://buyaws-account.vercel.app/','http://cloudssupply.site/','https://cloudssupply.site/','http://www.cloudssupply.site/','https://cloudssupply.site/product/aws-32-vcpu-103/?utm_source=seo-test','https://buyaws-account.vercel.app/product/aws-32-vcpu-103/?utm_source=seo-test',origin+'/home/?utm_source=seo-test',origin+'/product/aws-32-vcpu-103']: [origin+'/home/?utm_source=seo-test',origin+'/product/aws-32-vcpu-103'];
+const redirects=[],candidates=label==='live'?['https://buyaws-account.vercel.app/','http://cloudssupply.site/','https://www.cloudssupply.site/','http://www.cloudssupply.site/','https://www.cloudssupply.site/product/aws-32-vcpu-103/?utm_source=seo-test','https://buyaws-account.vercel.app/product/aws-32-vcpu-103/?utm_source=seo-test',origin+'/home/?utm_source=seo-test',origin+'/product/aws-32-vcpu-103']: [origin+'/home/?utm_source=seo-test',origin+'/product/aws-32-vcpu-103'];
 for(const url of candidates){const r=request(url,true,'HEAD');redirects.push({url,status:r.status,effectiveUrl:r.effectiveUrl,chain:r.chain,error:r.error||null,loop:!!r.error?.includes('redirect')});}
 const xp=new XMLParser(),sitemapUrls=[];let sitemapValid=true;
 for(const f of files.filter(f=>/\/(pages|providers|products)-sitemap.xml/.test(f.path))){if(XMLValidator.validate(f.body||'')!==true){sitemapValid=false;continue;}const entries=xp.parse(f.body).urlset.url;for(const p of Array.isArray(entries)?entries:[entries])sitemapUrls.push(p.loc);}

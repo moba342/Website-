@@ -6,17 +6,17 @@ Individual account variations retain their separate product titles, articles, ca
 
 | Provider page | Primary keyword |
 | --- | --- |
-| https://www.cloudssupply.site/provider/google-cloud/ | buy google cloud account |
-| https://www.cloudssupply.site/provider/azure/ | buy azure account |
-| https://www.cloudssupply.site/provider/digitalocean/ | buy digitalocean account |
-| https://www.cloudssupply.site/provider/linode/ | buy linode account |
-| https://www.cloudssupply.site/provider/ovhcloud/ | buy ovhcloud account |
-| https://www.cloudssupply.site/provider/oracle/ | buy oracle cloud account |
-| https://www.cloudssupply.site/provider/hetzner/ | buy hetzner account |
-| https://www.cloudssupply.site/provider/amazon-ses/ | buy amazon ses account |
-| https://www.cloudssupply.site/provider/upcloud/ | buy upcloud account |
-| https://www.cloudssupply.site/provider/atlantic/ | buy atlantic cloud account |
-| https://www.cloudssupply.site/provider/alibaba/ | buy alibaba cloud account |
-| https://www.cloudssupply.site/provider/aws-marketplace/ | buy aws marketplace account |
+| https://cloudssupply.site/provider/google-cloud/ | buy google cloud account |
+| https://cloudssupply.site/provider/azure/ | buy azure account |
+| https://cloudssupply.site/provider/digitalocean/ | buy digitalocean account |
+| https://cloudssupply.site/provider/linode/ | buy linode account |
+| https://cloudssupply.site/provider/ovhcloud/ | buy ovhcloud account |
+| https://cloudssupply.site/provider/oracle/ | buy oracle cloud account |
+| https://cloudssupply.site/provider/hetzner/ | buy hetzner account |
+| https://cloudssupply.site/provider/amazon-ses/ | buy amazon ses account |
+| https://cloudssupply.site/provider/upcloud/ | buy upcloud account |
+| https://cloudssupply.site/provider/atlantic/ | buy atlantic cloud account |
+| https://cloudssupply.site/provider/alibaba/ | buy alibaba cloud account |
+| https://cloudssupply.site/provider/aws-marketplace/ | buy aws marketplace account |
 
 The build generates all page metadata and collection/breadcrumb structured data, then audits the approved provider title, description, and H1. See `reports/on-page-seo.csv` for the complete 74-page review.

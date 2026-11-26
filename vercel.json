@@ -3,7 +3,7 @@
   "redirects": [
     {
       "source": "/home/",
-      "destination": "https://www.cloudssupply.site/",
+      "destination": "https://cloudssupply.site/",
       "permanent": true
     },
     {
@@ -11,10 +11,10 @@
       "has": [
         {
           "type": "host",
-          "value": "cloudssupply.site"
+          "value": "www.cloudssupply.site"
         }
       ],
-      "destination": "https://www.cloudssupply.site/:path*",
+      "destination": "https://cloudssupply.site/:path*",
       "permanent": true
     },
     {
@@ -25,7 +25,7 @@
           "value": "buyaws-account.vercel.app"
         }
       ],
-      "destination": "https://www.cloudssupply.site/:path*",
+      "destination": "https://cloudssupply.site/:path*",
       "permanent": true
     }
   ],

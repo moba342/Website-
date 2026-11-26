@@ -1,8 +1,8 @@
 # Homepage SEO — CloudsSupply
 
-Active canonical URL: https://www.cloudssupply.site/
+Active canonical URL: https://cloudssupply.site/
 
-The production SEO brief dated 2026-11-27 restores https://www.cloudssupply.site/ as the canonical origin. Sitemap, metadata and structured-data URLs use this shared domain. See seo/SEO-FINAL-REPORT.md for the current launch evidence and remaining account-side steps.
+The production SEO brief dated 2026-11-27 restores https://cloudssupply.site/ as the canonical origin. Sitemap, metadata and structured-data URLs use this shared domain. See seo/SEO-FINAL-REPORT.md for the current launch evidence and remaining account-side steps.
 
 ## Search intent and keywords
 
