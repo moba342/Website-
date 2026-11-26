@@ -1,0 +1,4587 @@
+[
+  {
+    "mode": "mobile",
+    "name": "home",
+    "url": "http://localhost:4173/",
+    "status": "TESTED",
+    "scores": {
+      "performance": 98,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100
+    },
+    "metrics": {
+      "first-contentful-paint": 1952.6590999999999,
+      "largest-contentful-paint": 1952.6590999999999,
+      "total-blocking-time": 0,
+      "cumulative-layout-shift": 0,
+      "speed-index": 1955.9577480523735,
+      "interactive": 1952.6590999999999
+    },
+    "failures": [
+      {
+        "id": "first-contentful-paint",
+        "title": "First Contentful Paint",
+        "score": 0.85,
+        "display": "2.0 s"
+      },
+      {
+        "id": "largest-contentful-paint",
+        "title": "Largest Contentful Paint",
+        "score": 0.97,
+        "display": "2.0 s"
+      },
+      {
+        "id": "speed-index",
+        "title": "Speed Index",
+        "score": 0.99,
+        "display": "2.0 s"
+      },
+      {
+        "id": "interactive",
+        "title": "Time to Interactive",
+        "score": 0.99,
+        "display": "2.0 s"
+      },
+      {
+        "id": "label-content-name-mismatch",
+        "title": "Elements with visible text labels do not have matching accessible names.",
+        "score": 0,
+        "display": "",
+        "details": {
+          "type": "table",
+          "headings": [
+            {
+              "key": "node",
+              "valueType": "node",
+              "subItemsHeading": {
+                "key": "relatedNode",
+                "valueType": "node"
+              },
+              "label": "Failing Elements"
+            }
+          ],
+          "items": [
+            {
+              "node": {
+                "type": "node",
+                "lhId": "1-0-A",
+                "path": "1,HTML,1,BODY,0,DIV,18,MAIN,0,DIV,3,SECTION,1,A",
+                "selector": "main#main-content > div.reference-home > section.container > a.home-bedrock-image",
+                "boundingRect": {
+                  "top": 7689,
+                  "bottom": 7934,
+                  "left": 22,
+                  "right": 390,
+                  "width": 368,
+                  "height": 245
+                },
+                "snippet": "<a class=\"home-bedrock-image\" href=\"/bedrock-api/\" aria-label=\"Explore AWS Bedrock API account options\">",
+                "nodeLabel": "Ai Bedrock 10K RPM 32vCPUs",
+                "explanation": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+              }
+            },
+            {
+              "node": {
+                "type": "node",
+                "lhId": "1-1-BUTTON",
+                "path": "1,HTML,1,BODY,0,DIV,18,MAIN,0,DIV,5,SECTION,4,DIV,0,ARTICLE,1,DIV,4,BUTTON",
+                "selector": "div.market-provider-grid > article.market-provider-card > div.market-card-body > button.market-quick-buy",
+                "boundingRect": {
+                  "top": 10273,
+                  "bottom": 10311,
+                  "left": 44,
+                  "right": 368,
+                  "width": 324,
+                  "height": 38
+                },
+                "snippet": "<button class=\"market-quick-buy\" aria-label=\"Add Amazon Web Services entry-level account to cart\">",
+                "nodeLabel": "Order starting option on Telegram",
+                "explanation": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+              }
+            },
+            {
+              "node": {
+                "type": "node",
+                "lhId": "1-2-BUTTON",
+                "path": "1,HTML,1,BODY,0,DIV,18,MAIN,0,DIV,5,SECTION,4,DIV,1,ARTICLE,1,DIV,4,BUTTON",
+                "selector": "div.market-provider-grid > article.market-provider-card > div.market-card-body > button.market-quick-buy",
+                "boundingRect": {
+                  "top": 10935,
+                  "bottom": 10973,
+                  "left": 44,
+                  "right": 368,
+                  "width": 324,
+                  "height": 38
+                },
+                "snippet": "<button class=\"market-quick-buy\" aria-label=\"Add Google Cloud entry-level account to cart\">",
+                "nodeLabel": "Order starting option on Telegram",
+                "explanation": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+              }
+            },
+            {
+              "node": {
+                "type": "node",
+                "lhId": "1-3-BUTTON",
+                "path": "1,HTML,1,BODY,0,DIV,18,MAIN,0,DIV,5,SECTION,4,DIV,2,ARTICLE,1,DIV,4,BUTTON",
+                "selector": "div.market-provider-grid > article.market-provider-card > div.market-card-body > button.market-quick-buy",
+                "boundingRect": {
+                  "top": 11567,
+                  "bottom": 11605,
+                  "left": 44,
+                  "right": 368,
+                  "width": 324,
+                  "height": 38
+                },
+                "snippet": "<button class=\"market-quick-buy\" aria-label=\"Add Azure entry-level account to cart\">",
+                "nodeLabel": "Order starting option on Telegram",
+                "explanation": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+              }
+            },
+            {
+              "node": {
+                "type": "node",
+                "lhId": "1-4-BUTTON",
+                "path": "1,HTML,1,BODY,0,DIV,18,MAIN,0,DIV,5,SECTION,4,DIV,3,ARTICLE,1,DIV,4,BUTTON",
+                "selector": "div.market-provider-grid > article.market-provider-card > div.market-card-body > button.market-quick-buy",
+                "boundingRect": {
+                  "top": 12199,
+                  "bottom": 12237,
+                  "left": 44,
+                  "right": 368,
+                  "width": 324,
+                  "height": 38
+                },
+                "snippet": "<button class=\"market-quick-buy\" aria-label=\"Add DigitalOcean entry-level account to cart\">",
+                "nodeLabel": "Order starting option on Telegram",
+                "explanation": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+              }
+            },
+            {
+              "node": {
+                "type": "node",
+                "lhId": "1-5-BUTTON",
+                "path": "1,HTML,1,BODY,0,DIV,18,MAIN,0,DIV,5,SECTION,4,DIV,4,ARTICLE,1,DIV,4,BUTTON",
+                "selector": "div.market-provider-grid > article.market-provider-card > div.market-card-body > button.market-quick-buy",
+                "boundingRect": {
+                  "top": 12832,
+                  "bottom": 12870,
+                  "left": 44,
+                  "right": 368,
+                  "width": 324,
+                  "height": 38
+                },
+                "snippet": "<button class=\"market-quick-buy\" aria-label=\"Add Linode entry-level account to cart\">",
+                "nodeLabel": "Order starting option on Telegram",
+                "explanation": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+              }
+            },
+            {
+              "node": {
+                "type": "node",
+                "lhId": "1-6-BUTTON",
+                "path": "1,HTML,1,BODY,0,DIV,18,MAIN,0,DIV,5,SECTION,4,DIV,5,ARTICLE,1,DIV,4,BUTTON",
+                "selector": "div.market-provider-grid > article.market-provider-card > div.market-card-body > button.market-quick-buy",
+                "boundingRect": {
+                  "top": 13464,
+                  "bottom": 13502,
+                  "left": 44,
+                  "right": 368,
+                  "width": 324,
+                  "height": 38
+                },
+                "snippet": "<button class=\"market-quick-buy\" aria-label=\"Add OVHcloud entry-level account to cart\">",
+                "nodeLabel": "Order starting option on Telegram",
+                "explanation": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+              }
+            },
+            {
+              "node": {
+                "type": "node",
+                "lhId": "1-7-BUTTON",
+                "path": "1,HTML,1,BODY,0,DIV,18,MAIN,0,DIV,5,SECTION,4,DIV,6,ARTICLE,1,DIV,4,BUTTON",
+                "selector": "div.market-provider-grid > article.market-provider-card > div.market-card-body > button.market-quick-buy",
+                "boundingRect": {
+                  "top": 14096,
+                  "bottom": 14135,
+                  "left": 44,
+                  "right": 368,
+                  "width": 324,
+                  "height": 38
+                },
+                "snippet": "<button class=\"market-quick-buy\" aria-label=\"Add Oracle Cloud entry-level account to cart\">",
+                "nodeLabel": "Order starting option on Telegram",
+                "explanation": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+              }
+            },
+            {
+              "node": {
+                "type": "node",
+                "lhId": "1-8-BUTTON",
+                "path": "1,HTML,1,BODY,0,DIV,18,MAIN,0,DIV,5,SECTION,4,DIV,7,ARTICLE,1,DIV,4,BUTTON",
+                "selector": "div.market-provider-grid > article.market-provider-card > div.market-card-body > button.market-quick-buy",
+                "boundingRect": {
+                  "top": 14758,
+                  "bottom": 14796,
+                  "left": 44,
+                  "right": 368,
+                  "width": 324,
+                  "height": 38
+                },
+                "snippet": "<button class=\"market-quick-buy\" aria-label=\"Add Hetzner entry-level account to cart\">",
+                "nodeLabel": "Order starting option on Telegram",
+                "explanation": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+              }
+            },
+            {
+              "node": {
+                "type": "node",
+                "lhId": "1-9-BUTTON",
+                "path": "1,HTML,1,BODY,0,DIV,18,MAIN,0,DIV,5,SECTION,4,DIV,8,ARTICLE,1,DIV,4,BUTTON",
+                "selector": "div.market-provider-grid > article.market-provider-card > div.market-card-body > button.market-quick-buy",
+                "boundingRect": {
+                  "top": 15390,
+                  "bottom": 15428,
+                  "left": 44,
+                  "right": 368,
+                  "width": 324,
+                  "height": 38
+                },
+                "snippet": "<button class=\"market-quick-buy\" aria-label=\"Add Amazon SES entry-level account to cart\">",
+                "nodeLabel": "Order starting option on Telegram",
+                "explanation": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+              }
+            },
+            {
+              "node": {
+                "type": "node",
+                "lhId": "1-10-BUTTON",
+                "path": "1,HTML,1,BODY,0,DIV,18,MAIN,0,DIV,5,SECTION,4,DIV,9,ARTICLE,1,DIV,4,BUTTON",
+                "selector": "div.market-provider-grid > article.market-provider-card > div.market-card-body > button.market-quick-buy",
+                "boundingRect": {
+                  "top": 16022,
+                  "bottom": 16061,
+                  "left": 44,
+                  "right": 368,
+                  "width": 324,
+                  "height": 38
+                },
+                "snippet": "<button class=\"market-quick-buy\" aria-label=\"Add UpCloud entry-level account to cart\">",
+                "nodeLabel": "Order starting option on Telegram",
+                "explanation": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+              }
+            },
+            {
+              "node": {
+                "type": "node",
+                "lhId": "1-11-BUTTON",
+                "path": "1,HTML,1,BODY,0,DIV,18,MAIN,0,DIV,5,SECTION,4,DIV,10,ARTICLE,1,DIV,4,BUTTON",
+                "selector": "div.market-provider-grid > article.market-provider-card > div.market-card-body > button.market-quick-buy",
+                "boundingRect": {
+                  "top": 16655,
+                  "bottom": 16693,
+                  "left": 44,
+                  "right": 368,
+                  "width": 324,
+                  "height": 38
+                },
+                "snippet": "<button class=\"market-quick-buy\" aria-label=\"Add Atlantic entry-level account to cart\">",
+                "nodeLabel": "Order starting option on Telegram",
+                "explanation": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+              }
+            },
+            {
+              "node": {
+                "type": "node",
+                "lhId": "1-12-BUTTON",
+                "path": "1,HTML,1,BODY,0,DIV,18,MAIN,0,DIV,5,SECTION,4,DIV,11,ARTICLE,1,DIV,4,BUTTON",
+                "selector": "div.market-provider-grid > article.market-provider-card > div.market-card-body > button.market-quick-buy",
+                "boundingRect": {
+                  "top": 17287,
+                  "bottom": 17325,
+                  "left": 44,
+                  "right": 368,
+                  "width": 324,
+                  "height": 38
+                },
+                "snippet": "<button class=\"market-quick-buy\" aria-label=\"Add Alibaba Cloud entry-level account to cart\">",
+                "nodeLabel": "Order starting option on Telegram",
+                "explanation": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+              }
+            },
+            {
+              "node": {
+                "type": "node",
+                "lhId": "1-13-BUTTON",
+                "path": "1,HTML,1,BODY,0,DIV,18,MAIN,0,DIV,5,SECTION,4,DIV,12,ARTICLE,1,DIV,4,BUTTON",
+                "selector": "div.market-provider-grid > article.market-provider-card > div.market-card-body > button.market-quick-buy",
+                "boundingRect": {
+                  "top": 17920,
+                  "bottom": 17958,
+                  "left": 44,
+                  "right": 368,
+                  "width": 324,
+                  "height": 38
+                },
+                "snippet": "<button class=\"market-quick-buy\" aria-label=\"Add AWS Marketplace entry-level account to cart\">",
+                "nodeLabel": "Order starting option on Telegram",
+                "explanation": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+              }
+            }
+          ],
+          "debugData": {
+            "type": "debugdata",
+            "impact": "serious",
+            "tags": [
+              "cat.semantics",
+              "wcag21a",
+              "wcag253",
+              "EN-301-549",
+              "EN-9.2.5.3",
+              "RGAAv4",
+              "RGAA-6.1.5"
+            ]
+          }
+        }
+      },
+      {
+        "id": "unused-css-rules",
+        "title": "Reduce unused CSS",
+        "score": 0,
+        "display": "Est savings of 126 KiB",
+        "details": {
+          "type": "opportunity",
+          "headings": [
+            {
+              "key": "url",
+              "valueType": "url",
+              "label": "URL"
+            },
+            {
+              "key": "totalBytes",
+              "valueType": "bytes",
+              "label": "Transfer Size"
+            },
+            {
+              "key": "wastedBytes",
+              "valueType": "bytes",
+              "label": "Est Savings"
+            }
+          ],
+          "items": [
+            {
+              "url": "http://localhost:4173/assets/index-BIDq6nTb.css",
+              "wastedBytes": 129060,
+              "wastedPercent": 78.83163527083487,
+              "totalBytes": 163716
+            }
+          ],
+          "overallSavingsMs": 600,
+          "overallSavingsBytes": 129060,
+          "sortedBy": [
+            "wastedBytes"
+          ],
+          "debugData": {
+            "type": "debugdata",
+            "metricSavings": {
+              "FCP": 600,
+              "LCP": 600
+            }
+          }
+        }
+      },
+      {
+        "id": "unused-javascript",
+        "title": "Reduce unused JavaScript",
+        "score": 0.5,
+        "display": "Est savings of 183 KiB",
+        "details": {
+          "type": "opportunity",
+          "headings": [
+            {
+              "key": "url",
+              "valueType": "url",
+              "subItemsHeading": {
+                "key": "source",
+                "valueType": "code"
+              },
+              "label": "URL"
+            },
+            {
+              "key": "totalBytes",
+              "valueType": "bytes",
+              "subItemsHeading": {
+                "key": "sourceBytes"
+              },
+              "label": "Transfer Size"
+            },
+            {
+              "key": "wastedBytes",
+              "valueType": "bytes",
+              "subItemsHeading": {
+                "key": "sourceWastedBytes"
+              },
+              "label": "Est Savings"
+            }
+          ],
+          "items": [
+            {
+              "url": "http://localhost:4173/assets/react-vendor-BDdCVDbo.js",
+              "totalBytes": 222443,
+              "wastedBytes": 117901,
+              "wastedPercent": 53.00279172641981
+            },
+            {
+              "url": "http://localhost:4173/assets/index-_W_cMdw5.js",
+              "totalBytes": 353320,
+              "wastedBytes": 69090,
+              "wastedPercent": 19.55451149099966
+            }
+          ],
+          "overallSavingsMs": 0,
+          "overallSavingsBytes": 186991,
+          "sortedBy": [
+            "wastedBytes"
+          ],
+          "debugData": {
+            "type": "debugdata",
+            "metricSavings": {
+              "FCP": 0,
+              "LCP": 0
+            }
+          }
+        }
+      },
+      {
+        "id": "document-latency-insight",
+        "title": "Document request latency",
+        "score": 0.5,
+        "display": "Est savings of 61 KiB",
+        "details": {
+          "type": "checklist",
+          "items": {
+            "noRedirects": {
+              "label": "Avoids redirects",
+              "value": true
+            },
+            "serverResponseIsFast": {
+              "label": "Server responds quickly (observed 0 ms)",
+              "value": true
+            },
+            "usesCompression": {
+              "label": "No compression applied",
+              "value": false
+            }
+          },
+          "debugData": {
+            "type": "debugdata",
+            "redirectDuration": 0,
+            "serverResponseTime": 0,
+            "uncompressedResponseBytes": 62846,
+            "wastedBytes": 62846
+          }
+        }
+      },
+      {
+        "id": "image-delivery-insight",
+        "title": "Improve image delivery",
+        "score": 0.5,
+        "display": "Est savings of 30 KiB",
+        "details": {
+          "type": "table",
+          "headings": [
+            {
+              "key": "node",
+              "valueType": "node",
+              "label": ""
+            },
+            {
+              "key": "url",
+              "valueType": "url",
+              "label": "URL",
+              "subItemsHeading": {
+                "key": "reason",
+                "valueType": "text"
+              }
+            },
+            {
+              "key": "totalBytes",
+              "valueType": "bytes",
+              "label": "Resource Size"
+            },
+            {
+              "key": "wastedBytes",
+              "valueType": "bytes",
+              "label": "Est Savings",
+              "subItemsHeading": {
+                "key": "wastedBytes",
+                "valueType": "bytes"
+              }
+            }
+          ],
+          "items": [
+            {
+              "node": {
+                "type": "node",
+                "lhId": "page-1-IMG",
+                "path": "1,HTML,1,BODY,0,DIV,17,HEADER,0,DIV,0,A,0,SPAN,0,IMG",
+                "selector": "div.container > a > span.brand-logo > img",
+                "boundingRect": {
+                  "top": 48,
+                  "bottom": 103,
+                  "left": 22,
+                  "right": 242,
+                  "width": 220,
+                  "height": 55
+                },
+                "snippet": "<img src=\"/brand/cloudssupply-wordmark.webp\" alt=\"CloudsSupply\" width=\"700\" height=\"176\" decoding=\"async\">",
+                "nodeLabel": "CloudsSupply"
+              },
+              "url": "http://localhost:4173/brand/cloudssupply-wordmark.webp",
+              "totalBytes": 36914,
+              "wastedBytes": 30703,
+              "subItems": {
+                "type": "subitems",
+                "items": [
+                  {
+                    "reason": "Increasing the image compression factor could improve this image’s download size",
+                    "wastedBytes": 16381
+                  },
+                  {
+                    "reason": "This image file is larger than it needs to be (700x176) for its displayed dimensions (385x97). Use responsive images to reduce the image download size.",
+                    "wastedBytes": 25748
+                  }
+                ]
+              }
+            }
+          ],
+          "debugData": {
+            "type": "debugdata",
+            "wastedBytes": 30703
+          }
+        }
+      },
+      {
+        "id": "network-dependency-tree-insight",
+        "title": "Network dependency tree",
+        "score": 0,
+        "display": "",
+        "details": {
+          "type": "list",
+          "items": [
+            {
+              "type": "list-section",
+              "value": {
+                "type": "network-tree",
+                "chains": {
+                  "B25EEC59B01B1935EE78CB453D0CDFD8": {
+                    "url": "http://localhost:4173/",
+                    "navStartToEndTime": 26,
+                    "transferSize": 94043,
+                    "isLongest": true,
+                    "children": {
+                      "29150.7": {
+                        "url": "http://localhost:4173/assets/index-BIDq6nTb.css",
+                        "navStartToEndTime": 21,
+                        "transferSize": 163958,
+                        "isLongest": true,
+                        "children": {
+                          "29150.144": {
+                            "url": "http://localhost:4173/fonts/ibm-plex-mono-400.woff2",
+                            "navStartToEndTime": 54,
+                            "transferSize": 10244,
+                            "isLongest": true,
+                            "children": {}
+                          },
+                          "29150.145": {
+                            "url": "http://localhost:4173/fonts/ibm-plex-mono-500.woff2",
+                            "navStartToEndTime": 54,
+                            "transferSize": 10284,
+                            "children": {}
+                          }
+                        }
+                      },
+                      "29150.4": {
+                        "url": "http://localhost:4173/assets/index-_W_cMdw5.js",
+                        "navStartToEndTime": 27,
+                        "transferSize": 354192,
+                        "children": {}
+                      }
+                    }
+                  }
+                },
+                "longestChain": {
+                  "duration": 54
+                }
+              }
+            },
+            {
+              "type": "list-section",
+              "title": "Preconnected origins",
+              "description": "[preconnect](https://developer.chrome.com/docs/lighthouse/performance/uses-rel-preconnect/) hints help the browser establish a connection earlier in the page load, saving time when the first request for that origin is made. The following are the origins that the page preconnected to.",
+              "value": {
+                "type": "text",
+                "value": "No origins were preconnected"
+              }
+            },
+            {
+              "type": "list-section",
+              "title": "Preconnect candidates",
+              "description": "Add [preconnect](https://developer.chrome.com/docs/lighthouse/performance/uses-rel-preconnect/) hints to your most important origins, but try to use no more than 4",
+              "value": {
+                "type": "text",
+                "value": "No additional origins are good candidates for preconnecting"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "render-blocking-insight",
+        "title": "Render-blocking requests",
+        "score": 0,
+        "display": "Est savings of 870 ms",
+        "details": {
+          "type": "table",
+          "headings": [
+            {
+              "key": "url",
+              "valueType": "url",
+              "label": "URL"
+            },
+            {
+              "key": "totalBytes",
+              "valueType": "bytes",
+              "label": "Transfer Size"
+            },
+            {
+              "key": "wastedMs",
+              "valueType": "timespanMs",
+              "label": "Duration"
+            }
+          ],
+          "items": [
+            {
+              "url": "http://localhost:4173/assets/index-BIDq6nTb.css",
+              "totalBytes": 163958,
+              "wastedMs": 901
+            }
+          ]
+        }
+      }
+    ],
+    "report": "seo/lighthouse/local-mobile-home.report.html",
+    "lighthouseVersion": "13.6.0",
+    "fetchTime": "2026-11-26T20:03:14.470Z"
+  },
+  {
+    "mode": "mobile",
+    "name": "category",
+    "url": "http://localhost:4173/aws-standard/",
+    "status": "TESTED",
+    "scores": {
+      "performance": 98,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100
+    },
+    "metrics": {
+      "first-contentful-paint": 1802.3462,
+      "largest-contentful-paint": 1802.3462,
+      "total-blocking-time": 0,
+      "cumulative-layout-shift": 0,
+      "speed-index": 1802.3462,
+      "interactive": 1802.3462
+    },
+    "failures": [
+      {
+        "id": "first-contentful-paint",
+        "title": "First Contentful Paint",
+        "score": 0.89,
+        "display": "1.8 s"
+      },
+      {
+        "id": "largest-contentful-paint",
+        "title": "Largest Contentful Paint",
+        "score": 0.98,
+        "display": "1.8 s"
+      },
+      {
+        "id": "unused-css-rules",
+        "title": "Reduce unused CSS",
+        "score": 0,
+        "display": "Est savings of 126 KiB",
+        "details": {
+          "type": "opportunity",
+          "headings": [
+            {
+              "key": "url",
+              "valueType": "url",
+              "label": "URL"
+            },
+            {
+              "key": "totalBytes",
+              "valueType": "bytes",
+              "label": "Transfer Size"
+            },
+            {
+              "key": "wastedBytes",
+              "valueType": "bytes",
+              "label": "Est Savings"
+            }
+          ],
+          "items": [
+            {
+              "url": "http://localhost:4173/assets/index-BIDq6nTb.css",
+              "wastedBytes": 129155,
+              "wastedPercent": 78.88966258643016,
+              "totalBytes": 163716
+            }
+          ],
+          "overallSavingsMs": 600,
+          "overallSavingsBytes": 129155,
+          "sortedBy": [
+            "wastedBytes"
+          ],
+          "debugData": {
+            "type": "debugdata",
+            "metricSavings": {
+              "FCP": 600,
+              "LCP": 600
+            }
+          }
+        }
+      },
+      {
+        "id": "unused-javascript",
+        "title": "Reduce unused JavaScript",
+        "score": 0.5,
+        "display": "Est savings of 190 KiB",
+        "details": {
+          "type": "opportunity",
+          "headings": [
+            {
+              "key": "url",
+              "valueType": "url",
+              "subItemsHeading": {
+                "key": "source",
+                "valueType": "code"
+              },
+              "label": "URL"
+            },
+            {
+              "key": "totalBytes",
+              "valueType": "bytes",
+              "subItemsHeading": {
+                "key": "sourceBytes"
+              },
+              "label": "Transfer Size"
+            },
+            {
+              "key": "wastedBytes",
+              "valueType": "bytes",
+              "subItemsHeading": {
+                "key": "sourceWastedBytes"
+              },
+              "label": "Est Savings"
+            }
+          ],
+          "items": [
+            {
+              "url": "http://localhost:4173/assets/react-vendor-BDdCVDbo.js",
+              "totalBytes": 222443,
+              "wastedBytes": 118214,
+              "wastedPercent": 53.14350193083172
+            },
+            {
+              "url": "http://localhost:4173/assets/index-_W_cMdw5.js",
+              "totalBytes": 353320,
+              "wastedBytes": 76621,
+              "wastedPercent": 21.6860070191328
+            }
+          ],
+          "overallSavingsMs": 0,
+          "overallSavingsBytes": 194835,
+          "sortedBy": [
+            "wastedBytes"
+          ],
+          "debugData": {
+            "type": "debugdata",
+            "metricSavings": {
+              "FCP": 0,
+              "LCP": 0
+            }
+          }
+        }
+      },
+      {
+        "id": "document-latency-insight",
+        "title": "Document request latency",
+        "score": 0.5,
+        "display": "Est savings of 34 KiB",
+        "details": {
+          "type": "checklist",
+          "items": {
+            "noRedirects": {
+              "label": "Avoids redirects",
+              "value": true
+            },
+            "serverResponseIsFast": {
+              "label": "Server responds quickly (observed 0 ms)",
+              "value": true
+            },
+            "usesCompression": {
+              "label": "No compression applied",
+              "value": false
+            }
+          },
+          "debugData": {
+            "type": "debugdata",
+            "redirectDuration": 0,
+            "serverResponseTime": 0,
+            "uncompressedResponseBytes": 35128,
+            "wastedBytes": 35128
+          }
+        }
+      },
+      {
+        "id": "image-delivery-insight",
+        "title": "Improve image delivery",
+        "score": 0.5,
+        "display": "Est savings of 30 KiB",
+        "details": {
+          "type": "table",
+          "headings": [
+            {
+              "key": "node",
+              "valueType": "node",
+              "label": ""
+            },
+            {
+              "key": "url",
+              "valueType": "url",
+              "label": "URL",
+              "subItemsHeading": {
+                "key": "reason",
+                "valueType": "text"
+              }
+            },
+            {
+              "key": "totalBytes",
+              "valueType": "bytes",
+              "label": "Resource Size"
+            },
+            {
+              "key": "wastedBytes",
+              "valueType": "bytes",
+              "label": "Est Savings",
+              "subItemsHeading": {
+                "key": "wastedBytes",
+                "valueType": "bytes"
+              }
+            }
+          ],
+          "items": [
+            {
+              "node": {
+                "type": "node",
+                "lhId": "page-1-IMG",
+                "path": "1,HTML,1,BODY,0,DIV,5,HEADER,0,DIV,0,A,0,SPAN,0,IMG",
+                "selector": "div.container > a > span.brand-logo > img",
+                "boundingRect": {
+                  "top": 48,
+                  "bottom": 103,
+                  "left": 22,
+                  "right": 242,
+                  "width": 220,
+                  "height": 55
+                },
+                "snippet": "<img src=\"/brand/cloudssupply-wordmark.webp\" alt=\"CloudsSupply\" width=\"700\" height=\"176\" decoding=\"async\">",
+                "nodeLabel": "CloudsSupply"
+              },
+              "url": "http://localhost:4173/brand/cloudssupply-wordmark.webp",
+              "totalBytes": 36914,
+              "wastedBytes": 30703,
+              "subItems": {
+                "type": "subitems",
+                "items": [
+                  {
+                    "reason": "Increasing the image compression factor could improve this image’s download size",
+                    "wastedBytes": 16381
+                  },
+                  {
+                    "reason": "This image file is larger than it needs to be (700x176) for its displayed dimensions (385x97). Use responsive images to reduce the image download size.",
+                    "wastedBytes": 25748
+                  }
+                ]
+              }
+            }
+          ],
+          "debugData": {
+            "type": "debugdata",
+            "wastedBytes": 30703
+          }
+        }
+      },
+      {
+        "id": "network-dependency-tree-insight",
+        "title": "Network dependency tree",
+        "score": 0,
+        "display": "",
+        "details": {
+          "type": "list",
+          "items": [
+            {
+              "type": "list-section",
+              "value": {
+                "type": "network-tree",
+                "chains": {
+                  "AD874AF626F5446CD465681BD5048AE0": {
+                    "url": "http://localhost:4173/aws-standard/",
+                    "navStartToEndTime": 12,
+                    "transferSize": 52672,
+                    "isLongest": true,
+                    "children": {
+                      "29173.7": {
+                        "url": "http://localhost:4173/assets/index-BIDq6nTb.css",
+                        "navStartToEndTime": 17,
+                        "transferSize": 163958,
+                        "isLongest": true,
+                        "children": {
+                          "29173.98": {
+                            "url": "http://localhost:4173/fonts/ibm-plex-mono-600.woff2",
+                            "navStartToEndTime": 42,
+                            "transferSize": 10336,
+                            "isLongest": true,
+                            "children": {}
+                          },
+                          "29173.97": {
+                            "url": "http://localhost:4173/fonts/ibm-plex-mono-500.woff2",
+                            "navStartToEndTime": 42,
+                            "transferSize": 10284,
+                            "children": {}
+                          },
+                          "29173.96": {
+                            "url": "http://localhost:4173/fonts/ibm-plex-mono-400.woff2",
+                            "navStartToEndTime": 42,
+                            "transferSize": 10244,
+                            "children": {}
+                          }
+                        }
+                      },
+                      "29173.4": {
+                        "url": "http://localhost:4173/assets/index-_W_cMdw5.js",
+                        "navStartToEndTime": 34,
+                        "transferSize": 354192,
+                        "children": {}
+                      }
+                    }
+                  }
+                },
+                "longestChain": {
+                  "duration": 42
+                }
+              }
+            },
+            {
+              "type": "list-section",
+              "title": "Preconnected origins",
+              "description": "[preconnect](https://developer.chrome.com/docs/lighthouse/performance/uses-rel-preconnect/) hints help the browser establish a connection earlier in the page load, saving time when the first request for that origin is made. The following are the origins that the page preconnected to.",
+              "value": {
+                "type": "text",
+                "value": "No origins were preconnected"
+              }
+            },
+            {
+              "type": "list-section",
+              "title": "Preconnect candidates",
+              "description": "Add [preconnect](https://developer.chrome.com/docs/lighthouse/performance/uses-rel-preconnect/) hints to your most important origins, but try to use no more than 4",
+              "value": {
+                "type": "text",
+                "value": "No additional origins are good candidates for preconnecting"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "render-blocking-insight",
+        "title": "Render-blocking requests",
+        "score": 0,
+        "display": "Est savings of 870 ms",
+        "details": {
+          "type": "table",
+          "headings": [
+            {
+              "key": "url",
+              "valueType": "url",
+              "label": "URL"
+            },
+            {
+              "key": "totalBytes",
+              "valueType": "bytes",
+              "label": "Transfer Size"
+            },
+            {
+              "key": "wastedMs",
+              "valueType": "timespanMs",
+              "label": "Duration"
+            }
+          ],
+          "items": [
+            {
+              "url": "http://localhost:4173/assets/index-BIDq6nTb.css",
+              "totalBytes": 163958,
+              "wastedMs": 901
+            }
+          ]
+        }
+      }
+    ],
+    "report": "seo/lighthouse/local-mobile-category.report.html",
+    "lighthouseVersion": "13.6.0",
+    "fetchTime": "2026-11-26T20:03:24.513Z"
+  },
+  {
+    "mode": "mobile",
+    "name": "provider",
+    "url": "http://localhost:4173/provider/google-cloud/",
+    "status": "TESTED",
+    "scores": {
+      "performance": 77,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100
+    },
+    "metrics": {
+      "first-contentful-paint": 1652.8130999999998,
+      "largest-contentful-paint": 6077.813099999999,
+      "total-blocking-time": 0,
+      "cumulative-layout-shift": 0,
+      "speed-index": 1652.8130999999998,
+      "interactive": 6085.313099999999
+    },
+    "failures": [
+      {
+        "id": "first-contentful-paint",
+        "title": "First Contentful Paint",
+        "score": 0.93,
+        "display": "1.7 s"
+      },
+      {
+        "id": "largest-contentful-paint",
+        "title": "Largest Contentful Paint",
+        "score": 0.12,
+        "display": "6.1 s"
+      },
+      {
+        "id": "interactive",
+        "title": "Time to Interactive",
+        "score": 0.63,
+        "display": "6.1 s"
+      },
+      {
+        "id": "unused-css-rules",
+        "title": "Reduce unused CSS",
+        "score": 0,
+        "display": "Est savings of 136 KiB",
+        "details": {
+          "type": "opportunity",
+          "headings": [
+            {
+              "key": "url",
+              "valueType": "url",
+              "label": "URL"
+            },
+            {
+              "key": "totalBytes",
+              "valueType": "bytes",
+              "label": "Transfer Size"
+            },
+            {
+              "key": "wastedBytes",
+              "valueType": "bytes",
+              "label": "Est Savings"
+            }
+          ],
+          "items": [
+            {
+              "url": "http://localhost:4173/assets/index-BIDq6nTb.css",
+              "wastedBytes": 138994,
+              "wastedPercent": 84.89946004055804,
+              "totalBytes": 163716
+            }
+          ],
+          "overallSavingsMs": 750,
+          "overallSavingsBytes": 138994,
+          "sortedBy": [
+            "wastedBytes"
+          ],
+          "debugData": {
+            "type": "debugdata",
+            "metricSavings": {
+              "FCP": 750,
+              "LCP": 750
+            }
+          }
+        }
+      },
+      {
+        "id": "unused-javascript",
+        "title": "Reduce unused JavaScript",
+        "score": 0,
+        "display": "Est savings of 192 KiB",
+        "details": {
+          "type": "opportunity",
+          "headings": [
+            {
+              "key": "url",
+              "valueType": "url",
+              "subItemsHeading": {
+                "key": "source",
+                "valueType": "code"
+              },
+              "label": "URL"
+            },
+            {
+              "key": "totalBytes",
+              "valueType": "bytes",
+              "subItemsHeading": {
+                "key": "sourceBytes"
+              },
+              "label": "Transfer Size"
+            },
+            {
+              "key": "wastedBytes",
+              "valueType": "bytes",
+              "subItemsHeading": {
+                "key": "sourceWastedBytes"
+              },
+              "label": "Est Savings"
+            }
+          ],
+          "items": [
+            {
+              "url": "http://localhost:4173/assets/react-vendor-BDdCVDbo.js",
+              "totalBytes": 222443,
+              "wastedBytes": 118061,
+              "wastedPercent": 53.07472026541631
+            },
+            {
+              "url": "http://localhost:4173/assets/index-_W_cMdw5.js",
+              "totalBytes": 353320,
+              "wastedBytes": 78470,
+              "wastedPercent": 22.209328653911466
+            }
+          ],
+          "overallSavingsMs": 900,
+          "overallSavingsBytes": 196531,
+          "sortedBy": [
+            "wastedBytes"
+          ],
+          "debugData": {
+            "type": "debugdata",
+            "metricSavings": {
+              "FCP": 0,
+              "LCP": 900
+            }
+          }
+        }
+      },
+      {
+        "id": "document-latency-insight",
+        "title": "Document request latency",
+        "score": 0.5,
+        "display": "Est savings of 14 KiB",
+        "details": {
+          "type": "checklist",
+          "items": {
+            "noRedirects": {
+              "label": "Avoids redirects",
+              "value": true
+            },
+            "serverResponseIsFast": {
+              "label": "Server responds quickly (observed 1 ms)",
+              "value": true
+            },
+            "usesCompression": {
+              "label": "No compression applied",
+              "value": false
+            }
+          },
+          "debugData": {
+            "type": "debugdata",
+            "redirectDuration": 0,
+            "serverResponseTime": 1,
+            "uncompressedResponseBytes": 14045,
+            "wastedBytes": 14045
+          }
+        }
+      },
+      {
+        "id": "image-delivery-insight",
+        "title": "Improve image delivery",
+        "score": 0.5,
+        "display": "Est savings of 28 KiB",
+        "details": {
+          "type": "table",
+          "headings": [
+            {
+              "key": "node",
+              "valueType": "node",
+              "label": ""
+            },
+            {
+              "key": "url",
+              "valueType": "url",
+              "label": "URL",
+              "subItemsHeading": {
+                "key": "reason",
+                "valueType": "text"
+              }
+            },
+            {
+              "key": "totalBytes",
+              "valueType": "bytes",
+              "label": "Resource Size"
+            },
+            {
+              "key": "wastedBytes",
+              "valueType": "bytes",
+              "label": "Est Savings",
+              "subItemsHeading": {
+                "key": "wastedBytes",
+                "valueType": "bytes"
+              }
+            }
+          ],
+          "items": [
+            {
+              "node": {
+                "type": "node",
+                "lhId": "page-1-IMG",
+                "path": "1,HTML,1,BODY,0,DIV,7,FOOTER,0,DIV,0,DIV,0,A,0,SPAN,0,IMG",
+                "selector": "div > a > span.brand-logo > img",
+                "boundingRect": {
+                  "top": 3716,
+                  "bottom": 3779,
+                  "left": 22,
+                  "right": 272,
+                  "width": 250,
+                  "height": 63
+                },
+                "snippet": "<img src=\"/brand/cloudssupply-wordmark.webp\" alt=\"CloudsSupply\" width=\"700\" height=\"176\" decoding=\"async\">",
+                "nodeLabel": "CloudsSupply"
+              },
+              "url": "http://localhost:4173/brand/cloudssupply-wordmark.webp",
+              "totalBytes": 36914,
+              "wastedBytes": 28895,
+              "subItems": {
+                "type": "subitems",
+                "items": [
+                  {
+                    "reason": "Increasing the image compression factor could improve this image’s download size",
+                    "wastedBytes": 16381
+                  },
+                  {
+                    "reason": "This image file is larger than it needs to be (700x176) for its displayed dimensions (438x110). Use responsive images to reduce the image download size.",
+                    "wastedBytes": 22498
+                  }
+                ]
+              }
+            }
+          ],
+          "debugData": {
+            "type": "debugdata",
+            "wastedBytes": 28895
+          }
+        }
+      },
+      {
+        "id": "network-dependency-tree-insight",
+        "title": "Network dependency tree",
+        "score": 0,
+        "display": "",
+        "details": {
+          "type": "list",
+          "items": [
+            {
+              "type": "list-section",
+              "value": {
+                "type": "network-tree",
+                "chains": {
+                  "8F489C71A43FB491CF0E5D8DD330A713": {
+                    "url": "http://localhost:4173/provider/google-cloud/",
+                    "navStartToEndTime": 12,
+                    "transferSize": 21204,
+                    "isLongest": true,
+                    "children": {
+                      "29190.7": {
+                        "url": "http://localhost:4173/assets/index-BIDq6nTb.css",
+                        "navStartToEndTime": 16,
+                        "transferSize": 163958,
+                        "isLongest": true,
+                        "children": {
+                          "29190.32": {
+                            "url": "http://localhost:4173/fonts/ibm-plex-mono-500.woff2",
+                            "navStartToEndTime": 42,
+                            "transferSize": 10284,
+                            "isLongest": true,
+                            "children": {}
+                          },
+                          "29190.31": {
+                            "url": "http://localhost:4173/fonts/ibm-plex-mono-400.woff2",
+                            "navStartToEndTime": 42,
+                            "transferSize": 10244,
+                            "children": {}
+                          },
+                          "29190.33": {
+                            "url": "http://localhost:4173/fonts/ibm-plex-mono-600.woff2",
+                            "navStartToEndTime": 42,
+                            "transferSize": 10336,
+                            "children": {}
+                          }
+                        }
+                      },
+                      "29190.4": {
+                        "url": "http://localhost:4173/assets/index-_W_cMdw5.js",
+                        "navStartToEndTime": 34,
+                        "transferSize": 354192,
+                        "children": {}
+                      }
+                    }
+                  }
+                },
+                "longestChain": {
+                  "duration": 42
+                }
+              }
+            },
+            {
+              "type": "list-section",
+              "title": "Preconnected origins",
+              "description": "[preconnect](https://developer.chrome.com/docs/lighthouse/performance/uses-rel-preconnect/) hints help the browser establish a connection earlier in the page load, saving time when the first request for that origin is made. The following are the origins that the page preconnected to.",
+              "value": {
+                "type": "text",
+                "value": "No origins were preconnected"
+              }
+            },
+            {
+              "type": "list-section",
+              "title": "Preconnect candidates",
+              "description": "Add [preconnect](https://developer.chrome.com/docs/lighthouse/performance/uses-rel-preconnect/) hints to your most important origins, but try to use no more than 4",
+              "value": {
+                "type": "text",
+                "value": "No additional origins are good candidates for preconnecting"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "render-blocking-insight",
+        "title": "Render-blocking requests",
+        "score": 0,
+        "display": "Est savings of 900 ms",
+        "details": {
+          "type": "table",
+          "headings": [
+            {
+              "key": "url",
+              "valueType": "url",
+              "label": "URL"
+            },
+            {
+              "key": "totalBytes",
+              "valueType": "bytes",
+              "label": "Transfer Size"
+            },
+            {
+              "key": "wastedMs",
+              "valueType": "timespanMs",
+              "label": "Duration"
+            }
+          ],
+          "items": [
+            {
+              "url": "http://localhost:4173/assets/index-BIDq6nTb.css",
+              "totalBytes": 163958,
+              "wastedMs": 901
+            }
+          ]
+        }
+      }
+    ],
+    "report": "seo/lighthouse/local-mobile-provider.report.html",
+    "lighthouseVersion": "13.6.0",
+    "fetchTime": "2026-11-26T20:03:34.408Z"
+  },
+  {
+    "mode": "mobile",
+    "name": "product",
+    "url": "http://localhost:4173/product/aws-32-vcpu-103/",
+    "status": "TESTED",
+    "scores": {
+      "performance": 78,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100
+    },
+    "metrics": {
+      "first-contentful-paint": 1651.6725000000001,
+      "largest-contentful-paint": 6001.6725,
+      "total-blocking-time": 0,
+      "cumulative-layout-shift": 0,
+      "speed-index": 1651.6725000000001,
+      "interactive": 6016.672500000001
+    },
+    "failures": [
+      {
+        "id": "first-contentful-paint",
+        "title": "First Contentful Paint",
+        "score": 0.93,
+        "display": "1.7 s"
+      },
+      {
+        "id": "largest-contentful-paint",
+        "title": "Largest Contentful Paint",
+        "score": 0.13,
+        "display": "6.0 s"
+      },
+      {
+        "id": "interactive",
+        "title": "Time to Interactive",
+        "score": 0.64,
+        "display": "6.0 s"
+      },
+      {
+        "id": "unused-css-rules",
+        "title": "Reduce unused CSS",
+        "score": 0,
+        "display": "Est savings of 131 KiB",
+        "details": {
+          "type": "opportunity",
+          "headings": [
+            {
+              "key": "url",
+              "valueType": "url",
+              "label": "URL"
+            },
+            {
+              "key": "totalBytes",
+              "valueType": "bytes",
+              "label": "Transfer Size"
+            },
+            {
+              "key": "wastedBytes",
+              "valueType": "bytes",
+              "label": "Est Savings"
+            }
+          ],
+          "items": [
+            {
+              "url": "http://localhost:4173/assets/index-BIDq6nTb.css",
+              "wastedBytes": 133789,
+              "wastedPercent": 81.72017395978402,
+              "totalBytes": 163716
+            }
+          ],
+          "overallSavingsMs": 600,
+          "overallSavingsBytes": 133789,
+          "sortedBy": [
+            "wastedBytes"
+          ],
+          "debugData": {
+            "type": "debugdata",
+            "metricSavings": {
+              "FCP": 600,
+              "LCP": 600
+            }
+          }
+        }
+      },
+      {
+        "id": "unused-javascript",
+        "title": "Reduce unused JavaScript",
+        "score": 0,
+        "display": "Est savings of 188 KiB",
+        "details": {
+          "type": "opportunity",
+          "headings": [
+            {
+              "key": "url",
+              "valueType": "url",
+              "subItemsHeading": {
+                "key": "source",
+                "valueType": "code"
+              },
+              "label": "URL"
+            },
+            {
+              "key": "totalBytes",
+              "valueType": "bytes",
+              "subItemsHeading": {
+                "key": "sourceBytes"
+              },
+              "label": "Transfer Size"
+            },
+            {
+              "key": "wastedBytes",
+              "valueType": "bytes",
+              "subItemsHeading": {
+                "key": "sourceWastedBytes"
+              },
+              "label": "Est Savings"
+            }
+          ],
+          "items": [
+            {
+              "url": "http://localhost:4173/assets/react-vendor-BDdCVDbo.js",
+              "totalBytes": 222443,
+              "wastedBytes": 118061,
+              "wastedPercent": 53.07472026541631
+            },
+            {
+              "url": "http://localhost:4173/assets/index-_W_cMdw5.js",
+              "totalBytes": 353320,
+              "wastedBytes": 74918,
+              "wastedPercent": 21.20400769840371
+            }
+          ],
+          "overallSavingsMs": 750,
+          "overallSavingsBytes": 192979,
+          "sortedBy": [
+            "wastedBytes"
+          ],
+          "debugData": {
+            "type": "debugdata",
+            "metricSavings": {
+              "FCP": 0,
+              "LCP": 750
+            }
+          }
+        }
+      },
+      {
+        "id": "document-latency-insight",
+        "title": "Document request latency",
+        "score": 0.5,
+        "display": "Est savings of 22 KiB",
+        "details": {
+          "type": "checklist",
+          "items": {
+            "noRedirects": {
+              "label": "Avoids redirects",
+              "value": true
+            },
+            "serverResponseIsFast": {
+              "label": "Server responds quickly (observed 1 ms)",
+              "value": true
+            },
+            "usesCompression": {
+              "label": "No compression applied",
+              "value": false
+            }
+          },
+          "debugData": {
+            "type": "debugdata",
+            "redirectDuration": 0,
+            "serverResponseTime": 1,
+            "uncompressedResponseBytes": 22509,
+            "wastedBytes": 22509
+          }
+        }
+      },
+      {
+        "id": "image-delivery-insight",
+        "title": "Improve image delivery",
+        "score": 0.5,
+        "display": "Est savings of 28 KiB",
+        "details": {
+          "type": "table",
+          "headings": [
+            {
+              "key": "node",
+              "valueType": "node",
+              "label": ""
+            },
+            {
+              "key": "url",
+              "valueType": "url",
+              "label": "URL",
+              "subItemsHeading": {
+                "key": "reason",
+                "valueType": "text"
+              }
+            },
+            {
+              "key": "totalBytes",
+              "valueType": "bytes",
+              "label": "Resource Size"
+            },
+            {
+              "key": "wastedBytes",
+              "valueType": "bytes",
+              "label": "Est Savings",
+              "subItemsHeading": {
+                "key": "wastedBytes",
+                "valueType": "bytes"
+              }
+            }
+          ],
+          "items": [
+            {
+              "node": {
+                "type": "node",
+                "lhId": "page-1-IMG",
+                "path": "1,HTML,1,BODY,0,DIV,7,FOOTER,0,DIV,0,DIV,0,A,0,SPAN,0,IMG",
+                "selector": "div > a > span.brand-logo > img",
+                "boundingRect": {
+                  "top": 6246,
+                  "bottom": 6309,
+                  "left": 22,
+                  "right": 272,
+                  "width": 250,
+                  "height": 63
+                },
+                "snippet": "<img src=\"/brand/cloudssupply-wordmark.webp\" alt=\"CloudsSupply\" width=\"700\" height=\"176\" decoding=\"async\">",
+                "nodeLabel": "CloudsSupply"
+              },
+              "url": "http://localhost:4173/brand/cloudssupply-wordmark.webp",
+              "totalBytes": 36914,
+              "wastedBytes": 28895,
+              "subItems": {
+                "type": "subitems",
+                "items": [
+                  {
+                    "reason": "Increasing the image compression factor could improve this image’s download size",
+                    "wastedBytes": 16381
+                  },
+                  {
+                    "reason": "This image file is larger than it needs to be (700x176) for its displayed dimensions (438x110). Use responsive images to reduce the image download size.",
+                    "wastedBytes": 22498
+                  }
+                ]
+              }
+            }
+          ],
+          "debugData": {
+            "type": "debugdata",
+            "wastedBytes": 28895
+          }
+        }
+      },
+      {
+        "id": "network-dependency-tree-insight",
+        "title": "Network dependency tree",
+        "score": 0,
+        "display": "",
+        "details": {
+          "type": "list",
+          "items": [
+            {
+              "type": "list-section",
+              "value": {
+                "type": "network-tree",
+                "chains": {
+                  "145B804AB683E3CAD653FD89E540FCF6": {
+                    "url": "http://localhost:4173/product/aws-32-vcpu-103/",
+                    "navStartToEndTime": 11,
+                    "transferSize": 33837,
+                    "isLongest": true,
+                    "children": {
+                      "29206.7": {
+                        "url": "http://localhost:4173/assets/index-BIDq6nTb.css",
+                        "navStartToEndTime": 15,
+                        "transferSize": 163958,
+                        "isLongest": true,
+                        "children": {
+                          "29206.47": {
+                            "url": "http://localhost:4173/fonts/ibm-plex-mono-500.woff2",
+                            "navStartToEndTime": 43,
+                            "transferSize": 10284,
+                            "isLongest": true,
+                            "children": {}
+                          },
+                          "29206.48": {
+                            "url": "http://localhost:4173/fonts/ibm-plex-mono-600.woff2",
+                            "navStartToEndTime": 43,
+                            "transferSize": 10336,
+                            "children": {}
+                          },
+                          "29206.46": {
+                            "url": "http://localhost:4173/fonts/ibm-plex-mono-400.woff2",
+                            "navStartToEndTime": 43,
+                            "transferSize": 10244,
+                            "children": {}
+                          }
+                        }
+                      },
+                      "29206.4": {
+                        "url": "http://localhost:4173/assets/index-_W_cMdw5.js",
+                        "navStartToEndTime": 35,
+                        "transferSize": 354192,
+                        "children": {}
+                      }
+                    }
+                  }
+                },
+                "longestChain": {
+                  "duration": 43
+                }
+              }
+            },
+            {
+              "type": "list-section",
+              "title": "Preconnected origins",
+              "description": "[preconnect](https://developer.chrome.com/docs/lighthouse/performance/uses-rel-preconnect/) hints help the browser establish a connection earlier in the page load, saving time when the first request for that origin is made. The following are the origins that the page preconnected to.",
+              "value": {
+                "type": "text",
+                "value": "No origins were preconnected"
+              }
+            },
+            {
+              "type": "list-section",
+              "title": "Preconnect candidates",
+              "description": "Add [preconnect](https://developer.chrome.com/docs/lighthouse/performance/uses-rel-preconnect/) hints to your most important origins, but try to use no more than 4",
+              "value": {
+                "type": "text",
+                "value": "No additional origins are good candidates for preconnecting"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "render-blocking-insight",
+        "title": "Render-blocking requests",
+        "score": 0,
+        "display": "Est savings of 860 ms",
+        "details": {
+          "type": "table",
+          "headings": [
+            {
+              "key": "url",
+              "valueType": "url",
+              "label": "URL"
+            },
+            {
+              "key": "totalBytes",
+              "valueType": "bytes",
+              "label": "Transfer Size"
+            },
+            {
+              "key": "wastedMs",
+              "valueType": "timespanMs",
+              "label": "Duration"
+            }
+          ],
+          "items": [
+            {
+              "url": "http://localhost:4173/assets/index-BIDq6nTb.css",
+              "totalBytes": 163958,
+              "wastedMs": 901
+            }
+          ]
+        }
+      }
+    ],
+    "report": "seo/lighthouse/local-mobile-product.report.html",
+    "lighthouseVersion": "13.6.0",
+    "fetchTime": "2026-11-26T20:03:44.159Z"
+  },
+  {
+    "mode": "mobile",
+    "name": "products",
+    "url": "http://localhost:4173/all-products/",
+    "status": "TESTED",
+    "scores": {
+      "performance": 96,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100
+    },
+    "metrics": {
+      "first-contentful-paint": 2252.749,
+      "largest-contentful-paint": 2252.749,
+      "total-blocking-time": 0,
+      "cumulative-layout-shift": 0,
+      "speed-index": 2252.749,
+      "interactive": 2252.749
+    },
+    "failures": [
+      {
+        "id": "first-contentful-paint",
+        "title": "First Contentful Paint",
+        "score": 0.76,
+        "display": "2.3 s"
+      },
+      {
+        "id": "largest-contentful-paint",
+        "title": "Largest Contentful Paint",
+        "score": 0.94,
+        "display": "2.3 s"
+      },
+      {
+        "id": "speed-index",
+        "title": "Speed Index",
+        "score": 0.99,
+        "display": "2.3 s"
+      },
+      {
+        "id": "interactive",
+        "title": "Time to Interactive",
+        "score": 0.99,
+        "display": "2.3 s"
+      },
+      {
+        "id": "unused-css-rules",
+        "title": "Reduce unused CSS",
+        "score": 0,
+        "display": "Est savings of 131 KiB",
+        "details": {
+          "type": "opportunity",
+          "headings": [
+            {
+              "key": "url",
+              "valueType": "url",
+              "label": "URL"
+            },
+            {
+              "key": "totalBytes",
+              "valueType": "bytes",
+              "label": "Transfer Size"
+            },
+            {
+              "key": "wastedBytes",
+              "valueType": "bytes",
+              "label": "Est Savings"
+            }
+          ],
+          "items": [
+            {
+              "url": "http://localhost:4173/assets/index-BIDq6nTb.css",
+              "wastedBytes": 134307,
+              "wastedPercent": 82.03657553324048,
+              "totalBytes": 163716
+            }
+          ],
+          "overallSavingsMs": 750,
+          "overallSavingsBytes": 134307,
+          "sortedBy": [
+            "wastedBytes"
+          ],
+          "debugData": {
+            "type": "debugdata",
+            "metricSavings": {
+              "FCP": 750,
+              "LCP": 750
+            }
+          }
+        }
+      },
+      {
+        "id": "unused-javascript",
+        "title": "Reduce unused JavaScript",
+        "score": 0.5,
+        "display": "Est savings of 192 KiB",
+        "details": {
+          "type": "opportunity",
+          "headings": [
+            {
+              "key": "url",
+              "valueType": "url",
+              "subItemsHeading": {
+                "key": "source",
+                "valueType": "code"
+              },
+              "label": "URL"
+            },
+            {
+              "key": "totalBytes",
+              "valueType": "bytes",
+              "subItemsHeading": {
+                "key": "sourceBytes"
+              },
+              "label": "Transfer Size"
+            },
+            {
+              "key": "wastedBytes",
+              "valueType": "bytes",
+              "subItemsHeading": {
+                "key": "sourceWastedBytes"
+              },
+              "label": "Est Savings"
+            }
+          ],
+          "items": [
+            {
+              "url": "http://localhost:4173/assets/react-vendor-BDdCVDbo.js",
+              "totalBytes": 222443,
+              "wastedBytes": 117508,
+              "wastedPercent": 52.82611725250963
+            },
+            {
+              "url": "http://localhost:4173/assets/index-_W_cMdw5.js",
+              "totalBytes": 353320,
+              "wastedBytes": 79176,
+              "wastedPercent": 22.409147515000566
+            }
+          ],
+          "overallSavingsMs": 0,
+          "overallSavingsBytes": 196684,
+          "sortedBy": [
+            "wastedBytes"
+          ],
+          "debugData": {
+            "type": "debugdata",
+            "metricSavings": {
+              "FCP": 0,
+              "LCP": 0
+            }
+          }
+        }
+      },
+      {
+        "id": "document-latency-insight",
+        "title": "Document request latency",
+        "score": 0.5,
+        "display": "Est savings of 105 KiB",
+        "details": {
+          "type": "checklist",
+          "items": {
+            "noRedirects": {
+              "label": "Avoids redirects",
+              "value": true
+            },
+            "serverResponseIsFast": {
+              "label": "Server responds quickly (observed 1 ms)",
+              "value": true
+            },
+            "usesCompression": {
+              "label": "No compression applied",
+              "value": false
+            }
+          },
+          "debugData": {
+            "type": "debugdata",
+            "redirectDuration": 0,
+            "serverResponseTime": 1,
+            "uncompressedResponseBytes": 107203,
+            "wastedBytes": 107203
+          }
+        }
+      },
+      {
+        "id": "image-delivery-insight",
+        "title": "Improve image delivery",
+        "score": 0.5,
+        "display": "Est savings of 30 KiB",
+        "details": {
+          "type": "table",
+          "headings": [
+            {
+              "key": "node",
+              "valueType": "node",
+              "label": ""
+            },
+            {
+              "key": "url",
+              "valueType": "url",
+              "label": "URL",
+              "subItemsHeading": {
+                "key": "reason",
+                "valueType": "text"
+              }
+            },
+            {
+              "key": "totalBytes",
+              "valueType": "bytes",
+              "label": "Resource Size"
+            },
+            {
+              "key": "wastedBytes",
+              "valueType": "bytes",
+              "label": "Est Savings",
+              "subItemsHeading": {
+                "key": "wastedBytes",
+                "valueType": "bytes"
+              }
+            }
+          ],
+          "items": [
+            {
+              "node": {
+                "type": "node",
+                "lhId": "page-1-IMG",
+                "path": "1,HTML,1,BODY,0,DIV,16,HEADER,0,DIV,0,A,0,SPAN,0,IMG",
+                "selector": "div.container > a > span.brand-logo > img",
+                "boundingRect": {
+                  "top": 48,
+                  "bottom": 103,
+                  "left": 22,
+                  "right": 242,
+                  "width": 220,
+                  "height": 55
+                },
+                "snippet": "<img src=\"/brand/cloudssupply-wordmark.webp\" alt=\"CloudsSupply\" width=\"700\" height=\"176\" decoding=\"async\">",
+                "nodeLabel": "CloudsSupply"
+              },
+              "url": "http://localhost:4173/brand/cloudssupply-wordmark.webp",
+              "totalBytes": 36914,
+              "wastedBytes": 30703,
+              "subItems": {
+                "type": "subitems",
+                "items": [
+                  {
+                    "reason": "Increasing the image compression factor could improve this image’s download size",
+                    "wastedBytes": 16381
+                  },
+                  {
+                    "reason": "This image file is larger than it needs to be (700x176) for its displayed dimensions (385x97). Use responsive images to reduce the image download size.",
+                    "wastedBytes": 25748
+                  }
+                ]
+              }
+            }
+          ],
+          "debugData": {
+            "type": "debugdata",
+            "wastedBytes": 30703
+          }
+        }
+      },
+      {
+        "id": "network-dependency-tree-insight",
+        "title": "Network dependency tree",
+        "score": 0,
+        "display": "",
+        "details": {
+          "type": "list",
+          "items": [
+            {
+              "type": "list-section",
+              "value": {
+                "type": "network-tree",
+                "chains": {
+                  "73D29C28C3B7EBD04E95331DB30E7061": {
+                    "url": "http://localhost:4173/all-products/",
+                    "navStartToEndTime": 40,
+                    "transferSize": 160247,
+                    "isLongest": true,
+                    "children": {
+                      "29222.7": {
+                        "url": "http://localhost:4173/assets/index-BIDq6nTb.css",
+                        "navStartToEndTime": 36,
+                        "transferSize": 163958,
+                        "isLongest": true,
+                        "children": {
+                          "29222.203": {
+                            "url": "http://localhost:4173/fonts/ibm-plex-mono-600.woff2",
+                            "navStartToEndTime": 79,
+                            "transferSize": 10336,
+                            "isLongest": true,
+                            "children": {}
+                          },
+                          "29222.201": {
+                            "url": "http://localhost:4173/fonts/ibm-plex-mono-400.woff2",
+                            "navStartToEndTime": 79,
+                            "transferSize": 10244,
+                            "children": {}
+                          },
+                          "29222.202": {
+                            "url": "http://localhost:4173/fonts/ibm-plex-mono-500.woff2",
+                            "navStartToEndTime": 78,
+                            "transferSize": 10284,
+                            "children": {}
+                          }
+                        }
+                      },
+                      "29222.4": {
+                        "url": "http://localhost:4173/assets/index-_W_cMdw5.js",
+                        "navStartToEndTime": 41,
+                        "transferSize": 354192,
+                        "children": {}
+                      }
+                    }
+                  }
+                },
+                "longestChain": {
+                  "duration": 79
+                }
+              }
+            },
+            {
+              "type": "list-section",
+              "title": "Preconnected origins",
+              "description": "[preconnect](https://developer.chrome.com/docs/lighthouse/performance/uses-rel-preconnect/) hints help the browser establish a connection earlier in the page load, saving time when the first request for that origin is made. The following are the origins that the page preconnected to.",
+              "value": {
+                "type": "text",
+                "value": "No origins were preconnected"
+              }
+            },
+            {
+              "type": "list-section",
+              "title": "Preconnect candidates",
+              "description": "Add [preconnect](https://developer.chrome.com/docs/lighthouse/performance/uses-rel-preconnect/) hints to your most important origins, but try to use no more than 4",
+              "value": {
+                "type": "text",
+                "value": "No additional origins are good candidates for preconnecting"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "render-blocking-insight",
+        "title": "Render-blocking requests",
+        "score": 0,
+        "display": "Est savings of 840 ms",
+        "details": {
+          "type": "table",
+          "headings": [
+            {
+              "key": "url",
+              "valueType": "url",
+              "label": "URL"
+            },
+            {
+              "key": "totalBytes",
+              "valueType": "bytes",
+              "label": "Transfer Size"
+            },
+            {
+              "key": "wastedMs",
+              "valueType": "timespanMs",
+              "label": "Duration"
+            }
+          ],
+          "items": [
+            {
+              "url": "http://localhost:4173/assets/index-BIDq6nTb.css",
+              "totalBytes": 163958,
+              "wastedMs": 901
+            }
+          ]
+        }
+      }
+    ],
+    "report": "seo/lighthouse/local-mobile-products.report.html",
+    "lighthouseVersion": "13.6.0",
+    "fetchTime": "2026-11-26T20:03:53.925Z"
+  },
+  {
+    "mode": "desktop",
+    "name": "home",
+    "url": "http://localhost:4173/",
+    "status": "TESTED",
+    "scores": {
+      "performance": 98,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100
+    },
+    "metrics": {
+      "first-contentful-paint": 401.9874,
+      "largest-contentful-paint": 1181.9874,
+      "total-blocking-time": 0,
+      "cumulative-layout-shift": 0,
+      "speed-index": 401.9874,
+      "interactive": 1187.9874
+    },
+    "failures": [
+      {
+        "id": "largest-contentful-paint",
+        "title": "Largest Contentful Paint",
+        "score": 0.9,
+        "display": "1.2 s"
+      },
+      {
+        "id": "label-content-name-mismatch",
+        "title": "Elements with visible text labels do not have matching accessible names.",
+        "score": 0,
+        "display": "",
+        "details": {
+          "type": "table",
+          "headings": [
+            {
+              "key": "node",
+              "valueType": "node",
+              "subItemsHeading": {
+                "key": "relatedNode",
+                "valueType": "node"
+              },
+              "label": "Failing Elements"
+            }
+          ],
+          "items": [
+            {
+              "node": {
+                "type": "node",
+                "lhId": "1-0-A",
+                "path": "1,HTML,1,BODY,0,DIV,17,HEADER,0,DIV,2,DIV,0,A",
+                "selector": "header > div.container > div.nav-actions > a.cart-button",
+                "boundingRect": {
+                  "top": 70,
+                  "bottom": 90,
+                  "left": 1181,
+                  "right": 1260,
+                  "width": 78,
+                  "height": 20
+                },
+                "snippet": "<a class=\"cart-button\" href=\"/cart/\" aria-label=\"Open cart, 0 items\">",
+                "nodeLabel": "Cart\n0",
+                "explanation": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+              }
+            },
+            {
+              "node": {
+                "type": "node",
+                "lhId": "1-1-A",
+                "path": "1,HTML,1,BODY,0,DIV,18,MAIN,0,DIV,3,SECTION,1,A",
+                "selector": "main#main-content > div.reference-home > section.container > a.home-bedrock-image",
+                "boundingRect": {
+                  "top": 3248,
+                  "bottom": 3616,
+                  "left": 719,
+                  "right": 1272,
+                  "width": 552,
+                  "height": 368
+                },
+                "snippet": "<a class=\"home-bedrock-image\" href=\"/bedrock-api/\" aria-label=\"Explore AWS Bedrock API account options\">",
+                "nodeLabel": "Ai Bedrock 10K RPM 32vCPUs",
+                "explanation": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+              }
+            },
+            {
+              "node": {
+                "type": "node",
+                "lhId": "1-2-BUTTON",
+                "path": "1,HTML,1,BODY,0,DIV,18,MAIN,0,DIV,5,SECTION,4,DIV,0,ARTICLE,1,DIV,4,BUTTON",
+                "selector": "div.market-provider-grid > article.market-provider-card > div.market-card-body > button.market-quick-buy",
+                "boundingRect": {
+                  "top": 5307,
+                  "bottom": 5343,
+                  "left": 85,
+                  "right": 431,
+                  "width": 346,
+                  "height": 36
+                },
+                "snippet": "<button class=\"market-quick-buy\" aria-label=\"Add Amazon Web Services entry-level account to cart\">",
+                "nodeLabel": "Order starting option on Telegram",
+                "explanation": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+              }
+            },
+            {
+              "node": {
+                "type": "node",
+                "lhId": "1-3-BUTTON",
+                "path": "1,HTML,1,BODY,0,DIV,18,MAIN,0,DIV,5,SECTION,4,DIV,1,ARTICLE,1,DIV,4,BUTTON",
+                "selector": "div.market-provider-grid > article.market-provider-card > div.market-card-body > button.market-quick-buy",
+                "boundingRect": {
+                  "top": 5307,
+                  "bottom": 5343,
+                  "left": 495,
+                  "right": 841,
+                  "width": 346,
+                  "height": 36
+                },
+                "snippet": "<button class=\"market-quick-buy\" aria-label=\"Add Google Cloud entry-level account to cart\">",
+                "nodeLabel": "Order starting option on Telegram",
+                "explanation": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+              }
+            },
+            {
+              "node": {
+                "type": "node",
+                "lhId": "1-4-BUTTON",
+                "path": "1,HTML,1,BODY,0,DIV,18,MAIN,0,DIV,5,SECTION,4,DIV,2,ARTICLE,1,DIV,4,BUTTON",
+                "selector": "div.market-provider-grid > article.market-provider-card > div.market-card-body > button.market-quick-buy",
+                "boundingRect": {
+                  "top": 5307,
+                  "bottom": 5343,
+                  "left": 905,
+                  "right": 1251,
+                  "width": 346,
+                  "height": 36
+                },
+                "snippet": "<button class=\"market-quick-buy\" aria-label=\"Add Azure entry-level account to cart\">",
+                "nodeLabel": "Order starting option on Telegram",
+                "explanation": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+              }
+            },
+            {
+              "node": {
+                "type": "node",
+                "lhId": "1-5-BUTTON",
+                "path": "1,HTML,1,BODY,0,DIV,18,MAIN,0,DIV,5,SECTION,4,DIV,3,ARTICLE,1,DIV,4,BUTTON",
+                "selector": "div.market-provider-grid > article.market-provider-card > div.market-card-body > button.market-quick-buy",
+                "boundingRect": {
+                  "top": 5946,
+                  "bottom": 5982,
+                  "left": 85,
+                  "right": 431,
+                  "width": 346,
+                  "height": 36
+                },
+                "snippet": "<button class=\"market-quick-buy\" aria-label=\"Add DigitalOcean entry-level account to cart\">",
+                "nodeLabel": "Order starting option on Telegram",
+                "explanation": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+              }
+            },
+            {
+              "node": {
+                "type": "node",
+                "lhId": "1-6-BUTTON",
+                "path": "1,HTML,1,BODY,0,DIV,18,MAIN,0,DIV,5,SECTION,4,DIV,4,ARTICLE,1,DIV,4,BUTTON",
+                "selector": "div.market-provider-grid > article.market-provider-card > div.market-card-body > button.market-quick-buy",
+                "boundingRect": {
+                  "top": 5946,
+                  "bottom": 5982,
+                  "left": 495,
+                  "right": 841,
+                  "width": 346,
+                  "height": 36
+                },
+                "snippet": "<button class=\"market-quick-buy\" aria-label=\"Add Linode entry-level account to cart\">",
+                "nodeLabel": "Order starting option on Telegram",
+                "explanation": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+              }
+            },
+            {
+              "node": {
+                "type": "node",
+                "lhId": "1-7-BUTTON",
+                "path": "1,HTML,1,BODY,0,DIV,18,MAIN,0,DIV,5,SECTION,4,DIV,5,ARTICLE,1,DIV,4,BUTTON",
+                "selector": "div.market-provider-grid > article.market-provider-card > div.market-card-body > button.market-quick-buy",
+                "boundingRect": {
+                  "top": 5946,
+                  "bottom": 5982,
+                  "left": 905,
+                  "right": 1251,
+                  "width": 346,
+                  "height": 36
+                },
+                "snippet": "<button class=\"market-quick-buy\" aria-label=\"Add OVHcloud entry-level account to cart\">",
+                "nodeLabel": "Order starting option on Telegram",
+                "explanation": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+              }
+            },
+            {
+              "node": {
+                "type": "node",
+                "lhId": "1-8-BUTTON",
+                "path": "1,HTML,1,BODY,0,DIV,18,MAIN,0,DIV,5,SECTION,4,DIV,6,ARTICLE,1,DIV,4,BUTTON",
+                "selector": "div.market-provider-grid > article.market-provider-card > div.market-card-body > button.market-quick-buy",
+                "boundingRect": {
+                  "top": 6584,
+                  "bottom": 6620,
+                  "left": 85,
+                  "right": 431,
+                  "width": 346,
+                  "height": 36
+                },
+                "snippet": "<button class=\"market-quick-buy\" aria-label=\"Add Oracle Cloud entry-level account to cart\">",
+                "nodeLabel": "Order starting option on Telegram",
+                "explanation": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+              }
+            },
+            {
+              "node": {
+                "type": "node",
+                "lhId": "1-9-BUTTON",
+                "path": "1,HTML,1,BODY,0,DIV,18,MAIN,0,DIV,5,SECTION,4,DIV,7,ARTICLE,1,DIV,4,BUTTON",
+                "selector": "div.market-provider-grid > article.market-provider-card > div.market-card-body > button.market-quick-buy",
+                "boundingRect": {
+                  "top": 6584,
+                  "bottom": 6620,
+                  "left": 495,
+                  "right": 841,
+                  "width": 346,
+                  "height": 36
+                },
+                "snippet": "<button class=\"market-quick-buy\" aria-label=\"Add Hetzner entry-level account to cart\">",
+                "nodeLabel": "Order starting option on Telegram",
+                "explanation": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+              }
+            },
+            {
+              "node": {
+                "type": "node",
+                "lhId": "1-10-BUTTON",
+                "path": "1,HTML,1,BODY,0,DIV,18,MAIN,0,DIV,5,SECTION,4,DIV,8,ARTICLE,1,DIV,4,BUTTON",
+                "selector": "div.market-provider-grid > article.market-provider-card > div.market-card-body > button.market-quick-buy",
+                "boundingRect": {
+                  "top": 6584,
+                  "bottom": 6620,
+                  "left": 905,
+                  "right": 1251,
+                  "width": 346,
+                  "height": 36
+                },
+                "snippet": "<button class=\"market-quick-buy\" aria-label=\"Add Amazon SES entry-level account to cart\">",
+                "nodeLabel": "Order starting option on Telegram",
+                "explanation": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+              }
+            },
+            {
+              "node": {
+                "type": "node",
+                "lhId": "1-11-BUTTON",
+                "path": "1,HTML,1,BODY,0,DIV,18,MAIN,0,DIV,5,SECTION,4,DIV,9,ARTICLE,1,DIV,4,BUTTON",
+                "selector": "div.market-provider-grid > article.market-provider-card > div.market-card-body > button.market-quick-buy",
+                "boundingRect": {
+                  "top": 7223,
+                  "bottom": 7259,
+                  "left": 85,
+                  "right": 431,
+                  "width": 346,
+                  "height": 36
+                },
+                "snippet": "<button class=\"market-quick-buy\" aria-label=\"Add UpCloud entry-level account to cart\">",
+                "nodeLabel": "Order starting option on Telegram",
+                "explanation": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+              }
+            },
+            {
+              "node": {
+                "type": "node",
+                "lhId": "1-12-BUTTON",
+                "path": "1,HTML,1,BODY,0,DIV,18,MAIN,0,DIV,5,SECTION,4,DIV,10,ARTICLE,1,DIV,4,BUTTON",
+                "selector": "div.market-provider-grid > article.market-provider-card > div.market-card-body > button.market-quick-buy",
+                "boundingRect": {
+                  "top": 7223,
+                  "bottom": 7259,
+                  "left": 495,
+                  "right": 841,
+                  "width": 346,
+                  "height": 36
+                },
+                "snippet": "<button class=\"market-quick-buy\" aria-label=\"Add Atlantic entry-level account to cart\">",
+                "nodeLabel": "Order starting option on Telegram",
+                "explanation": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+              }
+            },
+            {
+              "node": {
+                "type": "node",
+                "lhId": "1-13-BUTTON",
+                "path": "1,HTML,1,BODY,0,DIV,18,MAIN,0,DIV,5,SECTION,4,DIV,11,ARTICLE,1,DIV,4,BUTTON",
+                "selector": "div.market-provider-grid > article.market-provider-card > div.market-card-body > button.market-quick-buy",
+                "boundingRect": {
+                  "top": 7223,
+                  "bottom": 7259,
+                  "left": 905,
+                  "right": 1251,
+                  "width": 346,
+                  "height": 36
+                },
+                "snippet": "<button class=\"market-quick-buy\" aria-label=\"Add Alibaba Cloud entry-level account to cart\">",
+                "nodeLabel": "Order starting option on Telegram",
+                "explanation": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+              }
+            },
+            {
+              "node": {
+                "type": "node",
+                "lhId": "1-14-BUTTON",
+                "path": "1,HTML,1,BODY,0,DIV,18,MAIN,0,DIV,5,SECTION,4,DIV,12,ARTICLE,1,DIV,4,BUTTON",
+                "selector": "div.market-provider-grid > article.market-provider-card > div.market-card-body > button.market-quick-buy",
+                "boundingRect": {
+                  "top": 7862,
+                  "bottom": 7898,
+                  "left": 85,
+                  "right": 431,
+                  "width": 346,
+                  "height": 36
+                },
+                "snippet": "<button class=\"market-quick-buy\" aria-label=\"Add AWS Marketplace entry-level account to cart\">",
+                "nodeLabel": "Order starting option on Telegram",
+                "explanation": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+              }
+            }
+          ],
+          "debugData": {
+            "type": "debugdata",
+            "impact": "serious",
+            "tags": [
+              "cat.semantics",
+              "wcag21a",
+              "wcag253",
+              "EN-301-549",
+              "EN-9.2.5.3",
+              "RGAAv4",
+              "RGAA-6.1.5"
+            ]
+          }
+        }
+      },
+      {
+        "id": "unused-css-rules",
+        "title": "Reduce unused CSS",
+        "score": 0,
+        "display": "Est savings of 133 KiB",
+        "details": {
+          "type": "opportunity",
+          "headings": [
+            {
+              "key": "url",
+              "valueType": "url",
+              "label": "URL"
+            },
+            {
+              "key": "totalBytes",
+              "valueType": "bytes",
+              "label": "Transfer Size"
+            },
+            {
+              "key": "wastedBytes",
+              "valueType": "bytes",
+              "label": "Est Savings"
+            }
+          ],
+          "items": [
+            {
+              "url": "http://localhost:4173/assets/index-BIDq6nTb.css",
+              "wastedBytes": 136640,
+              "wastedPercent": 83.46160424149136,
+              "totalBytes": 163716
+            }
+          ],
+          "overallSavingsMs": 120,
+          "overallSavingsBytes": 136640,
+          "sortedBy": [
+            "wastedBytes"
+          ],
+          "debugData": {
+            "type": "debugdata",
+            "metricSavings": {
+              "FCP": 120,
+              "LCP": 120
+            }
+          }
+        }
+      },
+      {
+        "id": "unused-javascript",
+        "title": "Reduce unused JavaScript",
+        "score": 0,
+        "display": "Est savings of 183 KiB",
+        "details": {
+          "type": "opportunity",
+          "headings": [
+            {
+              "key": "url",
+              "valueType": "url",
+              "subItemsHeading": {
+                "key": "source",
+                "valueType": "code"
+              },
+              "label": "URL"
+            },
+            {
+              "key": "totalBytes",
+              "valueType": "bytes",
+              "subItemsHeading": {
+                "key": "sourceBytes"
+              },
+              "label": "Transfer Size"
+            },
+            {
+              "key": "wastedBytes",
+              "valueType": "bytes",
+              "subItemsHeading": {
+                "key": "sourceWastedBytes"
+              },
+              "label": "Est Savings"
+            }
+          ],
+          "items": [
+            {
+              "url": "http://localhost:4173/assets/react-vendor-BDdCVDbo.js",
+              "totalBytes": 222443,
+              "wastedBytes": 118446,
+              "wastedPercent": 53.247798312376645
+            },
+            {
+              "url": "http://localhost:4173/assets/index-_W_cMdw5.js",
+              "totalBytes": 353320,
+              "wastedBytes": 69090,
+              "wastedPercent": 19.55451149099966
+            }
+          ],
+          "overallSavingsMs": 160,
+          "overallSavingsBytes": 187536,
+          "sortedBy": [
+            "wastedBytes"
+          ],
+          "debugData": {
+            "type": "debugdata",
+            "metricSavings": {
+              "FCP": 0,
+              "LCP": 160
+            }
+          }
+        }
+      },
+      {
+        "id": "document-latency-insight",
+        "title": "Document request latency",
+        "score": 0.5,
+        "display": "Est savings of 61 KiB",
+        "details": {
+          "type": "checklist",
+          "items": {
+            "noRedirects": {
+              "label": "Avoids redirects",
+              "value": true
+            },
+            "serverResponseIsFast": {
+              "label": "Server responds quickly (observed 1 ms)",
+              "value": true
+            },
+            "usesCompression": {
+              "label": "No compression applied",
+              "value": false
+            }
+          },
+          "debugData": {
+            "type": "debugdata",
+            "redirectDuration": 0,
+            "serverResponseTime": 1,
+            "uncompressedResponseBytes": 62846,
+            "wastedBytes": 62846
+          }
+        }
+      },
+      {
+        "id": "image-delivery-insight",
+        "title": "Improve image delivery",
+        "score": 0.5,
+        "display": "Est savings of 33 KiB",
+        "details": {
+          "type": "table",
+          "headings": [
+            {
+              "key": "node",
+              "valueType": "node",
+              "label": ""
+            },
+            {
+              "key": "url",
+              "valueType": "url",
+              "label": "URL",
+              "subItemsHeading": {
+                "key": "reason",
+                "valueType": "text"
+              }
+            },
+            {
+              "key": "totalBytes",
+              "valueType": "bytes",
+              "label": "Resource Size"
+            },
+            {
+              "key": "wastedBytes",
+              "valueType": "bytes",
+              "label": "Est Savings",
+              "subItemsHeading": {
+                "key": "wastedBytes",
+                "valueType": "bytes"
+              }
+            }
+          ],
+          "items": [
+            {
+              "node": {
+                "type": "node",
+                "lhId": "page-1-IMG",
+                "path": "1,HTML,1,BODY,0,DIV,17,HEADER,0,DIV,0,A,0,SPAN,0,IMG",
+                "selector": "div.container > a > span.brand-logo > img",
+                "boundingRect": {
+                  "top": 47,
+                  "bottom": 112,
+                  "left": 76,
+                  "right": 336,
+                  "width": 260,
+                  "height": 65
+                },
+                "snippet": "<img src=\"/brand/cloudssupply-wordmark.webp\" alt=\"CloudsSupply\" width=\"700\" height=\"176\" decoding=\"async\">",
+                "nodeLabel": "CloudsSupply"
+              },
+              "url": "http://localhost:4173/brand/cloudssupply-wordmark.webp",
+              "totalBytes": 36914,
+              "wastedBytes": 34082,
+              "subItems": {
+                "type": "subitems",
+                "items": [
+                  {
+                    "reason": "Increasing the image compression factor could improve this image’s download size",
+                    "wastedBytes": 16381
+                  },
+                  {
+                    "reason": "This image file is larger than it needs to be (700x176) for its displayed dimensions (260x65). Use responsive images to reduce the image download size.",
+                    "wastedBytes": 31822
+                  }
+                ]
+              }
+            }
+          ],
+          "debugData": {
+            "type": "debugdata",
+            "wastedBytes": 34082
+          }
+        }
+      },
+      {
+        "id": "network-dependency-tree-insight",
+        "title": "Network dependency tree",
+        "score": 0,
+        "display": "",
+        "details": {
+          "type": "list",
+          "items": [
+            {
+              "type": "list-section",
+              "value": {
+                "type": "network-tree",
+                "chains": {
+                  "B9CD500081E887DA33ABEA509B403798": {
+                    "url": "http://localhost:4173/",
+                    "navStartToEndTime": 27,
+                    "transferSize": 94043,
+                    "isLongest": true,
+                    "children": {
+                      "29238.7": {
+                        "url": "http://localhost:4173/assets/index-BIDq6nTb.css",
+                        "navStartToEndTime": 34,
+                        "transferSize": 163958,
+                        "isLongest": true,
+                        "children": {
+                          "29238.144": {
+                            "url": "http://localhost:4173/fonts/ibm-plex-mono-400.woff2",
+                            "navStartToEndTime": 62,
+                            "transferSize": 10244,
+                            "isLongest": true,
+                            "children": {}
+                          },
+                          "29238.145": {
+                            "url": "http://localhost:4173/fonts/ibm-plex-mono-500.woff2",
+                            "navStartToEndTime": 62,
+                            "transferSize": 10284,
+                            "children": {}
+                          }
+                        }
+                      },
+                      "29238.4": {
+                        "url": "http://localhost:4173/assets/index-_W_cMdw5.js",
+                        "navStartToEndTime": 38,
+                        "transferSize": 354192,
+                        "children": {}
+                      }
+                    }
+                  }
+                },
+                "longestChain": {
+                  "duration": 62
+                }
+              }
+            },
+            {
+              "type": "list-section",
+              "title": "Preconnected origins",
+              "description": "[preconnect](https://developer.chrome.com/docs/lighthouse/performance/uses-rel-preconnect/) hints help the browser establish a connection earlier in the page load, saving time when the first request for that origin is made. The following are the origins that the page preconnected to.",
+              "value": {
+                "type": "text",
+                "value": "No origins were preconnected"
+              }
+            },
+            {
+              "type": "list-section",
+              "title": "Preconnect candidates",
+              "description": "Add [preconnect](https://developer.chrome.com/docs/lighthouse/performance/uses-rel-preconnect/) hints to your most important origins, but try to use no more than 4",
+              "value": {
+                "type": "text",
+                "value": "No additional origins are good candidates for preconnecting"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "render-blocking-insight",
+        "title": "Render-blocking requests",
+        "score": 0,
+        "display": "Est savings of 150 ms",
+        "details": {
+          "type": "table",
+          "headings": [
+            {
+              "key": "url",
+              "valueType": "url",
+              "label": "URL"
+            },
+            {
+              "key": "totalBytes",
+              "valueType": "bytes",
+              "label": "Transfer Size"
+            },
+            {
+              "key": "wastedMs",
+              "valueType": "timespanMs",
+              "label": "Duration"
+            }
+          ],
+          "items": [
+            {
+              "url": "http://localhost:4173/assets/index-BIDq6nTb.css",
+              "totalBytes": 163958,
+              "wastedMs": 161
+            }
+          ]
+        }
+      }
+    ],
+    "report": "seo/lighthouse/local-desktop-home.report.html",
+    "lighthouseVersion": "13.6.0",
+    "fetchTime": "2026-11-26T20:04:03.965Z"
+  },
+  {
+    "mode": "desktop",
+    "name": "category",
+    "url": "http://localhost:4173/aws-standard/",
+    "status": "TESTED",
+    "scores": {
+      "performance": 98,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100
+    },
+    "metrics": {
+      "first-contentful-paint": 402.4767,
+      "largest-contentful-paint": 1182.4767,
+      "total-blocking-time": 0,
+      "cumulative-layout-shift": 0,
+      "speed-index": 402.4767,
+      "interactive": 1184.4767000000002
+    },
+    "failures": [
+      {
+        "id": "largest-contentful-paint",
+        "title": "Largest Contentful Paint",
+        "score": 0.9,
+        "display": "1.2 s"
+      },
+      {
+        "id": "label-content-name-mismatch",
+        "title": "Elements with visible text labels do not have matching accessible names.",
+        "score": 0,
+        "display": "",
+        "details": {
+          "type": "table",
+          "headings": [
+            {
+              "key": "node",
+              "valueType": "node",
+              "subItemsHeading": {
+                "key": "relatedNode",
+                "valueType": "node"
+              },
+              "label": "Failing Elements"
+            }
+          ],
+          "items": [
+            {
+              "node": {
+                "type": "node",
+                "lhId": "1-0-A",
+                "path": "1,HTML,1,BODY,0,DIV,5,HEADER,0,DIV,2,DIV,0,A",
+                "selector": "header > div.container > div.nav-actions > a.cart-button",
+                "boundingRect": {
+                  "top": 70,
+                  "bottom": 90,
+                  "left": 1181,
+                  "right": 1260,
+                  "width": 78,
+                  "height": 20
+                },
+                "snippet": "<a class=\"cart-button\" href=\"/cart/\" aria-label=\"Open cart, 0 items\">",
+                "nodeLabel": "Cart\n0",
+                "explanation": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+              }
+            }
+          ],
+          "debugData": {
+            "type": "debugdata",
+            "impact": "serious",
+            "tags": [
+              "cat.semantics",
+              "wcag21a",
+              "wcag253",
+              "EN-301-549",
+              "EN-9.2.5.3",
+              "RGAAv4",
+              "RGAA-6.1.5"
+            ]
+          }
+        }
+      },
+      {
+        "id": "unused-css-rules",
+        "title": "Reduce unused CSS",
+        "score": 0,
+        "display": "Est savings of 133 KiB",
+        "details": {
+          "type": "opportunity",
+          "headings": [
+            {
+              "key": "url",
+              "valueType": "url",
+              "label": "URL"
+            },
+            {
+              "key": "totalBytes",
+              "valueType": "bytes",
+              "label": "Transfer Size"
+            },
+            {
+              "key": "wastedBytes",
+              "valueType": "bytes",
+              "label": "Est Savings"
+            }
+          ],
+          "items": [
+            {
+              "url": "http://localhost:4173/assets/index-BIDq6nTb.css",
+              "wastedBytes": 136624,
+              "wastedPercent": 83.45183121991741,
+              "totalBytes": 163716
+            }
+          ],
+          "overallSavingsMs": 160,
+          "overallSavingsBytes": 136624,
+          "sortedBy": [
+            "wastedBytes"
+          ],
+          "debugData": {
+            "type": "debugdata",
+            "metricSavings": {
+              "FCP": 120,
+              "LCP": 160
+            }
+          }
+        }
+      },
+      {
+        "id": "unused-javascript",
+        "title": "Reduce unused JavaScript",
+        "score": 0,
+        "display": "Est savings of 190 KiB",
+        "details": {
+          "type": "opportunity",
+          "headings": [
+            {
+              "key": "url",
+              "valueType": "url",
+              "subItemsHeading": {
+                "key": "source",
+                "valueType": "code"
+              },
+              "label": "URL"
+            },
+            {
+              "key": "totalBytes",
+              "valueType": "bytes",
+              "subItemsHeading": {
+                "key": "sourceBytes"
+              },
+              "label": "Transfer Size"
+            },
+            {
+              "key": "wastedBytes",
+              "valueType": "bytes",
+              "subItemsHeading": {
+                "key": "sourceWastedBytes"
+              },
+              "label": "Est Savings"
+            }
+          ],
+          "items": [
+            {
+              "url": "http://localhost:4173/assets/react-vendor-BDdCVDbo.js",
+              "totalBytes": 222443,
+              "wastedBytes": 118214,
+              "wastedPercent": 53.14350193083172
+            },
+            {
+              "url": "http://localhost:4173/assets/index-_W_cMdw5.js",
+              "totalBytes": 353320,
+              "wastedBytes": 76621,
+              "wastedPercent": 21.6860070191328
+            }
+          ],
+          "overallSavingsMs": 160,
+          "overallSavingsBytes": 194835,
+          "sortedBy": [
+            "wastedBytes"
+          ],
+          "debugData": {
+            "type": "debugdata",
+            "metricSavings": {
+              "FCP": 0,
+              "LCP": 160
+            }
+          }
+        }
+      },
+      {
+        "id": "document-latency-insight",
+        "title": "Document request latency",
+        "score": 0.5,
+        "display": "Est savings of 34 KiB",
+        "details": {
+          "type": "checklist",
+          "items": {
+            "noRedirects": {
+              "label": "Avoids redirects",
+              "value": true
+            },
+            "serverResponseIsFast": {
+              "label": "Server responds quickly (observed 1 ms)",
+              "value": true
+            },
+            "usesCompression": {
+              "label": "No compression applied",
+              "value": false
+            }
+          },
+          "debugData": {
+            "type": "debugdata",
+            "redirectDuration": 0,
+            "serverResponseTime": 1,
+            "uncompressedResponseBytes": 35128,
+            "wastedBytes": 35128
+          }
+        }
+      },
+      {
+        "id": "image-delivery-insight",
+        "title": "Improve image delivery",
+        "score": 0.5,
+        "display": "Est savings of 47 KiB",
+        "details": {
+          "type": "table",
+          "headings": [
+            {
+              "key": "node",
+              "valueType": "node",
+              "label": ""
+            },
+            {
+              "key": "url",
+              "valueType": "url",
+              "label": "URL",
+              "subItemsHeading": {
+                "key": "reason",
+                "valueType": "text"
+              }
+            },
+            {
+              "key": "totalBytes",
+              "valueType": "bytes",
+              "label": "Resource Size"
+            },
+            {
+              "key": "wastedBytes",
+              "valueType": "bytes",
+              "label": "Est Savings",
+              "subItemsHeading": {
+                "key": "wastedBytes",
+                "valueType": "bytes"
+              }
+            }
+          ],
+          "items": [
+            {
+              "node": {
+                "type": "node",
+                "lhId": "page-1-IMG",
+                "path": "1,HTML,1,BODY,0,DIV,5,HEADER,0,DIV,0,A,0,SPAN,0,IMG",
+                "selector": "div.container > a > span.brand-logo > img",
+                "boundingRect": {
+                  "top": 47,
+                  "bottom": 112,
+                  "left": 76,
+                  "right": 336,
+                  "width": 260,
+                  "height": 65
+                },
+                "snippet": "<img src=\"/brand/cloudssupply-wordmark.webp\" alt=\"CloudsSupply\" width=\"700\" height=\"176\" decoding=\"async\">",
+                "nodeLabel": "CloudsSupply"
+              },
+              "url": "http://localhost:4173/brand/cloudssupply-wordmark.webp",
+              "totalBytes": 36914,
+              "wastedBytes": 34082,
+              "subItems": {
+                "type": "subitems",
+                "items": [
+                  {
+                    "reason": "Increasing the image compression factor could improve this image’s download size",
+                    "wastedBytes": 16381
+                  },
+                  {
+                    "reason": "This image file is larger than it needs to be (700x176) for its displayed dimensions (260x65). Use responsive images to reduce the image download size.",
+                    "wastedBytes": 31822
+                  }
+                ]
+              }
+            },
+            {
+              "node": {
+                "type": "node",
+                "lhId": "page-0-IMG",
+                "path": "1,HTML,1,BODY,0,DIV,6,MAIN,0,SECTION,0,DIV,1,DIV,0,DIV,0,IMG",
+                "selector": "div.container > div.collection-art > div.premium-artwork > img.product-artwork",
+                "boundingRect": {
+                  "top": 192,
+                  "bottom": 559,
+                  "left": 728,
+                  "right": 1256,
+                  "width": 528,
+                  "height": 367
+                },
+                "snippet": "<img class=\"product-artwork premium-product-image\" src=\"http://localhost:4173/products/premium/cloud-console-v2-800.webp\" srcset=\"/products/premium/cloud-console-v2-480.webp 480w, /products/premium/cloud-…\" sizes=\"(max-width: 760px) 100vw, 50vw\" fetchpriority=\"high\" alt=\"AWS 256 vCPU — blue cloud-console cloud compute server stack illustration\" width=\"1200\" height=\"800\" loading=\"eager\" decoding=\"async\">",
+                "nodeLabel": "AWS 256 vCPU — blue cloud-console cloud compute server stack illustration"
+              },
+              "url": "http://localhost:4173/products/premium/cloud-console-v2-800.webp",
+              "totalBytes": 24370,
+              "wastedBytes": 14432,
+              "subItems": {
+                "type": "subitems",
+                "items": [
+                  {
+                    "reason": "This image file is larger than it needs to be (800x533) for its displayed dimensions (511x340). Use responsive images to reduce the image download size.",
+                    "wastedBytes": 14432
+                  }
+                ]
+              }
+            }
+          ],
+          "debugData": {
+            "type": "debugdata",
+            "wastedBytes": 48514
+          }
+        }
+      },
+      {
+        "id": "network-dependency-tree-insight",
+        "title": "Network dependency tree",
+        "score": 0,
+        "display": "",
+        "details": {
+          "type": "list",
+          "items": [
+            {
+              "type": "list-section",
+              "value": {
+                "type": "network-tree",
+                "chains": {
+                  "A04B4807B0E81EB20B64CA0714F7F883": {
+                    "url": "http://localhost:4173/aws-standard/",
+                    "navStartToEndTime": 12,
+                    "transferSize": 52672,
+                    "isLongest": true,
+                    "children": {
+                      "29255.7": {
+                        "url": "http://localhost:4173/assets/index-BIDq6nTb.css",
+                        "navStartToEndTime": 17,
+                        "transferSize": 163958,
+                        "isLongest": true,
+                        "children": {
+                          "29255.71": {
+                            "url": "http://localhost:4173/fonts/ibm-plex-mono-500.woff2",
+                            "navStartToEndTime": 40,
+                            "transferSize": 10284,
+                            "isLongest": true,
+                            "children": {}
+                          },
+                          "29255.70": {
+                            "url": "http://localhost:4173/fonts/ibm-plex-mono-400.woff2",
+                            "navStartToEndTime": 40,
+                            "transferSize": 10244,
+                            "children": {}
+                          },
+                          "29255.72": {
+                            "url": "http://localhost:4173/fonts/ibm-plex-mono-600.woff2",
+                            "navStartToEndTime": 40,
+                            "transferSize": 10336,
+                            "children": {}
+                          }
+                        }
+                      },
+                      "29255.4": {
+                        "url": "http://localhost:4173/assets/index-_W_cMdw5.js",
+                        "navStartToEndTime": 31,
+                        "transferSize": 354192,
+                        "children": {}
+                      }
+                    }
+                  }
+                },
+                "longestChain": {
+                  "duration": 40
+                }
+              }
+            },
+            {
+              "type": "list-section",
+              "title": "Preconnected origins",
+              "description": "[preconnect](https://developer.chrome.com/docs/lighthouse/performance/uses-rel-preconnect/) hints help the browser establish a connection earlier in the page load, saving time when the first request for that origin is made. The following are the origins that the page preconnected to.",
+              "value": {
+                "type": "text",
+                "value": "No origins were preconnected"
+              }
+            },
+            {
+              "type": "list-section",
+              "title": "Preconnect candidates",
+              "description": "Add [preconnect](https://developer.chrome.com/docs/lighthouse/performance/uses-rel-preconnect/) hints to your most important origins, but try to use no more than 4",
+              "value": {
+                "type": "text",
+                "value": "No additional origins are good candidates for preconnecting"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "render-blocking-insight",
+        "title": "Render-blocking requests",
+        "score": 0,
+        "display": "Est savings of 150 ms",
+        "details": {
+          "type": "table",
+          "headings": [
+            {
+              "key": "url",
+              "valueType": "url",
+              "label": "URL"
+            },
+            {
+              "key": "totalBytes",
+              "valueType": "bytes",
+              "label": "Transfer Size"
+            },
+            {
+              "key": "wastedMs",
+              "valueType": "timespanMs",
+              "label": "Duration"
+            }
+          ],
+          "items": [
+            {
+              "url": "http://localhost:4173/assets/index-BIDq6nTb.css",
+              "totalBytes": 163958,
+              "wastedMs": 161
+            }
+          ]
+        }
+      }
+    ],
+    "report": "seo/lighthouse/local-desktop-category.report.html",
+    "lighthouseVersion": "13.6.0",
+    "fetchTime": "2026-11-26T20:04:13.916Z"
+  },
+  {
+    "mode": "desktop",
+    "name": "provider",
+    "url": "http://localhost:4173/provider/google-cloud/",
+    "status": "TESTED",
+    "scores": {
+      "performance": 98,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100
+    },
+    "metrics": {
+      "first-contentful-paint": 361.6743,
+      "largest-contentful-paint": 1141.6743,
+      "total-blocking-time": 0,
+      "cumulative-layout-shift": 0,
+      "speed-index": 361.6743,
+      "interactive": 1143.6743000000001
+    },
+    "failures": [
+      {
+        "id": "largest-contentful-paint",
+        "title": "Largest Contentful Paint",
+        "score": 0.91,
+        "display": "1.1 s"
+      },
+      {
+        "id": "label-content-name-mismatch",
+        "title": "Elements with visible text labels do not have matching accessible names.",
+        "score": 0,
+        "display": "",
+        "details": {
+          "type": "table",
+          "headings": [
+            {
+              "key": "node",
+              "valueType": "node",
+              "subItemsHeading": {
+                "key": "relatedNode",
+                "valueType": "node"
+              },
+              "label": "Failing Elements"
+            }
+          ],
+          "items": [
+            {
+              "node": {
+                "type": "node",
+                "lhId": "1-0-A",
+                "path": "1,HTML,1,BODY,0,DIV,5,HEADER,0,DIV,2,DIV,0,A",
+                "selector": "header > div.container > div.nav-actions > a.cart-button",
+                "boundingRect": {
+                  "top": 70,
+                  "bottom": 90,
+                  "left": 1181,
+                  "right": 1260,
+                  "width": 78,
+                  "height": 20
+                },
+                "snippet": "<a class=\"cart-button\" href=\"/cart/\" aria-label=\"Open cart, 0 items\">",
+                "nodeLabel": "Cart\n0",
+                "explanation": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+              }
+            }
+          ],
+          "debugData": {
+            "type": "debugdata",
+            "impact": "serious",
+            "tags": [
+              "cat.semantics",
+              "wcag21a",
+              "wcag253",
+              "EN-301-549",
+              "EN-9.2.5.3",
+              "RGAAv4",
+              "RGAA-6.1.5"
+            ]
+          }
+        }
+      },
+      {
+        "id": "unused-css-rules",
+        "title": "Reduce unused CSS",
+        "score": 0,
+        "display": "Est savings of 140 KiB",
+        "details": {
+          "type": "opportunity",
+          "headings": [
+            {
+              "key": "url",
+              "valueType": "url",
+              "label": "URL"
+            },
+            {
+              "key": "totalBytes",
+              "valueType": "bytes",
+              "label": "Transfer Size"
+            },
+            {
+              "key": "wastedBytes",
+              "valueType": "bytes",
+              "label": "Est Savings"
+            }
+          ],
+          "items": [
+            {
+              "url": "http://localhost:4173/assets/index-BIDq6nTb.css",
+              "wastedBytes": 143591,
+              "wastedPercent": 87.70737130152216,
+              "totalBytes": 163716
+            }
+          ],
+          "overallSavingsMs": 160,
+          "overallSavingsBytes": 143591,
+          "sortedBy": [
+            "wastedBytes"
+          ],
+          "debugData": {
+            "type": "debugdata",
+            "metricSavings": {
+              "FCP": 120,
+              "LCP": 160
+            }
+          }
+        }
+      },
+      {
+        "id": "unused-javascript",
+        "title": "Reduce unused JavaScript",
+        "score": 0,
+        "display": "Est savings of 192 KiB",
+        "details": {
+          "type": "opportunity",
+          "headings": [
+            {
+              "key": "url",
+              "valueType": "url",
+              "subItemsHeading": {
+                "key": "source",
+                "valueType": "code"
+              },
+              "label": "URL"
+            },
+            {
+              "key": "totalBytes",
+              "valueType": "bytes",
+              "subItemsHeading": {
+                "key": "sourceBytes"
+              },
+              "label": "Transfer Size"
+            },
+            {
+              "key": "wastedBytes",
+              "valueType": "bytes",
+              "subItemsHeading": {
+                "key": "sourceWastedBytes"
+              },
+              "label": "Est Savings"
+            }
+          ],
+          "items": [
+            {
+              "url": "http://localhost:4173/assets/react-vendor-BDdCVDbo.js",
+              "totalBytes": 222443,
+              "wastedBytes": 118061,
+              "wastedPercent": 53.07472026541631
+            },
+            {
+              "url": "http://localhost:4173/assets/index-_W_cMdw5.js",
+              "totalBytes": 353320,
+              "wastedBytes": 78470,
+              "wastedPercent": 22.209328653911466
+            }
+          ],
+          "overallSavingsMs": 160,
+          "overallSavingsBytes": 196531,
+          "sortedBy": [
+            "wastedBytes"
+          ],
+          "debugData": {
+            "type": "debugdata",
+            "metricSavings": {
+              "FCP": 0,
+              "LCP": 160
+            }
+          }
+        }
+      },
+      {
+        "id": "document-latency-insight",
+        "title": "Document request latency",
+        "score": 0.5,
+        "display": "Est savings of 14 KiB",
+        "details": {
+          "type": "checklist",
+          "items": {
+            "noRedirects": {
+              "label": "Avoids redirects",
+              "value": true
+            },
+            "serverResponseIsFast": {
+              "label": "Server responds quickly (observed 1 ms)",
+              "value": true
+            },
+            "usesCompression": {
+              "label": "No compression applied",
+              "value": false
+            }
+          },
+          "debugData": {
+            "type": "debugdata",
+            "redirectDuration": 0,
+            "serverResponseTime": 1,
+            "uncompressedResponseBytes": 14045,
+            "wastedBytes": 14045
+          }
+        }
+      },
+      {
+        "id": "image-delivery-insight",
+        "title": "Improve image delivery",
+        "score": 0.5,
+        "display": "Est savings of 33 KiB",
+        "details": {
+          "type": "table",
+          "headings": [
+            {
+              "key": "node",
+              "valueType": "node",
+              "label": ""
+            },
+            {
+              "key": "url",
+              "valueType": "url",
+              "label": "URL",
+              "subItemsHeading": {
+                "key": "reason",
+                "valueType": "text"
+              }
+            },
+            {
+              "key": "totalBytes",
+              "valueType": "bytes",
+              "label": "Resource Size"
+            },
+            {
+              "key": "wastedBytes",
+              "valueType": "bytes",
+              "label": "Est Savings",
+              "subItemsHeading": {
+                "key": "wastedBytes",
+                "valueType": "bytes"
+              }
+            }
+          ],
+          "items": [
+            {
+              "node": {
+                "type": "node",
+                "lhId": "page-1-IMG",
+                "path": "1,HTML,1,BODY,0,DIV,5,HEADER,0,DIV,0,A,0,SPAN,0,IMG",
+                "selector": "div.container > a > span.brand-logo > img",
+                "boundingRect": {
+                  "top": 47,
+                  "bottom": 112,
+                  "left": 76,
+                  "right": 336,
+                  "width": 260,
+                  "height": 65
+                },
+                "snippet": "<img src=\"/brand/cloudssupply-wordmark.webp\" alt=\"CloudsSupply\" width=\"700\" height=\"176\" decoding=\"async\">",
+                "nodeLabel": "CloudsSupply"
+              },
+              "url": "http://localhost:4173/brand/cloudssupply-wordmark.webp",
+              "totalBytes": 36914,
+              "wastedBytes": 34082,
+              "subItems": {
+                "type": "subitems",
+                "items": [
+                  {
+                    "reason": "Increasing the image compression factor could improve this image’s download size",
+                    "wastedBytes": 16381
+                  },
+                  {
+                    "reason": "This image file is larger than it needs to be (700x176) for its displayed dimensions (260x65). Use responsive images to reduce the image download size.",
+                    "wastedBytes": 31822
+                  }
+                ]
+              }
+            }
+          ],
+          "debugData": {
+            "type": "debugdata",
+            "wastedBytes": 34082
+          }
+        }
+      },
+      {
+        "id": "network-dependency-tree-insight",
+        "title": "Network dependency tree",
+        "score": 0,
+        "display": "",
+        "details": {
+          "type": "list",
+          "items": [
+            {
+              "type": "list-section",
+              "value": {
+                "type": "network-tree",
+                "chains": {
+                  "DAF321E5F3461B2B7BE2398644B2BA28": {
+                    "url": "http://localhost:4173/provider/google-cloud/",
+                    "navStartToEndTime": 27,
+                    "transferSize": 21204,
+                    "isLongest": true,
+                    "children": {
+                      "29271.7": {
+                        "url": "http://localhost:4173/assets/index-BIDq6nTb.css",
+                        "navStartToEndTime": 30,
+                        "transferSize": 163958,
+                        "isLongest": true,
+                        "children": {
+                          "29271.31": {
+                            "url": "http://localhost:4173/fonts/ibm-plex-mono-400.woff2",
+                            "navStartToEndTime": 55,
+                            "transferSize": 10244,
+                            "isLongest": true,
+                            "children": {}
+                          },
+                          "29271.32": {
+                            "url": "http://localhost:4173/fonts/ibm-plex-mono-500.woff2",
+                            "navStartToEndTime": 55,
+                            "transferSize": 10284,
+                            "children": {}
+                          },
+                          "29271.33": {
+                            "url": "http://localhost:4173/fonts/ibm-plex-mono-600.woff2",
+                            "navStartToEndTime": 55,
+                            "transferSize": 10336,
+                            "children": {}
+                          }
+                        }
+                      },
+                      "29271.4": {
+                        "url": "http://localhost:4173/assets/index-_W_cMdw5.js",
+                        "navStartToEndTime": 47,
+                        "transferSize": 354192,
+                        "children": {}
+                      }
+                    }
+                  }
+                },
+                "longestChain": {
+                  "duration": 55
+                }
+              }
+            },
+            {
+              "type": "list-section",
+              "title": "Preconnected origins",
+              "description": "[preconnect](https://developer.chrome.com/docs/lighthouse/performance/uses-rel-preconnect/) hints help the browser establish a connection earlier in the page load, saving time when the first request for that origin is made. The following are the origins that the page preconnected to.",
+              "value": {
+                "type": "text",
+                "value": "No origins were preconnected"
+              }
+            },
+            {
+              "type": "list-section",
+              "title": "Preconnect candidates",
+              "description": "Add [preconnect](https://developer.chrome.com/docs/lighthouse/performance/uses-rel-preconnect/) hints to your most important origins, but try to use no more than 4",
+              "value": {
+                "type": "text",
+                "value": "No additional origins are good candidates for preconnecting"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "render-blocking-insight",
+        "title": "Render-blocking requests",
+        "score": 0,
+        "display": "Est savings of 150 ms",
+        "details": {
+          "type": "table",
+          "headings": [
+            {
+              "key": "url",
+              "valueType": "url",
+              "label": "URL"
+            },
+            {
+              "key": "totalBytes",
+              "valueType": "bytes",
+              "label": "Transfer Size"
+            },
+            {
+              "key": "wastedMs",
+              "valueType": "timespanMs",
+              "label": "Duration"
+            }
+          ],
+          "items": [
+            {
+              "url": "http://localhost:4173/assets/index-BIDq6nTb.css",
+              "totalBytes": 163958,
+              "wastedMs": 161
+            }
+          ]
+        }
+      }
+    ],
+    "report": "seo/lighthouse/local-desktop-provider.report.html",
+    "lighthouseVersion": "13.6.0",
+    "fetchTime": "2026-11-26T20:04:23.721Z"
+  },
+  {
+    "mode": "desktop",
+    "name": "product",
+    "url": "http://localhost:4173/product/aws-32-vcpu-103/",
+    "status": "TESTED",
+    "scores": {
+      "performance": 98,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100
+    },
+    "metrics": {
+      "first-contentful-paint": 362.3533,
+      "largest-contentful-paint": 1162.3533,
+      "total-blocking-time": 0,
+      "cumulative-layout-shift": 0,
+      "speed-index": 362.3533,
+      "interactive": 1166.3533000000002
+    },
+    "failures": [
+      {
+        "id": "largest-contentful-paint",
+        "title": "Largest Contentful Paint",
+        "score": 0.91,
+        "display": "1.2 s"
+      },
+      {
+        "id": "label-content-name-mismatch",
+        "title": "Elements with visible text labels do not have matching accessible names.",
+        "score": 0,
+        "display": "",
+        "details": {
+          "type": "table",
+          "headings": [
+            {
+              "key": "node",
+              "valueType": "node",
+              "subItemsHeading": {
+                "key": "relatedNode",
+                "valueType": "node"
+              },
+              "label": "Failing Elements"
+            }
+          ],
+          "items": [
+            {
+              "node": {
+                "type": "node",
+                "lhId": "1-0-A",
+                "path": "1,HTML,1,BODY,0,DIV,5,HEADER,0,DIV,2,DIV,0,A",
+                "selector": "header > div.container > div.nav-actions > a.cart-button",
+                "boundingRect": {
+                  "top": 70,
+                  "bottom": 90,
+                  "left": 1181,
+                  "right": 1260,
+                  "width": 78,
+                  "height": 20
+                },
+                "snippet": "<a class=\"cart-button\" href=\"/cart/\" aria-label=\"Open cart, 0 items\">",
+                "nodeLabel": "Cart\n0",
+                "explanation": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+              }
+            }
+          ],
+          "debugData": {
+            "type": "debugdata",
+            "impact": "serious",
+            "tags": [
+              "cat.semantics",
+              "wcag21a",
+              "wcag253",
+              "EN-301-549",
+              "EN-9.2.5.3",
+              "RGAAv4",
+              "RGAA-6.1.5"
+            ]
+          }
+        }
+      },
+      {
+        "id": "unused-css-rules",
+        "title": "Reduce unused CSS",
+        "score": 0,
+        "display": "Est savings of 136 KiB",
+        "details": {
+          "type": "opportunity",
+          "headings": [
+            {
+              "key": "url",
+              "valueType": "url",
+              "label": "URL"
+            },
+            {
+              "key": "totalBytes",
+              "valueType": "bytes",
+              "label": "Transfer Size"
+            },
+            {
+              "key": "wastedBytes",
+              "valueType": "bytes",
+              "label": "Est Savings"
+            }
+          ],
+          "items": [
+            {
+              "url": "http://localhost:4173/assets/index-BIDq6nTb.css",
+              "wastedBytes": 139375,
+              "wastedPercent": 85.13218011678761,
+              "totalBytes": 163716
+            }
+          ],
+          "overallSavingsMs": 160,
+          "overallSavingsBytes": 139375,
+          "sortedBy": [
+            "wastedBytes"
+          ],
+          "debugData": {
+            "type": "debugdata",
+            "metricSavings": {
+              "FCP": 120,
+              "LCP": 160
+            }
+          }
+        }
+      },
+      {
+        "id": "unused-javascript",
+        "title": "Reduce unused JavaScript",
+        "score": 0,
+        "display": "Est savings of 188 KiB",
+        "details": {
+          "type": "opportunity",
+          "headings": [
+            {
+              "key": "url",
+              "valueType": "url",
+              "subItemsHeading": {
+                "key": "source",
+                "valueType": "code"
+              },
+              "label": "URL"
+            },
+            {
+              "key": "totalBytes",
+              "valueType": "bytes",
+              "subItemsHeading": {
+                "key": "sourceBytes"
+              },
+              "label": "Transfer Size"
+            },
+            {
+              "key": "wastedBytes",
+              "valueType": "bytes",
+              "subItemsHeading": {
+                "key": "sourceWastedBytes"
+              },
+              "label": "Est Savings"
+            }
+          ],
+          "items": [
+            {
+              "url": "http://localhost:4173/assets/react-vendor-BDdCVDbo.js",
+              "totalBytes": 222443,
+              "wastedBytes": 118061,
+              "wastedPercent": 53.07472026541631
+            },
+            {
+              "url": "http://localhost:4173/assets/index-_W_cMdw5.js",
+              "totalBytes": 353320,
+              "wastedBytes": 74918,
+              "wastedPercent": 21.20400769840371
+            }
+          ],
+          "overallSavingsMs": 160,
+          "overallSavingsBytes": 192979,
+          "sortedBy": [
+            "wastedBytes"
+          ],
+          "debugData": {
+            "type": "debugdata",
+            "metricSavings": {
+              "FCP": 0,
+              "LCP": 160
+            }
+          }
+        }
+      },
+      {
+        "id": "document-latency-insight",
+        "title": "Document request latency",
+        "score": 0.5,
+        "display": "Est savings of 22 KiB",
+        "details": {
+          "type": "checklist",
+          "items": {
+            "noRedirects": {
+              "label": "Avoids redirects",
+              "value": true
+            },
+            "serverResponseIsFast": {
+              "label": "Server responds quickly (observed 1 ms)",
+              "value": true
+            },
+            "usesCompression": {
+              "label": "No compression applied",
+              "value": false
+            }
+          },
+          "debugData": {
+            "type": "debugdata",
+            "redirectDuration": 0,
+            "serverResponseTime": 1,
+            "uncompressedResponseBytes": 22509,
+            "wastedBytes": 22509
+          }
+        }
+      },
+      {
+        "id": "image-delivery-insight",
+        "title": "Improve image delivery",
+        "score": 0.5,
+        "display": "Est savings of 33 KiB",
+        "details": {
+          "type": "table",
+          "headings": [
+            {
+              "key": "node",
+              "valueType": "node",
+              "label": ""
+            },
+            {
+              "key": "url",
+              "valueType": "url",
+              "label": "URL",
+              "subItemsHeading": {
+                "key": "reason",
+                "valueType": "text"
+              }
+            },
+            {
+              "key": "totalBytes",
+              "valueType": "bytes",
+              "label": "Resource Size"
+            },
+            {
+              "key": "wastedBytes",
+              "valueType": "bytes",
+              "label": "Est Savings",
+              "subItemsHeading": {
+                "key": "wastedBytes",
+                "valueType": "bytes"
+              }
+            }
+          ],
+          "items": [
+            {
+              "node": {
+                "type": "node",
+                "lhId": "page-1-IMG",
+                "path": "1,HTML,1,BODY,0,DIV,5,HEADER,0,DIV,0,A,0,SPAN,0,IMG",
+                "selector": "div.container > a > span.brand-logo > img",
+                "boundingRect": {
+                  "top": 47,
+                  "bottom": 112,
+                  "left": 76,
+                  "right": 336,
+                  "width": 260,
+                  "height": 65
+                },
+                "snippet": "<img src=\"/brand/cloudssupply-wordmark.webp\" alt=\"CloudsSupply\" width=\"700\" height=\"176\" decoding=\"async\">",
+                "nodeLabel": "CloudsSupply"
+              },
+              "url": "http://localhost:4173/brand/cloudssupply-wordmark.webp",
+              "totalBytes": 36914,
+              "wastedBytes": 34082,
+              "subItems": {
+                "type": "subitems",
+                "items": [
+                  {
+                    "reason": "Increasing the image compression factor could improve this image’s download size",
+                    "wastedBytes": 16381
+                  },
+                  {
+                    "reason": "This image file is larger than it needs to be (700x176) for its displayed dimensions (260x65). Use responsive images to reduce the image download size.",
+                    "wastedBytes": 31822
+                  }
+                ]
+              }
+            }
+          ],
+          "debugData": {
+            "type": "debugdata",
+            "wastedBytes": 34082
+          }
+        }
+      },
+      {
+        "id": "network-dependency-tree-insight",
+        "title": "Network dependency tree",
+        "score": 0,
+        "display": "",
+        "details": {
+          "type": "list",
+          "items": [
+            {
+              "type": "list-section",
+              "value": {
+                "type": "network-tree",
+                "chains": {
+                  "6571BA0C016B629E4E71000274CFF0E2": {
+                    "url": "http://localhost:4173/product/aws-32-vcpu-103/",
+                    "navStartToEndTime": 26,
+                    "transferSize": 33837,
+                    "isLongest": true,
+                    "children": {
+                      "29288.7": {
+                        "url": "http://localhost:4173/assets/index-BIDq6nTb.css",
+                        "navStartToEndTime": 29,
+                        "transferSize": 163958,
+                        "isLongest": true,
+                        "children": {
+                          "29288.41": {
+                            "url": "http://localhost:4173/fonts/ibm-plex-mono-500.woff2",
+                            "navStartToEndTime": 57,
+                            "transferSize": 10284,
+                            "isLongest": true,
+                            "children": {}
+                          },
+                          "29288.42": {
+                            "url": "http://localhost:4173/fonts/ibm-plex-mono-600.woff2",
+                            "navStartToEndTime": 57,
+                            "transferSize": 10336,
+                            "children": {}
+                          },
+                          "29288.40": {
+                            "url": "http://localhost:4173/fonts/ibm-plex-mono-400.woff2",
+                            "navStartToEndTime": 57,
+                            "transferSize": 10244,
+                            "children": {}
+                          }
+                        }
+                      },
+                      "29288.4": {
+                        "url": "http://localhost:4173/assets/index-_W_cMdw5.js",
+                        "navStartToEndTime": 49,
+                        "transferSize": 354192,
+                        "children": {}
+                      }
+                    }
+                  }
+                },
+                "longestChain": {
+                  "duration": 57
+                }
+              }
+            },
+            {
+              "type": "list-section",
+              "title": "Preconnected origins",
+              "description": "[preconnect](https://developer.chrome.com/docs/lighthouse/performance/uses-rel-preconnect/) hints help the browser establish a connection earlier in the page load, saving time when the first request for that origin is made. The following are the origins that the page preconnected to.",
+              "value": {
+                "type": "text",
+                "value": "No origins were preconnected"
+              }
+            },
+            {
+              "type": "list-section",
+              "title": "Preconnect candidates",
+              "description": "Add [preconnect](https://developer.chrome.com/docs/lighthouse/performance/uses-rel-preconnect/) hints to your most important origins, but try to use no more than 4",
+              "value": {
+                "type": "text",
+                "value": "No additional origins are good candidates for preconnecting"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "render-blocking-insight",
+        "title": "Render-blocking requests",
+        "score": 0,
+        "display": "Est savings of 150 ms",
+        "details": {
+          "type": "table",
+          "headings": [
+            {
+              "key": "url",
+              "valueType": "url",
+              "label": "URL"
+            },
+            {
+              "key": "totalBytes",
+              "valueType": "bytes",
+              "label": "Transfer Size"
+            },
+            {
+              "key": "wastedMs",
+              "valueType": "timespanMs",
+              "label": "Duration"
+            }
+          ],
+          "items": [
+            {
+              "url": "http://localhost:4173/assets/index-BIDq6nTb.css",
+              "totalBytes": 163958,
+              "wastedMs": 161
+            }
+          ]
+        }
+      }
+    ],
+    "report": "seo/lighthouse/local-desktop-product.report.html",
+    "lighthouseVersion": "13.6.0",
+    "fetchTime": "2026-11-26T20:04:33.468Z"
+  },
+  {
+    "mode": "desktop",
+    "name": "products",
+    "url": "http://localhost:4173/all-products/",
+    "status": "TESTED",
+    "scores": {
+      "performance": 97,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100
+    },
+    "metrics": {
+      "first-contentful-paint": 481.7835,
+      "largest-contentful-paint": 1281.7835,
+      "total-blocking-time": 0,
+      "cumulative-layout-shift": 0,
+      "speed-index": 481.7835,
+      "interactive": 1289.7835
+    },
+    "failures": [
+      {
+        "id": "largest-contentful-paint",
+        "title": "Largest Contentful Paint",
+        "score": 0.87,
+        "display": "1.3 s"
+      },
+      {
+        "id": "label-content-name-mismatch",
+        "title": "Elements with visible text labels do not have matching accessible names.",
+        "score": 0,
+        "display": "",
+        "details": {
+          "type": "table",
+          "headings": [
+            {
+              "key": "node",
+              "valueType": "node",
+              "subItemsHeading": {
+                "key": "relatedNode",
+                "valueType": "node"
+              },
+              "label": "Failing Elements"
+            }
+          ],
+          "items": [
+            {
+              "node": {
+                "type": "node",
+                "lhId": "1-0-A",
+                "path": "1,HTML,1,BODY,0,DIV,16,HEADER,0,DIV,2,DIV,0,A",
+                "selector": "header > div.container > div.nav-actions > a.cart-button",
+                "boundingRect": {
+                  "top": 70,
+                  "bottom": 90,
+                  "left": 1181,
+                  "right": 1260,
+                  "width": 78,
+                  "height": 20
+                },
+                "snippet": "<a class=\"cart-button\" href=\"/cart/\" aria-label=\"Open cart, 0 items\">",
+                "nodeLabel": "Cart\n0",
+                "explanation": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+              }
+            }
+          ],
+          "debugData": {
+            "type": "debugdata",
+            "impact": "serious",
+            "tags": [
+              "cat.semantics",
+              "wcag21a",
+              "wcag253",
+              "EN-301-549",
+              "EN-9.2.5.3",
+              "RGAAv4",
+              "RGAA-6.1.5"
+            ]
+          }
+        }
+      },
+      {
+        "id": "unused-css-rules",
+        "title": "Reduce unused CSS",
+        "score": 0,
+        "display": "Est savings of 137 KiB",
+        "details": {
+          "type": "opportunity",
+          "headings": [
+            {
+              "key": "url",
+              "valueType": "url",
+              "label": "URL"
+            },
+            {
+              "key": "totalBytes",
+              "valueType": "bytes",
+              "label": "Transfer Size"
+            },
+            {
+              "key": "wastedBytes",
+              "valueType": "bytes",
+              "label": "Est Savings"
+            }
+          ],
+          "items": [
+            {
+              "url": "http://localhost:4173/assets/index-BIDq6nTb.css",
+              "wastedBytes": 140785,
+              "wastedPercent": 85.99342764299152,
+              "totalBytes": 163716
+            }
+          ],
+          "overallSavingsMs": 120,
+          "overallSavingsBytes": 140785,
+          "sortedBy": [
+            "wastedBytes"
+          ],
+          "debugData": {
+            "type": "debugdata",
+            "metricSavings": {
+              "FCP": 120,
+              "LCP": 120
+            }
+          }
+        }
+      },
+      {
+        "id": "unused-javascript",
+        "title": "Reduce unused JavaScript",
+        "score": 0,
+        "display": "Est savings of 193 KiB",
+        "details": {
+          "type": "opportunity",
+          "headings": [
+            {
+              "key": "url",
+              "valueType": "url",
+              "subItemsHeading": {
+                "key": "source",
+                "valueType": "code"
+              },
+              "label": "URL"
+            },
+            {
+              "key": "totalBytes",
+              "valueType": "bytes",
+              "subItemsHeading": {
+                "key": "sourceBytes"
+              },
+              "label": "Transfer Size"
+            },
+            {
+              "key": "wastedBytes",
+              "valueType": "bytes",
+              "subItemsHeading": {
+                "key": "sourceWastedBytes"
+              },
+              "label": "Est Savings"
+            }
+          ],
+          "items": [
+            {
+              "url": "http://localhost:4173/assets/react-vendor-BDdCVDbo.js",
+              "totalBytes": 222443,
+              "wastedBytes": 118053,
+              "wastedPercent": 53.071123838466484
+            },
+            {
+              "url": "http://localhost:4173/assets/index-_W_cMdw5.js",
+              "totalBytes": 353320,
+              "wastedBytes": 79176,
+              "wastedPercent": 22.409147515000566
+            }
+          ],
+          "overallSavingsMs": 160,
+          "overallSavingsBytes": 197229,
+          "sortedBy": [
+            "wastedBytes"
+          ],
+          "debugData": {
+            "type": "debugdata",
+            "metricSavings": {
+              "FCP": 0,
+              "LCP": 160
+            }
+          }
+        }
+      },
+      {
+        "id": "document-latency-insight",
+        "title": "Document request latency",
+        "score": 0.5,
+        "display": "Est savings of 105 KiB",
+        "details": {
+          "type": "checklist",
+          "items": {
+            "noRedirects": {
+              "label": "Avoids redirects",
+              "value": true
+            },
+            "serverResponseIsFast": {
+              "label": "Server responds quickly (observed 1 ms)",
+              "value": true
+            },
+            "usesCompression": {
+              "label": "No compression applied",
+              "value": false
+            }
+          },
+          "debugData": {
+            "type": "debugdata",
+            "redirectDuration": 0,
+            "serverResponseTime": 1,
+            "uncompressedResponseBytes": 107203,
+            "wastedBytes": 107203
+          }
+        }
+      },
+      {
+        "id": "image-delivery-insight",
+        "title": "Improve image delivery",
+        "score": 0.5,
+        "display": "Est savings of 33 KiB",
+        "details": {
+          "type": "table",
+          "headings": [
+            {
+              "key": "node",
+              "valueType": "node",
+              "label": ""
+            },
+            {
+              "key": "url",
+              "valueType": "url",
+              "label": "URL",
+              "subItemsHeading": {
+                "key": "reason",
+                "valueType": "text"
+              }
+            },
+            {
+              "key": "totalBytes",
+              "valueType": "bytes",
+              "label": "Resource Size"
+            },
+            {
+              "key": "wastedBytes",
+              "valueType": "bytes",
+              "label": "Est Savings",
+              "subItemsHeading": {
+                "key": "wastedBytes",
+                "valueType": "bytes"
+              }
+            }
+          ],
+          "items": [
+            {
+              "node": {
+                "type": "node",
+                "lhId": "page-1-IMG",
+                "path": "1,HTML,1,BODY,0,DIV,16,HEADER,0,DIV,0,A,0,SPAN,0,IMG",
+                "selector": "div.container > a > span.brand-logo > img",
+                "boundingRect": {
+                  "top": 47,
+                  "bottom": 112,
+                  "left": 76,
+                  "right": 336,
+                  "width": 260,
+                  "height": 65
+                },
+                "snippet": "<img src=\"/brand/cloudssupply-wordmark.webp\" alt=\"CloudsSupply\" width=\"700\" height=\"176\" decoding=\"async\">",
+                "nodeLabel": "CloudsSupply"
+              },
+              "url": "http://localhost:4173/brand/cloudssupply-wordmark.webp",
+              "totalBytes": 36914,
+              "wastedBytes": 34082,
+              "subItems": {
+                "type": "subitems",
+                "items": [
+                  {
+                    "reason": "Increasing the image compression factor could improve this image’s download size",
+                    "wastedBytes": 16381
+                  },
+                  {
+                    "reason": "This image file is larger than it needs to be (700x176) for its displayed dimensions (260x65). Use responsive images to reduce the image download size.",
+                    "wastedBytes": 31822
+                  }
+                ]
+              }
+            }
+          ],
+          "debugData": {
+            "type": "debugdata",
+            "wastedBytes": 34082
+          }
+        }
+      },
+      {
+        "id": "lcp-discovery-insight",
+        "title": "LCP request discovery",
+        "score": 0,
+        "display": "",
+        "details": {
+          "type": "list",
+          "items": [
+            {
+              "type": "checklist",
+              "items": {
+                "priorityHinted": {
+                  "label": "fetchpriority=high should be applied",
+                  "value": false
+                },
+                "requestDiscoverable": {
+                  "label": "Request is discoverable in initial document",
+                  "value": true
+                },
+                "eagerlyLoaded": {
+                  "label": "LCP resources shouldn’t use loading=lazy",
+                  "value": false
+                }
+              }
+            },
+            {
+              "type": "node",
+              "lhId": "page-0-IMG",
+              "path": "1,HTML,1,BODY,0,DIV,17,MAIN,0,SECTION,4,DIV,1,ARTICLE,0,DIV,0,DIV,0,IMG",
+              "selector": "article.product > div.product-image > div.premium-artwork > img.product-artwork",
+              "boundingRect": {
+                "top": 619,
+                "bottom": 857,
+                "left": 489,
+                "right": 846,
+                "width": 357,
+                "height": 238
+              },
+              "snippet": "<img class=\"product-artwork premium-product-image\" src=\"http://localhost:4173/products/premium/cloud-console-v2-480.webp\" srcset=\"/products/premium/cloud-console-v2-480.webp 480w, /products/premium/cloud-…\" sizes=\"(max-width: 760px) 100vw, (max-width: 1100px) 50vw, 33vw\" alt=\"AWS 8VCPU — blue cloud-console cloud compute server stack illustration\" width=\"1200\" height=\"800\" loading=\"lazy\" decoding=\"async\">",
+              "nodeLabel": "AWS 8VCPU — blue cloud-console cloud compute server stack illustration"
+            }
+          ]
+        }
+      },
+      {
+        "id": "network-dependency-tree-insight",
+        "title": "Network dependency tree",
+        "score": 0,
+        "display": "",
+        "details": {
+          "type": "list",
+          "items": [
+            {
+              "type": "list-section",
+              "value": {
+                "type": "network-tree",
+                "chains": {
+                  "6B3E1EA2AE362226E0E64D214C34F1FD": {
+                    "url": "http://localhost:4173/all-products/",
+                    "navStartToEndTime": 38,
+                    "transferSize": 160247,
+                    "isLongest": true,
+                    "children": {
+                      "29304.7": {
+                        "url": "http://localhost:4173/assets/index-BIDq6nTb.css",
+                        "navStartToEndTime": 38,
+                        "transferSize": 163958,
+                        "isLongest": true,
+                        "children": {
+                          "29304.200": {
+                            "url": "http://localhost:4173/fonts/ibm-plex-mono-400.woff2",
+                            "navStartToEndTime": 75,
+                            "transferSize": 10244,
+                            "isLongest": true,
+                            "children": {}
+                          },
+                          "29304.201": {
+                            "url": "http://localhost:4173/fonts/ibm-plex-mono-500.woff2",
+                            "navStartToEndTime": 75,
+                            "transferSize": 10284,
+                            "children": {}
+                          },
+                          "29304.202": {
+                            "url": "http://localhost:4173/fonts/ibm-plex-mono-600.woff2",
+                            "navStartToEndTime": 75,
+                            "transferSize": 10336,
+                            "children": {}
+                          }
+                        }
+                      },
+                      "29304.4": {
+                        "url": "http://localhost:4173/assets/index-_W_cMdw5.js",
+                        "navStartToEndTime": 73,
+                        "transferSize": 354192,
+                        "children": {}
+                      }
+                    }
+                  }
+                },
+                "longestChain": {
+                  "duration": 75
+                }
+              }
+            },
+            {
+              "type": "list-section",
+              "title": "Preconnected origins",
+              "description": "[preconnect](https://developer.chrome.com/docs/lighthouse/performance/uses-rel-preconnect/) hints help the browser establish a connection earlier in the page load, saving time when the first request for that origin is made. The following are the origins that the page preconnected to.",
+              "value": {
+                "type": "text",
+                "value": "No origins were preconnected"
+              }
+            },
+            {
+              "type": "list-section",
+              "title": "Preconnect candidates",
+              "description": "Add [preconnect](https://developer.chrome.com/docs/lighthouse/performance/uses-rel-preconnect/) hints to your most important origins, but try to use no more than 4",
+              "value": {
+                "type": "text",
+                "value": "No additional origins are good candidates for preconnecting"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "render-blocking-insight",
+        "title": "Render-blocking requests",
+        "score": 0,
+        "display": "Est savings of 140 ms",
+        "details": {
+          "type": "table",
+          "headings": [
+            {
+              "key": "url",
+              "valueType": "url",
+              "label": "URL"
+            },
+            {
+              "key": "totalBytes",
+              "valueType": "bytes",
+              "label": "Transfer Size"
+            },
+            {
+              "key": "wastedMs",
+              "valueType": "timespanMs",
+              "label": "Duration"
+            }
+          ],
+          "items": [
+            {
+              "url": "http://localhost:4173/assets/index-BIDq6nTb.css",
+              "totalBytes": 163958,
+              "wastedMs": 161
+            }
+          ]
+        }
+      }
+    ],
+    "report": "seo/lighthouse/local-desktop-products.report.html",
+    "lighthouseVersion": "13.6.0",
+    "fetchTime": "2026-11-26T20:04:43.244Z"
+  }
+]

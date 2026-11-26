@@ -6,6 +6,6 @@ export function telegramOrderUrl(items) {
     const price = p.price == null ? 'Price: please provide a quote' : `Listed unit price: ${money(p.price)} USD\nItem total: ${money(p.price * quantity)} USD`;
     return `${p.name}\nQuantity: ${quantity}\n${price}`;
   });
-  const message = ['Hello, I would like to order from CloudsSupply.store.', ...lines, 'Please confirm current price, availability, and delivery.'].join('\n\n');
+  const message = ['Hello, I would like to order from CloudsSupply.', ...lines, 'Please confirm current price, availability, and delivery.'].join('\n\n');
   return `${TELEGRAM_URL}?text=${encodeURIComponent(message.slice(0, 3500))}`;
 }

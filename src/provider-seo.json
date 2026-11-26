@@ -2,178 +2,196 @@
   "google-cloud": {
     "primaryKeyword": "buy google cloud account",
     "secondaryKeywords": [
-      "google cloud accounts for sale",
-      "buy gcp account",
-      "google cloud credit account",
-      "buy google cloud credits",
-      "gcp account for sale"
+      "compare google cloud account options",
+      "google cloud account pricing",
+      "google cloud account purchase guide"
     ],
     "title": "Buy Google Cloud Account & Credits | CloudsSupply",
-    "description": "Buy Google Cloud account options with prepaid, pay-as-you-go and credit listings. Compare available plans, account requirements and pricing at CloudsSupply.",
+    "description": "Buy Google Cloud Account & Credits. Compare available plans, account requirements and pricing at CloudsSupply.",
     "h1": "Buy Google Cloud Account & Credits",
-    "intro": "Looking to buy a GCP account? Compare prepaid, Pay As You Go, and Google Cloud credit account variations, then review the requirements and original guide for your selected option.",
-    "guideIntro": "When comparing Google Cloud accounts for sale, separate the account purchase price from any required provider payment. If you want to buy Google Cloud credits through a listed credit account, confirm the eligible project, credit validity, and usage conditions before ordering. Each variation below has its own specifications and product article."
+    "intro": "Looking to buy a GCP account? Compare prepaid, Pay As You Go, and Google Cloud credit account variations, then review the requirements and original guide for your selected option. Compare Google Cloud account options and read the individual listing requirements before payment.",
+    "guideIntro": "When comparing Google Cloud accounts for sale, separate the account purchase price from any required provider payment. If you want to buy Google Cloud credits through a listed credit account, confirm the eligible project, credit validity, and usage conditions before ordering. Each variation below has its own specifications and product article.",
+    "intent": "commercial",
+    "scope": "google-cloud provider collection, not an individual account variation"
   },
   "azure": {
     "primaryKeyword": "buy azure account",
     "secondaryKeywords": [
-      "buy microsoft azure account",
-      "azure accounts for sale",
-      "buy azure credits",
-      "azure account for sale",
-      "azure cloud account"
+      "compare azure account options",
+      "azure account pricing",
+      "azure account purchase guide"
     ],
     "title": "Buy Azure Account & Cloud Credits | CloudsSupply",
-    "description": "Buy Azure account options with free trial, pay-as-you-go and cloud credit listings. Compare Microsoft Azure account specifications, eligibility and pricing.",
+    "description": "Buy Azure Account & Cloud Credits. Compare Microsoft Azure account specifications, eligibility and pricing.",
     "h1": "Buy Azure Account & Cloud Credits",
-    "intro": "Compare Microsoft Azure account options for free trial, Pay-As-You-Go, and cloud credit listings. Review account specifications, eligibility, and billing requirements before choosing an Azure cloud account.",
-    "guideIntro": "To buy a Microsoft Azure account, start with the account type and intended workload. Azure accounts for sale in this catalog include trial, Pay-As-You-Go, and credit labels. If you plan to buy Azure credits through a listed account option, confirm the benefit, validity, eligible services, and provider billing separately from the purchase price."
+    "intro": "Compare Microsoft Azure account options for free trial, Pay-As-You-Go, and cloud credit listings. Review account specifications, eligibility, and billing requirements before choosing an Azure cloud account. Compare Azure account options and read the individual listing requirements before payment.",
+    "guideIntro": "To buy a Microsoft Azure account, start with the account type and intended workload. Azure accounts for sale in this catalog include trial, Pay-As-You-Go, and credit labels. If you plan to buy Azure credits through a listed account option, confirm the benefit, validity, eligible services, and provider billing separately from the purchase price.",
+    "intent": "commercial",
+    "scope": "azure provider collection, not an individual account variation"
   },
   "digitalocean": {
-    "primaryKeyword": "buy digitalocean account",
+    "primaryKeyword": "buy digitalocean account online",
     "secondaryKeywords": [
-      "digitalocean accounts for sale",
-      "digitalocean account for sale",
-      "buy digitalocean cloud account",
-      "digitalocean droplet account"
+      "compare digitalocean account options",
+      "digitalocean account pricing",
+      "digitalocean account purchase guide"
     ],
     "title": "Buy DigitalOcean Account Online | CloudsSupply",
-    "description": "Explore DigitalOcean accounts for sale with 3-Droplet account options. Compare cloud hosting specifications, account requirements and pricing at CloudsSupply.",
+    "description": "Buy DigitalOcean Account Online. Compare cloud hosting specifications, account requirements and pricing at CloudsSupply.",
     "h1": "Buy DigitalOcean Account Online",
-    "intro": "Explore DigitalOcean accounts for sale with a three-Droplet account listing. Compare the hosting specifications, account requirements, and listed price, then read the original product guide.",
-    "guideIntro": "If you want to buy a DigitalOcean cloud account, clarify what the three-Droplet label means for the intended setup. A DigitalOcean Droplet account should be reviewed against its resource allowances, region, account access arrangements, and ongoing provider charges. Confirm these details before selecting the listing for a hosting project."
+    "intro": "Explore DigitalOcean accounts for sale with a three-Droplet account listing. Compare the hosting specifications, account requirements, and listed price, then read the original product guide. Compare DigitalOcean account options and read the individual listing requirements before payment.",
+    "guideIntro": "If you want to buy a DigitalOcean cloud account, clarify what the three-Droplet label means for the intended setup. A DigitalOcean Droplet account should be reviewed against its resource allowances, region, account access arrangements, and ongoing provider charges. Confirm these details before selecting the listing for a hosting project.",
+    "intent": "commercial",
+    "scope": "digitalocean provider collection, not an individual account variation"
   },
   "linode": {
     "primaryKeyword": "buy linode account",
     "secondaryKeywords": [
-      "linode accounts for sale",
-      "linode account for sale",
-      "buy linode cloud account",
-      "linode trial account",
-      "linode credits"
+      "compare linode account options",
+      "linode account pricing",
+      "linode account purchase guide"
     ],
     "title": "Buy Linode Account & Trial Credits | CloudsSupply",
-    "description": "Explore Linode account options with a $100 trial credit listing. Compare cloud hosting account requirements, credit eligibility and prices at CloudsSupply.",
+    "description": "Buy Linode Account & Trial Credits. Compare cloud hosting account requirements, credit eligibility and prices at CloudsSupply.",
     "h1": "Buy Linode Account & Trial Credits",
-    "intro": "Review the Linode trial account with a listed $100 credit benefit. Compare account requirements, cloud hosting conditions, credit eligibility, and the purchase price before ordering.",
-    "guideIntro": "When reviewing Linode accounts for sale, distinguish the trial credit label from the account purchase price. Before you buy a Linode cloud account, ask how Linode credits apply to your intended resources, when the benefit expires, and which billing requirements remain. The individual product guide outlines the details to confirm."
+    "intro": "Review the Linode trial account with a listed $100 credit benefit. Compare account requirements, cloud hosting conditions, credit eligibility, and the purchase price before ordering. Compare Linode account options and read the individual listing requirements before payment.",
+    "guideIntro": "When reviewing Linode accounts for sale, distinguish the trial credit label from the account purchase price. Before you buy a Linode cloud account, ask how Linode credits apply to your intended resources, when the benefit expires, and which billing requirements remain. The individual product guide outlines the details to confirm.",
+    "intent": "commercial",
+    "scope": "linode provider collection, not an individual account variation"
   },
   "ovhcloud": {
-    "primaryKeyword": "buy ovhcloud account",
+    "primaryKeyword": "buy ovhcloud account online",
     "secondaryKeywords": [
-      "ovhcloud accounts for sale",
-      "ovhcloud account for sale",
-      "buy ovh account",
-      "ovh cloud account",
-      "ovhcloud compute account"
+      "compare ovhcloud account options",
+      "ovhcloud account pricing",
+      "ovhcloud account purchase guide"
     ],
     "title": "Buy OVHcloud Account Online | CloudsSupply",
-    "description": "Explore OVHcloud accounts for sale with a 34-vCPU account listing. Review cloud compute specifications, available resources, account terms and pricing.",
+    "description": "Buy OVHcloud Account Online. Review cloud compute specifications, available resources, account terms and pricing.",
     "h1": "Buy OVHcloud Account Online",
-    "intro": "Compare the OVHcloud compute account labeled 34 vCPUs. Review the resource designation, region, account terms, and purchase price alongside the original product guide.",
-    "guideIntro": "If you are looking to buy an OVH account, ask which services and account limits the advertised 34-vCPU designation covers. OVHcloud accounts for sale should be compared against the actual workload and resource conditions. Confirm account access and provider usage charges as separate parts of the order discussion."
+    "intro": "Compare the OVHcloud compute account labeled 34 vCPUs. Review the resource designation, region, account terms, and purchase price alongside the original product guide. Compare OVHcloud account options and read the individual listing requirements before payment.",
+    "guideIntro": "If you are looking to buy an OVH account, ask which services and account limits the advertised 34-vCPU designation covers. OVHcloud accounts for sale should be compared against the actual workload and resource conditions. Confirm account access and provider usage charges as separate parts of the order discussion.",
+    "intent": "commercial",
+    "scope": "ovhcloud provider collection, not an individual account variation"
   },
   "oracle": {
     "primaryKeyword": "buy oracle cloud account",
     "secondaryKeywords": [
-      "oracle cloud accounts for sale",
-      "oracle cloud account for sale",
-      "oracle cloud trial account",
-      "buy oracle cloud credits",
-      "oracle cloud free trial"
+      "compare oracle cloud account options",
+      "oracle cloud account pricing",
+      "oracle cloud account purchase guide"
     ],
     "title": "Buy Oracle Cloud Account & Trial | CloudsSupply",
-    "description": "Explore Oracle Cloud account options with a $300 trial credit listing. Compare account eligibility, cloud resource specifications and available pricing.",
+    "description": "Buy Oracle Cloud Account & Trial. Compare account eligibility, cloud resource specifications and available pricing.",
     "h1": "Buy Oracle Cloud Account & Trial",
-    "intro": "Explore the Oracle Cloud trial account with a listed $300 credit benefit. Review account eligibility, resource specifications, trial conditions, and the purchase price before choosing this option.",
-    "guideIntro": "When comparing Oracle Cloud accounts for sale, review the trial label and its eligibility requirements before discussing your deployment. If your goal is to buy Oracle Cloud credits through a listed trial account, confirm how the benefit applies, its validity, and the ongoing billing conditions. Oracle Cloud free-trial eligibility must be checked for the particular account."
+    "intro": "Explore the Oracle Cloud trial account with a listed $300 credit benefit. Review account eligibility, resource specifications, trial conditions, and the purchase price before choosing this option. Compare Oracle Cloud account options and read the individual listing requirements before payment.",
+    "guideIntro": "When comparing Oracle Cloud accounts for sale, review the trial label and its eligibility requirements before discussing your deployment. If your goal is to buy Oracle Cloud credits through a listed trial account, confirm how the benefit applies, its validity, and the ongoing billing conditions. Oracle Cloud free-trial eligibility must be checked for the particular account.",
+    "intent": "commercial",
+    "scope": "oracle provider collection, not an individual account variation"
   },
   "hetzner": {
-    "primaryKeyword": "buy hetzner account",
+    "primaryKeyword": "buy hetzner cloud",
     "secondaryKeywords": [
-      "hetzner accounts for sale",
-      "hetzner account for sale",
-      "buy hetzner cloud account",
-      "hetzner server account",
-      "hetzner cloud hosting"
+      "compare hetzner account options",
+      "hetzner account pricing",
+      "hetzner account purchase guide"
     ],
     "title": "Buy Hetzner Cloud & Server Account | CloudsSupply",
-    "description": "Explore Hetzner cloud account options with a five-server account listing. Compare hosting capacity, server requirements, account pricing and service terms.",
+    "description": "Buy Hetzner Cloud & Server Account. Compare hosting capacity, server requirements, account pricing and service terms.",
     "h1": "Buy Hetzner Cloud & Server Account",
-    "intro": "Review the Hetzner server account with a five-server label. Compare hosting capacity, account access, service requirements, and the listed purchase price before ordering.",
-    "guideIntro": "Before you buy a Hetzner cloud account, clarify which resources and limits are described by the five-server listing. Hetzner accounts for sale should be evaluated against the region, access arrangements, and provider billing needed for your cloud hosting project. Use the product article to prepare the questions relevant to that configuration."
+    "intro": "Review the Hetzner server account with a five-server label. Compare hosting capacity, account access, service requirements, and the listed purchase price before ordering. Compare Hetzner account options and read the individual listing requirements before payment.",
+    "guideIntro": "Before you buy a Hetzner cloud account, clarify which resources and limits are described by the five-server listing. Hetzner accounts for sale should be evaluated against the region, access arrangements, and provider billing needed for your cloud hosting project. Use the product article to prepare the questions relevant to that configuration.",
+    "intent": "commercial",
+    "scope": "hetzner provider collection, not an individual account variation"
   },
   "amazon-ses": {
     "primaryKeyword": "buy amazon ses account",
     "secondaryKeywords": [
-      "amazon ses accounts for sale",
-      "buy amazon ses smtp account",
-      "amazon ses account for sale",
-      "aws ses smtp account",
-      "amazon ses 50k limit"
+      "compare amazon ses account options",
+      "amazon ses account pricing",
+      "amazon ses account purchase guide"
     ],
     "title": "Buy Amazon SES Account & SMTP Access | CloudsSupply",
-    "description": "Explore Amazon SES account listings with 50K and 100K SMTP sending-limit options. Compare email sending conditions, account requirements and prices.",
+    "description": "Buy Amazon SES Account & SMTP Access. Compare email sending conditions, account requirements and prices.",
     "h1": "Buy Amazon SES Account & SMTP Access",
-    "intro": "Compare Amazon SES accounts for sale with 50K and 100K SMTP sending-limit labels. Review the sending conditions, account requirements, and purchase prices before choosing an email account option.",
-    "guideIntro": "If you want to buy an Amazon SES SMTP account, begin with the sending-limit period and AWS region. An AWS SES SMTP account listing should explain the permitted sending scope, access arrangements, and ongoing charges. Compare the Amazon SES 50K limit option with the 100K listing only after confirming the conditions behind both labels."
+    "intro": "Compare Amazon SES accounts for sale with 50K and 100K SMTP sending-limit labels. Review the sending conditions, account requirements, and purchase prices before choosing an email account option. Compare Amazon SES account options and read the individual listing requirements before payment.",
+    "guideIntro": "If you want to buy an Amazon SES SMTP account, begin with the sending-limit period and AWS region. An AWS SES SMTP account listing should explain the permitted sending scope, access arrangements, and ongoing charges. Compare the Amazon SES 50K limit option with the 100K listing only after confirming the conditions behind both labels.",
+    "intent": "commercial",
+    "scope": "amazon-ses provider collection, not an individual account variation"
   },
   "upcloud": {
     "primaryKeyword": "buy upcloud account",
     "secondaryKeywords": [
-      "upcloud accounts for sale",
-      "upcloud account for sale",
-      "buy upcloud cloud account",
-      "upcloud credits",
-      "upcloud hosting account"
+      "compare upcloud account options",
+      "upcloud account pricing",
+      "upcloud account purchase guide"
     ],
     "title": "Buy UpCloud Account & Credits | CloudsSupply",
-    "description": "Explore UpCloud account options with a $500 credit listing. Compare available cloud hosting features, credit conditions, account requirements and pricing.",
+    "description": "Buy UpCloud Account & Credits. Compare available cloud hosting features, credit conditions, account requirements and pricing.",
     "h1": "Buy UpCloud Account & Credits",
-    "intro": "Review the UpCloud hosting account with a listed $500 credit benefit. Compare credit conditions, account requirements, hosting features, and the account purchase price.",
-    "guideIntro": "When comparing UpCloud accounts for sale, consider the listed credit benefit and account setup as separate details. Confirm how UpCloud credits can be used, their validity, any funding requirements, and the hosting resources relevant to your project. The individual account guide explains the points to verify before payment."
+    "intro": "Review the UpCloud hosting account with a listed $500 credit benefit. Compare credit conditions, account requirements, hosting features, and the account purchase price. Compare UpCloud account options and read the individual listing requirements before payment.",
+    "guideIntro": "When comparing UpCloud accounts for sale, consider the listed credit benefit and account setup as separate details. Confirm how UpCloud credits can be used, their validity, any funding requirements, and the hosting resources relevant to your project. The individual account guide explains the points to verify before payment.",
+    "intent": "commercial",
+    "scope": "upcloud provider collection, not an individual account variation"
   },
   "atlantic": {
-    "primaryKeyword": "buy atlantic cloud account",
+    "primaryKeyword": "buy atlantic cloud trial account",
     "secondaryKeywords": [
-      "atlantic cloud accounts for sale",
-      "atlantic cloud account for sale",
-      "atlantic cloud trial",
-      "buy atlantic cloud trial account"
+      "compare atlantic account options",
+      "atlantic account pricing",
+      "atlantic account purchase guide"
     ],
     "title": "Buy Atlantic Cloud Trial Account | CloudsSupply",
-    "description": "Explore Atlantic Cloud trial account options for cloud hosting. Compare account specifications, trial eligibility, service conditions and available pricing.",
+    "description": "Buy Atlantic Cloud Trial Account. Compare account specifications, trial eligibility, service conditions and available pricing.",
     "h1": "Buy Atlantic Cloud Trial Account",
-    "intro": "Explore the Atlantic Cloud trial account and review its hosting specifications, account requirements, trial eligibility, and purchase price before choosing an option.",
-    "guideIntro": "If you plan to buy an Atlantic Cloud trial account, identify the resources your project needs and ask which trial conditions apply. Atlantic Cloud accounts for sale should be reviewed for account access, resource allowances, and any billing requirements. Confirm the terms of the Atlantic Cloud trial with the seller before payment."
+    "intro": "Explore the Atlantic Cloud trial account and review its hosting specifications, account requirements, trial eligibility, and purchase price before choosing an option. Compare Atlantic account options and read the individual listing requirements before payment.",
+    "guideIntro": "If you plan to buy an Atlantic Cloud trial account, identify the resources your project needs and ask which trial conditions apply. Atlantic Cloud accounts for sale should be reviewed for account access, resource allowances, and any billing requirements. Confirm the terms of the Atlantic Cloud trial with the seller before payment.",
+    "intent": "commercial",
+    "scope": "atlantic provider collection, not an individual account variation"
   },
   "alibaba": {
-    "primaryKeyword": "buy alibaba cloud account",
+    "primaryKeyword": "buy alibaba cloud trial account",
     "secondaryKeywords": [
-      "alibaba cloud accounts for sale",
-      "alibaba cloud account for sale",
-      "buy alibaba cloud trial",
-      "alibaba cloud free trial",
-      "aliyun account"
+      "compare alibaba cloud account options",
+      "alibaba cloud account pricing",
+      "alibaba cloud account purchase guide"
     ],
     "title": "Buy Alibaba Cloud Trial Account | CloudsSupply",
-    "description": "Explore Alibaba Cloud account options with trial listings. Compare cloud service requirements, regional availability, account eligibility and pricing.",
+    "description": "Buy Alibaba Cloud Trial Account. Compare cloud service requirements, regional availability, account eligibility and pricing.",
     "h1": "Buy Alibaba Cloud Trial Account",
-    "intro": "Review Alibaba Cloud trial account options for your project. Compare cloud service requirements, regional availability, account eligibility, and the listed account price.",
-    "guideIntro": "When comparing Alibaba Cloud accounts for sale, confirm the services and region your application needs before choosing a trial listing. For an Aliyun account inquiry, include the specific configuration and account requirements in your order discussion. Check Alibaba Cloud free-trial eligibility, access arrangements, and billing conditions for the particular account."
+    "intro": "Review Alibaba Cloud trial account options for your project. Compare cloud service requirements, regional availability, account eligibility, and the listed account price. Compare Alibaba Cloud account options and read the individual listing requirements before payment.",
+    "guideIntro": "When comparing Alibaba Cloud accounts for sale, confirm the services and region your application needs before choosing a trial listing. For an Aliyun account inquiry, include the specific configuration and account requirements in your order discussion. Check Alibaba Cloud free-trial eligibility, access arrangements, and billing conditions for the particular account.",
+    "intent": "commercial",
+    "scope": "alibaba provider collection, not an individual account variation"
   },
   "aws-marketplace": {
-    "primaryKeyword": "buy aws marketplace account",
+    "primaryKeyword": "buy aws marketplace account online",
     "secondaryKeywords": [
-      "aws marketplace accounts for sale",
-      "aws marketplace account for sale",
-      "amazon marketplace cloud account",
-      "aws marketplace verified account"
+      "compare aws marketplace account options",
+      "aws marketplace account pricing",
+      "aws marketplace account purchase guide"
     ],
     "title": "Buy AWS Marketplace Account Online | CloudsSupply",
-    "description": "Explore AWS Marketplace account listings and compare verification details, account features, eligibility requirements and available pricing at CloudsSupply.",
+    "description": "Buy AWS Marketplace Account Online. ",
     "h1": "Buy AWS Marketplace Account Online",
-    "intro": "Compare the AWS Marketplace account listing by its access arrangements, verification details, eligibility requirements, and purchase price. Read the original guide before ordering.",
-    "guideIntro": "Review AWS Marketplace accounts for sale against the cloud software purchasing permissions your organization needs. A listing labeled as an AWS Marketplace verified account still requires confirmation of its specific verification details, account features, and access scope. Agree on those requirements and ongoing charges before proceeding."
+    "intro": "Compare the AWS Marketplace account listing by its access arrangements, verification details, eligibility requirements, and purchase price. Read the original guide before ordering. Compare AWS Marketplace account options and read the individual listing requirements before payment.",
+    "guideIntro": "Review AWS Marketplace accounts for sale against the cloud software purchasing permissions your organization needs. A listing labeled as an AWS Marketplace verified account still requires confirmation of its specific verification details, account features, and access scope. Agree on those requirements and ongoing charges before proceeding.",
+    "intent": "commercial",
+    "scope": "aws-marketplace provider collection, not an individual account variation"
+  },
+  "aws": {
+    "primaryKeyword": "aws account tier pricing",
+    "secondaryKeywords": [
+      "compare amazon web services account options",
+      "amazon web services account pricing",
+      "amazon web services account purchase guide"
+    ],
+    "title": "AWS Account Tier Pricing & Buying Guide | CloudsSupply",
+    "description": "Compare AWS account tier pricing across trial, vCPU, credit, Bedrock and Kiro listings. Review account conditions and individual guides before ordering.",
+    "h1": "Compare AWS Account Tier Pricing",
+    "intro": "Compare AWS account tier pricing across the complete AWS provider collection. This guide explains how trial, compute, credit, Bedrock, and Kiro listing prices differ so you can shortlist an account by its requirements. Compare Amazon Web Services account options and read the individual listing requirements before payment.",
+    "guideIntro": "Use this AWS account purchase guide to compare the listed tiers and their conditions. Start with the type of access you need, then open the specific variation guide for its price and scope. Credits, compute labels, and request quotas describe different specifications.",
+    "intent": "commercial",
+    "scope": "AWS provider collection; tier comparison, distinct from the homepage and checkout configurator."
   }
 }

@@ -1,0 +1,6 @@
+{
+  "status": "PASS",
+  "environment": "VERCEL_ENV=preview",
+  "pages": 74,
+  "robots": "noindex, follow"
+}

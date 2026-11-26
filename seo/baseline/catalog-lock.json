@@ -1,0 +1,470 @@
+{
+  "providers": 13,
+  "products": [
+    {
+      "id": 101,
+      "name": "AWS Free Trial",
+      "price": 15,
+      "features": [
+        "AWS trial account option",
+        "Eligibility and provider terms apply"
+      ]
+    },
+    {
+      "id": 102,
+      "name": "AWS 8VCPU",
+      "price": 18,
+      "features": [
+        "8 vCPU account tier",
+        "Confirm regions and service quotas"
+      ]
+    },
+    {
+      "id": 103,
+      "name": "AWS 32 vCPU",
+      "price": 35,
+      "features": [
+        "32 vCPU account tier",
+        "Confirm regions and service quotas"
+      ]
+    },
+    {
+      "id": 104,
+      "name": "AWS 64 vCPU",
+      "price": 45,
+      "features": [
+        "64 vCPU account tier",
+        "Confirm regions and service quotas"
+      ]
+    },
+    {
+      "id": 105,
+      "name": "AWS 128 vCPU",
+      "price": 120,
+      "features": [
+        "128 vCPU account tier",
+        "Confirm regions and service quotas"
+      ]
+    },
+    {
+      "id": 106,
+      "name": "AWS 256 vCPU",
+      "price": 190,
+      "features": [
+        "256 vCPU account tier",
+        "Confirm regions and service quotas"
+      ]
+    },
+    {
+      "id": 107,
+      "name": "AWS 512 vCPU",
+      "price": 299,
+      "features": [
+        "512 vCPU account tier",
+        "Confirm regions and service quotas"
+      ]
+    },
+    {
+      "id": 108,
+      "name": "AWS 1k Credit",
+      "price": 250,
+      "features": [
+        "1K credit tier",
+        "Confirm eligibility and credit terms"
+      ]
+    },
+    {
+      "id": 109,
+      "name": "AWS 5k Credit",
+      "price": 999,
+      "features": [
+        "5K credit tier",
+        "Confirm eligibility and credit terms"
+      ]
+    },
+    {
+      "id": 110,
+      "name": "AWS 10k Credit",
+      "price": 2499,
+      "features": [
+        "10K credit tier",
+        "Confirm eligibility and credit terms"
+      ]
+    },
+    {
+      "id": 111,
+      "name": "AWS 25k Credit",
+      "price": 4999,
+      "features": [
+        "25K credit tier",
+        "Confirm eligibility and credit terms"
+      ]
+    },
+    {
+      "id": 112,
+      "name": "AWS 50k Credit",
+      "price": 7500,
+      "features": [
+        "50K credit tier",
+        "Confirm eligibility and credit terms"
+      ]
+    },
+    {
+      "id": 113,
+      "name": "AWS 100k Credit",
+      "price": 13000,
+      "features": [
+        "100K credit tier",
+        "Confirm eligibility and credit terms"
+      ]
+    },
+    {
+      "id": 114,
+      "name": "AWS Ai Bedrock 10 RPM 5vCPU",
+      "price": 70,
+      "features": [
+        "10 RPM \u00b7 5 vCPUs",
+        "Confirm model access and quotas"
+      ]
+    },
+    {
+      "id": 115,
+      "name": "AWS Ai Bedrock 50 RPM 5vCPUs",
+      "price": 90,
+      "features": [
+        "50 RPM \u00b7 5 vCPUs",
+        "Confirm model access and quotas"
+      ]
+    },
+    {
+      "id": 124,
+      "name": "AWS Ai Bedrock 10 RPM 32vCPUs",
+      "price": 120,
+      "features": [
+        "10 RPM \u00b7 32 vCPUs",
+        "Confirm model access and quotas"
+      ]
+    },
+    {
+      "id": 116,
+      "name": "AWS Ai Bedrock 10K RPM 32vCPUs",
+      "price": 299,
+      "features": [
+        "10K RPM \u00b7 32 vCPUs",
+        "Confirm model access and quotas"
+      ]
+    },
+    {
+      "id": 117,
+      "name": "AWS Ai Bedrock 10K RPM 256vCPUs",
+      "price": null,
+      "features": [
+        "10K RPM \u00b7 256 vCPUs",
+        "Confirm model access and quotas"
+      ]
+    },
+    {
+      "id": 118,
+      "name": "Kiro Enabled Account",
+      "price": 180,
+      "features": [
+        "Kiro-enabled account option",
+        "Confirm access and eligibility"
+      ]
+    },
+    {
+      "id": 119,
+      "name": "AWS Bedrock 256vCPUs 10K RPM \u2014 4.6, 4.7, 4.8, F5 Supported",
+      "price": 2499,
+      "features": [
+        "10K RPM \u00b7 256 vCPUs",
+        "4.6, 4.7, 4.8, F5 Supported"
+      ]
+    },
+    {
+      "id": 120,
+      "name": "AWS Bedrock 384vCPUs 10K RPM \u2014 4.6, 4.7, 4.8, F5 Supported",
+      "price": 4500,
+      "features": [
+        "10K RPM \u00b7 384 vCPUs",
+        "4.6, 4.7, 4.8, F5 Supported"
+      ]
+    },
+    {
+      "id": 121,
+      "name": "AWS Bedrock 512vCPUs 10K RPM \u2014 4.6, 4.7, 4.8, F5 Supported",
+      "price": 5500,
+      "features": [
+        "10K RPM \u00b7 512 vCPUs",
+        "4.6, 4.7, 4.8, F5 Supported"
+      ]
+    },
+    {
+      "id": 122,
+      "name": "AWS Bedrock 1024vCPUs 10K RPM \u2014 4.6, 4.7, 4.8, F5 Supported",
+      "price": 8000,
+      "features": [
+        "10K RPM \u00b7 1024 vCPUs",
+        "4.6, 4.7, 4.8, F5 Supported"
+      ]
+    },
+    {
+      "id": 123,
+      "name": "AWS Bedrock 1920vCPUs 10K RPM \u2014 4.6, 4.7, 4.8, F5 Supported",
+      "price": 9500,
+      "features": [
+        "10K RPM \u00b7 1920 vCPUs",
+        "4.6, 4.7, 4.8, F5 Supported"
+      ]
+    },
+    {
+      "id": 301,
+      "name": "Google Cloud \u2014 $300 + $10 Prepaid",
+      "price": 70,
+      "features": [
+        "$300 + $10 Prepaid",
+        "Confirm account details before purchase"
+      ]
+    },
+    {
+      "id": 302,
+      "name": "Google Cloud \u2014 Pay As You Go $10 Payment Required",
+      "price": 55,
+      "features": [
+        "Pay As You Go $10 Payment Required",
+        "Confirm account details before purchase"
+      ]
+    },
+    {
+      "id": 303,
+      "name": "Google Cloud \u2014 Pay As You Go 20 CAD Payment Required",
+      "price": 60,
+      "features": [
+        "Pay As You Go 20 CAD Payment Required",
+        "Confirm account details before purchase"
+      ]
+    },
+    {
+      "id": 304,
+      "name": "Google Cloud \u2014 $2,000 Credits Account",
+      "price": null,
+      "features": [
+        "$2,000 Credits Account",
+        "Confirm account details before purchase"
+      ]
+    },
+    {
+      "id": 305,
+      "name": "Google Cloud \u2014 $5,000 Credits Account",
+      "price": 1050,
+      "features": [
+        "$5,000 Credits Account",
+        "Confirm account details before purchase"
+      ]
+    },
+    {
+      "id": 306,
+      "name": "Google Cloud \u2014 $25,000 Credits Account",
+      "price": 5500,
+      "features": [
+        "$25,000 Credits Account",
+        "Confirm account details before purchase"
+      ]
+    },
+    {
+      "id": 307,
+      "name": "Azure \u2014 Free Trial with $200 Credit",
+      "price": 25,
+      "features": [
+        "Free Trial with $200 Credit",
+        "Confirm account details before purchase"
+      ]
+    },
+    {
+      "id": 308,
+      "name": "Azure \u2014 Pay-As-You-Go with $200 Credit",
+      "price": 25,
+      "features": [
+        "Pay-As-You-Go with $200 Credit",
+        "Confirm account details before purchase"
+      ]
+    },
+    {
+      "id": 309,
+      "name": "Azure \u2014 Azure $1K Tier 1 Support Claude",
+      "price": 180,
+      "features": [
+        "Azure $1K Tier 1 Support Claude",
+        "Confirm account details before purchase"
+      ]
+    },
+    {
+      "id": 310,
+      "name": "Azure \u2014 Azure $5K Credit Account",
+      "price": 750,
+      "features": [
+        "Azure $5K Credit Account",
+        "Confirm account details before purchase"
+      ]
+    },
+    {
+      "id": 311,
+      "name": "DigitalOcean \u2014 DO 3 Droplet",
+      "price": 25,
+      "features": [
+        "DO 3 Droplet",
+        "Confirm account details before purchase"
+      ]
+    },
+    {
+      "id": 312,
+      "name": "Linode \u2014 Free Trial $100 Credit",
+      "price": 25,
+      "features": [
+        "Free Trial $100 Credit",
+        "Confirm account details before purchase"
+      ]
+    },
+    {
+      "id": 313,
+      "name": "OVHcloud \u2014 34 vCPUs",
+      "price": 30,
+      "features": [
+        "34 vCPUs",
+        "Confirm account details before purchase"
+      ]
+    },
+    {
+      "id": 314,
+      "name": "Oracle Cloud \u2014 Free Trial $300",
+      "price": 45,
+      "features": [
+        "Free Trial $300",
+        "Confirm account details before purchase"
+      ]
+    },
+    {
+      "id": 315,
+      "name": "Hetzner \u2014 Hetzner 5 Server Account",
+      "price": 50,
+      "features": [
+        "Hetzner 5 Server Account",
+        "Confirm account details before purchase"
+      ]
+    },
+    {
+      "id": 316,
+      "name": "Amazon SES \u2014 SMTP 50K Limits",
+      "price": 750,
+      "features": [
+        "SMTP 50K Limits",
+        "Confirm account details before purchase"
+      ]
+    },
+    {
+      "id": 317,
+      "name": "Amazon SES \u2014 SMTP 100K Limits",
+      "price": 1250,
+      "features": [
+        "SMTP 100K Limits",
+        "Confirm account details before purchase"
+      ]
+    },
+    {
+      "id": 318,
+      "name": "UpCloud \u2014 $500 Credit",
+      "price": 30,
+      "features": [
+        "$500 Credit",
+        "Confirm account details before purchase"
+      ]
+    },
+    {
+      "id": 319,
+      "name": "Atlantic \u2014 Atlantic Cloud Free Trial",
+      "price": 30,
+      "features": [
+        "Atlantic Cloud Free Trial",
+        "Confirm account details before purchase"
+      ]
+    },
+    {
+      "id": 320,
+      "name": "Alibaba Cloud \u2014 Alibaba Cloud Free Trial",
+      "price": 50,
+      "features": [
+        "Alibaba Cloud Free Trial",
+        "Confirm account details before purchase"
+      ]
+    },
+    {
+      "id": 321,
+      "name": "AWS Marketplace \u2014 Verified Marketplace Account",
+      "price": 90,
+      "features": [
+        "Verified Marketplace Account",
+        "Confirm account details before purchase"
+      ]
+    },
+    {
+      "id": 1,
+      "name": "AWS Cloud Starter",
+      "price": 49,
+      "features": [
+        "Account setup guidance",
+        "Billing & security checklist",
+        "Getting-started support"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Google Cloud Starter",
+      "price": 39,
+      "features": [
+        "Account setup guidance",
+        "Project configuration guide",
+        "Getting-started support"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Azure Cloud Starter",
+      "price": 45,
+      "features": [
+        "Account setup guidance",
+        "Subscription setup checklist",
+        "Getting-started support"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "DigitalOcean Starter",
+      "price": 29,
+      "features": [
+        "Account setup guidance",
+        "Droplet launch walkthrough",
+        "Getting-started support"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "AWS Launch Plus",
+      "price": 89,
+      "features": [
+        "Everything in Cloud Starter",
+        "Architecture planning session",
+        "Deployment walkthrough"
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Google Cloud Launch Plus",
+      "price": 79,
+      "features": [
+        "Everything in Cloud Starter",
+        "Architecture planning session",
+        "Deployment walkthrough"
+      ]
+    }
+  ]
+}

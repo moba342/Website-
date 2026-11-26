@@ -1,6 +1,6 @@
 # AWS Bedrock API-key landing page
 
-Canonical URL: https://buyaws-account.vercel.app/aws-bedrock-api-key/
+Canonical URL: https://www.cloudssupply.site/aws-bedrock-api-key/
 
 Primary keyword: **aws bedrock api key**.
 

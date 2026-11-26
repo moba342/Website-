@@ -1,6 +1,7 @@
-export const homepageTitle='Buy AWS Accounts & AWS Bedrock API Access | CloudsSupply';
-export const homepageDescription='Buy AWS accounts and explore AWS Bedrock API access at CloudsSupply. Find AWS account options, setup details, pricing, and support for your cloud projects.';
-export const homepageH1='Buy AWS Accounts & AWS Bedrock API Access';
+import pageSeo from './page-seo.json';
+export const homepageTitle=pageSeo.home.title;
+export const homepageDescription=pageSeo.home.description;
+export const homepageH1=pageSeo.home.h1;
 export const homepageHeadings=['Buy AWS Accounts Online','AWS Accounts for Sale','Buy AWS Bedrock Account & API Access','Why Choose CloudsSupply?','Explore AWS Account Options','Frequently Asked Questions'];
 export const featuredAwsIds=[101,103,109,114,124,116];
 export const homepageFaqs=[

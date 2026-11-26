@@ -1,0 +1,11 @@
+import sharp from 'sharp';
+import {writeFile} from 'node:fs/promises';
+const original='public/brand/cloudssupply-logo.png';
+for(const width of [440,700])await sharp(original).extract({left:30,top:140,width:1690,height:425}).resize({width}).webp({quality:82,effort:6}).toFile('public/brand/cloudssupply-wordmark-'+width+'.webp');
+await sharp(original).extract({left:30,top:140,width:1690,height:425}).resize({width:700}).webp({quality:82,effort:6}).toFile('public/brand/cloudssupply-wordmark.webp');
+await sharp(original).extract({left:30,top:140,width:600,height:425}).resize(64,64,{fit:'contain',background:'#00000000'}).png().toFile('public/brand/favicon.png');
+const {readFile}=await import('node:fs/promises');
+const icon=(await readFile('public/brand/favicon.png')).toString('base64');
+await writeFile('public/brand/favicon.svg',`<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><image href="data:image/png;base64,${icon}" width="64" height="64"/></svg>\n`);
+for(const width of [480,800,1200])await sharp('public/products/premium/cloud-console-v2.jpg').resize({width,withoutEnlargement:true}).webp({quality:82,effort:6}).toFile('public/products/premium/cloud-console-v2-'+width+'.webp');
+console.log('Optimized wordmark, favicon and responsive product WebP assets.');

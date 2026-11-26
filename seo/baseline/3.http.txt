@@ -1,0 +1,7 @@
+HTTP/1.0 308 Permanent Redirect
+Content-Type: text/plain
+Location: https://www.cloudssupply.site/
+Refresh: 0;url=https://www.cloudssupply.site/
+server: Vercel
+
+Redirecting...

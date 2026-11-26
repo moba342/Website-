@@ -1,0 +1,22 @@
+HTTP/2 200 
+accept-ranges: bytes
+access-control-allow-origin: *
+age: 262
+cache-control: public, max-age=0, must-revalidate
+content-disposition: inline; filename="sitemap_index.xml"
+content-type: application/xml
+date: Thu, 26 Nov 2026 19:50:57 GMT
+etag: "cfc3a1f670af0711a313ffc24a77dd15"
+last-modified: Thu, 26 Nov 2026 19:46:35 GMT
+server: Vercel
+strict-transport-security: max-age=63072000
+x-vercel-cache: HIT
+x-vercel-id: bom1::j952m-1795722657784-d894d618a38c
+content-length: 381
+
+<?xml version="1.0" encoding="UTF-8"?>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <sitemap><loc>https://buyaws-account.vercel.app/pages-sitemap.xml</loc></sitemap>
+  <sitemap><loc>https://buyaws-account.vercel.app/providers-sitemap.xml</loc></sitemap>
+  <sitemap><loc>https://buyaws-account.vercel.app/products-sitemap.xml</loc></sitemap>
+</sitemapindex>

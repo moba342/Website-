@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "catalogRecords": 64,
+  "productPages": 51,
+  "providers": 13,
+  "verifiedFields": [
+    "id",
+    "name",
+    "price",
+    "features"
+  ],
+  "baseline": "seo/baseline/catalog-lock.json"
+}

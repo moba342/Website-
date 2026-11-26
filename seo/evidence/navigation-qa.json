@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "checks": [
+    "configurator keyboard tabs",
+    "legacy hash navigation",
+    "no hydration errors"
+  ]
+}

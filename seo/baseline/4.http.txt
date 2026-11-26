@@ -1,0 +1,20 @@
+HTTP/2 200 
+accept-ranges: bytes
+access-control-allow-origin: *
+age: 0
+cache-control: public, max-age=0, must-revalidate
+content-disposition: inline; filename="robots.txt"
+content-type: text/plain; charset=utf-8
+date: Thu, 26 Nov 2026 19:50:57 GMT
+etag: "2cf09c6d871fb66b33ca1e5faba2ff72"
+last-modified: Thu, 26 Nov 2026 19:50:57 GMT
+server: Vercel
+strict-transport-security: max-age=63072000
+x-vercel-cache: MISS
+x-vercel-id: bom1::g6flg-1795722657318-9612eca0ca30
+content-length: 85
+
+User-agent: *
+Allow: /
+
+Sitemap: https://buyaws-account.vercel.app/sitemap_index.xml

@@ -1,6 +1,6 @@
 /* Shared type scale: readable content and controls at every screen size. */
 :root{
-  --type-body:clamp(14px,.2vw + 13.3px,16px);
+  --type-body:1rem;
   --type-label:14px;
   --type-caption:12px;
   --type-h1:clamp(30px,2vw + 22px,44px);

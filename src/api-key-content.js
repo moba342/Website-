@@ -1,6 +1,7 @@
-export const apiKeyTitle='Buy AWS Bedrock API Key & Accounts | CloudsSupply';
-export const apiKeyDescription='Buy AWS Bedrock API key access and explore available account options. Compare RPM limits, AI model access, specifications, and pricing at CloudsSupply.';
-export const apiKeyH1='Buy AWS Bedrock API Key & Accounts';
+import pageSeo from './page-seo.json';
+export const apiKeyTitle=pageSeo['aws-bedrock-api-key'].title;
+export const apiKeyDescription=pageSeo['aws-bedrock-api-key'].description;
+export const apiKeyH1=pageSeo['aws-bedrock-api-key'].h1;
 export const apiKeyFaqs=[
  ['What is included when I buy AWS Bedrock API key access?','The exact scope depends on the selected account variation and the terms confirmed for your order. Ask whether an API key is included, which account and region it relates to, what model permissions apply, and how access will be handed over. The catalog does not assume an unrestricted key is included with every account.'],
  ['Are AWS Bedrock API keys sold separately from accounts?','The prices on this page refer to the listed Bedrock account variations. If you need a key-only arrangement, ask the seller whether that option is available and request its exact scope and price before payment. Do not treat an account price as a separate API-key price.'],

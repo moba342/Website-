@@ -1,0 +1,741 @@
+{
+  "origin": "http://localhost:4173",
+  "label": "local",
+  "pages": [
+    {
+      "path": "/",
+      "status": 200,
+      "result": "PASS",
+      "issues": [],
+      "error": null
+    },
+    {
+      "path": "/all-products/",
+      "status": 200,
+      "result": "PASS",
+      "issues": [],
+      "error": null
+    },
+    {
+      "path": "/cloud-service-accounts/",
+      "status": 200,
+      "result": "PASS",
+      "issues": [],
+      "error": null
+    },
+    {
+      "path": "/aws-standard/",
+      "status": 200,
+      "result": "PASS",
+      "issues": [],
+      "error": null
+    },
+    {
+      "path": "/bedrock-api/",
+      "status": 200,
+      "result": "PASS",
+      "issues": [],
+      "error": null
+    },
+    {
+      "path": "/aws-bedrock-api-key/",
+      "status": 200,
+      "result": "PASS",
+      "issues": [],
+      "error": null
+    },
+    {
+      "path": "/aws-account-configurator/",
+      "status": 200,
+      "result": "PASS",
+      "issues": [],
+      "error": null
+    },
+    {
+      "path": "/contact/",
+      "status": 200,
+      "result": "PASS",
+      "issues": [],
+      "error": null
+    },
+    {
+      "path": "/faq/",
+      "status": 200,
+      "result": "PASS",
+      "issues": [],
+      "error": null
+    },
+    {
+      "path": "/refund/",
+      "status": 200,
+      "result": "PASS",
+      "issues": [],
+      "error": null
+    },
+    {
+      "path": "/provider/aws/",
+      "status": 200,
+      "result": "PASS",
+      "issues": [],
+      "error": null
+    },
+    {
+      "path": "/provider/google-cloud/",
+      "status": 200,
+      "result": "PASS",
+      "issues": [],
+      "error": null
+    },
+    {
+      "path": "/provider/azure/",
+      "status": 200,
+      "result": "PASS",
+      "issues": [],
+      "error": null
+    },
+    {
+      "path": "/provider/digitalocean/",
+      "status": 200,
+      "result": "PASS",
+      "issues": [],
+      "error": null
+    },
+    {
+      "path": "/provider/linode/",
+      "status": 200,
+      "result": "PASS",
+      "issues": [],
+      "error": null
+    },
+    {
+      "path": "/provider/ovhcloud/",
+      "status": 200,
+      "result": "PASS",
+      "issues": [],
+      "error": null
+    },
+    {
+      "path": "/provider/oracle/",
+      "status": 200,
+      "result": "PASS",
+      "issues": [],
+      "error": null
+    },
+    {
+      "path": "/provider/hetzner/",
+      "status": 200,
+      "result": "PASS",
+      "issues": [],
+      "error": null
+    },
+    {
+      "path": "/provider/amazon-ses/",
+      "status": 200,
+      "result": "PASS",
+      "issues": [],
+      "error": null
+    },
+    {
+      "path": "/provider/upcloud/",
+      "status": 200,
+      "result": "PASS",
+      "issues": [],
+      "error": null
+    },
+    {
+      "path": "/provider/atlantic/",
+      "status": 200,
+      "result": "PASS",
+      "issues": [],
+      "error": null
+    },
+    {
+      "path": "/provider/alibaba/",
+      "status": 200,
+      "result": "PASS",
+      "issues": [],
+      "error": null
+    },
+    {
+      "path": "/provider/aws-marketplace/",
+      "status": 200,
+      "result": "PASS",
+      "issues": [],
+      "error": null
+    },
+    {
+      "path": "/product/aws-free-trial-101/",
+      "status": 200,
+      "result": "PASS",
+      "issues": [],
+      "error": null
+    },
+    {
+      "path": "/product/aws-8vcpu-102/",
+      "status": 200,
+      "result": "PASS",
+      "issues": [],
+      "error": null
+    },
+    {
+      "path": "/product/aws-32-vcpu-103/",
+      "status": 200,
+      "result": "PASS",
+      "issues": [],
+      "error": null
+    },
+    {
+      "path": "/product/aws-64-vcpu-104/",
+      "status": 200,
+      "result": "PASS",
+      "issues": [],
+      "error": null
+    },
+    {
+      "path": "/product/aws-128-vcpu-105/",
+      "status": 200,
+      "result": "PASS",
+      "issues": [],
+      "error": null
+    },
+    {
+      "path": "/product/aws-256-vcpu-106/",
+      "status": 200,
+      "result": "PASS",
+      "issues": [],
+      "error": null
+    },
+    {
+      "path": "/product/aws-512-vcpu-107/",
+      "status": 200,
+      "result": "PASS",
+      "issues": [],
+      "error": null
+    },
+    {
+      "path": "/product/aws-1k-credit-108/",
+      "status": 200,
+      "result": "PASS",
+      "issues": [],
+      "error": null
+    },
+    {
+      "path": "/product/aws-5k-credit-109/",
+      "status": 200,
+      "result": "PASS",
+      "issues": [],
+      "error": null
+    },
+    {
+      "path": "/product/aws-10k-credit-110/",
+      "status": 200,
+      "result": "PASS",
+      "issues": [],
+      "error": null
+    },
+    {
+      "path": "/product/aws-25k-credit-111/",
+      "status": 200,
+      "result": "PASS",
+      "issues": [],
+      "error": null
+    },
+    {
+      "path": "/product/aws-50k-credit-112/",
+      "status": 200,
+      "result": "PASS",
+      "issues": [],
+      "error": null
+    },
+    {
+      "path": "/product/aws-100k-credit-113/",
+      "status": 200,
+      "result": "PASS",
+      "issues": [],
+      "error": null
+    },
+    {
+      "path": "/product/aws-ai-bedrock-10-rpm-5vcpu-114/",
+      "status": 200,
+      "result": "PASS",
+      "issues": [],
+      "error": null
+    },
+    {
+      "path": "/product/aws-ai-bedrock-50-rpm-5vcpus-115/",
+      "status": 200,
+      "result": "PASS",
+      "issues": [],
+      "error": null
+    },
+    {
+      "path": "/product/aws-ai-bedrock-10-rpm-32vcpus-124/",
+      "status": 200,
+      "result": "PASS",
+      "issues": [],
+      "error": null
+    },
+    {
+      "path": "/product/aws-ai-bedrock-10k-rpm-32vcpus-116/",
+      "status": 200,
+      "result": "PASS",
+      "issues": [],
+      "error": null
+    },
+    {
+      "path": "/product/aws-ai-bedrock-10k-rpm-256vcpus-117/",
+      "status": 200,
+      "result": "PASS",
+      "issues": [],
+      "error": null
+    },
+    {
+      "path": "/product/kiro-enabled-account-118/",
+      "status": 200,
+      "result": "PASS",
+      "issues": [],
+      "error": null
+    },
+    {
+      "path": "/product/aws-bedrock-256vcpus-10k-rpm-4-6-4-7-4-8-f5-supported-119/",
+      "status": 200,
+      "result": "PASS",
+      "issues": [],
+      "error": null
+    },
+    {
+      "path": "/product/aws-bedrock-384vcpus-10k-rpm-4-6-4-7-4-8-f5-supported-120/",
+      "status": 200,
+      "result": "PASS",
+      "issues": [],
+      "error": null
+    },
+    {
+      "path": "/product/aws-bedrock-512vcpus-10k-rpm-4-6-4-7-4-8-f5-supported-121/",
+      "status": 200,
+      "result": "PASS",
+      "issues": [],
+      "error": null
+    },
+    {
+      "path": "/product/aws-bedrock-1024vcpus-10k-rpm-4-6-4-7-4-8-f5-supported-122/",
+      "status": 200,
+      "result": "PASS",
+      "issues": [],
+      "error": null
+    },
+    {
+      "path": "/product/aws-bedrock-1920vcpus-10k-rpm-4-6-4-7-4-8-f5-supported-123/",
+      "status": 200,
+      "result": "PASS",
+      "issues": [],
+      "error": null
+    },
+    {
+      "path": "/product/google-cloud-300-10-prepaid-301/",
+      "status": 200,
+      "result": "PASS",
+      "issues": [],
+      "error": null
+    },
+    {
+      "path": "/product/google-cloud-pay-as-you-go-10-payment-required-302/",
+      "status": 200,
+      "result": "PASS",
+      "issues": [],
+      "error": null
+    },
+    {
+      "path": "/product/google-cloud-pay-as-you-go-20-cad-payment-required-303/",
+      "status": 200,
+      "result": "PASS",
+      "issues": [],
+      "error": null
+    },
+    {
+      "path": "/product/google-cloud-2-000-credits-account-304/",
+      "status": 200,
+      "result": "PASS",
+      "issues": [],
+      "error": null
+    },
+    {
+      "path": "/product/google-cloud-5-000-credits-account-305/",
+      "status": 200,
+      "result": "PASS",
+      "issues": [],
+      "error": null
+    },
+    {
+      "path": "/product/google-cloud-25-000-credits-account-306/",
+      "status": 200,
+      "result": "PASS",
+      "issues": [],
+      "error": null
+    },
+    {
+      "path": "/product/azure-free-trial-with-200-credit-307/",
+      "status": 200,
+      "result": "PASS",
+      "issues": [],
+      "error": null
+    },
+    {
+      "path": "/product/azure-pay-as-you-go-with-200-credit-308/",
+      "status": 200,
+      "result": "PASS",
+      "issues": [],
+      "error": null
+    },
+    {
+      "path": "/product/azure-azure-1k-tier-1-support-claude-309/",
+      "status": 200,
+      "result": "PASS",
+      "issues": [],
+      "error": null
+    },
+    {
+      "path": "/product/azure-azure-5k-credit-account-310/",
+      "status": 200,
+      "result": "PASS",
+      "issues": [],
+      "error": null
+    },
+    {
+      "path": "/product/digitalocean-do-3-droplet-311/",
+      "status": 200,
+      "result": "PASS",
+      "issues": [],
+      "error": null
+    },
+    {
+      "path": "/product/linode-free-trial-100-credit-312/",
+      "status": 200,
+      "result": "PASS",
+      "issues": [],
+      "error": null
+    },
+    {
+      "path": "/product/ovhcloud-34-vcpus-313/",
+      "status": 200,
+      "result": "PASS",
+      "issues": [],
+      "error": null
+    },
+    {
+      "path": "/product/oracle-cloud-free-trial-300-314/",
+      "status": 200,
+      "result": "PASS",
+      "issues": [],
+      "error": null
+    },
+    {
+      "path": "/product/hetzner-hetzner-5-server-account-315/",
+      "status": 200,
+      "result": "PASS",
+      "issues": [],
+      "error": null
+    },
+    {
+      "path": "/product/amazon-ses-smtp-50k-limits-316/",
+      "status": 200,
+      "result": "PASS",
+      "issues": [],
+      "error": null
+    },
+    {
+      "path": "/product/amazon-ses-smtp-100k-limits-317/",
+      "status": 200,
+      "result": "PASS",
+      "issues": [],
+      "error": null
+    },
+    {
+      "path": "/product/upcloud-500-credit-318/",
+      "status": 200,
+      "result": "PASS",
+      "issues": [],
+      "error": null
+    },
+    {
+      "path": "/product/atlantic-atlantic-cloud-free-trial-319/",
+      "status": 200,
+      "result": "PASS",
+      "issues": [],
+      "error": null
+    },
+    {
+      "path": "/product/alibaba-cloud-alibaba-cloud-free-trial-320/",
+      "status": 200,
+      "result": "PASS",
+      "issues": [],
+      "error": null
+    },
+    {
+      "path": "/product/aws-marketplace-verified-marketplace-account-321/",
+      "status": 200,
+      "result": "PASS",
+      "issues": [],
+      "error": null
+    },
+    {
+      "path": "/product/aws-cloud-starter-1/",
+      "status": 200,
+      "result": "PASS",
+      "issues": [],
+      "error": null
+    },
+    {
+      "path": "/product/google-cloud-starter-2/",
+      "status": 200,
+      "result": "PASS",
+      "issues": [],
+      "error": null
+    },
+    {
+      "path": "/product/azure-cloud-starter-3/",
+      "status": 200,
+      "result": "PASS",
+      "issues": [],
+      "error": null
+    },
+    {
+      "path": "/product/digitalocean-starter-4/",
+      "status": 200,
+      "result": "PASS",
+      "issues": [],
+      "error": null
+    },
+    {
+      "path": "/product/aws-launch-plus-5/",
+      "status": 200,
+      "result": "PASS",
+      "issues": [],
+      "error": null
+    },
+    {
+      "path": "/product/google-cloud-launch-plus-6/",
+      "status": 200,
+      "result": "PASS",
+      "issues": [],
+      "error": null
+    },
+    {
+      "path": "/cart/",
+      "status": 200,
+      "result": "PASS",
+      "issues": [],
+      "error": null
+    },
+    {
+      "path": "/checkout/",
+      "status": 200,
+      "result": "PASS",
+      "issues": [],
+      "error": null
+    }
+  ],
+  "missingPage": {
+    "status": 404,
+    "noindex": true
+  },
+  "files": [
+    {
+      "path": "/robots.txt",
+      "status": 200,
+      "body": "User-agent: *\nAllow: /\n\nSitemap: https://www.cloudssupply.site/sitemap_index.xml\n"
+    },
+    {
+      "path": "/sitemap_index.xml",
+      "status": 200,
+      "body": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap><loc>https://www.cloudssupply.site/pages-sitemap.xml</loc></sitemap>\n  <sitemap><loc>https://www.cloudssupply.site/providers-sitemap.xml</loc></sitemap>\n  <sitemap><loc>https://www.cloudssupply.site/products-sitemap.xml</loc></sitemap>\n</sitemapindex>\n"
+    },
+    {
+      "path": "/pages-sitemap.xml",
+      "status": 200,
+      "body": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<urlset xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <url><loc>https://www.cloudssupply.site/</loc></url>\n  <url><loc>https://www.cloudssupply.site/all-products/</loc></url>\n  <url><loc>https://www.cloudssupply.site/cloud-service-accounts/</loc></url>\n  <url><loc>https://www.cloudssupply.site/aws-standard/</loc></url>\n  <url><loc>https://www.cloudssupply.site/bedrock-api/</loc></url>\n  <url><loc>https://www.cloudssupply.site/aws-bedrock-api-key/</loc></url>\n  <url><loc>https://www.cloudssupply.site/aws-account-configurator/</loc></url>\n  <url><loc>https://www.cloudssupply.site/contact/</loc></url>\n  <url><loc>https://www.cloudssupply.site/faq/</loc></url>\n  <url><loc>https://www.cloudssupply.site/refund/</loc></url>\n</urlset>\n"
+    },
+    {
+      "path": "/providers-sitemap.xml",
+      "status": 200,
+      "body": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<urlset xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <url><loc>https://www.cloudssupply.site/provider/aws/</loc></url>\n  <url><loc>https://www.cloudssupply.site/provider/google-cloud/</loc></url>\n  <url><loc>https://www.cloudssupply.site/provider/azure/</loc></url>\n  <url><loc>https://www.cloudssupply.site/provider/digitalocean/</loc></url>\n  <url><loc>https://www.cloudssupply.site/provider/linode/</loc></url>\n  <url><loc>https://www.cloudssupply.site/provider/ovhcloud/</loc></url>\n  <url><loc>https://www.cloudssupply.site/provider/oracle/</loc></url>\n  <url><loc>https://www.cloudssupply.site/provider/hetzner/</loc></url>\n  <url><loc>https://www.cloudssupply.site/provider/amazon-ses/</loc></url>\n  <url><loc>https://www.cloudssupply.site/provider/upcloud/</loc></url>\n  <url><loc>https://www.cloudssupply.site/provider/atlantic/</loc></url>\n  <url><loc>https://www.cloudssupply.site/provider/alibaba/</loc></url>\n  <url><loc>https://www.cloudssupply.site/provider/aws-marketplace/</loc></url>\n</urlset>\n"
+    },
+    {
+      "path": "/products-sitemap.xml",
+      "status": 200,
+      "body": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<urlset xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <url><loc>https://www.cloudssupply.site/product/aws-free-trial-101/</loc></url>\n  <url><loc>https://www.cloudssupply.site/product/aws-8vcpu-102/</loc></url>\n  <url><loc>https://www.cloudssupply.site/product/aws-32-vcpu-103/</loc></url>\n  <url><loc>https://www.cloudssupply.site/product/aws-64-vcpu-104/</loc></url>\n  <url><loc>https://www.cloudssupply.site/product/aws-128-vcpu-105/</loc></url>\n  <url><loc>https://www.cloudssupply.site/product/aws-256-vcpu-106/</loc></url>\n  <url><loc>https://www.cloudssupply.site/product/aws-512-vcpu-107/</loc></url>\n  <url><loc>https://www.cloudssupply.site/product/aws-1k-credit-108/</loc></url>\n  <url><loc>https://www.cloudssupply.site/product/aws-5k-credit-109/</loc></url>\n  <url><loc>https://www.cloudssupply.site/product/aws-10k-credit-110/</loc></url>\n  <url><loc>https://www.cloudssupply.site/product/aws-25k-credit-111/</loc></url>\n  <url><loc>https://www.cloudssupply.site/product/aws-50k-credit-112/</loc></url>\n  <url><loc>https://www.cloudssupply.site/product/aws-100k-credit-113/</loc></url>\n  <url><loc>https://www.cloudssupply.site/product/aws-ai-bedrock-10-rpm-5vcpu-114/</loc></url>\n  <url><loc>https://www.cloudssupply.site/product/aws-ai-bedrock-50-rpm-5vcpus-115/</loc></url>\n  <url><loc>https://www.cloudssupply.site/product/aws-ai-bedrock-10-rpm-32vcpus-124/</loc></url>\n  <url><loc>https://www.cloudssupply.site/product/aws-ai-bedrock-10k-rpm-32vcpus-116/</loc></url>\n  <url><loc>https://www.cloudssupply.site/product/aws-ai-bedrock-10k-rpm-256vcpus-117/</loc></url>\n  <url><loc>https://www.cloudssupply.site/product/kiro-enabled-account-118/</loc></url>\n  <url><loc>https://www.cloudssupply.site/product/aws-bedrock-256vcpus-10k-rpm-4-6-4-7-4-8-f5-supported-119/</loc></url>\n  <url><loc>https://www.cloudssupply.site/product/aws-bedrock-384vcpus-10k-rpm-4-6-4-7-4-8-f5-supported-120/</loc></url>\n  <url><loc>https://www.cloudssupply.site/product/aws-bedrock-512vcpus-10k-rpm-4-6-4-7-4-8-f5-supported-121/</loc></url>\n  <url><loc>https://www.cloudssupply.site/product/aws-bedrock-1024vcpus-10k-rpm-4-6-4-7-4-8-f5-supported-122/</loc></url>\n  <url><loc>https://www.cloudssupply.site/product/aws-bedrock-1920vcpus-10k-rpm-4-6-4-7-4-8-f5-supported-123/</loc></url>\n  <url><loc>https://www.cloudssupply.site/product/google-cloud-300-10-prepaid-301/</loc></url>\n  <url><loc>https://www.cloudssupply.site/product/google-cloud-pay-as-you-go-10-payment-required-302/</loc></url>\n  <url><loc>https://www.cloudssupply.site/product/google-cloud-pay-as-you-go-20-cad-payment-required-303/</loc></url>\n  <url><loc>https://www.cloudssupply.site/product/google-cloud-2-000-credits-account-304/</loc></url>\n  <url><loc>https://www.cloudssupply.site/product/google-cloud-5-000-credits-account-305/</loc></url>\n  <url><loc>https://www.cloudssupply.site/product/google-cloud-25-000-credits-account-306/</loc></url>\n  <url><loc>https://www.cloudssupply.site/product/azure-free-trial-with-200-credit-307/</loc></url>\n  <url><loc>https://www.cloudssupply.site/product/azure-pay-as-you-go-with-200-credit-308/</loc></url>\n  <url><loc>https://www.cloudssupply.site/product/azure-azure-1k-tier-1-support-claude-309/</loc></url>\n  <url><loc>https://www.cloudssupply.site/product/azure-azure-5k-credit-account-310/</loc></url>\n  <url><loc>https://www.cloudssupply.site/product/digitalocean-do-3-droplet-311/</loc></url>\n  <url><loc>https://www.cloudssupply.site/product/linode-free-trial-100-credit-312/</loc></url>\n  <url><loc>https://www.cloudssupply.site/product/ovhcloud-34-vcpus-313/</loc></url>\n  <url><loc>https://www.cloudssupply.site/product/oracle-cloud-free-trial-300-314/</loc></url>\n  <url><loc>https://www.cloudssupply.site/product/hetzner-hetzner-5-server-account-315/</loc></url>\n  <url><loc>https://www.cloudssupply.site/product/amazon-ses-smtp-50k-limits-316/</loc></url>\n  <url><loc>https://www.cloudssupply.site/product/amazon-ses-smtp-100k-limits-317/</loc></url>\n  <url><loc>https://www.cloudssupply.site/product/upcloud-500-credit-318/</loc></url>\n  <url><loc>https://www.cloudssupply.site/product/atlantic-atlantic-cloud-free-trial-319/</loc></url>\n  <url><loc>https://www.cloudssupply.site/product/alibaba-cloud-alibaba-cloud-free-trial-320/</loc></url>\n  <url><loc>https://www.cloudssupply.site/product/aws-marketplace-verified-marketplace-account-321/</loc></url>\n  <url><loc>https://www.cloudssupply.site/product/aws-cloud-starter-1/</loc></url>\n  <url><loc>https://www.cloudssupply.site/product/google-cloud-starter-2/</loc></url>\n  <url><loc>https://www.cloudssupply.site/product/azure-cloud-starter-3/</loc></url>\n  <url><loc>https://www.cloudssupply.site/product/digitalocean-starter-4/</loc></url>\n  <url><loc>https://www.cloudssupply.site/product/aws-launch-plus-5/</loc></url>\n  <url><loc>https://www.cloudssupply.site/product/google-cloud-launch-plus-6/</loc></url>\n</urlset>\n"
+    },
+    {
+      "path": "/googlee9c6c6adb26b90ba.html",
+      "status": 200,
+      "body": "google-site-verification: googlee9c6c6adb26b90ba.html\n"
+    }
+  ],
+  "assets": [
+    {
+      "path": "/assets/index-By2UGA1O.js",
+      "status": 200,
+      "error": null
+    },
+    {
+      "path": "/brand/favicon.png",
+      "status": 200,
+      "error": null
+    },
+    {
+      "path": "/fonts/dm-sans-400-700.woff2",
+      "status": 200,
+      "error": null
+    },
+    {
+      "path": "/fonts/space-grotesk-400-700.woff2",
+      "status": 200,
+      "error": null
+    },
+    {
+      "path": "/assets/react-vendor-BDdCVDbo.js",
+      "status": 200,
+      "error": null
+    },
+    {
+      "path": "/assets/qr-code-Yk9eKAZd.js",
+      "status": 200,
+      "error": null
+    },
+    {
+      "path": "/assets/index-BIDq6nTb.css",
+      "status": 200,
+      "error": null
+    },
+    {
+      "path": "/brand/cloudssupply-wordmark-700.webp",
+      "status": 200,
+      "error": null
+    },
+    {
+      "path": "/cloud-network.svg",
+      "status": 200,
+      "error": null
+    },
+    {
+      "path": "/products/premium/cloud-console-v2-1200.webp",
+      "status": 200,
+      "error": null
+    },
+    {
+      "path": "/logos/on-dark/aws.svg",
+      "status": 200,
+      "error": null
+    },
+    {
+      "path": "/logos/on-dark/google-cloud.svg",
+      "status": 200,
+      "error": null
+    },
+    {
+      "path": "/logos/on-dark/azure.svg",
+      "status": 200,
+      "error": null
+    },
+    {
+      "path": "/logos/on-dark/digitalocean.svg",
+      "status": 200,
+      "error": null
+    },
+    {
+      "path": "/logos/on-dark/linode.svg",
+      "status": 200,
+      "error": null
+    },
+    {
+      "path": "/logos/on-dark/ovhcloud.svg",
+      "status": 200,
+      "error": null
+    },
+    {
+      "path": "/logos/on-dark/oracle.svg",
+      "status": 200,
+      "error": null
+    },
+    {
+      "path": "/logos/on-dark/hetzner.svg",
+      "status": 200,
+      "error": null
+    },
+    {
+      "path": "/logos/on-dark/amazon-ses.svg",
+      "status": 200,
+      "error": null
+    },
+    {
+      "path": "/logos/on-dark/upcloud.svg",
+      "status": 200,
+      "error": null
+    },
+    {
+      "path": "/logos/on-dark/atlantic.svg",
+      "status": 200,
+      "error": null
+    },
+    {
+      "path": "/logos/on-dark/alibaba.svg",
+      "status": 200,
+      "error": null
+    },
+    {
+      "path": "/logos/on-dark/aws-marketplace.svg",
+      "status": 200,
+      "error": null
+    },
+    {
+      "path": "/sitemap_index.xml",
+      "status": 200,
+      "error": null
+    },
+    {
+      "path": "/products/premium/cloud-console-v2-480.webp",
+      "status": 200,
+      "error": null
+    }
+  ],
+  "redirects": [
+    {
+      "url": "http://localhost:4173/home/?utm_source=seo-test",
+      "status": 200,
+      "effectiveUrl": "http://localhost:4173/?utm_source=seo-test",
+      "chain": [
+        {
+          "status": 308,
+          "location": "/?utm_source=seo-test"
+        },
+        {
+          "status": 200,
+          "location": null
+        }
+      ],
+      "error": null,
+      "loop": false
+    },
+    {
+      "url": "http://localhost:4173/product/aws-32-vcpu-103",
+      "status": 200,
+      "effectiveUrl": "http://localhost:4173/product/aws-32-vcpu-103/",
+      "chain": [
+        {
+          "status": 308,
+          "location": "/product/aws-32-vcpu-103/"
+        },
+        {
+          "status": 200,
+          "location": null
+        }
+      ],
+      "error": null,
+      "loop": false
+    }
+  ],
+  "aliasUtilities": [],
+  "sitemapValid": true,
+  "sitemapCount": 74,
+  "failures": []
+}

@@ -1,0 +1,139 @@
+{
+  "home": {
+    "primaryKeyword": "buy aws accounts",
+    "secondaryKeywords": [
+      "aws accounts for sale",
+      "buy aws accounts online",
+      "aws account marketplace"
+    ],
+    "title": "Buy AWS Accounts & AWS Bedrock API Access | CloudsSupply",
+    "description": "Buy AWS accounts and explore AWS Bedrock API access at CloudsSupply. Find AWS account options, setup details, pricing, and support for your cloud projects.",
+    "h1": "Buy AWS Accounts & AWS Bedrock API Access",
+    "intent": "commercial",
+    "scope": "Storefront introduction and main AWS buying entry point",
+    "intro": "Buy AWS accounts online with clear product specifications and purchase pricing. Explore the CloudsSupply AWS account marketplace, compare tiers, and confirm access requirements before payment."
+  },
+  "all-products": {
+    "primaryKeyword": "buy cloud account products",
+    "secondaryKeywords": [
+      "compare cloud account products",
+      "cloud account prices",
+      "cloud api products for sale"
+    ],
+    "title": "Buy Cloud Account Products & Compare Prices | CloudsSupply",
+    "description": "Buy cloud account products and compare AWS, Azure, Google Cloud, hosting and API listings. Review prices, specifications, and individual guides at CloudsSupply.",
+    "h1": "Buy Cloud Account Products & Compare Prices",
+    "intent": "commercial",
+    "scope": "Complete product-level inventory including account variations and setup services",
+    "intro": "Compare cloud account products, review cloud account prices, and explore cloud API products for sale. Choose a provider and read its individual specification guide before payment."
+  },
+  "cloud-service-accounts": {
+    "primaryKeyword": "buy cloud accounts",
+    "secondaryKeywords": [
+      "cloud accounts for sale",
+      "cloud service account pricing",
+      "purchase multicloud accounts"
+    ],
+    "title": "Buy Cloud Accounts Online – AWS, Azure & GCP | CloudsSupply",
+    "description": "Buy cloud accounts and compare Google Cloud, Azure, DigitalOcean, Oracle and more. Review provider options, cloud credits and listed prices at CloudsSupply.",
+    "h1": "Buy Cloud Accounts – Compare Cloud Providers & Plans",
+    "intent": "commercial",
+    "scope": "Non-AWS provider comparison with links to provider collections",
+    "intro": "Compare cloud service account pricing before you purchase multicloud accounts. Review cloud accounts for sale across Google Cloud, Azure, hosting, email, and marketplace providers. Credit balances and required provider payments are separate from the purchase price."
+  },
+  "aws-standard": {
+    "primaryKeyword": "buy aws standard accounts",
+    "secondaryKeywords": [
+      "aws standard accounts for sale",
+      "aws vcpu account pricing",
+      "aws credit account purchase"
+    ],
+    "title": "Buy AWS Standard Accounts & Credits | CloudsSupply",
+    "description": "Buy AWS Standard accounts with free trial, vCPU and cloud credit options. Compare available AWS account specifications, pricing and plans at CloudsSupply.",
+    "h1": "Buy AWS Standard Accounts & Credits",
+    "intent": "commercial",
+    "scope": "Standard trial, compute and credit listings; excludes Bedrock and Kiro",
+    "intro": "Review AWS Standard accounts for sale, compare AWS vCPU account pricing, and check the conditions for an AWS credit account purchase. Trial, compute, and credit listings describe different benefits; compare each against your project requirements."
+  },
+  "bedrock-api": {
+    "primaryKeyword": "buy aws bedrock accounts",
+    "secondaryKeywords": [
+      "aws bedrock accounts for sale",
+      "amazon bedrock account pricing",
+      "bedrock request quota tiers"
+    ],
+    "title": "Buy AWS Bedrock Accounts & API Access | CloudsSupply",
+    "description": "Buy AWS Bedrock accounts and compare 10 RPM, 50 RPM and 10K RPM tiers. Review vCPU labels, model access conditions, API options and pricing at CloudsSupply.",
+    "h1": "Buy AWS Bedrock Accounts & Compare API Access Tiers",
+    "intent": "commercial",
+    "scope": "Bedrock account and RPM-tier comparison",
+    "intro": "Compare AWS Bedrock accounts for sale by model access, region, and Bedrock request quota tiers. Review Amazon Bedrock account pricing separately from ongoing inference charges."
+  },
+  "aws-bedrock-api-key": {
+    "primaryKeyword": "buy aws bedrock api key",
+    "secondaryKeywords": [
+      "aws bedrock api key pricing",
+      "aws bedrock api access for sale",
+      "purchase amazon bedrock api access"
+    ],
+    "title": "Buy AWS Bedrock API Key & Accounts | CloudsSupply",
+    "description": "Buy AWS Bedrock API key access and explore available account options. Compare RPM limits, AI model access, specifications, and pricing at CloudsSupply.",
+    "h1": "Buy AWS Bedrock API Key & Accounts",
+    "intent": "commercial",
+    "scope": "Credential inclusion, permissions and API handover; account-tier selection lives on /bedrock-api/",
+    "intro": "Review AWS Bedrock API key pricing and the AWS Bedrock API access for sale in this catalog. Before you purchase Amazon Bedrock API access, confirm model permissions, region, request quotas, and whether your order includes a key."
+  },
+  "aws-account-configurator": {
+    "primaryKeyword": "configure an aws account purchase",
+    "secondaryKeywords": [
+      "aws account order configuration",
+      "compare aws account variation prices",
+      "aws account purchase selector"
+    ],
+    "title": "Configure an AWS Account Purchase & Compare Prices | CloudsSupply",
+    "description": "Configure an AWS account purchase by selecting a trial, compute, credit or AI variation. Review quantities, listed prices and product guides before checkout.",
+    "h1": "Configure an AWS Account Purchase",
+    "intent": "commercial",
+    "scope": "Interactive selection and order configuration rather than a broad buying guide",
+    "intro": "Use this AWS account purchase selector to compare AWS account variation prices. Your AWS account order configuration determines the selected quantity and listed total; confirm requirements before checkout."
+  },
+  "contact": {
+    "primaryKeyword": "cloudssupply contact",
+    "secondaryKeywords": [
+      "cloud account order help",
+      "aws account support",
+      "refund review"
+    ],
+    "title": "Contact CloudsSupply | Cloud Account Sales & Support",
+    "description": "Contact CloudsSupply for AWS, Bedrock API, Google Cloud and Azure account questions. Get help with product selection, delivery, orders and refund requests.",
+    "h1": "Contact CloudsSupply – Sales & Customer Support",
+    "intent": "support",
+    "scope": "Customer and order support"
+  },
+  "faq": {
+    "primaryKeyword": "cloud account faqs",
+    "secondaryKeywords": [
+      "credit eligibility",
+      "account access",
+      "cloud account refund terms"
+    ],
+    "title": "Cloud Account FAQs – Orders & Delivery | CloudsSupply",
+    "description": "Find answers about AWS and cloud accounts, Bedrock API access, cloud credits, ordering, delivery, account eligibility and refunds at CloudsSupply.",
+    "h1": "Frequently Asked Questions About Cloud Accounts",
+    "intent": "informational",
+    "scope": "Shared order and eligibility questions"
+  },
+  "refund": {
+    "primaryKeyword": "cloudssupply refund policy",
+    "secondaryKeywords": [
+      "cloud account orders",
+      "order reference",
+      "refund review"
+    ],
+    "title": "Refund Policy – Cloud Account Orders | CloudsSupply",
+    "description": "Read the CloudsSupply refund policy for cloud account orders. Learn how delivery issues, duplicate payments, refund requests and reviews are handled.",
+    "h1": "CloudsSupply Refund Policy & Order Resolution",
+    "intent": "support",
+    "scope": "Refund review terms; not a commercial product landing page"
+  }
+}

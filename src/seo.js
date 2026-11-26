@@ -1,23 +1,13 @@
 import {allProducts,allProviders,findProduct,findProvider,productHref,providerHref} from './catalog-data.js';
 import {routeHref,pageRoutes,utilityRoutes} from './router.js';
-import {siteUrl,siteName} from './site-config.js';
+import {siteUrl,siteName,indexingAllowed} from './site-config.js';
+import {pageSeo} from './seo-keywords.js';
 import {faqs} from './faqs.js';
 import productSeo from './product-seo.json';
 import providerSeo from './provider-seo.json';
 import {apiKeyTitle,apiKeyDescription,apiKeyFaqs} from './api-key-content.js';
 import {homepageTitle,homepageDescription,featuredAwsIds,homepageFaqs} from './homepage-seo.js';
-const pages={
- home:['Buy AWS Accounts & AWS Bedrock API Access',homepageDescription],
- 'all-products':['Cloud Accounts, Credits & API Products','Browse cloud accounts, credit tiers, hosting services, and AI API products. Compare specifications and prices, then read the original product guides.'],
- 'cloud-service-accounts':['Buy Cloud Accounts Online – AWS, Azure & GCP','Explore cloud accounts for sale, including Google Cloud, Azure, DigitalOcean, Oracle and more. Compare account options, cloud credits and prices at CloudsSupply.'],
- 'aws-standard':['Buy AWS Standard Accounts & Credits','Explore AWS Standard accounts with free trial, vCPU and cloud credit options. Compare available AWS account specifications, pricing and plans at CloudsSupply.'],
- 'bedrock-api':['Buy AWS Bedrock Accounts & API Access','Explore AWS Bedrock accounts and API access options with 10 RPM, 50 RPM and 10K RPM tiers. Compare vCPU configurations, model access and prices at CloudsSupply.'],
- 'aws-bedrock-api-key':['Buy AWS Bedrock API Key & Accounts',apiKeyDescription],
- 'aws-account-configurator':['Compare AWS Account Variations & Prices','Choose an AWS trial, compute, credit, Bedrock, or Kiro variation. Compare prices and quantities, then review the dedicated product guide.'],
- contact:['Contact CloudsSupply','Contact CloudsSupply for AWS, Bedrock API, Google Cloud and Azure account questions. Get help with product selection, delivery, orders and refund requests.'],
- faq:['Cloud Account FAQs – Orders & Delivery','Find answers about AWS and cloud accounts, Bedrock API access, cloud credits, ordering, delivery, account eligibility and refunds at CloudsSupply.'],
- refund:['Refund Policy – Cloud Account Orders','Read the CloudsSupply refund policy for cloud account orders. Learn how delivery issues, duplicate payments, refund requests and reviews are handled.']
-};
+const pages=Object.fromEntries(Object.entries(pageSeo).map(([route,copy])=>[route,[copy.h1,copy.description]]));
 const utilityMetadata={cart:['Shopping Cart','Review your cloud account products and quantities before USDT checkout.'],checkout:['USDT Checkout','Review your order, select an available USDT network, and submit the transaction hash for manual confirmation.']};
 export const utilityPages=utilityRoutes.map(route=>({route,path:routeHref(route),type:'utility'}));
 const providerDescriptions={
@@ -54,15 +44,15 @@ export function metadataFor(route){
  const data=product?productSeo[product.id]:null,providerCopy=provider?providerSeo[provider.slug]:null;
  const title=product?(data?.h1||product.name):provider?(providerCopy?.h1||provider.title):pages[route]?.[0]||utilityMetadata[route]?.[0]||'Page not found';
  const description=product?(data?.description||product.desc):provider?(providerCopy?.description||providerDescriptions[provider.slug]||provider.guide.summary):pages[route]?.[1]||utilityMetadata[route]?.[1]||'The requested page could not be found. Browse our cloud account catalog.';
- const pageTitle=product?(data?.title||product.name+' | '+siteName):providerCopy?providerCopy.title:route==='home'?homepageTitle:route==='aws-bedrock-api-key'?apiKeyTitle:route==='contact'?'Contact CloudsSupply | Cloud Account Sales & Support':['cloud-service-accounts','aws-standard','bedrock-api','faq','refund'].includes(route)?title+' | CloudsSupply':title+' | '+siteName;
+ const pageTitle=product?(data?.title||product.name+' | '+siteName):providerCopy?providerCopy.title:pageSeo[route]?.title||title+' | '+siteName;
  const url=siteUrl+routeHref(route),image=siteUrl+(product?.image||provider?.image||'/products/premium/cloud-console-v2.jpg');
- const imageAlt=(product?.name||provider?.name||'CloudsSupply.store cloud accounts')+' — cloud infrastructure illustration';
- const organization={'@type':'Organization','@id':siteUrl+'/#organization',name:siteName,url:siteUrl+'/',logo:{'@type':'ImageObject',url:siteUrl+'/brand/cloudssupply-logo.png',width:2172,height:724},telephone:'+14582624274',sameAs:['https://t.me/Eljh_Miller'],contactPoint:{'@type':'ContactPoint',telephone:'+14582624274',contactType:'customer support',url:siteUrl+'/contact/'}};
+ const imageAlt=(product?.name||provider?.name||'CloudsSupply cloud accounts')+' — cloud infrastructure illustration';
+ const organization={'@type':'Organization','@id':siteUrl+'/#organization',name:siteName,url:siteUrl+'/',logo:{'@type':'ImageObject',url:siteUrl+'/brand/cloudssupply-wordmark.webp',width:700,height:176},telephone:'+14582624274',sameAs:['https://t.me/Eljh_Miller'],contactPoint:{'@type':'ContactPoint',telephone:'+14582624274',contactType:'customer support',url:siteUrl+'/contact/'}};
  const items=collectionItems(route,provider);
  const webPage={'@type':product?'ItemPage':route==='contact'?'ContactPage':route==='faq'?'FAQPage':items.length?'CollectionPage':'WebPage','@id':url+'#webpage',url,name:pageTitle,description,inLanguage:'en',isPartOf:{'@id':siteUrl+'/#website'}};
  const graph=[organization,{'@type':'WebSite','@id':siteUrl+'/#website',url:siteUrl+'/',name:siteName,inLanguage:'en',publisher:{'@id':organization['@id']}},webPage];
- const productNode=p=>{const productUrl=siteUrl+productHref(p);const item={'@type':'Product','@id':productUrl+'#product',name:p.name,description:p.desc,image:siteUrl+p.image,sku:String(p.id),brand:{'@type':'Brand',name:p.provider},url:productUrl};if(p.price!=null)item.offers={'@type':'Offer',url:productUrl,price:p.price,priceCurrency:'USD',seller:{'@id':organization['@id']}};return item;};
- if(product){const item=productNode(product);graph.push(item);webPage.mainEntity={'@id':item['@id']};}
+ const productNode=p=>{const productUrl=siteUrl+productHref(p);const item={'@type':p.id<100?'Service':'Product','@id':productUrl+'#product',name:p.name,description:p.desc,image:siteUrl+p.image,sku:String(p.id),brand:{'@type':'Brand',name:p.provider},url:productUrl};if(p.id<100){delete item.sku;delete item.brand;item.identifier=String(p.id);item.provider={'@id':organization['@id']};item.serviceType=p.name;}if(p.price!=null&&p.id>=100)item.offers={'@type':'Offer',url:productUrl,price:p.price,priceCurrency:'USD',seller:{'@id':organization['@id']}};return item;};
+ if(product){const item=productNode(product);graph.push(item);webPage.mainEntity={'@id':item['@id']};const questions=productSeo[product.id]?.faqs||[];if(questions.length){const faq={'@type':'FAQPage','@id':url+'#product-faq',mainEntity:questions.map(([q,a])=>({'@type':'Question',name:q,acceptedAnswer:{'@type':'Answer',text:a}}))};graph.push(faq);webPage.hasPart={'@id':faq['@id']};}}
  if(route==='home'){
   graph.push(...items.map(productNode));
   const faq={'@type':'FAQPage','@id':url+'#aws-faq',mainEntity:homepageFaqs.map(([q,a])=>({'@type':'Question',name:q,acceptedAnswer:{'@type':'Answer',text:a}}))};
@@ -83,7 +73,7 @@ export function metadataFor(route){
   crumbs.push([product?.name||provider?.name||title,routeHref(route)]);
   const breadcrumb={'@type':'BreadcrumbList','@id':url+'#breadcrumbs',itemListElement:crumbs.map(([name,path],index)=>({'@type':'ListItem',position:index+1,name,item:siteUrl+path}))};graph.push(breadcrumb);webPage.breadcrumb={'@id':breadcrumb['@id']};
  }
- return {title:pageTitle,description,url,image,imageAlt,robots:known&&!utilityRoutes.includes(route)?'index, follow, max-image-preview:large':'noindex, follow',schema:{'@context':'https://schema.org','@graph':graph}};
+ return {title:pageTitle,description,url,image,imageAlt,robots:known&&indexingAllowed&&!utilityRoutes.includes(route)?'index, follow, max-image-preview:large':'noindex, follow',schema:{'@context':'https://schema.org','@graph':graph}};
 }
 export function socialMetadata(m){return {
  properties:{'og:title':m.title,'og:description':m.description,'og:url':m.url,'og:image':m.image,'og:image:alt':m.imageAlt,'og:type':m.schema['@graph'].some(node=>node['@type']==='Product')?'product':'website','og:site_name':siteName,'og:locale':'en_US'},

@@ -10,7 +10,7 @@ Product titles in this configuration are complete search titles, including the r
 
 Catalog product names and IDs remain unchanged so the existing product URLs, prices, variation labels, and ordering behavior stay stable. Product and Offer structured data continues to use the actual catalog item and current price. Keyword lists are maintained for strategy and reporting rather than output as repetitive visible lists.
 
-Provider collection pages use the separate `src/provider-seo.json` configuration. Account variations keep their own distinct search copy and self-referencing canonical URLs under `https://buyaws-account.vercel.app/product/`.
+Provider collection pages use the separate `src/provider-seo.json` configuration. Account variations keep their own distinct search copy and self-referencing canonical URLs under `https://www.cloudssupply.site/product/`.
 
 ## Validation and reports
 

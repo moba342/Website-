@@ -1,0 +1,44 @@
+[
+  {
+    "url": "https://www.cloudssupply.site/",
+    "exitCode": 0,
+    "status": "HTTP/2 200 ",
+    "error": ""
+  },
+  {
+    "url": "https://cloudssupply.site/",
+    "exitCode": 60,
+    "status": "",
+    "error": "curl: (60) SSL: no alternative certificate subject name matches target host name 'cloudssupply.site'\nMore details here: https://curl.se/docs/sslcerts.html\n\ncurl failed to verify the legitimacy of the server and therefore could not\nestablish a secure connection to it. To learn more about this situation and\nhow to fix it, please visit the web page mentioned above.\n"
+  },
+  {
+    "url": "http://cloudssupply.site/",
+    "exitCode": 0,
+    "status": "HTTP/1.0 308 Permanent Redirect",
+    "error": ""
+  },
+  {
+    "url": "http://www.cloudssupply.site/",
+    "exitCode": 0,
+    "status": "HTTP/1.0 308 Permanent Redirect",
+    "error": ""
+  },
+  {
+    "url": "https://www.cloudssupply.site/robots.txt",
+    "exitCode": 0,
+    "status": "HTTP/2 200 ",
+    "error": ""
+  },
+  {
+    "url": "https://www.cloudssupply.site/sitemap_index.xml",
+    "exitCode": 0,
+    "status": "HTTP/2 200 ",
+    "error": ""
+  },
+  {
+    "url": "https://www.cloudssupply.site/not-a-real-seo-page/",
+    "exitCode": 0,
+    "status": "HTTP/2 404 ",
+    "error": ""
+  }
+]

@@ -1,0 +1,75 @@
+{
+  "audited_at_utc": "2026-11-26T19:44:26.027384+00:00",
+  "origin": "https://buyaws-account.vercel.app",
+  "expected": {
+    "categories": 14,
+    "product_variations": 68,
+    "catalog_records": 82
+  },
+  "observed": {
+    "provider_categories": 13,
+    "product_pages": 51,
+    "account_variations_excluding_starter_services": 45,
+    "starter_service_packages": 6,
+    "catalog_records": 64,
+    "public_pages": 74
+  },
+  "catalog_count_target_met": false,
+  "keyword_mappings_present": 57,
+  "keyword_mappings_missing": [
+    {
+      "name": "AWS Cloud Starter",
+      "url": "https://buyaws-account.vercel.app/product/aws-cloud-starter-1/"
+    },
+    {
+      "name": "Google Cloud Starter",
+      "url": "https://buyaws-account.vercel.app/product/google-cloud-starter-2/"
+    },
+    {
+      "name": "Azure Cloud Starter",
+      "url": "https://buyaws-account.vercel.app/product/azure-cloud-starter-3/"
+    },
+    {
+      "name": "DigitalOcean Starter",
+      "url": "https://buyaws-account.vercel.app/product/digitalocean-starter-4/"
+    },
+    {
+      "name": "AWS Launch Plus",
+      "url": "https://buyaws-account.vercel.app/product/aws-launch-plus-5/"
+    },
+    {
+      "name": "Google Cloud Launch Plus",
+      "url": "https://buyaws-account.vercel.app/product/google-cloud-launch-plus-6/"
+    },
+    {
+      "name": "Amazon Web Services",
+      "url": "https://buyaws-account.vercel.app/provider/aws/"
+    }
+  ],
+  "duplicate_titles": [],
+  "duplicate_descriptions": [],
+  "technical_failures": [],
+  "exact_primary_keyword_collisions": {},
+  "private_pages": [
+    {
+      "route": "cart",
+      "noindex": true,
+      "excluded_sitemap": true
+    },
+    {
+      "route": "checkout",
+      "noindex": true,
+      "excluded_sitemap": true
+    }
+  ],
+  "sitemap_urls_unique": true,
+  "robots_advertises_sitemap": true,
+  "limitations": [
+    "Provider categories are the catalog providers; category landing pages are counted separately among public pages.",
+    "51 product pages include six starter service packages. No missing products were invented to reach 68.",
+    "Keyword coverage describes explicit configuration, not Google rankings. Exact phrase checks do not require keyword stuffing.",
+    "Cannibalization review identifies overlapping intent; actual search cannibalization requires Search Console query/page data.",
+    "Homepage, AWS provider, AWS Standard, Bedrock collection and API-key landing pages require distinct targeting review.",
+    "This audit does not measure Core Web Vitals or verify Google indexing."
+  ]
+}

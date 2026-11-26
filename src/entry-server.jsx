@@ -3,3 +3,6 @@ import {renderToString} from 'react-dom/server';
 import App from './App.jsx';
 export {seoPages,utilityPages,metadataFor,socialMetadata} from './seo.js';
 export function renderPage(route){return renderToString(<App initialPage={route}/>);}
+
+export {pageSeo,productSeo,providerSeo,normalizeKeyword} from './seo-keywords.js';
+export {indexingAllowed} from './site-config.js';
