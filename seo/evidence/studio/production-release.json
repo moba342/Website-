@@ -1,0 +1,39 @@
+{
+  "domain": "https://cloudssupply.site/",
+  "runtimeCommit": "9412324",
+  "projects": [
+    {
+      "name": "website",
+      "deployment": "dpl_4w7xHjojgqK76uUZY6L3yzxzKTHR",
+      "state": "READY"
+    },
+    {
+      "name": "buyaws-account",
+      "deployment": "dpl_8FUQ4gQaDBQDvsABTmpXraqebSgk",
+      "state": "READY"
+    }
+  ],
+  "liveHttpAudit": {
+    "routes": 76,
+    "assets": 28,
+    "sitemapUrls": 74,
+    "failures": 0,
+    "missingRouteStatus": 404
+  },
+  "localFullResponsiveAudit": {
+    "routes": 76,
+    "widths": [
+      320,
+      375,
+      390,
+      768,
+      1024,
+      1440,
+      1920
+    ],
+    "errors": 0
+  },
+  "liveBrowserSmoke": "PASS: 5 representative routes at 7 widths plus navigation, cart, variation, checkout and receipt tests",
+  "paymentsOrMessagesSent": false,
+  "notes": "Homepage Lighthouse reports are local lab results. Historical audits predate this design. Google indexing and field Core Web Vitals are not claimed."
+}
