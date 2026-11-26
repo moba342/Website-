@@ -124,5 +124,7 @@
 "https://www.cloudssupply.site/product/digitalocean-starter-4/","https://www.cloudssupply.site/product/digitalocean-starter-4/","200 retained","No slug migration","Established descriptive product URL retained; numeric catalog ID preserves routing and orders"
 "https://www.cloudssupply.site/product/aws-launch-plus-5/","https://www.cloudssupply.site/product/aws-launch-plus-5/","200 retained","No slug migration","Established descriptive product URL retained; numeric catalog ID preserves routing and orders"
 "https://www.cloudssupply.site/product/google-cloud-launch-plus-6/","https://www.cloudssupply.site/product/google-cloud-launch-plus-6/","200 retained","No slug migration","Established descriptive product URL retained; numeric catalog ID preserves routing and orders"
+"https://buyaws-account.vercel.app/cart/","https://buyaws-account.vercel.app/cart/","200 noindex retained","Private utility exception","Preserve browser-origin-local existing cart and payment drafts"
+"https://buyaws-account.vercel.app/checkout/","https://buyaws-account.vercel.app/checkout/","200 noindex retained","Private utility exception","Preserve browser-origin-local existing cart and payment drafts"
 "https://cloudssupply.site/:path*","https://www.cloudssupply.site/:path*","308 project-domain redirect","Apex consolidation","Registered apex on existing production project; preserves path/query"
 "https://www.cloudssupply.site/home/","https://www.cloudssupply.site/","308 configured","Legacy alias","Remove duplicate homepage route"

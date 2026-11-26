@@ -2,7 +2,9 @@ import {chromium} from 'playwright';
 import assert from 'node:assert/strict';
 import {readFile,writeFile,mkdir} from 'node:fs/promises';
 const origin=process.argv[2]||'http://localhost:4173';
-const manifest=JSON.parse(await readFile('seo/evidence/page-manifest.json','utf8'));
+const allPages=JSON.parse(await readFile('seo/evidence/page-manifest.json','utf8'));
+const manifest=process.argv.includes('--smoke')?allPages.filter(p=>['/','/aws-standard/','/provider/google-cloud/','/product/aws-32-vcpu-103/','/all-products/'].includes(p.path)):allPages;
+const output=origin.startsWith('http://localhost')?'seo/evidence/browser-qa.json':'seo/evidence/browser-qa-live.json';
 const widths=[320,375,390,768,1024,1440,1920],results=[],errors=[];
 const browser=await chromium.launch({executablePath:'/Applications/Google Chrome.app/Contents/MacOS/Google Chrome',headless:true});
 const ctx=await browser.newContext({viewport:{width:1440,height:1000},permissions:['clipboard-read','clipboard-write']});
@@ -56,6 +58,6 @@ try{
  await page.locator('.market-provider-card').first().getByRole('button',{name:'Add To Card',exact:true}).click();await page.waitForURL('**/checkout/');assert.ok((await page.locator('.payment-order-lines').innerText()).length>0);
  results.push({test:'homepage direct-checkout CTA retains selected product',status:'PASS'});
  assert.deepEqual(errors,[],'browser console or layout errors');
- await writeFile('seo/evidence/browser-qa.json',JSON.stringify({origin,viewportWidths:widths,pagesTested:manifest.length,errors,results},null,2)+'\n');
+ await writeFile(output,JSON.stringify({origin,viewportWidths:widths,pagesTested:manifest.length,errors,results},null,2)+'\n');
  console.log('Browser QA passed:',manifest.length,'routes at',widths.length,'viewport widths, plus navigation, variations, cart, checkout and receipt tests. No payment or message was sent.');
-}catch(e){errors.push(e.message);await writeFile('seo/evidence/browser-qa.json',JSON.stringify({origin,pagesTested:results.length,errors,results},null,2)+'\n');throw e;}finally{await browser.close();}
+}catch(e){errors.push(e.message);await writeFile(output,JSON.stringify({origin,pagesTested:results.length,errors,results},null,2)+'\n');throw e;}finally{await browser.close();}

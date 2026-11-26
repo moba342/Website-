@@ -1,0 +1,4577 @@
+[
+  {
+    "mode": "mobile",
+    "name": "home",
+    "url": "https://www.cloudssupply.site/",
+    "status": "TESTED",
+    "scores": {
+      "performance": 100,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100
+    },
+    "metrics": {
+      "first-contentful-paint": 1128.901,
+      "largest-contentful-paint": 1128.901,
+      "total-blocking-time": 0,
+      "cumulative-layout-shift": 0,
+      "speed-index": 1128.901,
+      "interactive": 1128.901
+    },
+    "failures": [
+      {
+        "id": "first-contentful-paint",
+        "title": "First Contentful Paint",
+        "score": 0.99,
+        "display": "1.1 s"
+      },
+      {
+        "id": "label-content-name-mismatch",
+        "title": "Elements with visible text labels do not have matching accessible names.",
+        "score": 0,
+        "display": "",
+        "details": {
+          "type": "table",
+          "headings": [
+            {
+              "key": "node",
+              "valueType": "node",
+              "subItemsHeading": {
+                "key": "relatedNode",
+                "valueType": "node"
+              },
+              "label": "Failing Elements"
+            }
+          ],
+          "items": [
+            {
+              "node": {
+                "type": "node",
+                "lhId": "1-0-A",
+                "path": "1,HTML,1,BODY,0,DIV,18,MAIN,0,DIV,3,SECTION,1,A",
+                "selector": "main#main-content > div.reference-home > section.container > a.home-bedrock-image",
+                "boundingRect": {
+                  "top": 7689,
+                  "bottom": 7934,
+                  "left": 22,
+                  "right": 390,
+                  "width": 368,
+                  "height": 245
+                },
+                "snippet": "<a class=\"home-bedrock-image\" href=\"/bedrock-api/\" aria-label=\"Explore AWS Bedrock API account options\">",
+                "nodeLabel": "Ai Bedrock 10K RPM 32vCPUs",
+                "explanation": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+              }
+            },
+            {
+              "node": {
+                "type": "node",
+                "lhId": "1-1-BUTTON",
+                "path": "1,HTML,1,BODY,0,DIV,18,MAIN,0,DIV,5,SECTION,4,DIV,0,ARTICLE,1,DIV,4,BUTTON",
+                "selector": "div.market-provider-grid > article.market-provider-card > div.market-card-body > button.market-quick-buy",
+                "boundingRect": {
+                  "top": 10273,
+                  "bottom": 10311,
+                  "left": 44,
+                  "right": 368,
+                  "width": 324,
+                  "height": 38
+                },
+                "snippet": "<button class=\"market-quick-buy\" aria-label=\"Add Amazon Web Services entry-level account to cart\">",
+                "nodeLabel": "Order starting option on Telegram",
+                "explanation": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+              }
+            },
+            {
+              "node": {
+                "type": "node",
+                "lhId": "1-2-BUTTON",
+                "path": "1,HTML,1,BODY,0,DIV,18,MAIN,0,DIV,5,SECTION,4,DIV,1,ARTICLE,1,DIV,4,BUTTON",
+                "selector": "div.market-provider-grid > article.market-provider-card > div.market-card-body > button.market-quick-buy",
+                "boundingRect": {
+                  "top": 10935,
+                  "bottom": 10973,
+                  "left": 44,
+                  "right": 368,
+                  "width": 324,
+                  "height": 38
+                },
+                "snippet": "<button class=\"market-quick-buy\" aria-label=\"Add Google Cloud entry-level account to cart\">",
+                "nodeLabel": "Order starting option on Telegram",
+                "explanation": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+              }
+            },
+            {
+              "node": {
+                "type": "node",
+                "lhId": "1-3-BUTTON",
+                "path": "1,HTML,1,BODY,0,DIV,18,MAIN,0,DIV,5,SECTION,4,DIV,2,ARTICLE,1,DIV,4,BUTTON",
+                "selector": "div.market-provider-grid > article.market-provider-card > div.market-card-body > button.market-quick-buy",
+                "boundingRect": {
+                  "top": 11567,
+                  "bottom": 11605,
+                  "left": 44,
+                  "right": 368,
+                  "width": 324,
+                  "height": 38
+                },
+                "snippet": "<button class=\"market-quick-buy\" aria-label=\"Add Azure entry-level account to cart\">",
+                "nodeLabel": "Order starting option on Telegram",
+                "explanation": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+              }
+            },
+            {
+              "node": {
+                "type": "node",
+                "lhId": "1-4-BUTTON",
+                "path": "1,HTML,1,BODY,0,DIV,18,MAIN,0,DIV,5,SECTION,4,DIV,3,ARTICLE,1,DIV,4,BUTTON",
+                "selector": "div.market-provider-grid > article.market-provider-card > div.market-card-body > button.market-quick-buy",
+                "boundingRect": {
+                  "top": 12199,
+                  "bottom": 12237,
+                  "left": 44,
+                  "right": 368,
+                  "width": 324,
+                  "height": 38
+                },
+                "snippet": "<button class=\"market-quick-buy\" aria-label=\"Add DigitalOcean entry-level account to cart\">",
+                "nodeLabel": "Order starting option on Telegram",
+                "explanation": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+              }
+            },
+            {
+              "node": {
+                "type": "node",
+                "lhId": "1-5-BUTTON",
+                "path": "1,HTML,1,BODY,0,DIV,18,MAIN,0,DIV,5,SECTION,4,DIV,4,ARTICLE,1,DIV,4,BUTTON",
+                "selector": "div.market-provider-grid > article.market-provider-card > div.market-card-body > button.market-quick-buy",
+                "boundingRect": {
+                  "top": 12832,
+                  "bottom": 12870,
+                  "left": 44,
+                  "right": 368,
+                  "width": 324,
+                  "height": 38
+                },
+                "snippet": "<button class=\"market-quick-buy\" aria-label=\"Add Linode entry-level account to cart\">",
+                "nodeLabel": "Order starting option on Telegram",
+                "explanation": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+              }
+            },
+            {
+              "node": {
+                "type": "node",
+                "lhId": "1-6-BUTTON",
+                "path": "1,HTML,1,BODY,0,DIV,18,MAIN,0,DIV,5,SECTION,4,DIV,5,ARTICLE,1,DIV,4,BUTTON",
+                "selector": "div.market-provider-grid > article.market-provider-card > div.market-card-body > button.market-quick-buy",
+                "boundingRect": {
+                  "top": 13464,
+                  "bottom": 13502,
+                  "left": 44,
+                  "right": 368,
+                  "width": 324,
+                  "height": 38
+                },
+                "snippet": "<button class=\"market-quick-buy\" aria-label=\"Add OVHcloud entry-level account to cart\">",
+                "nodeLabel": "Order starting option on Telegram",
+                "explanation": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+              }
+            },
+            {
+              "node": {
+                "type": "node",
+                "lhId": "1-7-BUTTON",
+                "path": "1,HTML,1,BODY,0,DIV,18,MAIN,0,DIV,5,SECTION,4,DIV,6,ARTICLE,1,DIV,4,BUTTON",
+                "selector": "div.market-provider-grid > article.market-provider-card > div.market-card-body > button.market-quick-buy",
+                "boundingRect": {
+                  "top": 14096,
+                  "bottom": 14135,
+                  "left": 44,
+                  "right": 368,
+                  "width": 324,
+                  "height": 38
+                },
+                "snippet": "<button class=\"market-quick-buy\" aria-label=\"Add Oracle Cloud entry-level account to cart\">",
+                "nodeLabel": "Order starting option on Telegram",
+                "explanation": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+              }
+            },
+            {
+              "node": {
+                "type": "node",
+                "lhId": "1-8-BUTTON",
+                "path": "1,HTML,1,BODY,0,DIV,18,MAIN,0,DIV,5,SECTION,4,DIV,7,ARTICLE,1,DIV,4,BUTTON",
+                "selector": "div.market-provider-grid > article.market-provider-card > div.market-card-body > button.market-quick-buy",
+                "boundingRect": {
+                  "top": 14758,
+                  "bottom": 14796,
+                  "left": 44,
+                  "right": 368,
+                  "width": 324,
+                  "height": 38
+                },
+                "snippet": "<button class=\"market-quick-buy\" aria-label=\"Add Hetzner entry-level account to cart\">",
+                "nodeLabel": "Order starting option on Telegram",
+                "explanation": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+              }
+            },
+            {
+              "node": {
+                "type": "node",
+                "lhId": "1-9-BUTTON",
+                "path": "1,HTML,1,BODY,0,DIV,18,MAIN,0,DIV,5,SECTION,4,DIV,8,ARTICLE,1,DIV,4,BUTTON",
+                "selector": "div.market-provider-grid > article.market-provider-card > div.market-card-body > button.market-quick-buy",
+                "boundingRect": {
+                  "top": 15390,
+                  "bottom": 15428,
+                  "left": 44,
+                  "right": 368,
+                  "width": 324,
+                  "height": 38
+                },
+                "snippet": "<button class=\"market-quick-buy\" aria-label=\"Add Amazon SES entry-level account to cart\">",
+                "nodeLabel": "Order starting option on Telegram",
+                "explanation": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+              }
+            },
+            {
+              "node": {
+                "type": "node",
+                "lhId": "1-10-BUTTON",
+                "path": "1,HTML,1,BODY,0,DIV,18,MAIN,0,DIV,5,SECTION,4,DIV,9,ARTICLE,1,DIV,4,BUTTON",
+                "selector": "div.market-provider-grid > article.market-provider-card > div.market-card-body > button.market-quick-buy",
+                "boundingRect": {
+                  "top": 16022,
+                  "bottom": 16061,
+                  "left": 44,
+                  "right": 368,
+                  "width": 324,
+                  "height": 38
+                },
+                "snippet": "<button class=\"market-quick-buy\" aria-label=\"Add UpCloud entry-level account to cart\">",
+                "nodeLabel": "Order starting option on Telegram",
+                "explanation": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+              }
+            },
+            {
+              "node": {
+                "type": "node",
+                "lhId": "1-11-BUTTON",
+                "path": "1,HTML,1,BODY,0,DIV,18,MAIN,0,DIV,5,SECTION,4,DIV,10,ARTICLE,1,DIV,4,BUTTON",
+                "selector": "div.market-provider-grid > article.market-provider-card > div.market-card-body > button.market-quick-buy",
+                "boundingRect": {
+                  "top": 16655,
+                  "bottom": 16693,
+                  "left": 44,
+                  "right": 368,
+                  "width": 324,
+                  "height": 38
+                },
+                "snippet": "<button class=\"market-quick-buy\" aria-label=\"Add Atlantic entry-level account to cart\">",
+                "nodeLabel": "Order starting option on Telegram",
+                "explanation": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+              }
+            },
+            {
+              "node": {
+                "type": "node",
+                "lhId": "1-12-BUTTON",
+                "path": "1,HTML,1,BODY,0,DIV,18,MAIN,0,DIV,5,SECTION,4,DIV,11,ARTICLE,1,DIV,4,BUTTON",
+                "selector": "div.market-provider-grid > article.market-provider-card > div.market-card-body > button.market-quick-buy",
+                "boundingRect": {
+                  "top": 17287,
+                  "bottom": 17325,
+                  "left": 44,
+                  "right": 368,
+                  "width": 324,
+                  "height": 38
+                },
+                "snippet": "<button class=\"market-quick-buy\" aria-label=\"Add Alibaba Cloud entry-level account to cart\">",
+                "nodeLabel": "Order starting option on Telegram",
+                "explanation": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+              }
+            },
+            {
+              "node": {
+                "type": "node",
+                "lhId": "1-13-BUTTON",
+                "path": "1,HTML,1,BODY,0,DIV,18,MAIN,0,DIV,5,SECTION,4,DIV,12,ARTICLE,1,DIV,4,BUTTON",
+                "selector": "div.market-provider-grid > article.market-provider-card > div.market-card-body > button.market-quick-buy",
+                "boundingRect": {
+                  "top": 17920,
+                  "bottom": 17958,
+                  "left": 44,
+                  "right": 368,
+                  "width": 324,
+                  "height": 38
+                },
+                "snippet": "<button class=\"market-quick-buy\" aria-label=\"Add AWS Marketplace entry-level account to cart\">",
+                "nodeLabel": "Order starting option on Telegram",
+                "explanation": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+              }
+            }
+          ],
+          "debugData": {
+            "type": "debugdata",
+            "impact": "serious",
+            "tags": [
+              "cat.semantics",
+              "wcag21a",
+              "wcag253",
+              "EN-301-549",
+              "EN-9.2.5.3",
+              "RGAAv4",
+              "RGAA-6.1.5"
+            ]
+          }
+        }
+      },
+      {
+        "id": "unused-css-rules",
+        "title": "Reduce unused CSS",
+        "score": 0,
+        "display": "Est savings of 28 KiB",
+        "details": {
+          "type": "opportunity",
+          "headings": [
+            {
+              "key": "url",
+              "valueType": "url",
+              "label": "URL"
+            },
+            {
+              "key": "totalBytes",
+              "valueType": "bytes",
+              "label": "Transfer Size"
+            },
+            {
+              "key": "wastedBytes",
+              "valueType": "bytes",
+              "label": "Est Savings"
+            }
+          ],
+          "items": [
+            {
+              "url": "https://www.cloudssupply.site/assets/index-BIDq6nTb.css",
+              "wastedBytes": 28414,
+              "wastedPercent": 78.83163527083487,
+              "totalBytes": 36044
+            }
+          ],
+          "overallSavingsMs": 150,
+          "overallSavingsBytes": 28414,
+          "sortedBy": [
+            "wastedBytes"
+          ],
+          "debugData": {
+            "type": "debugdata",
+            "metricSavings": {
+              "FCP": 150,
+              "LCP": 150
+            }
+          }
+        }
+      },
+      {
+        "id": "unused-javascript",
+        "title": "Reduce unused JavaScript",
+        "score": 0.5,
+        "display": "Est savings of 37 KiB",
+        "details": {
+          "type": "opportunity",
+          "headings": [
+            {
+              "key": "url",
+              "valueType": "url",
+              "subItemsHeading": {
+                "key": "source",
+                "valueType": "code"
+              },
+              "label": "URL"
+            },
+            {
+              "key": "totalBytes",
+              "valueType": "bytes",
+              "subItemsHeading": {
+                "key": "sourceBytes"
+              },
+              "label": "Transfer Size"
+            },
+            {
+              "key": "wastedBytes",
+              "valueType": "bytes",
+              "subItemsHeading": {
+                "key": "sourceWastedBytes"
+              },
+              "label": "Est Savings"
+            }
+          ],
+          "items": [
+            {
+              "url": "https://www.cloudssupply.site/assets/react-vendor-BDdCVDbo.js",
+              "totalBytes": 70930,
+              "wastedBytes": 37526,
+              "wastedPercent": 52.905238645405795
+            }
+          ],
+          "overallSavingsMs": 0,
+          "overallSavingsBytes": 37526,
+          "sortedBy": [
+            "wastedBytes"
+          ],
+          "debugData": {
+            "type": "debugdata",
+            "metricSavings": {
+              "FCP": 0,
+              "LCP": 0
+            }
+          }
+        }
+      },
+      {
+        "id": "cache-insight",
+        "title": "Use efficient cache lifetimes",
+        "score": 0.5,
+        "display": "Est savings of 2 KiB",
+        "details": {
+          "type": "table",
+          "headings": [
+            {
+              "key": "url",
+              "valueType": "url",
+              "label": "Request"
+            },
+            {
+              "key": "cacheLifetimeMs",
+              "valueType": "ms",
+              "label": "Cache TTL",
+              "displayUnit": "duration"
+            },
+            {
+              "key": "totalBytes",
+              "valueType": "bytes",
+              "label": "Transfer Size",
+              "displayUnit": "kb",
+              "granularity": 1
+            }
+          ],
+          "items": [
+            {
+              "url": "https://www.cloudssupply.site/products/premium/cloud-console-v2-800.webp",
+              "cacheLifetimeMs": 604800000,
+              "totalBytes": 24565,
+              "wastedBytes": 2456.4999999999995
+            }
+          ],
+          "sortedBy": [
+            "wastedBytes"
+          ],
+          "skipSumming": [
+            "cacheLifetimeMs"
+          ],
+          "debugData": {
+            "type": "debugdata",
+            "wastedBytes": 2456.4999999999995
+          }
+        }
+      },
+      {
+        "id": "image-delivery-insight",
+        "title": "Improve image delivery",
+        "score": 0.5,
+        "display": "Est savings of 10 KiB",
+        "details": {
+          "type": "table",
+          "headings": [
+            {
+              "key": "node",
+              "valueType": "node",
+              "label": ""
+            },
+            {
+              "key": "url",
+              "valueType": "url",
+              "label": "URL",
+              "subItemsHeading": {
+                "key": "reason",
+                "valueType": "text"
+              }
+            },
+            {
+              "key": "totalBytes",
+              "valueType": "bytes",
+              "label": "Resource Size"
+            },
+            {
+              "key": "wastedBytes",
+              "valueType": "bytes",
+              "label": "Est Savings",
+              "subItemsHeading": {
+                "key": "wastedBytes",
+                "valueType": "bytes"
+              }
+            }
+          ],
+          "items": [
+            {
+              "node": {
+                "type": "node",
+                "lhId": "page-1-IMG",
+                "path": "1,HTML,1,BODY,0,DIV,17,HEADER,0,DIV,0,A,0,SPAN,0,IMG",
+                "selector": "div.container > a > span.brand-logo > img",
+                "boundingRect": {
+                  "top": 48,
+                  "bottom": 103,
+                  "left": 22,
+                  "right": 242,
+                  "width": 220,
+                  "height": 55
+                },
+                "snippet": "<img src=\"https://www.cloudssupply.site/brand/cloudssupply-wordmark-440.webp\" srcset=\"/brand/cloudssupply-wordmark-440.webp 440w, /brand/cloudssupply-wordmark-7…\" sizes=\"(max-width:400px) 174px, (max-width:760px) 220px, 260px\" alt=\"CloudsSupply\" width=\"700\" height=\"176\" decoding=\"async\">",
+                "nodeLabel": "CloudsSupply"
+              },
+              "url": "https://www.cloudssupply.site/brand/cloudssupply-wordmark-440.webp",
+              "totalBytes": 18746,
+              "wastedBytes": 10606,
+              "subItems": {
+                "type": "subitems",
+                "items": [
+                  {
+                    "reason": "Increasing the image compression factor could improve this image’s download size",
+                    "wastedBytes": 10606
+                  }
+                ]
+              }
+            }
+          ],
+          "debugData": {
+            "type": "debugdata",
+            "wastedBytes": 10606
+          }
+        }
+      },
+      {
+        "id": "network-dependency-tree-insight",
+        "title": "Network dependency tree",
+        "score": 0,
+        "display": "",
+        "details": {
+          "type": "list",
+          "items": [
+            {
+              "type": "list-section",
+              "value": {
+                "type": "network-tree",
+                "chains": {
+                  "4AEE5EA7E241032C0F8144A8B0235CE1": {
+                    "url": "https://www.cloudssupply.site/",
+                    "navStartToEndTime": 247,
+                    "transferSize": 11310,
+                    "isLongest": true,
+                    "children": {
+                      "32760.7": {
+                        "url": "https://www.cloudssupply.site/assets/index-BIDq6nTb.css",
+                        "navStartToEndTime": 331,
+                        "transferSize": 36175,
+                        "isLongest": true,
+                        "children": {
+                          "32760.147": {
+                            "url": "https://www.cloudssupply.site/fonts/ibm-plex-mono-400.woff2",
+                            "navStartToEndTime": 649,
+                            "transferSize": 10164,
+                            "isLongest": true,
+                            "children": {}
+                          },
+                          "32760.148": {
+                            "url": "https://www.cloudssupply.site/fonts/ibm-plex-mono-500.woff2",
+                            "navStartToEndTime": 632,
+                            "transferSize": 10325,
+                            "children": {}
+                          }
+                        }
+                      },
+                      "32760.4": {
+                        "url": "https://www.cloudssupply.site/assets/index-By2UGA1O.js",
+                        "navStartToEndTime": 355,
+                        "transferSize": 77745,
+                        "children": {}
+                      }
+                    }
+                  }
+                },
+                "longestChain": {
+                  "duration": 649
+                }
+              }
+            },
+            {
+              "type": "list-section",
+              "title": "Preconnected origins",
+              "description": "[preconnect](https://developer.chrome.com/docs/lighthouse/performance/uses-rel-preconnect/) hints help the browser establish a connection earlier in the page load, saving time when the first request for that origin is made. The following are the origins that the page preconnected to.",
+              "value": {
+                "type": "text",
+                "value": "No origins were preconnected"
+              }
+            },
+            {
+              "type": "list-section",
+              "title": "Preconnect candidates",
+              "description": "Add [preconnect](https://developer.chrome.com/docs/lighthouse/performance/uses-rel-preconnect/) hints to your most important origins, but try to use no more than 4",
+              "value": {
+                "type": "text",
+                "value": "No additional origins are good candidates for preconnecting"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "render-blocking-insight",
+        "title": "Render-blocking requests",
+        "score": 0,
+        "display": "Est savings of 240 ms",
+        "details": {
+          "type": "table",
+          "headings": [
+            {
+              "key": "url",
+              "valueType": "url",
+              "label": "URL"
+            },
+            {
+              "key": "totalBytes",
+              "valueType": "bytes",
+              "label": "Transfer Size"
+            },
+            {
+              "key": "wastedMs",
+              "valueType": "timespanMs",
+              "label": "Duration"
+            }
+          ],
+          "items": [
+            {
+              "url": "https://www.cloudssupply.site/assets/index-BIDq6nTb.css",
+              "totalBytes": 36175,
+              "wastedMs": 300
+            }
+          ]
+        }
+      }
+    ],
+    "report": "seo/lighthouse/live-mobile-home.report.html",
+    "lighthouseVersion": "13.6.0",
+    "fetchTime": "2026-11-26T20:15:34.593Z"
+  },
+  {
+    "mode": "mobile",
+    "name": "category",
+    "url": "https://www.cloudssupply.site/aws-standard/",
+    "status": "TESTED",
+    "scores": {
+      "performance": 100,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100
+    },
+    "metrics": {
+      "first-contentful-paint": 945.525,
+      "largest-contentful-paint": 945.525,
+      "total-blocking-time": 0,
+      "cumulative-layout-shift": 0,
+      "speed-index": 945.525,
+      "interactive": 945.5250000000001
+    },
+    "failures": [
+      {
+        "id": "unused-css-rules",
+        "title": "Reduce unused CSS",
+        "score": 0.5,
+        "display": "Est savings of 28 KiB",
+        "details": {
+          "type": "opportunity",
+          "headings": [
+            {
+              "key": "url",
+              "valueType": "url",
+              "label": "URL"
+            },
+            {
+              "key": "totalBytes",
+              "valueType": "bytes",
+              "label": "Transfer Size"
+            },
+            {
+              "key": "wastedBytes",
+              "valueType": "bytes",
+              "label": "Est Savings"
+            }
+          ],
+          "items": [
+            {
+              "url": "https://www.cloudssupply.site/assets/index-BIDq6nTb.css",
+              "wastedBytes": 28435,
+              "wastedPercent": 78.88966258643016,
+              "totalBytes": 36044
+            }
+          ],
+          "overallSavingsMs": 0,
+          "overallSavingsBytes": 28435,
+          "sortedBy": [
+            "wastedBytes"
+          ],
+          "debugData": {
+            "type": "debugdata",
+            "metricSavings": {
+              "FCP": 0,
+              "LCP": 0
+            }
+          }
+        }
+      },
+      {
+        "id": "unused-javascript",
+        "title": "Reduce unused JavaScript",
+        "score": 0.5,
+        "display": "Est savings of 37 KiB",
+        "details": {
+          "type": "opportunity",
+          "headings": [
+            {
+              "key": "url",
+              "valueType": "url",
+              "subItemsHeading": {
+                "key": "source",
+                "valueType": "code"
+              },
+              "label": "URL"
+            },
+            {
+              "key": "totalBytes",
+              "valueType": "bytes",
+              "subItemsHeading": {
+                "key": "sourceBytes"
+              },
+              "label": "Transfer Size"
+            },
+            {
+              "key": "wastedBytes",
+              "valueType": "bytes",
+              "subItemsHeading": {
+                "key": "sourceWastedBytes"
+              },
+              "label": "Est Savings"
+            }
+          ],
+          "items": [
+            {
+              "url": "https://www.cloudssupply.site/assets/react-vendor-BDdCVDbo.js",
+              "totalBytes": 70930,
+              "wastedBytes": 37633,
+              "wastedPercent": 53.05673813066718
+            }
+          ],
+          "overallSavingsMs": 0,
+          "overallSavingsBytes": 37633,
+          "sortedBy": [
+            "wastedBytes"
+          ],
+          "debugData": {
+            "type": "debugdata",
+            "metricSavings": {
+              "FCP": 0,
+              "LCP": 0
+            }
+          }
+        }
+      },
+      {
+        "id": "cache-insight",
+        "title": "Use efficient cache lifetimes",
+        "score": 0.5,
+        "display": "Est savings of 2 KiB",
+        "details": {
+          "type": "table",
+          "headings": [
+            {
+              "key": "url",
+              "valueType": "url",
+              "label": "Request"
+            },
+            {
+              "key": "cacheLifetimeMs",
+              "valueType": "ms",
+              "label": "Cache TTL",
+              "displayUnit": "duration"
+            },
+            {
+              "key": "totalBytes",
+              "valueType": "bytes",
+              "label": "Transfer Size",
+              "displayUnit": "kb",
+              "granularity": 1
+            }
+          ],
+          "items": [
+            {
+              "url": "https://www.cloudssupply.site/products/premium/cloud-console-v2-800.webp",
+              "cacheLifetimeMs": 604800000,
+              "totalBytes": 24601,
+              "wastedBytes": 2460.0999999999995
+            }
+          ],
+          "sortedBy": [
+            "wastedBytes"
+          ],
+          "skipSumming": [
+            "cacheLifetimeMs"
+          ],
+          "debugData": {
+            "type": "debugdata",
+            "wastedBytes": 2460.0999999999995
+          }
+        }
+      },
+      {
+        "id": "image-delivery-insight",
+        "title": "Improve image delivery",
+        "score": 0.5,
+        "display": "Est savings of 10 KiB",
+        "details": {
+          "type": "table",
+          "headings": [
+            {
+              "key": "node",
+              "valueType": "node",
+              "label": ""
+            },
+            {
+              "key": "url",
+              "valueType": "url",
+              "label": "URL",
+              "subItemsHeading": {
+                "key": "reason",
+                "valueType": "text"
+              }
+            },
+            {
+              "key": "totalBytes",
+              "valueType": "bytes",
+              "label": "Resource Size"
+            },
+            {
+              "key": "wastedBytes",
+              "valueType": "bytes",
+              "label": "Est Savings",
+              "subItemsHeading": {
+                "key": "wastedBytes",
+                "valueType": "bytes"
+              }
+            }
+          ],
+          "items": [
+            {
+              "node": {
+                "type": "node",
+                "lhId": "page-1-IMG",
+                "path": "1,HTML,1,BODY,0,DIV,5,HEADER,0,DIV,0,A,0,SPAN,0,IMG",
+                "selector": "div.container > a > span.brand-logo > img",
+                "boundingRect": {
+                  "top": 48,
+                  "bottom": 103,
+                  "left": 22,
+                  "right": 242,
+                  "width": 220,
+                  "height": 55
+                },
+                "snippet": "<img src=\"https://www.cloudssupply.site/brand/cloudssupply-wordmark-440.webp\" srcset=\"/brand/cloudssupply-wordmark-440.webp 440w, /brand/cloudssupply-wordmark-7…\" sizes=\"(max-width:400px) 174px, (max-width:760px) 220px, 260px\" alt=\"CloudsSupply\" width=\"700\" height=\"176\" decoding=\"async\">",
+                "nodeLabel": "CloudsSupply"
+              },
+              "url": "https://www.cloudssupply.site/brand/cloudssupply-wordmark-440.webp",
+              "totalBytes": 18746,
+              "wastedBytes": 10606,
+              "subItems": {
+                "type": "subitems",
+                "items": [
+                  {
+                    "reason": "Increasing the image compression factor could improve this image’s download size",
+                    "wastedBytes": 10606
+                  }
+                ]
+              }
+            }
+          ],
+          "debugData": {
+            "type": "debugdata",
+            "wastedBytes": 10606
+          }
+        }
+      },
+      {
+        "id": "network-dependency-tree-insight",
+        "title": "Network dependency tree",
+        "score": 0,
+        "display": "",
+        "details": {
+          "type": "list",
+          "items": [
+            {
+              "type": "list-section",
+              "value": {
+                "type": "network-tree",
+                "chains": {
+                  "F66C9B22B5392911D51F0C6EA1302DF8": {
+                    "url": "https://www.cloudssupply.site/aws-standard/",
+                    "navStartToEndTime": 215,
+                    "transferSize": 7380,
+                    "isLongest": true,
+                    "children": {
+                      "32779.7": {
+                        "url": "https://www.cloudssupply.site/assets/index-BIDq6nTb.css",
+                        "navStartToEndTime": 306,
+                        "transferSize": 36178,
+                        "isLongest": true,
+                        "children": {
+                          "32779.102": {
+                            "url": "https://www.cloudssupply.site/fonts/ibm-plex-mono-600.woff2",
+                            "navStartToEndTime": 602,
+                            "transferSize": 10310,
+                            "isLongest": true,
+                            "children": {}
+                          },
+                          "32779.101": {
+                            "url": "https://www.cloudssupply.site/fonts/ibm-plex-mono-500.woff2",
+                            "navStartToEndTime": 376,
+                            "transferSize": 10302,
+                            "children": {}
+                          },
+                          "32779.100": {
+                            "url": "https://www.cloudssupply.site/fonts/ibm-plex-mono-400.woff2",
+                            "navStartToEndTime": 375,
+                            "transferSize": 10215,
+                            "children": {}
+                          }
+                        }
+                      },
+                      "32779.4": {
+                        "url": "https://www.cloudssupply.site/assets/index-By2UGA1O.js",
+                        "navStartToEndTime": 307,
+                        "transferSize": 77744,
+                        "children": {}
+                      }
+                    }
+                  }
+                },
+                "longestChain": {
+                  "duration": 602
+                }
+              }
+            },
+            {
+              "type": "list-section",
+              "title": "Preconnected origins",
+              "description": "[preconnect](https://developer.chrome.com/docs/lighthouse/performance/uses-rel-preconnect/) hints help the browser establish a connection earlier in the page load, saving time when the first request for that origin is made. The following are the origins that the page preconnected to.",
+              "value": {
+                "type": "text",
+                "value": "No origins were preconnected"
+              }
+            },
+            {
+              "type": "list-section",
+              "title": "Preconnect candidates",
+              "description": "Add [preconnect](https://developer.chrome.com/docs/lighthouse/performance/uses-rel-preconnect/) hints to your most important origins, but try to use no more than 4",
+              "value": {
+                "type": "text",
+                "value": "No additional origins are good candidates for preconnecting"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "render-blocking-insight",
+        "title": "Render-blocking requests",
+        "score": 0,
+        "display": "Est savings of 100 ms",
+        "details": {
+          "type": "table",
+          "headings": [
+            {
+              "key": "url",
+              "valueType": "url",
+              "label": "URL"
+            },
+            {
+              "key": "totalBytes",
+              "valueType": "bytes",
+              "label": "Transfer Size"
+            },
+            {
+              "key": "wastedMs",
+              "valueType": "timespanMs",
+              "label": "Duration"
+            }
+          ],
+          "items": [
+            {
+              "url": "https://www.cloudssupply.site/assets/index-BIDq6nTb.css",
+              "totalBytes": 36178,
+              "wastedMs": 150
+            }
+          ]
+        }
+      }
+    ],
+    "report": "seo/lighthouse/live-mobile-category.report.html",
+    "lighthouseVersion": "13.6.0",
+    "fetchTime": "2026-11-26T20:15:45.480Z"
+  },
+  {
+    "mode": "mobile",
+    "name": "provider",
+    "url": "https://www.cloudssupply.site/provider/google-cloud/",
+    "status": "TESTED",
+    "scores": {
+      "performance": 99,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100
+    },
+    "metrics": {
+      "first-contentful-paint": 942.698,
+      "largest-contentful-paint": 2142.698,
+      "total-blocking-time": 0,
+      "cumulative-layout-shift": 0,
+      "speed-index": 1434.6852379992722,
+      "interactive": 2142.698
+    },
+    "failures": [
+      {
+        "id": "largest-contentful-paint",
+        "title": "Largest Contentful Paint",
+        "score": 0.95,
+        "display": "2.1 s"
+      },
+      {
+        "id": "interactive",
+        "title": "Time to Interactive",
+        "score": 0.99,
+        "display": "2.1 s"
+      },
+      {
+        "id": "unused-css-rules",
+        "title": "Reduce unused CSS",
+        "score": 0,
+        "display": "Est savings of 30 KiB",
+        "details": {
+          "type": "opportunity",
+          "headings": [
+            {
+              "key": "url",
+              "valueType": "url",
+              "label": "URL"
+            },
+            {
+              "key": "totalBytes",
+              "valueType": "bytes",
+              "label": "Transfer Size"
+            },
+            {
+              "key": "wastedBytes",
+              "valueType": "bytes",
+              "label": "Est Savings"
+            }
+          ],
+          "items": [
+            {
+              "url": "https://www.cloudssupply.site/assets/index-BIDq6nTb.css",
+              "wastedBytes": 30601,
+              "wastedPercent": 84.89946004055804,
+              "totalBytes": 36044
+            }
+          ],
+          "overallSavingsMs": 150,
+          "overallSavingsBytes": 30601,
+          "sortedBy": [
+            "wastedBytes"
+          ],
+          "debugData": {
+            "type": "debugdata",
+            "metricSavings": {
+              "FCP": 150,
+              "LCP": 150
+            }
+          }
+        }
+      },
+      {
+        "id": "unused-javascript",
+        "title": "Reduce unused JavaScript",
+        "score": 0,
+        "display": "Est savings of 37 KiB",
+        "details": {
+          "type": "opportunity",
+          "headings": [
+            {
+              "key": "url",
+              "valueType": "url",
+              "subItemsHeading": {
+                "key": "source",
+                "valueType": "code"
+              },
+              "label": "URL"
+            },
+            {
+              "key": "totalBytes",
+              "valueType": "bytes",
+              "subItemsHeading": {
+                "key": "sourceBytes"
+              },
+              "label": "Transfer Size"
+            },
+            {
+              "key": "wastedBytes",
+              "valueType": "bytes",
+              "subItemsHeading": {
+                "key": "sourceWastedBytes"
+              },
+              "label": "Est Savings"
+            }
+          ],
+          "items": [
+            {
+              "url": "https://www.cloudssupply.site/assets/react-vendor-BDdCVDbo.js",
+              "totalBytes": 70930,
+              "wastedBytes": 37584,
+              "wastedPercent": 52.98795646525177
+            }
+          ],
+          "overallSavingsMs": 150,
+          "overallSavingsBytes": 37584,
+          "sortedBy": [
+            "wastedBytes"
+          ],
+          "debugData": {
+            "type": "debugdata",
+            "metricSavings": {
+              "FCP": 0,
+              "LCP": 150
+            }
+          }
+        }
+      },
+      {
+        "id": "cache-insight",
+        "title": "Use efficient cache lifetimes",
+        "score": 0.5,
+        "display": "Est savings of 2 KiB",
+        "details": {
+          "type": "table",
+          "headings": [
+            {
+              "key": "url",
+              "valueType": "url",
+              "label": "Request"
+            },
+            {
+              "key": "cacheLifetimeMs",
+              "valueType": "ms",
+              "label": "Cache TTL",
+              "displayUnit": "duration"
+            },
+            {
+              "key": "totalBytes",
+              "valueType": "bytes",
+              "label": "Transfer Size",
+              "displayUnit": "kb",
+              "granularity": 1
+            }
+          ],
+          "items": [
+            {
+              "url": "https://www.cloudssupply.site/products/premium/cloud-console-v2-800.webp",
+              "cacheLifetimeMs": 604800000,
+              "totalBytes": 24606,
+              "wastedBytes": 2460.5999999999995
+            }
+          ],
+          "sortedBy": [
+            "wastedBytes"
+          ],
+          "skipSumming": [
+            "cacheLifetimeMs"
+          ],
+          "debugData": {
+            "type": "debugdata",
+            "wastedBytes": 2460.5999999999995
+          }
+        }
+      },
+      {
+        "id": "image-delivery-insight",
+        "title": "Improve image delivery",
+        "score": 0.5,
+        "display": "Est savings of 10 KiB",
+        "details": {
+          "type": "table",
+          "headings": [
+            {
+              "key": "node",
+              "valueType": "node",
+              "label": ""
+            },
+            {
+              "key": "url",
+              "valueType": "url",
+              "label": "URL",
+              "subItemsHeading": {
+                "key": "reason",
+                "valueType": "text"
+              }
+            },
+            {
+              "key": "totalBytes",
+              "valueType": "bytes",
+              "label": "Resource Size"
+            },
+            {
+              "key": "wastedBytes",
+              "valueType": "bytes",
+              "label": "Est Savings",
+              "subItemsHeading": {
+                "key": "wastedBytes",
+                "valueType": "bytes"
+              }
+            }
+          ],
+          "items": [
+            {
+              "node": {
+                "type": "node",
+                "lhId": "page-1-IMG",
+                "path": "1,HTML,1,BODY,0,DIV,7,FOOTER,0,DIV,0,DIV,0,A,0,SPAN,0,IMG",
+                "selector": "div > a > span.brand-logo > img",
+                "boundingRect": {
+                  "top": 3716,
+                  "bottom": 3779,
+                  "left": 22,
+                  "right": 272,
+                  "width": 250,
+                  "height": 63
+                },
+                "snippet": "<img src=\"https://www.cloudssupply.site/brand/cloudssupply-wordmark-440.webp\" srcset=\"/brand/cloudssupply-wordmark-440.webp 440w, /brand/cloudssupply-wordmark-7…\" sizes=\"(max-width:400px) 174px, (max-width:760px) 220px, 260px\" alt=\"CloudsSupply\" width=\"700\" height=\"176\" decoding=\"async\">",
+                "nodeLabel": "CloudsSupply"
+              },
+              "url": "https://www.cloudssupply.site/brand/cloudssupply-wordmark-440.webp",
+              "totalBytes": 18746,
+              "wastedBytes": 10606,
+              "subItems": {
+                "type": "subitems",
+                "items": [
+                  {
+                    "reason": "Increasing the image compression factor could improve this image’s download size",
+                    "wastedBytes": 10606
+                  }
+                ]
+              }
+            }
+          ],
+          "debugData": {
+            "type": "debugdata",
+            "wastedBytes": 10606
+          }
+        }
+      },
+      {
+        "id": "network-dependency-tree-insight",
+        "title": "Network dependency tree",
+        "score": 0,
+        "display": "",
+        "details": {
+          "type": "list",
+          "items": [
+            {
+              "type": "list-section",
+              "value": {
+                "type": "network-tree",
+                "chains": {
+                  "2E6B2F3D90A35DA51A42ABBF3B583C67": {
+                    "url": "https://www.cloudssupply.site/provider/google-cloud/",
+                    "navStartToEndTime": 240,
+                    "transferSize": 5930,
+                    "isLongest": true,
+                    "children": {
+                      "32797.7": {
+                        "url": "https://www.cloudssupply.site/assets/index-BIDq6nTb.css",
+                        "navStartToEndTime": 338,
+                        "transferSize": 36184,
+                        "isLongest": true,
+                        "children": {
+                          "32797.36": {
+                            "url": "https://www.cloudssupply.site/fonts/ibm-plex-mono-500.woff2",
+                            "navStartToEndTime": 415,
+                            "transferSize": 10234,
+                            "isLongest": true,
+                            "children": {}
+                          },
+                          "32797.37": {
+                            "url": "https://www.cloudssupply.site/fonts/ibm-plex-mono-600.woff2",
+                            "navStartToEndTime": 407,
+                            "transferSize": 10367,
+                            "children": {}
+                          },
+                          "32797.35": {
+                            "url": "https://www.cloudssupply.site/fonts/ibm-plex-mono-400.woff2",
+                            "navStartToEndTime": 404,
+                            "transferSize": 10215,
+                            "children": {}
+                          }
+                        }
+                      },
+                      "32797.4": {
+                        "url": "https://www.cloudssupply.site/assets/index-By2UGA1O.js",
+                        "navStartToEndTime": 308,
+                        "transferSize": 77829,
+                        "children": {}
+                      }
+                    }
+                  }
+                },
+                "longestChain": {
+                  "duration": 415
+                }
+              }
+            },
+            {
+              "type": "list-section",
+              "title": "Preconnected origins",
+              "description": "[preconnect](https://developer.chrome.com/docs/lighthouse/performance/uses-rel-preconnect/) hints help the browser establish a connection earlier in the page load, saving time when the first request for that origin is made. The following are the origins that the page preconnected to.",
+              "value": {
+                "type": "text",
+                "value": "No origins were preconnected"
+              }
+            },
+            {
+              "type": "list-section",
+              "title": "Preconnect candidates",
+              "description": "Add [preconnect](https://developer.chrome.com/docs/lighthouse/performance/uses-rel-preconnect/) hints to your most important origins, but try to use no more than 4",
+              "value": {
+                "type": "text",
+                "value": "No additional origins are good candidates for preconnecting"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "render-blocking-insight",
+        "title": "Render-blocking requests",
+        "score": 0,
+        "display": "Est savings of 140 ms",
+        "details": {
+          "type": "table",
+          "headings": [
+            {
+              "key": "url",
+              "valueType": "url",
+              "label": "URL"
+            },
+            {
+              "key": "totalBytes",
+              "valueType": "bytes",
+              "label": "Transfer Size"
+            },
+            {
+              "key": "wastedMs",
+              "valueType": "timespanMs",
+              "label": "Duration"
+            }
+          ],
+          "items": [
+            {
+              "url": "https://www.cloudssupply.site/assets/index-BIDq6nTb.css",
+              "totalBytes": 36184,
+              "wastedMs": 150
+            }
+          ]
+        }
+      }
+    ],
+    "report": "seo/lighthouse/live-mobile-provider.report.html",
+    "lighthouseVersion": "13.6.0",
+    "fetchTime": "2026-11-26T20:15:56.186Z"
+  },
+  {
+    "mode": "mobile",
+    "name": "product",
+    "url": "https://www.cloudssupply.site/product/aws-32-vcpu-103/",
+    "status": "TESTED",
+    "scores": {
+      "performance": 99,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100
+    },
+    "metrics": {
+      "first-contentful-paint": 943,
+      "largest-contentful-paint": 2143,
+      "total-blocking-time": 0,
+      "cumulative-layout-shift": 0,
+      "speed-index": 943,
+      "interactive": 2143
+    },
+    "failures": [
+      {
+        "id": "largest-contentful-paint",
+        "title": "Largest Contentful Paint",
+        "score": 0.95,
+        "display": "2.1 s"
+      },
+      {
+        "id": "interactive",
+        "title": "Time to Interactive",
+        "score": 0.99,
+        "display": "2.1 s"
+      },
+      {
+        "id": "unused-css-rules",
+        "title": "Reduce unused CSS",
+        "score": 0,
+        "display": "Est savings of 29 KiB",
+        "details": {
+          "type": "opportunity",
+          "headings": [
+            {
+              "key": "url",
+              "valueType": "url",
+              "label": "URL"
+            },
+            {
+              "key": "totalBytes",
+              "valueType": "bytes",
+              "label": "Transfer Size"
+            },
+            {
+              "key": "wastedBytes",
+              "valueType": "bytes",
+              "label": "Est Savings"
+            }
+          ],
+          "items": [
+            {
+              "url": "https://www.cloudssupply.site/assets/index-BIDq6nTb.css",
+              "wastedBytes": 29455,
+              "wastedPercent": 81.72017395978402,
+              "totalBytes": 36044
+            }
+          ],
+          "overallSavingsMs": 150,
+          "overallSavingsBytes": 29455,
+          "sortedBy": [
+            "wastedBytes"
+          ],
+          "debugData": {
+            "type": "debugdata",
+            "metricSavings": {
+              "FCP": 100,
+              "LCP": 150
+            }
+          }
+        }
+      },
+      {
+        "id": "unused-javascript",
+        "title": "Reduce unused JavaScript",
+        "score": 0,
+        "display": "Est savings of 37 KiB",
+        "details": {
+          "type": "opportunity",
+          "headings": [
+            {
+              "key": "url",
+              "valueType": "url",
+              "subItemsHeading": {
+                "key": "source",
+                "valueType": "code"
+              },
+              "label": "URL"
+            },
+            {
+              "key": "totalBytes",
+              "valueType": "bytes",
+              "subItemsHeading": {
+                "key": "sourceBytes"
+              },
+              "label": "Transfer Size"
+            },
+            {
+              "key": "wastedBytes",
+              "valueType": "bytes",
+              "subItemsHeading": {
+                "key": "sourceWastedBytes"
+              },
+              "label": "Est Savings"
+            }
+          ],
+          "items": [
+            {
+              "url": "https://www.cloudssupply.site/assets/react-vendor-BDdCVDbo.js",
+              "totalBytes": 70930,
+              "wastedBytes": 37584,
+              "wastedPercent": 52.98795646525177
+            }
+          ],
+          "overallSavingsMs": 150,
+          "overallSavingsBytes": 37584,
+          "sortedBy": [
+            "wastedBytes"
+          ],
+          "debugData": {
+            "type": "debugdata",
+            "metricSavings": {
+              "FCP": 0,
+              "LCP": 150
+            }
+          }
+        }
+      },
+      {
+        "id": "cache-insight",
+        "title": "Use efficient cache lifetimes",
+        "score": 0.5,
+        "display": "Est savings of 2 KiB",
+        "details": {
+          "type": "table",
+          "headings": [
+            {
+              "key": "url",
+              "valueType": "url",
+              "label": "Request"
+            },
+            {
+              "key": "cacheLifetimeMs",
+              "valueType": "ms",
+              "label": "Cache TTL",
+              "displayUnit": "duration"
+            },
+            {
+              "key": "totalBytes",
+              "valueType": "bytes",
+              "label": "Transfer Size",
+              "displayUnit": "kb",
+              "granularity": 1
+            }
+          ],
+          "items": [
+            {
+              "url": "https://www.cloudssupply.site/products/premium/cloud-console-v2-800.webp",
+              "cacheLifetimeMs": 604800000,
+              "totalBytes": 24566,
+              "wastedBytes": 2456.5999999999995
+            }
+          ],
+          "sortedBy": [
+            "wastedBytes"
+          ],
+          "skipSumming": [
+            "cacheLifetimeMs"
+          ],
+          "debugData": {
+            "type": "debugdata",
+            "wastedBytes": 2456.5999999999995
+          }
+        }
+      },
+      {
+        "id": "image-delivery-insight",
+        "title": "Improve image delivery",
+        "score": 0.5,
+        "display": "Est savings of 10 KiB",
+        "details": {
+          "type": "table",
+          "headings": [
+            {
+              "key": "node",
+              "valueType": "node",
+              "label": ""
+            },
+            {
+              "key": "url",
+              "valueType": "url",
+              "label": "URL",
+              "subItemsHeading": {
+                "key": "reason",
+                "valueType": "text"
+              }
+            },
+            {
+              "key": "totalBytes",
+              "valueType": "bytes",
+              "label": "Resource Size"
+            },
+            {
+              "key": "wastedBytes",
+              "valueType": "bytes",
+              "label": "Est Savings",
+              "subItemsHeading": {
+                "key": "wastedBytes",
+                "valueType": "bytes"
+              }
+            }
+          ],
+          "items": [
+            {
+              "node": {
+                "type": "node",
+                "lhId": "page-1-IMG",
+                "path": "1,HTML,1,BODY,0,DIV,7,FOOTER,0,DIV,0,DIV,0,A,0,SPAN,0,IMG",
+                "selector": "div > a > span.brand-logo > img",
+                "boundingRect": {
+                  "top": 6246,
+                  "bottom": 6309,
+                  "left": 22,
+                  "right": 272,
+                  "width": 250,
+                  "height": 63
+                },
+                "snippet": "<img src=\"https://www.cloudssupply.site/brand/cloudssupply-wordmark-440.webp\" srcset=\"/brand/cloudssupply-wordmark-440.webp 440w, /brand/cloudssupply-wordmark-7…\" sizes=\"(max-width:400px) 174px, (max-width:760px) 220px, 260px\" alt=\"CloudsSupply\" width=\"700\" height=\"176\" decoding=\"async\">",
+                "nodeLabel": "CloudsSupply"
+              },
+              "url": "https://www.cloudssupply.site/brand/cloudssupply-wordmark-440.webp",
+              "totalBytes": 18746,
+              "wastedBytes": 10606,
+              "subItems": {
+                "type": "subitems",
+                "items": [
+                  {
+                    "reason": "Increasing the image compression factor could improve this image’s download size",
+                    "wastedBytes": 10606
+                  }
+                ]
+              }
+            }
+          ],
+          "debugData": {
+            "type": "debugdata",
+            "wastedBytes": 10606
+          }
+        }
+      },
+      {
+        "id": "network-dependency-tree-insight",
+        "title": "Network dependency tree",
+        "score": 0,
+        "display": "",
+        "details": {
+          "type": "list",
+          "items": [
+            {
+              "type": "list-section",
+              "value": {
+                "type": "network-tree",
+                "chains": {
+                  "4FC4E713D99664F48869CB6ABEAF3AA7": {
+                    "url": "https://www.cloudssupply.site/product/aws-32-vcpu-103/",
+                    "navStartToEndTime": 209,
+                    "transferSize": 7613,
+                    "isLongest": true,
+                    "children": {
+                      "32814.7": {
+                        "url": "https://www.cloudssupply.site/assets/index-BIDq6nTb.css",
+                        "navStartToEndTime": 285,
+                        "transferSize": 36178,
+                        "isLongest": true,
+                        "children": {
+                          "32814.50": {
+                            "url": "https://www.cloudssupply.site/fonts/ibm-plex-mono-400.woff2",
+                            "navStartToEndTime": 374,
+                            "transferSize": 10164,
+                            "isLongest": true,
+                            "children": {}
+                          },
+                          "32814.52": {
+                            "url": "https://www.cloudssupply.site/fonts/ibm-plex-mono-600.woff2",
+                            "navStartToEndTime": 357,
+                            "transferSize": 10381,
+                            "children": {}
+                          },
+                          "32814.51": {
+                            "url": "https://www.cloudssupply.site/fonts/ibm-plex-mono-500.woff2",
+                            "navStartToEndTime": 355,
+                            "transferSize": 10254,
+                            "children": {}
+                          }
+                        }
+                      },
+                      "32814.4": {
+                        "url": "https://www.cloudssupply.site/assets/index-By2UGA1O.js",
+                        "navStartToEndTime": 310,
+                        "transferSize": 77719,
+                        "children": {}
+                      }
+                    }
+                  }
+                },
+                "longestChain": {
+                  "duration": 374
+                }
+              }
+            },
+            {
+              "type": "list-section",
+              "title": "Preconnected origins",
+              "description": "[preconnect](https://developer.chrome.com/docs/lighthouse/performance/uses-rel-preconnect/) hints help the browser establish a connection earlier in the page load, saving time when the first request for that origin is made. The following are the origins that the page preconnected to.",
+              "value": {
+                "type": "text",
+                "value": "No origins were preconnected"
+              }
+            },
+            {
+              "type": "list-section",
+              "title": "Preconnect candidates",
+              "description": "Add [preconnect](https://developer.chrome.com/docs/lighthouse/performance/uses-rel-preconnect/) hints to your most important origins, but try to use no more than 4",
+              "value": {
+                "type": "text",
+                "value": "No additional origins are good candidates for preconnecting"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "render-blocking-insight",
+        "title": "Render-blocking requests",
+        "score": 0,
+        "display": "Est savings of 90 ms",
+        "details": {
+          "type": "table",
+          "headings": [
+            {
+              "key": "url",
+              "valueType": "url",
+              "label": "URL"
+            },
+            {
+              "key": "totalBytes",
+              "valueType": "bytes",
+              "label": "Transfer Size"
+            },
+            {
+              "key": "wastedMs",
+              "valueType": "timespanMs",
+              "label": "Duration"
+            }
+          ],
+          "items": [
+            {
+              "url": "https://www.cloudssupply.site/assets/index-BIDq6nTb.css",
+              "totalBytes": 36178,
+              "wastedMs": 150
+            }
+          ]
+        }
+      }
+    ],
+    "report": "seo/lighthouse/live-mobile-product.report.html",
+    "lighthouseVersion": "13.6.0",
+    "fetchTime": "2026-11-26T20:16:06.534Z"
+  },
+  {
+    "mode": "mobile",
+    "name": "products",
+    "url": "https://www.cloudssupply.site/all-products/",
+    "status": "TESTED",
+    "scores": {
+      "performance": 100,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100
+    },
+    "metrics": {
+      "first-contentful-paint": 1096.8200000000002,
+      "largest-contentful-paint": 1096.8200000000002,
+      "total-blocking-time": 0,
+      "cumulative-layout-shift": 0,
+      "speed-index": 1096.8200000000002,
+      "interactive": 1096.8200000000002
+    },
+    "failures": [
+      {
+        "id": "first-contentful-paint",
+        "title": "First Contentful Paint",
+        "score": 0.99,
+        "display": "1.1 s"
+      },
+      {
+        "id": "unused-css-rules",
+        "title": "Reduce unused CSS",
+        "score": 0,
+        "display": "Est savings of 29 KiB",
+        "details": {
+          "type": "opportunity",
+          "headings": [
+            {
+              "key": "url",
+              "valueType": "url",
+              "label": "URL"
+            },
+            {
+              "key": "totalBytes",
+              "valueType": "bytes",
+              "label": "Transfer Size"
+            },
+            {
+              "key": "wastedBytes",
+              "valueType": "bytes",
+              "label": "Est Savings"
+            }
+          ],
+          "items": [
+            {
+              "url": "https://www.cloudssupply.site/assets/index-BIDq6nTb.css",
+              "wastedBytes": 29569,
+              "wastedPercent": 82.03657553324048,
+              "totalBytes": 36044
+            }
+          ],
+          "overallSavingsMs": 150,
+          "overallSavingsBytes": 29569,
+          "sortedBy": [
+            "wastedBytes"
+          ],
+          "debugData": {
+            "type": "debugdata",
+            "metricSavings": {
+              "FCP": 150,
+              "LCP": 150
+            }
+          }
+        }
+      },
+      {
+        "id": "unused-javascript",
+        "title": "Reduce unused JavaScript",
+        "score": 0.5,
+        "display": "Est savings of 37 KiB",
+        "details": {
+          "type": "opportunity",
+          "headings": [
+            {
+              "key": "url",
+              "valueType": "url",
+              "subItemsHeading": {
+                "key": "source",
+                "valueType": "code"
+              },
+              "label": "URL"
+            },
+            {
+              "key": "totalBytes",
+              "valueType": "bytes",
+              "subItemsHeading": {
+                "key": "sourceBytes"
+              },
+              "label": "Transfer Size"
+            },
+            {
+              "key": "wastedBytes",
+              "valueType": "bytes",
+              "subItemsHeading": {
+                "key": "sourceWastedBytes"
+              },
+              "label": "Est Savings"
+            }
+          ],
+          "items": [
+            {
+              "url": "https://www.cloudssupply.site/assets/react-vendor-BDdCVDbo.js",
+              "totalBytes": 70930,
+              "wastedBytes": 37470,
+              "wastedPercent": 52.82611725250963
+            }
+          ],
+          "overallSavingsMs": 0,
+          "overallSavingsBytes": 37470,
+          "sortedBy": [
+            "wastedBytes"
+          ],
+          "debugData": {
+            "type": "debugdata",
+            "metricSavings": {
+              "FCP": 0,
+              "LCP": 0
+            }
+          }
+        }
+      },
+      {
+        "id": "cache-insight",
+        "title": "Use efficient cache lifetimes",
+        "score": 0.5,
+        "display": "Est savings of 2 KiB",
+        "details": {
+          "type": "table",
+          "headings": [
+            {
+              "key": "url",
+              "valueType": "url",
+              "label": "Request"
+            },
+            {
+              "key": "cacheLifetimeMs",
+              "valueType": "ms",
+              "label": "Cache TTL",
+              "displayUnit": "duration"
+            },
+            {
+              "key": "totalBytes",
+              "valueType": "bytes",
+              "label": "Transfer Size",
+              "displayUnit": "kb",
+              "granularity": 1
+            }
+          ],
+          "items": [
+            {
+              "url": "https://www.cloudssupply.site/products/premium/cloud-console-v2-800.webp",
+              "cacheLifetimeMs": 604800000,
+              "totalBytes": 24572,
+              "wastedBytes": 2457.1999999999994
+            }
+          ],
+          "sortedBy": [
+            "wastedBytes"
+          ],
+          "skipSumming": [
+            "cacheLifetimeMs"
+          ],
+          "debugData": {
+            "type": "debugdata",
+            "wastedBytes": 2457.1999999999994
+          }
+        }
+      },
+      {
+        "id": "image-delivery-insight",
+        "title": "Improve image delivery",
+        "score": 0.5,
+        "display": "Est savings of 10 KiB",
+        "details": {
+          "type": "table",
+          "headings": [
+            {
+              "key": "node",
+              "valueType": "node",
+              "label": ""
+            },
+            {
+              "key": "url",
+              "valueType": "url",
+              "label": "URL",
+              "subItemsHeading": {
+                "key": "reason",
+                "valueType": "text"
+              }
+            },
+            {
+              "key": "totalBytes",
+              "valueType": "bytes",
+              "label": "Resource Size"
+            },
+            {
+              "key": "wastedBytes",
+              "valueType": "bytes",
+              "label": "Est Savings",
+              "subItemsHeading": {
+                "key": "wastedBytes",
+                "valueType": "bytes"
+              }
+            }
+          ],
+          "items": [
+            {
+              "node": {
+                "type": "node",
+                "lhId": "page-1-IMG",
+                "path": "1,HTML,1,BODY,0,DIV,16,HEADER,0,DIV,0,A,0,SPAN,0,IMG",
+                "selector": "div.container > a > span.brand-logo > img",
+                "boundingRect": {
+                  "top": 48,
+                  "bottom": 103,
+                  "left": 22,
+                  "right": 242,
+                  "width": 220,
+                  "height": 55
+                },
+                "snippet": "<img src=\"https://www.cloudssupply.site/brand/cloudssupply-wordmark-440.webp\" srcset=\"/brand/cloudssupply-wordmark-440.webp 440w, /brand/cloudssupply-wordmark-7…\" sizes=\"(max-width:400px) 174px, (max-width:760px) 220px, 260px\" alt=\"CloudsSupply\" width=\"700\" height=\"176\" decoding=\"async\">",
+                "nodeLabel": "CloudsSupply"
+              },
+              "url": "https://www.cloudssupply.site/brand/cloudssupply-wordmark-440.webp",
+              "totalBytes": 18746,
+              "wastedBytes": 10606,
+              "subItems": {
+                "type": "subitems",
+                "items": [
+                  {
+                    "reason": "Increasing the image compression factor could improve this image’s download size",
+                    "wastedBytes": 10606
+                  }
+                ]
+              }
+            }
+          ],
+          "debugData": {
+            "type": "debugdata",
+            "wastedBytes": 10606
+          }
+        }
+      },
+      {
+        "id": "network-dependency-tree-insight",
+        "title": "Network dependency tree",
+        "score": 0,
+        "display": "",
+        "details": {
+          "type": "list",
+          "items": [
+            {
+              "type": "list-section",
+              "value": {
+                "type": "network-tree",
+                "chains": {
+                  "C239E5B661C9A369CDED4AF3FC3CE561": {
+                    "url": "https://www.cloudssupply.site/all-products/",
+                    "navStartToEndTime": 215,
+                    "transferSize": 12947,
+                    "isLongest": true,
+                    "children": {
+                      "32830.7": {
+                        "url": "https://www.cloudssupply.site/assets/index-BIDq6nTb.css",
+                        "navStartToEndTime": 300,
+                        "transferSize": 36203,
+                        "isLongest": true,
+                        "children": {
+                          "32830.205": {
+                            "url": "https://www.cloudssupply.site/fonts/ibm-plex-mono-500.woff2",
+                            "navStartToEndTime": 383,
+                            "transferSize": 10208,
+                            "isLongest": true,
+                            "children": {}
+                          },
+                          "32830.206": {
+                            "url": "https://www.cloudssupply.site/fonts/ibm-plex-mono-600.woff2",
+                            "navStartToEndTime": 382,
+                            "transferSize": 10371,
+                            "children": {}
+                          },
+                          "32830.204": {
+                            "url": "https://www.cloudssupply.site/fonts/ibm-plex-mono-400.woff2",
+                            "navStartToEndTime": 382,
+                            "transferSize": 10248,
+                            "children": {}
+                          }
+                        }
+                      },
+                      "32830.4": {
+                        "url": "https://www.cloudssupply.site/assets/index-By2UGA1O.js",
+                        "navStartToEndTime": 337,
+                        "transferSize": 77717,
+                        "children": {}
+                      }
+                    }
+                  }
+                },
+                "longestChain": {
+                  "duration": 383
+                }
+              }
+            },
+            {
+              "type": "list-section",
+              "title": "Preconnected origins",
+              "description": "[preconnect](https://developer.chrome.com/docs/lighthouse/performance/uses-rel-preconnect/) hints help the browser establish a connection earlier in the page load, saving time when the first request for that origin is made. The following are the origins that the page preconnected to.",
+              "value": {
+                "type": "text",
+                "value": "No origins were preconnected"
+              }
+            },
+            {
+              "type": "list-section",
+              "title": "Preconnect candidates",
+              "description": "Add [preconnect](https://developer.chrome.com/docs/lighthouse/performance/uses-rel-preconnect/) hints to your most important origins, but try to use no more than 4",
+              "value": {
+                "type": "text",
+                "value": "No additional origins are good candidates for preconnecting"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "render-blocking-insight",
+        "title": "Render-blocking requests",
+        "score": 0,
+        "display": "Est savings of 220 ms",
+        "details": {
+          "type": "table",
+          "headings": [
+            {
+              "key": "url",
+              "valueType": "url",
+              "label": "URL"
+            },
+            {
+              "key": "totalBytes",
+              "valueType": "bytes",
+              "label": "Transfer Size"
+            },
+            {
+              "key": "wastedMs",
+              "valueType": "timespanMs",
+              "label": "Duration"
+            }
+          ],
+          "items": [
+            {
+              "url": "https://www.cloudssupply.site/assets/index-BIDq6nTb.css",
+              "totalBytes": 36203,
+              "wastedMs": 300
+            }
+          ]
+        }
+      }
+    ],
+    "report": "seo/lighthouse/live-mobile-products.report.html",
+    "lighthouseVersion": "13.6.0",
+    "fetchTime": "2026-11-26T20:16:16.844Z"
+  },
+  {
+    "mode": "desktop",
+    "name": "home",
+    "url": "https://www.cloudssupply.site/",
+    "status": "TESTED",
+    "scores": {
+      "performance": 100,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100
+    },
+    "metrics": {
+      "first-contentful-paint": 321.729,
+      "largest-contentful-paint": 489.729,
+      "total-blocking-time": 0,
+      "cumulative-layout-shift": 0,
+      "speed-index": 432.18280475019776,
+      "interactive": 489.72900000000004
+    },
+    "failures": [
+      {
+        "id": "label-content-name-mismatch",
+        "title": "Elements with visible text labels do not have matching accessible names.",
+        "score": 0,
+        "display": "",
+        "details": {
+          "type": "table",
+          "headings": [
+            {
+              "key": "node",
+              "valueType": "node",
+              "subItemsHeading": {
+                "key": "relatedNode",
+                "valueType": "node"
+              },
+              "label": "Failing Elements"
+            }
+          ],
+          "items": [
+            {
+              "node": {
+                "type": "node",
+                "lhId": "1-0-A",
+                "path": "1,HTML,1,BODY,0,DIV,17,HEADER,0,DIV,2,DIV,0,A",
+                "selector": "header > div.container > div.nav-actions > a.cart-button",
+                "boundingRect": {
+                  "top": 70,
+                  "bottom": 90,
+                  "left": 1181,
+                  "right": 1260,
+                  "width": 78,
+                  "height": 20
+                },
+                "snippet": "<a class=\"cart-button\" href=\"/cart/\" aria-label=\"Open cart, 0 items\">",
+                "nodeLabel": "Cart\n0",
+                "explanation": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+              }
+            },
+            {
+              "node": {
+                "type": "node",
+                "lhId": "1-1-A",
+                "path": "1,HTML,1,BODY,0,DIV,18,MAIN,0,DIV,3,SECTION,1,A",
+                "selector": "main#main-content > div.reference-home > section.container > a.home-bedrock-image",
+                "boundingRect": {
+                  "top": 3248,
+                  "bottom": 3616,
+                  "left": 719,
+                  "right": 1272,
+                  "width": 552,
+                  "height": 368
+                },
+                "snippet": "<a class=\"home-bedrock-image\" href=\"/bedrock-api/\" aria-label=\"Explore AWS Bedrock API account options\">",
+                "nodeLabel": "Ai Bedrock 10K RPM 32vCPUs",
+                "explanation": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+              }
+            },
+            {
+              "node": {
+                "type": "node",
+                "lhId": "1-2-BUTTON",
+                "path": "1,HTML,1,BODY,0,DIV,18,MAIN,0,DIV,5,SECTION,4,DIV,0,ARTICLE,1,DIV,4,BUTTON",
+                "selector": "div.market-provider-grid > article.market-provider-card > div.market-card-body > button.market-quick-buy",
+                "boundingRect": {
+                  "top": 5307,
+                  "bottom": 5343,
+                  "left": 85,
+                  "right": 431,
+                  "width": 346,
+                  "height": 36
+                },
+                "snippet": "<button class=\"market-quick-buy\" aria-label=\"Add Amazon Web Services entry-level account to cart\">",
+                "nodeLabel": "Order starting option on Telegram",
+                "explanation": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+              }
+            },
+            {
+              "node": {
+                "type": "node",
+                "lhId": "1-3-BUTTON",
+                "path": "1,HTML,1,BODY,0,DIV,18,MAIN,0,DIV,5,SECTION,4,DIV,1,ARTICLE,1,DIV,4,BUTTON",
+                "selector": "div.market-provider-grid > article.market-provider-card > div.market-card-body > button.market-quick-buy",
+                "boundingRect": {
+                  "top": 5307,
+                  "bottom": 5343,
+                  "left": 495,
+                  "right": 841,
+                  "width": 346,
+                  "height": 36
+                },
+                "snippet": "<button class=\"market-quick-buy\" aria-label=\"Add Google Cloud entry-level account to cart\">",
+                "nodeLabel": "Order starting option on Telegram",
+                "explanation": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+              }
+            },
+            {
+              "node": {
+                "type": "node",
+                "lhId": "1-4-BUTTON",
+                "path": "1,HTML,1,BODY,0,DIV,18,MAIN,0,DIV,5,SECTION,4,DIV,2,ARTICLE,1,DIV,4,BUTTON",
+                "selector": "div.market-provider-grid > article.market-provider-card > div.market-card-body > button.market-quick-buy",
+                "boundingRect": {
+                  "top": 5307,
+                  "bottom": 5343,
+                  "left": 905,
+                  "right": 1251,
+                  "width": 346,
+                  "height": 36
+                },
+                "snippet": "<button class=\"market-quick-buy\" aria-label=\"Add Azure entry-level account to cart\">",
+                "nodeLabel": "Order starting option on Telegram",
+                "explanation": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+              }
+            },
+            {
+              "node": {
+                "type": "node",
+                "lhId": "1-5-BUTTON",
+                "path": "1,HTML,1,BODY,0,DIV,18,MAIN,0,DIV,5,SECTION,4,DIV,3,ARTICLE,1,DIV,4,BUTTON",
+                "selector": "div.market-provider-grid > article.market-provider-card > div.market-card-body > button.market-quick-buy",
+                "boundingRect": {
+                  "top": 5946,
+                  "bottom": 5982,
+                  "left": 85,
+                  "right": 431,
+                  "width": 346,
+                  "height": 36
+                },
+                "snippet": "<button class=\"market-quick-buy\" aria-label=\"Add DigitalOcean entry-level account to cart\">",
+                "nodeLabel": "Order starting option on Telegram",
+                "explanation": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+              }
+            },
+            {
+              "node": {
+                "type": "node",
+                "lhId": "1-6-BUTTON",
+                "path": "1,HTML,1,BODY,0,DIV,18,MAIN,0,DIV,5,SECTION,4,DIV,4,ARTICLE,1,DIV,4,BUTTON",
+                "selector": "div.market-provider-grid > article.market-provider-card > div.market-card-body > button.market-quick-buy",
+                "boundingRect": {
+                  "top": 5946,
+                  "bottom": 5982,
+                  "left": 495,
+                  "right": 841,
+                  "width": 346,
+                  "height": 36
+                },
+                "snippet": "<button class=\"market-quick-buy\" aria-label=\"Add Linode entry-level account to cart\">",
+                "nodeLabel": "Order starting option on Telegram",
+                "explanation": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+              }
+            },
+            {
+              "node": {
+                "type": "node",
+                "lhId": "1-7-BUTTON",
+                "path": "1,HTML,1,BODY,0,DIV,18,MAIN,0,DIV,5,SECTION,4,DIV,5,ARTICLE,1,DIV,4,BUTTON",
+                "selector": "div.market-provider-grid > article.market-provider-card > div.market-card-body > button.market-quick-buy",
+                "boundingRect": {
+                  "top": 5946,
+                  "bottom": 5982,
+                  "left": 905,
+                  "right": 1251,
+                  "width": 346,
+                  "height": 36
+                },
+                "snippet": "<button class=\"market-quick-buy\" aria-label=\"Add OVHcloud entry-level account to cart\">",
+                "nodeLabel": "Order starting option on Telegram",
+                "explanation": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+              }
+            },
+            {
+              "node": {
+                "type": "node",
+                "lhId": "1-8-BUTTON",
+                "path": "1,HTML,1,BODY,0,DIV,18,MAIN,0,DIV,5,SECTION,4,DIV,6,ARTICLE,1,DIV,4,BUTTON",
+                "selector": "div.market-provider-grid > article.market-provider-card > div.market-card-body > button.market-quick-buy",
+                "boundingRect": {
+                  "top": 6584,
+                  "bottom": 6620,
+                  "left": 85,
+                  "right": 431,
+                  "width": 346,
+                  "height": 36
+                },
+                "snippet": "<button class=\"market-quick-buy\" aria-label=\"Add Oracle Cloud entry-level account to cart\">",
+                "nodeLabel": "Order starting option on Telegram",
+                "explanation": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+              }
+            },
+            {
+              "node": {
+                "type": "node",
+                "lhId": "1-9-BUTTON",
+                "path": "1,HTML,1,BODY,0,DIV,18,MAIN,0,DIV,5,SECTION,4,DIV,7,ARTICLE,1,DIV,4,BUTTON",
+                "selector": "div.market-provider-grid > article.market-provider-card > div.market-card-body > button.market-quick-buy",
+                "boundingRect": {
+                  "top": 6584,
+                  "bottom": 6620,
+                  "left": 495,
+                  "right": 841,
+                  "width": 346,
+                  "height": 36
+                },
+                "snippet": "<button class=\"market-quick-buy\" aria-label=\"Add Hetzner entry-level account to cart\">",
+                "nodeLabel": "Order starting option on Telegram",
+                "explanation": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+              }
+            },
+            {
+              "node": {
+                "type": "node",
+                "lhId": "1-10-BUTTON",
+                "path": "1,HTML,1,BODY,0,DIV,18,MAIN,0,DIV,5,SECTION,4,DIV,8,ARTICLE,1,DIV,4,BUTTON",
+                "selector": "div.market-provider-grid > article.market-provider-card > div.market-card-body > button.market-quick-buy",
+                "boundingRect": {
+                  "top": 6584,
+                  "bottom": 6620,
+                  "left": 905,
+                  "right": 1251,
+                  "width": 346,
+                  "height": 36
+                },
+                "snippet": "<button class=\"market-quick-buy\" aria-label=\"Add Amazon SES entry-level account to cart\">",
+                "nodeLabel": "Order starting option on Telegram",
+                "explanation": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+              }
+            },
+            {
+              "node": {
+                "type": "node",
+                "lhId": "1-11-BUTTON",
+                "path": "1,HTML,1,BODY,0,DIV,18,MAIN,0,DIV,5,SECTION,4,DIV,9,ARTICLE,1,DIV,4,BUTTON",
+                "selector": "div.market-provider-grid > article.market-provider-card > div.market-card-body > button.market-quick-buy",
+                "boundingRect": {
+                  "top": 7223,
+                  "bottom": 7259,
+                  "left": 85,
+                  "right": 431,
+                  "width": 346,
+                  "height": 36
+                },
+                "snippet": "<button class=\"market-quick-buy\" aria-label=\"Add UpCloud entry-level account to cart\">",
+                "nodeLabel": "Order starting option on Telegram",
+                "explanation": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+              }
+            },
+            {
+              "node": {
+                "type": "node",
+                "lhId": "1-12-BUTTON",
+                "path": "1,HTML,1,BODY,0,DIV,18,MAIN,0,DIV,5,SECTION,4,DIV,10,ARTICLE,1,DIV,4,BUTTON",
+                "selector": "div.market-provider-grid > article.market-provider-card > div.market-card-body > button.market-quick-buy",
+                "boundingRect": {
+                  "top": 7223,
+                  "bottom": 7259,
+                  "left": 495,
+                  "right": 841,
+                  "width": 346,
+                  "height": 36
+                },
+                "snippet": "<button class=\"market-quick-buy\" aria-label=\"Add Atlantic entry-level account to cart\">",
+                "nodeLabel": "Order starting option on Telegram",
+                "explanation": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+              }
+            },
+            {
+              "node": {
+                "type": "node",
+                "lhId": "1-13-BUTTON",
+                "path": "1,HTML,1,BODY,0,DIV,18,MAIN,0,DIV,5,SECTION,4,DIV,11,ARTICLE,1,DIV,4,BUTTON",
+                "selector": "div.market-provider-grid > article.market-provider-card > div.market-card-body > button.market-quick-buy",
+                "boundingRect": {
+                  "top": 7223,
+                  "bottom": 7259,
+                  "left": 905,
+                  "right": 1251,
+                  "width": 346,
+                  "height": 36
+                },
+                "snippet": "<button class=\"market-quick-buy\" aria-label=\"Add Alibaba Cloud entry-level account to cart\">",
+                "nodeLabel": "Order starting option on Telegram",
+                "explanation": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+              }
+            },
+            {
+              "node": {
+                "type": "node",
+                "lhId": "1-14-BUTTON",
+                "path": "1,HTML,1,BODY,0,DIV,18,MAIN,0,DIV,5,SECTION,4,DIV,12,ARTICLE,1,DIV,4,BUTTON",
+                "selector": "div.market-provider-grid > article.market-provider-card > div.market-card-body > button.market-quick-buy",
+                "boundingRect": {
+                  "top": 7862,
+                  "bottom": 7898,
+                  "left": 85,
+                  "right": 431,
+                  "width": 346,
+                  "height": 36
+                },
+                "snippet": "<button class=\"market-quick-buy\" aria-label=\"Add AWS Marketplace entry-level account to cart\">",
+                "nodeLabel": "Order starting option on Telegram",
+                "explanation": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+              }
+            }
+          ],
+          "debugData": {
+            "type": "debugdata",
+            "impact": "serious",
+            "tags": [
+              "cat.semantics",
+              "wcag21a",
+              "wcag253",
+              "EN-301-549",
+              "EN-9.2.5.3",
+              "RGAAv4",
+              "RGAA-6.1.5"
+            ]
+          }
+        }
+      },
+      {
+        "id": "unused-css-rules",
+        "title": "Reduce unused CSS",
+        "score": 0,
+        "display": "Est savings of 29 KiB",
+        "details": {
+          "type": "opportunity",
+          "headings": [
+            {
+              "key": "url",
+              "valueType": "url",
+              "label": "URL"
+            },
+            {
+              "key": "totalBytes",
+              "valueType": "bytes",
+              "label": "Transfer Size"
+            },
+            {
+              "key": "wastedBytes",
+              "valueType": "bytes",
+              "label": "Est Savings"
+            }
+          ],
+          "items": [
+            {
+              "url": "https://www.cloudssupply.site/assets/index-BIDq6nTb.css",
+              "wastedBytes": 30083,
+              "wastedPercent": 83.46160424149136,
+              "totalBytes": 36044
+            }
+          ],
+          "overallSavingsMs": 40,
+          "overallSavingsBytes": 30083,
+          "sortedBy": [
+            "wastedBytes"
+          ],
+          "debugData": {
+            "type": "debugdata",
+            "metricSavings": {
+              "FCP": 40,
+              "LCP": 40
+            }
+          }
+        }
+      },
+      {
+        "id": "unused-javascript",
+        "title": "Reduce unused JavaScript",
+        "score": 0,
+        "display": "Est savings of 37 KiB",
+        "details": {
+          "type": "opportunity",
+          "headings": [
+            {
+              "key": "url",
+              "valueType": "url",
+              "subItemsHeading": {
+                "key": "source",
+                "valueType": "code"
+              },
+              "label": "URL"
+            },
+            {
+              "key": "totalBytes",
+              "valueType": "bytes",
+              "subItemsHeading": {
+                "key": "sourceBytes"
+              },
+              "label": "Transfer Size"
+            },
+            {
+              "key": "wastedBytes",
+              "valueType": "bytes",
+              "subItemsHeading": {
+                "key": "sourceWastedBytes"
+              },
+              "label": "Est Savings"
+            }
+          ],
+          "items": [
+            {
+              "url": "https://www.cloudssupply.site/assets/react-vendor-BDdCVDbo.js",
+              "totalBytes": 70930,
+              "wastedBytes": 37595,
+              "wastedPercent": 53.00279172641981
+            }
+          ],
+          "overallSavingsMs": 40,
+          "overallSavingsBytes": 37595,
+          "sortedBy": [
+            "wastedBytes"
+          ],
+          "debugData": {
+            "type": "debugdata",
+            "metricSavings": {
+              "FCP": 0,
+              "LCP": 40
+            }
+          }
+        }
+      },
+      {
+        "id": "cache-insight",
+        "title": "Use efficient cache lifetimes",
+        "score": 0.5,
+        "display": "Est savings of 1 KiB",
+        "details": {
+          "type": "table",
+          "headings": [
+            {
+              "key": "url",
+              "valueType": "url",
+              "label": "Request"
+            },
+            {
+              "key": "cacheLifetimeMs",
+              "valueType": "ms",
+              "label": "Cache TTL",
+              "displayUnit": "duration"
+            },
+            {
+              "key": "totalBytes",
+              "valueType": "bytes",
+              "label": "Transfer Size",
+              "displayUnit": "kb",
+              "granularity": 1
+            }
+          ],
+          "items": [
+            {
+              "url": "https://www.cloudssupply.site/products/premium/cloud-console-v2-480.webp",
+              "cacheLifetimeMs": 604800000,
+              "totalBytes": 12370,
+              "wastedBytes": 1236.9999999999998
+            }
+          ],
+          "sortedBy": [
+            "wastedBytes"
+          ],
+          "skipSumming": [
+            "cacheLifetimeMs"
+          ],
+          "debugData": {
+            "type": "debugdata",
+            "wastedBytes": 1236.9999999999998
+          }
+        }
+      },
+      {
+        "id": "image-delivery-insight",
+        "title": "Improve image delivery",
+        "score": 0.5,
+        "display": "Est savings of 10 KiB",
+        "details": {
+          "type": "table",
+          "headings": [
+            {
+              "key": "node",
+              "valueType": "node",
+              "label": ""
+            },
+            {
+              "key": "url",
+              "valueType": "url",
+              "label": "URL",
+              "subItemsHeading": {
+                "key": "reason",
+                "valueType": "text"
+              }
+            },
+            {
+              "key": "totalBytes",
+              "valueType": "bytes",
+              "label": "Resource Size"
+            },
+            {
+              "key": "wastedBytes",
+              "valueType": "bytes",
+              "label": "Est Savings",
+              "subItemsHeading": {
+                "key": "wastedBytes",
+                "valueType": "bytes"
+              }
+            }
+          ],
+          "items": [
+            {
+              "node": {
+                "type": "node",
+                "lhId": "page-1-IMG",
+                "path": "1,HTML,1,BODY,0,DIV,17,HEADER,0,DIV,0,A,0,SPAN,0,IMG",
+                "selector": "div.container > a > span.brand-logo > img",
+                "boundingRect": {
+                  "top": 47,
+                  "bottom": 112,
+                  "left": 76,
+                  "right": 336,
+                  "width": 260,
+                  "height": 65
+                },
+                "snippet": "<img src=\"https://www.cloudssupply.site/brand/cloudssupply-wordmark-440.webp\" srcset=\"/brand/cloudssupply-wordmark-440.webp 440w, /brand/cloudssupply-wordmark-7…\" sizes=\"(max-width:400px) 174px, (max-width:760px) 220px, 260px\" alt=\"CloudsSupply\" width=\"700\" height=\"176\" decoding=\"async\">",
+                "nodeLabel": "CloudsSupply"
+              },
+              "url": "https://www.cloudssupply.site/brand/cloudssupply-wordmark-440.webp",
+              "totalBytes": 18746,
+              "wastedBytes": 10606,
+              "subItems": {
+                "type": "subitems",
+                "items": [
+                  {
+                    "reason": "Increasing the image compression factor could improve this image’s download size",
+                    "wastedBytes": 10606
+                  }
+                ]
+              }
+            }
+          ],
+          "debugData": {
+            "type": "debugdata",
+            "wastedBytes": 10606
+          }
+        }
+      },
+      {
+        "id": "network-dependency-tree-insight",
+        "title": "Network dependency tree",
+        "score": 0,
+        "display": "",
+        "details": {
+          "type": "list",
+          "items": [
+            {
+              "type": "list-section",
+              "value": {
+                "type": "network-tree",
+                "chains": {
+                  "D00E8FA6DAC670507F0F25097990E4B1": {
+                    "url": "https://www.cloudssupply.site/",
+                    "navStartToEndTime": 209,
+                    "transferSize": 11310,
+                    "isLongest": true,
+                    "children": {
+                      "32850.7": {
+                        "url": "https://www.cloudssupply.site/assets/index-BIDq6nTb.css",
+                        "navStartToEndTime": 308,
+                        "transferSize": 36200,
+                        "isLongest": true,
+                        "children": {
+                          "32850.149": {
+                            "url": "https://www.cloudssupply.site/fonts/ibm-plex-mono-500.woff2",
+                            "navStartToEndTime": 375,
+                            "transferSize": 10203,
+                            "isLongest": true,
+                            "children": {}
+                          },
+                          "32850.148": {
+                            "url": "https://www.cloudssupply.site/fonts/ibm-plex-mono-400.woff2",
+                            "navStartToEndTime": 374,
+                            "transferSize": 10257,
+                            "children": {}
+                          }
+                        }
+                      },
+                      "32850.4": {
+                        "url": "https://www.cloudssupply.site/assets/index-By2UGA1O.js",
+                        "navStartToEndTime": 296,
+                        "transferSize": 77777,
+                        "children": {}
+                      }
+                    }
+                  }
+                },
+                "longestChain": {
+                  "duration": 375
+                }
+              }
+            },
+            {
+              "type": "list-section",
+              "title": "Preconnected origins",
+              "description": "[preconnect](https://developer.chrome.com/docs/lighthouse/performance/uses-rel-preconnect/) hints help the browser establish a connection earlier in the page load, saving time when the first request for that origin is made. The following are the origins that the page preconnected to.",
+              "value": {
+                "type": "text",
+                "value": "No origins were preconnected"
+              }
+            },
+            {
+              "type": "list-section",
+              "title": "Preconnect candidates",
+              "description": "Add [preconnect](https://developer.chrome.com/docs/lighthouse/performance/uses-rel-preconnect/) hints to your most important origins, but try to use no more than 4",
+              "value": {
+                "type": "text",
+                "value": "No additional origins are good candidates for preconnecting"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "render-blocking-insight",
+        "title": "Render-blocking requests",
+        "score": 0,
+        "display": "Est savings of 70 ms",
+        "details": {
+          "type": "table",
+          "headings": [
+            {
+              "key": "url",
+              "valueType": "url",
+              "label": "URL"
+            },
+            {
+              "key": "totalBytes",
+              "valueType": "bytes",
+              "label": "Transfer Size"
+            },
+            {
+              "key": "wastedMs",
+              "valueType": "timespanMs",
+              "label": "Duration"
+            }
+          ],
+          "items": [
+            {
+              "url": "https://www.cloudssupply.site/assets/index-BIDq6nTb.css",
+              "totalBytes": 36200,
+              "wastedMs": 80
+            }
+          ]
+        }
+      }
+    ],
+    "report": "seo/lighthouse/live-desktop-home.report.html",
+    "lighthouseVersion": "13.6.0",
+    "fetchTime": "2026-11-26T20:16:36.984Z"
+  },
+  {
+    "mode": "desktop",
+    "name": "category",
+    "url": "https://www.cloudssupply.site/aws-standard/",
+    "status": "TESTED",
+    "scores": {
+      "performance": 100,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100
+    },
+    "metrics": {
+      "first-contentful-paint": 281.81,
+      "largest-contentful-paint": 521.81,
+      "total-blocking-time": 0,
+      "cumulative-layout-shift": 0,
+      "speed-index": 350.6837662493642,
+      "interactive": 521.81
+    },
+    "failures": [
+      {
+        "id": "label-content-name-mismatch",
+        "title": "Elements with visible text labels do not have matching accessible names.",
+        "score": 0,
+        "display": "",
+        "details": {
+          "type": "table",
+          "headings": [
+            {
+              "key": "node",
+              "valueType": "node",
+              "subItemsHeading": {
+                "key": "relatedNode",
+                "valueType": "node"
+              },
+              "label": "Failing Elements"
+            }
+          ],
+          "items": [
+            {
+              "node": {
+                "type": "node",
+                "lhId": "1-0-A",
+                "path": "1,HTML,1,BODY,0,DIV,5,HEADER,0,DIV,2,DIV,0,A",
+                "selector": "header > div.container > div.nav-actions > a.cart-button",
+                "boundingRect": {
+                  "top": 70,
+                  "bottom": 90,
+                  "left": 1181,
+                  "right": 1260,
+                  "width": 78,
+                  "height": 20
+                },
+                "snippet": "<a class=\"cart-button\" href=\"/cart/\" aria-label=\"Open cart, 0 items\">",
+                "nodeLabel": "Cart\n0",
+                "explanation": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+              }
+            }
+          ],
+          "debugData": {
+            "type": "debugdata",
+            "impact": "serious",
+            "tags": [
+              "cat.semantics",
+              "wcag21a",
+              "wcag253",
+              "EN-301-549",
+              "EN-9.2.5.3",
+              "RGAAv4",
+              "RGAA-6.1.5"
+            ]
+          }
+        }
+      },
+      {
+        "id": "unused-css-rules",
+        "title": "Reduce unused CSS",
+        "score": 0,
+        "display": "Est savings of 29 KiB",
+        "details": {
+          "type": "opportunity",
+          "headings": [
+            {
+              "key": "url",
+              "valueType": "url",
+              "label": "URL"
+            },
+            {
+              "key": "totalBytes",
+              "valueType": "bytes",
+              "label": "Transfer Size"
+            },
+            {
+              "key": "wastedBytes",
+              "valueType": "bytes",
+              "label": "Est Savings"
+            }
+          ],
+          "items": [
+            {
+              "url": "https://www.cloudssupply.site/assets/index-BIDq6nTb.css",
+              "wastedBytes": 30079,
+              "wastedPercent": 83.45183121991741,
+              "totalBytes": 36044
+            }
+          ],
+          "overallSavingsMs": 40,
+          "overallSavingsBytes": 30079,
+          "sortedBy": [
+            "wastedBytes"
+          ],
+          "debugData": {
+            "type": "debugdata",
+            "metricSavings": {
+              "FCP": 30,
+              "LCP": 40
+            }
+          }
+        }
+      },
+      {
+        "id": "unused-javascript",
+        "title": "Reduce unused JavaScript",
+        "score": 0,
+        "display": "Est savings of 37 KiB",
+        "details": {
+          "type": "opportunity",
+          "headings": [
+            {
+              "key": "url",
+              "valueType": "url",
+              "subItemsHeading": {
+                "key": "source",
+                "valueType": "code"
+              },
+              "label": "URL"
+            },
+            {
+              "key": "totalBytes",
+              "valueType": "bytes",
+              "subItemsHeading": {
+                "key": "sourceBytes"
+              },
+              "label": "Transfer Size"
+            },
+            {
+              "key": "wastedBytes",
+              "valueType": "bytes",
+              "subItemsHeading": {
+                "key": "sourceWastedBytes"
+              },
+              "label": "Est Savings"
+            }
+          ],
+          "items": [
+            {
+              "url": "https://www.cloudssupply.site/assets/react-vendor-BDdCVDbo.js",
+              "totalBytes": 70930,
+              "wastedBytes": 37633,
+              "wastedPercent": 53.05673813066718
+            }
+          ],
+          "overallSavingsMs": 40,
+          "overallSavingsBytes": 37633,
+          "sortedBy": [
+            "wastedBytes"
+          ],
+          "debugData": {
+            "type": "debugdata",
+            "metricSavings": {
+              "FCP": 0,
+              "LCP": 40
+            }
+          }
+        }
+      },
+      {
+        "id": "cache-insight",
+        "title": "Use efficient cache lifetimes",
+        "score": 0.5,
+        "display": "Est savings of 4 KiB",
+        "details": {
+          "type": "table",
+          "headings": [
+            {
+              "key": "url",
+              "valueType": "url",
+              "label": "Request"
+            },
+            {
+              "key": "cacheLifetimeMs",
+              "valueType": "ms",
+              "label": "Cache TTL",
+              "displayUnit": "duration"
+            },
+            {
+              "key": "totalBytes",
+              "valueType": "bytes",
+              "label": "Transfer Size",
+              "displayUnit": "kb",
+              "granularity": 1
+            }
+          ],
+          "items": [
+            {
+              "url": "https://www.cloudssupply.site/products/premium/cloud-console-v2-800.webp",
+              "cacheLifetimeMs": 604800000,
+              "totalBytes": 24601,
+              "wastedBytes": 2460.0999999999995
+            },
+            {
+              "url": "https://www.cloudssupply.site/products/premium/cloud-console-v2-480.webp",
+              "cacheLifetimeMs": 604800000,
+              "totalBytes": 12322,
+              "wastedBytes": 1232.1999999999998
+            }
+          ],
+          "sortedBy": [
+            "wastedBytes"
+          ],
+          "skipSumming": [
+            "cacheLifetimeMs"
+          ],
+          "debugData": {
+            "type": "debugdata",
+            "wastedBytes": 3692.2999999999993
+          }
+        }
+      },
+      {
+        "id": "image-delivery-insight",
+        "title": "Improve image delivery",
+        "score": 0,
+        "display": "Est savings of 24 KiB",
+        "details": {
+          "type": "table",
+          "headings": [
+            {
+              "key": "node",
+              "valueType": "node",
+              "label": ""
+            },
+            {
+              "key": "url",
+              "valueType": "url",
+              "label": "URL",
+              "subItemsHeading": {
+                "key": "reason",
+                "valueType": "text"
+              }
+            },
+            {
+              "key": "totalBytes",
+              "valueType": "bytes",
+              "label": "Resource Size"
+            },
+            {
+              "key": "wastedBytes",
+              "valueType": "bytes",
+              "label": "Est Savings",
+              "subItemsHeading": {
+                "key": "wastedBytes",
+                "valueType": "bytes"
+              }
+            }
+          ],
+          "items": [
+            {
+              "node": {
+                "type": "node",
+                "lhId": "page-0-IMG",
+                "path": "1,HTML,1,BODY,0,DIV,6,MAIN,0,SECTION,0,DIV,1,DIV,0,DIV,0,IMG",
+                "selector": "div.container > div.collection-art > div.premium-artwork > img.product-artwork",
+                "boundingRect": {
+                  "top": 192,
+                  "bottom": 559,
+                  "left": 728,
+                  "right": 1256,
+                  "width": 528,
+                  "height": 367
+                },
+                "snippet": "<img class=\"product-artwork premium-product-image\" src=\"https://www.cloudssupply.site/products/premium/cloud-console-v2-800.webp\" srcset=\"/products/premium/cloud-console-v2-480.webp 480w, /products/premium/cloud-…\" sizes=\"(max-width: 760px) 100vw, 50vw\" fetchpriority=\"high\" alt=\"AWS 256 vCPU — blue cloud-console cloud compute server stack illustration\" width=\"1200\" height=\"800\" loading=\"eager\" decoding=\"async\">",
+                "nodeLabel": "AWS 256 vCPU — blue cloud-console cloud compute server stack illustration"
+              },
+              "url": "https://www.cloudssupply.site/products/premium/cloud-console-v2-800.webp",
+              "totalBytes": 24370,
+              "wastedBytes": 14432,
+              "subItems": {
+                "type": "subitems",
+                "items": [
+                  {
+                    "reason": "This image file is larger than it needs to be (800x533) for its displayed dimensions (511x340). Use responsive images to reduce the image download size.",
+                    "wastedBytes": 14432
+                  }
+                ]
+              }
+            },
+            {
+              "node": {
+                "type": "node",
+                "lhId": "page-1-IMG",
+                "path": "1,HTML,1,BODY,0,DIV,5,HEADER,0,DIV,0,A,0,SPAN,0,IMG",
+                "selector": "div.container > a > span.brand-logo > img",
+                "boundingRect": {
+                  "top": 47,
+                  "bottom": 112,
+                  "left": 76,
+                  "right": 336,
+                  "width": 260,
+                  "height": 65
+                },
+                "snippet": "<img src=\"https://www.cloudssupply.site/brand/cloudssupply-wordmark-440.webp\" srcset=\"/brand/cloudssupply-wordmark-440.webp 440w, /brand/cloudssupply-wordmark-7…\" sizes=\"(max-width:400px) 174px, (max-width:760px) 220px, 260px\" alt=\"CloudsSupply\" width=\"700\" height=\"176\" decoding=\"async\">",
+                "nodeLabel": "CloudsSupply"
+              },
+              "url": "https://www.cloudssupply.site/brand/cloudssupply-wordmark-440.webp",
+              "totalBytes": 18746,
+              "wastedBytes": 10606,
+              "subItems": {
+                "type": "subitems",
+                "items": [
+                  {
+                    "reason": "Increasing the image compression factor could improve this image’s download size",
+                    "wastedBytes": 10606
+                  }
+                ]
+              }
+            }
+          ],
+          "debugData": {
+            "type": "debugdata",
+            "wastedBytes": 25038
+          }
+        }
+      },
+      {
+        "id": "network-dependency-tree-insight",
+        "title": "Network dependency tree",
+        "score": 0,
+        "display": "",
+        "details": {
+          "type": "list",
+          "items": [
+            {
+              "type": "list-section",
+              "value": {
+                "type": "network-tree",
+                "chains": {
+                  "C1B38EA602FB1CE95F8D8ED39C8218A7": {
+                    "url": "https://www.cloudssupply.site/aws-standard/",
+                    "navStartToEndTime": 248,
+                    "transferSize": 7380,
+                    "isLongest": true,
+                    "children": {
+                      "32868.7": {
+                        "url": "https://www.cloudssupply.site/assets/index-BIDq6nTb.css",
+                        "navStartToEndTime": 328,
+                        "transferSize": 36175,
+                        "isLongest": true,
+                        "children": {
+                          "32868.76": {
+                            "url": "https://www.cloudssupply.site/fonts/ibm-plex-mono-600.woff2",
+                            "navStartToEndTime": 404,
+                            "transferSize": 10281,
+                            "isLongest": true,
+                            "children": {}
+                          },
+                          "32868.75": {
+                            "url": "https://www.cloudssupply.site/fonts/ibm-plex-mono-500.woff2",
+                            "navStartToEndTime": 403,
+                            "transferSize": 10325,
+                            "children": {}
+                          },
+                          "32868.74": {
+                            "url": "https://www.cloudssupply.site/fonts/ibm-plex-mono-400.woff2",
+                            "navStartToEndTime": 401,
+                            "transferSize": 10192,
+                            "children": {}
+                          }
+                        }
+                      },
+                      "32868.4": {
+                        "url": "https://www.cloudssupply.site/assets/index-By2UGA1O.js",
+                        "navStartToEndTime": 334,
+                        "transferSize": 77717,
+                        "children": {}
+                      }
+                    }
+                  }
+                },
+                "longestChain": {
+                  "duration": 404
+                }
+              }
+            },
+            {
+              "type": "list-section",
+              "title": "Preconnected origins",
+              "description": "[preconnect](https://developer.chrome.com/docs/lighthouse/performance/uses-rel-preconnect/) hints help the browser establish a connection earlier in the page load, saving time when the first request for that origin is made. The following are the origins that the page preconnected to.",
+              "value": {
+                "type": "text",
+                "value": "No origins were preconnected"
+              }
+            },
+            {
+              "type": "list-section",
+              "title": "Preconnect candidates",
+              "description": "Add [preconnect](https://developer.chrome.com/docs/lighthouse/performance/uses-rel-preconnect/) hints to your most important origins, but try to use no more than 4",
+              "value": {
+                "type": "text",
+                "value": "No additional origins are good candidates for preconnecting"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "render-blocking-insight",
+        "title": "Render-blocking requests",
+        "score": 0.5,
+        "display": "",
+        "details": {
+          "type": "table",
+          "headings": [
+            {
+              "key": "url",
+              "valueType": "url",
+              "label": "URL"
+            },
+            {
+              "key": "totalBytes",
+              "valueType": "bytes",
+              "label": "Transfer Size"
+            },
+            {
+              "key": "wastedMs",
+              "valueType": "timespanMs",
+              "label": "Duration"
+            }
+          ],
+          "items": [
+            {
+              "url": "https://www.cloudssupply.site/assets/index-BIDq6nTb.css",
+              "totalBytes": 36175
+            }
+          ]
+        }
+      }
+    ],
+    "report": "seo/lighthouse/live-desktop-category.report.html",
+    "lighthouseVersion": "13.6.0",
+    "fetchTime": "2026-11-26T20:16:47.567Z"
+  },
+  {
+    "mode": "desktop",
+    "name": "provider",
+    "url": "https://www.cloudssupply.site/provider/google-cloud/",
+    "status": "TESTED",
+    "scores": {
+      "performance": 100,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100
+    },
+    "metrics": {
+      "first-contentful-paint": 286.60900000000004,
+      "largest-contentful-paint": 486.60900000000004,
+      "total-blocking-time": 0,
+      "cumulative-layout-shift": 0,
+      "speed-index": 353.989644168442,
+      "interactive": 486.6090000000001
+    },
+    "failures": [
+      {
+        "id": "label-content-name-mismatch",
+        "title": "Elements with visible text labels do not have matching accessible names.",
+        "score": 0,
+        "display": "",
+        "details": {
+          "type": "table",
+          "headings": [
+            {
+              "key": "node",
+              "valueType": "node",
+              "subItemsHeading": {
+                "key": "relatedNode",
+                "valueType": "node"
+              },
+              "label": "Failing Elements"
+            }
+          ],
+          "items": [
+            {
+              "node": {
+                "type": "node",
+                "lhId": "1-0-A",
+                "path": "1,HTML,1,BODY,0,DIV,5,HEADER,0,DIV,2,DIV,0,A",
+                "selector": "header > div.container > div.nav-actions > a.cart-button",
+                "boundingRect": {
+                  "top": 70,
+                  "bottom": 90,
+                  "left": 1181,
+                  "right": 1260,
+                  "width": 78,
+                  "height": 20
+                },
+                "snippet": "<a class=\"cart-button\" href=\"/cart/\" aria-label=\"Open cart, 0 items\">",
+                "nodeLabel": "Cart\n0",
+                "explanation": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+              }
+            }
+          ],
+          "debugData": {
+            "type": "debugdata",
+            "impact": "serious",
+            "tags": [
+              "cat.semantics",
+              "wcag21a",
+              "wcag253",
+              "EN-301-549",
+              "EN-9.2.5.3",
+              "RGAAv4",
+              "RGAA-6.1.5"
+            ]
+          }
+        }
+      },
+      {
+        "id": "unused-css-rules",
+        "title": "Reduce unused CSS",
+        "score": 0,
+        "display": "Est savings of 31 KiB",
+        "details": {
+          "type": "opportunity",
+          "headings": [
+            {
+              "key": "url",
+              "valueType": "url",
+              "label": "URL"
+            },
+            {
+              "key": "totalBytes",
+              "valueType": "bytes",
+              "label": "Transfer Size"
+            },
+            {
+              "key": "wastedBytes",
+              "valueType": "bytes",
+              "label": "Est Savings"
+            }
+          ],
+          "items": [
+            {
+              "url": "https://www.cloudssupply.site/assets/index-BIDq6nTb.css",
+              "wastedBytes": 31613,
+              "wastedPercent": 87.70737130152216,
+              "totalBytes": 36044
+            }
+          ],
+          "overallSavingsMs": 0,
+          "overallSavingsBytes": 31613,
+          "sortedBy": [
+            "wastedBytes"
+          ],
+          "debugData": {
+            "type": "debugdata",
+            "metricSavings": {
+              "FCP": 30,
+              "LCP": 0
+            }
+          }
+        }
+      },
+      {
+        "id": "unused-javascript",
+        "title": "Reduce unused JavaScript",
+        "score": 0,
+        "display": "Est savings of 37 KiB",
+        "details": {
+          "type": "opportunity",
+          "headings": [
+            {
+              "key": "url",
+              "valueType": "url",
+              "subItemsHeading": {
+                "key": "source",
+                "valueType": "code"
+              },
+              "label": "URL"
+            },
+            {
+              "key": "totalBytes",
+              "valueType": "bytes",
+              "subItemsHeading": {
+                "key": "sourceBytes"
+              },
+              "label": "Transfer Size"
+            },
+            {
+              "key": "wastedBytes",
+              "valueType": "bytes",
+              "subItemsHeading": {
+                "key": "sourceWastedBytes"
+              },
+              "label": "Est Savings"
+            }
+          ],
+          "items": [
+            {
+              "url": "https://www.cloudssupply.site/assets/react-vendor-BDdCVDbo.js",
+              "totalBytes": 70930,
+              "wastedBytes": 37584,
+              "wastedPercent": 52.98795646525177
+            }
+          ],
+          "overallSavingsMs": 40,
+          "overallSavingsBytes": 37584,
+          "sortedBy": [
+            "wastedBytes"
+          ],
+          "debugData": {
+            "type": "debugdata",
+            "metricSavings": {
+              "FCP": 0,
+              "LCP": 40
+            }
+          }
+        }
+      },
+      {
+        "id": "cache-insight",
+        "title": "Use efficient cache lifetimes",
+        "score": 0.5,
+        "display": "Est savings of 2 KiB",
+        "details": {
+          "type": "table",
+          "headings": [
+            {
+              "key": "url",
+              "valueType": "url",
+              "label": "Request"
+            },
+            {
+              "key": "cacheLifetimeMs",
+              "valueType": "ms",
+              "label": "Cache TTL",
+              "displayUnit": "duration"
+            },
+            {
+              "key": "totalBytes",
+              "valueType": "bytes",
+              "label": "Transfer Size",
+              "displayUnit": "kb",
+              "granularity": 1
+            }
+          ],
+          "items": [
+            {
+              "url": "https://www.cloudssupply.site/products/premium/cloud-console-v2-800.webp",
+              "cacheLifetimeMs": 604800000,
+              "totalBytes": 24601,
+              "wastedBytes": 2460.0999999999995
+            }
+          ],
+          "sortedBy": [
+            "wastedBytes"
+          ],
+          "skipSumming": [
+            "cacheLifetimeMs"
+          ],
+          "debugData": {
+            "type": "debugdata",
+            "wastedBytes": 2460.0999999999995
+          }
+        }
+      },
+      {
+        "id": "image-delivery-insight",
+        "title": "Improve image delivery",
+        "score": 0.5,
+        "display": "Est savings of 10 KiB",
+        "details": {
+          "type": "table",
+          "headings": [
+            {
+              "key": "node",
+              "valueType": "node",
+              "label": ""
+            },
+            {
+              "key": "url",
+              "valueType": "url",
+              "label": "URL",
+              "subItemsHeading": {
+                "key": "reason",
+                "valueType": "text"
+              }
+            },
+            {
+              "key": "totalBytes",
+              "valueType": "bytes",
+              "label": "Resource Size"
+            },
+            {
+              "key": "wastedBytes",
+              "valueType": "bytes",
+              "label": "Est Savings",
+              "subItemsHeading": {
+                "key": "wastedBytes",
+                "valueType": "bytes"
+              }
+            }
+          ],
+          "items": [
+            {
+              "node": {
+                "type": "node",
+                "lhId": "page-1-IMG",
+                "path": "1,HTML,1,BODY,0,DIV,5,HEADER,0,DIV,0,A,0,SPAN,0,IMG",
+                "selector": "div.container > a > span.brand-logo > img",
+                "boundingRect": {
+                  "top": 47,
+                  "bottom": 112,
+                  "left": 76,
+                  "right": 336,
+                  "width": 260,
+                  "height": 65
+                },
+                "snippet": "<img src=\"https://www.cloudssupply.site/brand/cloudssupply-wordmark-440.webp\" srcset=\"/brand/cloudssupply-wordmark-440.webp 440w, /brand/cloudssupply-wordmark-7…\" sizes=\"(max-width:400px) 174px, (max-width:760px) 220px, 260px\" alt=\"CloudsSupply\" width=\"700\" height=\"176\" decoding=\"async\">",
+                "nodeLabel": "CloudsSupply"
+              },
+              "url": "https://www.cloudssupply.site/brand/cloudssupply-wordmark-440.webp",
+              "totalBytes": 18746,
+              "wastedBytes": 10606,
+              "subItems": {
+                "type": "subitems",
+                "items": [
+                  {
+                    "reason": "Increasing the image compression factor could improve this image’s download size",
+                    "wastedBytes": 10606
+                  }
+                ]
+              }
+            }
+          ],
+          "debugData": {
+            "type": "debugdata",
+            "wastedBytes": 10606
+          }
+        }
+      },
+      {
+        "id": "network-dependency-tree-insight",
+        "title": "Network dependency tree",
+        "score": 0,
+        "display": "",
+        "details": {
+          "type": "list",
+          "items": [
+            {
+              "type": "list-section",
+              "value": {
+                "type": "network-tree",
+                "chains": {
+                  "EB2A452DAB4094BD0FC9B785476D9F58": {
+                    "url": "https://www.cloudssupply.site/provider/google-cloud/",
+                    "navStartToEndTime": 209,
+                    "transferSize": 5930,
+                    "isLongest": true,
+                    "children": {
+                      "32884.7": {
+                        "url": "https://www.cloudssupply.site/assets/index-BIDq6nTb.css",
+                        "navStartToEndTime": 300,
+                        "transferSize": 36177,
+                        "isLongest": true,
+                        "children": {
+                          "32884.36": {
+                            "url": "https://www.cloudssupply.site/fonts/ibm-plex-mono-500.woff2",
+                            "navStartToEndTime": 374,
+                            "transferSize": 10203,
+                            "isLongest": true,
+                            "children": {}
+                          },
+                          "32884.37": {
+                            "url": "https://www.cloudssupply.site/fonts/ibm-plex-mono-600.woff2",
+                            "navStartToEndTime": 373,
+                            "transferSize": 10381,
+                            "children": {}
+                          },
+                          "32884.35": {
+                            "url": "https://www.cloudssupply.site/fonts/ibm-plex-mono-400.woff2",
+                            "navStartToEndTime": 372,
+                            "transferSize": 10215,
+                            "children": {}
+                          }
+                        }
+                      },
+                      "32884.4": {
+                        "url": "https://www.cloudssupply.site/assets/index-By2UGA1O.js",
+                        "navStartToEndTime": 324,
+                        "transferSize": 77719,
+                        "children": {}
+                      }
+                    }
+                  }
+                },
+                "longestChain": {
+                  "duration": 374
+                }
+              }
+            },
+            {
+              "type": "list-section",
+              "title": "Preconnected origins",
+              "description": "[preconnect](https://developer.chrome.com/docs/lighthouse/performance/uses-rel-preconnect/) hints help the browser establish a connection earlier in the page load, saving time when the first request for that origin is made. The following are the origins that the page preconnected to.",
+              "value": {
+                "type": "text",
+                "value": "No origins were preconnected"
+              }
+            },
+            {
+              "type": "list-section",
+              "title": "Preconnect candidates",
+              "description": "Add [preconnect](https://developer.chrome.com/docs/lighthouse/performance/uses-rel-preconnect/) hints to your most important origins, but try to use no more than 4",
+              "value": {
+                "type": "text",
+                "value": "No additional origins are good candidates for preconnecting"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "render-blocking-insight",
+        "title": "Render-blocking requests",
+        "score": 0.5,
+        "display": "",
+        "details": {
+          "type": "table",
+          "headings": [
+            {
+              "key": "url",
+              "valueType": "url",
+              "label": "URL"
+            },
+            {
+              "key": "totalBytes",
+              "valueType": "bytes",
+              "label": "Transfer Size"
+            },
+            {
+              "key": "wastedMs",
+              "valueType": "timespanMs",
+              "label": "Duration"
+            }
+          ],
+          "items": [
+            {
+              "url": "https://www.cloudssupply.site/assets/index-BIDq6nTb.css",
+              "totalBytes": 36177
+            }
+          ]
+        }
+      }
+    ],
+    "report": "seo/lighthouse/live-desktop-provider.report.html",
+    "lighthouseVersion": "13.6.0",
+    "fetchTime": "2026-11-26T20:16:58.080Z"
+  },
+  {
+    "mode": "desktop",
+    "name": "product",
+    "url": "https://www.cloudssupply.site/product/aws-32-vcpu-103/",
+    "status": "TESTED",
+    "scores": {
+      "performance": 100,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100
+    },
+    "metrics": {
+      "first-contentful-paint": 315.704,
+      "largest-contentful-paint": 515.704,
+      "total-blocking-time": 0,
+      "cumulative-layout-shift": 0,
+      "speed-index": 347.3314335827106,
+      "interactive": 515.704
+    },
+    "failures": [
+      {
+        "id": "label-content-name-mismatch",
+        "title": "Elements with visible text labels do not have matching accessible names.",
+        "score": 0,
+        "display": "",
+        "details": {
+          "type": "table",
+          "headings": [
+            {
+              "key": "node",
+              "valueType": "node",
+              "subItemsHeading": {
+                "key": "relatedNode",
+                "valueType": "node"
+              },
+              "label": "Failing Elements"
+            }
+          ],
+          "items": [
+            {
+              "node": {
+                "type": "node",
+                "lhId": "1-0-A",
+                "path": "1,HTML,1,BODY,0,DIV,5,HEADER,0,DIV,2,DIV,0,A",
+                "selector": "header > div.container > div.nav-actions > a.cart-button",
+                "boundingRect": {
+                  "top": 70,
+                  "bottom": 90,
+                  "left": 1181,
+                  "right": 1260,
+                  "width": 78,
+                  "height": 20
+                },
+                "snippet": "<a class=\"cart-button\" href=\"/cart/\" aria-label=\"Open cart, 0 items\">",
+                "nodeLabel": "Cart\n0",
+                "explanation": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+              }
+            }
+          ],
+          "debugData": {
+            "type": "debugdata",
+            "impact": "serious",
+            "tags": [
+              "cat.semantics",
+              "wcag21a",
+              "wcag253",
+              "EN-301-549",
+              "EN-9.2.5.3",
+              "RGAAv4",
+              "RGAA-6.1.5"
+            ]
+          }
+        }
+      },
+      {
+        "id": "unused-css-rules",
+        "title": "Reduce unused CSS",
+        "score": 0,
+        "display": "Est savings of 30 KiB",
+        "details": {
+          "type": "opportunity",
+          "headings": [
+            {
+              "key": "url",
+              "valueType": "url",
+              "label": "URL"
+            },
+            {
+              "key": "totalBytes",
+              "valueType": "bytes",
+              "label": "Transfer Size"
+            },
+            {
+              "key": "wastedBytes",
+              "valueType": "bytes",
+              "label": "Est Savings"
+            }
+          ],
+          "items": [
+            {
+              "url": "https://www.cloudssupply.site/assets/index-BIDq6nTb.css",
+              "wastedBytes": 30685,
+              "wastedPercent": 85.13218011678761,
+              "totalBytes": 36044
+            }
+          ],
+          "overallSavingsMs": 40,
+          "overallSavingsBytes": 30685,
+          "sortedBy": [
+            "wastedBytes"
+          ],
+          "debugData": {
+            "type": "debugdata",
+            "metricSavings": {
+              "FCP": 70,
+              "LCP": 40
+            }
+          }
+        }
+      },
+      {
+        "id": "unused-javascript",
+        "title": "Reduce unused JavaScript",
+        "score": 0,
+        "display": "Est savings of 37 KiB",
+        "details": {
+          "type": "opportunity",
+          "headings": [
+            {
+              "key": "url",
+              "valueType": "url",
+              "subItemsHeading": {
+                "key": "source",
+                "valueType": "code"
+              },
+              "label": "URL"
+            },
+            {
+              "key": "totalBytes",
+              "valueType": "bytes",
+              "subItemsHeading": {
+                "key": "sourceBytes"
+              },
+              "label": "Transfer Size"
+            },
+            {
+              "key": "wastedBytes",
+              "valueType": "bytes",
+              "subItemsHeading": {
+                "key": "sourceWastedBytes"
+              },
+              "label": "Est Savings"
+            }
+          ],
+          "items": [
+            {
+              "url": "https://www.cloudssupply.site/assets/react-vendor-BDdCVDbo.js",
+              "totalBytes": 70930,
+              "wastedBytes": 37584,
+              "wastedPercent": 52.98795646525177
+            }
+          ],
+          "overallSavingsMs": 40,
+          "overallSavingsBytes": 37584,
+          "sortedBy": [
+            "wastedBytes"
+          ],
+          "debugData": {
+            "type": "debugdata",
+            "metricSavings": {
+              "FCP": 0,
+              "LCP": 40
+            }
+          }
+        }
+      },
+      {
+        "id": "cache-insight",
+        "title": "Use efficient cache lifetimes",
+        "score": 0.5,
+        "display": "Est savings of 4 KiB",
+        "details": {
+          "type": "table",
+          "headings": [
+            {
+              "key": "url",
+              "valueType": "url",
+              "label": "Request"
+            },
+            {
+              "key": "cacheLifetimeMs",
+              "valueType": "ms",
+              "label": "Cache TTL",
+              "displayUnit": "duration"
+            },
+            {
+              "key": "totalBytes",
+              "valueType": "bytes",
+              "label": "Transfer Size",
+              "displayUnit": "kb",
+              "granularity": 1
+            }
+          ],
+          "items": [
+            {
+              "url": "https://www.cloudssupply.site/products/premium/cloud-console-v2-800.webp",
+              "cacheLifetimeMs": 604800000,
+              "totalBytes": 24601,
+              "wastedBytes": 2460.0999999999995
+            },
+            {
+              "url": "https://www.cloudssupply.site/products/premium/cloud-console-v2-480.webp",
+              "cacheLifetimeMs": 604800000,
+              "totalBytes": 12385,
+              "wastedBytes": 1238.4999999999998
+            }
+          ],
+          "sortedBy": [
+            "wastedBytes"
+          ],
+          "skipSumming": [
+            "cacheLifetimeMs"
+          ],
+          "debugData": {
+            "type": "debugdata",
+            "wastedBytes": 3698.5999999999995
+          }
+        }
+      },
+      {
+        "id": "image-delivery-insight",
+        "title": "Improve image delivery",
+        "score": 0,
+        "display": "Est savings of 10 KiB",
+        "details": {
+          "type": "table",
+          "headings": [
+            {
+              "key": "node",
+              "valueType": "node",
+              "label": ""
+            },
+            {
+              "key": "url",
+              "valueType": "url",
+              "label": "URL",
+              "subItemsHeading": {
+                "key": "reason",
+                "valueType": "text"
+              }
+            },
+            {
+              "key": "totalBytes",
+              "valueType": "bytes",
+              "label": "Resource Size"
+            },
+            {
+              "key": "wastedBytes",
+              "valueType": "bytes",
+              "label": "Est Savings",
+              "subItemsHeading": {
+                "key": "wastedBytes",
+                "valueType": "bytes"
+              }
+            }
+          ],
+          "items": [
+            {
+              "node": {
+                "type": "node",
+                "lhId": "page-0-IMG",
+                "path": "1,HTML,1,BODY,0,DIV,5,HEADER,0,DIV,0,A,0,SPAN,0,IMG",
+                "selector": "div.container > a > span.brand-logo > img",
+                "boundingRect": {
+                  "top": 47,
+                  "bottom": 112,
+                  "left": 76,
+                  "right": 336,
+                  "width": 260,
+                  "height": 65
+                },
+                "snippet": "<img src=\"https://www.cloudssupply.site/brand/cloudssupply-wordmark-440.webp\" srcset=\"/brand/cloudssupply-wordmark-440.webp 440w, /brand/cloudssupply-wordmark-7…\" sizes=\"(max-width:400px) 174px, (max-width:760px) 220px, 260px\" alt=\"CloudsSupply\" width=\"700\" height=\"176\" decoding=\"async\">",
+                "nodeLabel": "CloudsSupply"
+              },
+              "url": "https://www.cloudssupply.site/brand/cloudssupply-wordmark-440.webp",
+              "totalBytes": 18746,
+              "wastedBytes": 10606,
+              "subItems": {
+                "type": "subitems",
+                "items": [
+                  {
+                    "reason": "Increasing the image compression factor could improve this image’s download size",
+                    "wastedBytes": 10606
+                  }
+                ]
+              }
+            }
+          ],
+          "debugData": {
+            "type": "debugdata",
+            "wastedBytes": 10606
+          }
+        }
+      },
+      {
+        "id": "network-dependency-tree-insight",
+        "title": "Network dependency tree",
+        "score": 0,
+        "display": "",
+        "details": {
+          "type": "list",
+          "items": [
+            {
+              "type": "list-section",
+              "value": {
+                "type": "network-tree",
+                "chains": {
+                  "2C2A8525EE878C8F19FAB14308EA14C1": {
+                    "url": "https://www.cloudssupply.site/product/aws-32-vcpu-103/",
+                    "navStartToEndTime": 208,
+                    "transferSize": 7614,
+                    "isLongest": true,
+                    "children": {
+                      "32910.7": {
+                        "url": "https://www.cloudssupply.site/assets/index-BIDq6nTb.css",
+                        "navStartToEndTime": 279,
+                        "transferSize": 36201,
+                        "isLongest": true,
+                        "children": {
+                          "32910.45": {
+                            "url": "https://www.cloudssupply.site/fonts/ibm-plex-mono-500.woff2",
+                            "navStartToEndTime": 345,
+                            "transferSize": 10203,
+                            "isLongest": true,
+                            "children": {}
+                          },
+                          "32910.46": {
+                            "url": "https://www.cloudssupply.site/fonts/ibm-plex-mono-600.woff2",
+                            "navStartToEndTime": 345,
+                            "transferSize": 10318,
+                            "children": {}
+                          },
+                          "32910.44": {
+                            "url": "https://www.cloudssupply.site/fonts/ibm-plex-mono-400.woff2",
+                            "navStartToEndTime": 342,
+                            "transferSize": 10215,
+                            "children": {}
+                          }
+                        }
+                      },
+                      "32910.4": {
+                        "url": "https://www.cloudssupply.site/assets/index-By2UGA1O.js",
+                        "navStartToEndTime": 301,
+                        "transferSize": 77744,
+                        "children": {}
+                      }
+                    }
+                  }
+                },
+                "longestChain": {
+                  "duration": 345
+                }
+              }
+            },
+            {
+              "type": "list-section",
+              "title": "Preconnected origins",
+              "description": "[preconnect](https://developer.chrome.com/docs/lighthouse/performance/uses-rel-preconnect/) hints help the browser establish a connection earlier in the page load, saving time when the first request for that origin is made. The following are the origins that the page preconnected to.",
+              "value": {
+                "type": "text",
+                "value": "No origins were preconnected"
+              }
+            },
+            {
+              "type": "list-section",
+              "title": "Preconnect candidates",
+              "description": "Add [preconnect](https://developer.chrome.com/docs/lighthouse/performance/uses-rel-preconnect/) hints to your most important origins, but try to use no more than 4",
+              "value": {
+                "type": "text",
+                "value": "No additional origins are good candidates for preconnecting"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "render-blocking-insight",
+        "title": "Render-blocking requests",
+        "score": 0,
+        "display": "Est savings of 70 ms",
+        "details": {
+          "type": "table",
+          "headings": [
+            {
+              "key": "url",
+              "valueType": "url",
+              "label": "URL"
+            },
+            {
+              "key": "totalBytes",
+              "valueType": "bytes",
+              "label": "Transfer Size"
+            },
+            {
+              "key": "wastedMs",
+              "valueType": "timespanMs",
+              "label": "Duration"
+            }
+          ],
+          "items": [
+            {
+              "url": "https://www.cloudssupply.site/assets/index-BIDq6nTb.css",
+              "totalBytes": 36201,
+              "wastedMs": 80
+            }
+          ]
+        }
+      }
+    ],
+    "report": "seo/lighthouse/live-desktop-product.report.html",
+    "lighthouseVersion": "13.6.0",
+    "fetchTime": "2026-11-26T20:17:08.485Z"
+  },
+  {
+    "mode": "desktop",
+    "name": "products",
+    "url": "https://www.cloudssupply.site/all-products/",
+    "status": "TESTED",
+    "scores": {
+      "performance": 100,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100
+    },
+    "metrics": {
+      "first-contentful-paint": 348.045,
+      "largest-contentful-paint": 548.0450000000001,
+      "total-blocking-time": 0,
+      "cumulative-layout-shift": 0,
+      "speed-index": 395.8478109978587,
+      "interactive": 548.0450000000001
+    },
+    "failures": [
+      {
+        "id": "label-content-name-mismatch",
+        "title": "Elements with visible text labels do not have matching accessible names.",
+        "score": 0,
+        "display": "",
+        "details": {
+          "type": "table",
+          "headings": [
+            {
+              "key": "node",
+              "valueType": "node",
+              "subItemsHeading": {
+                "key": "relatedNode",
+                "valueType": "node"
+              },
+              "label": "Failing Elements"
+            }
+          ],
+          "items": [
+            {
+              "node": {
+                "type": "node",
+                "lhId": "1-0-A",
+                "path": "1,HTML,1,BODY,0,DIV,16,HEADER,0,DIV,2,DIV,0,A",
+                "selector": "header > div.container > div.nav-actions > a.cart-button",
+                "boundingRect": {
+                  "top": 70,
+                  "bottom": 90,
+                  "left": 1181,
+                  "right": 1260,
+                  "width": 78,
+                  "height": 20
+                },
+                "snippet": "<a class=\"cart-button\" href=\"/cart/\" aria-label=\"Open cart, 0 items\">",
+                "nodeLabel": "Cart\n0",
+                "explanation": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+              }
+            }
+          ],
+          "debugData": {
+            "type": "debugdata",
+            "impact": "serious",
+            "tags": [
+              "cat.semantics",
+              "wcag21a",
+              "wcag253",
+              "EN-301-549",
+              "EN-9.2.5.3",
+              "RGAAv4",
+              "RGAA-6.1.5"
+            ]
+          }
+        }
+      },
+      {
+        "id": "unused-css-rules",
+        "title": "Reduce unused CSS",
+        "score": 0,
+        "display": "Est savings of 30 KiB",
+        "details": {
+          "type": "opportunity",
+          "headings": [
+            {
+              "key": "url",
+              "valueType": "url",
+              "label": "URL"
+            },
+            {
+              "key": "totalBytes",
+              "valueType": "bytes",
+              "label": "Transfer Size"
+            },
+            {
+              "key": "wastedBytes",
+              "valueType": "bytes",
+              "label": "Est Savings"
+            }
+          ],
+          "items": [
+            {
+              "url": "https://www.cloudssupply.site/assets/index-BIDq6nTb.css",
+              "wastedBytes": 30995,
+              "wastedPercent": 85.99342764299152,
+              "totalBytes": 36044
+            }
+          ],
+          "overallSavingsMs": 40,
+          "overallSavingsBytes": 30995,
+          "sortedBy": [
+            "wastedBytes"
+          ],
+          "debugData": {
+            "type": "debugdata",
+            "metricSavings": {
+              "FCP": 40,
+              "LCP": 40
+            }
+          }
+        }
+      },
+      {
+        "id": "unused-javascript",
+        "title": "Reduce unused JavaScript",
+        "score": 0,
+        "display": "Est savings of 37 KiB",
+        "details": {
+          "type": "opportunity",
+          "headings": [
+            {
+              "key": "url",
+              "valueType": "url",
+              "subItemsHeading": {
+                "key": "source",
+                "valueType": "code"
+              },
+              "label": "URL"
+            },
+            {
+              "key": "totalBytes",
+              "valueType": "bytes",
+              "subItemsHeading": {
+                "key": "sourceBytes"
+              },
+              "label": "Transfer Size"
+            },
+            {
+              "key": "wastedBytes",
+              "valueType": "bytes",
+              "subItemsHeading": {
+                "key": "sourceWastedBytes"
+              },
+              "label": "Est Savings"
+            }
+          ],
+          "items": [
+            {
+              "url": "https://www.cloudssupply.site/assets/react-vendor-BDdCVDbo.js",
+              "totalBytes": 70930,
+              "wastedBytes": 37470,
+              "wastedPercent": 52.82611725250963
+            }
+          ],
+          "overallSavingsMs": 40,
+          "overallSavingsBytes": 37470,
+          "sortedBy": [
+            "wastedBytes"
+          ],
+          "debugData": {
+            "type": "debugdata",
+            "metricSavings": {
+              "FCP": 0,
+              "LCP": 40
+            }
+          }
+        }
+      },
+      {
+        "id": "cache-insight",
+        "title": "Use efficient cache lifetimes",
+        "score": 0.5,
+        "display": "Est savings of 1 KiB",
+        "details": {
+          "type": "table",
+          "headings": [
+            {
+              "key": "url",
+              "valueType": "url",
+              "label": "Request"
+            },
+            {
+              "key": "cacheLifetimeMs",
+              "valueType": "ms",
+              "label": "Cache TTL",
+              "displayUnit": "duration"
+            },
+            {
+              "key": "totalBytes",
+              "valueType": "bytes",
+              "label": "Transfer Size",
+              "displayUnit": "kb",
+              "granularity": 1
+            }
+          ],
+          "items": [
+            {
+              "url": "https://www.cloudssupply.site/products/premium/cloud-console-v2-480.webp",
+              "cacheLifetimeMs": 604800000,
+              "totalBytes": 12433,
+              "wastedBytes": 1243.2999999999997
+            }
+          ],
+          "sortedBy": [
+            "wastedBytes"
+          ],
+          "skipSumming": [
+            "cacheLifetimeMs"
+          ],
+          "debugData": {
+            "type": "debugdata",
+            "wastedBytes": 1243.2999999999997
+          }
+        }
+      },
+      {
+        "id": "image-delivery-insight",
+        "title": "Improve image delivery",
+        "score": 0.5,
+        "display": "Est savings of 10 KiB",
+        "details": {
+          "type": "table",
+          "headings": [
+            {
+              "key": "node",
+              "valueType": "node",
+              "label": ""
+            },
+            {
+              "key": "url",
+              "valueType": "url",
+              "label": "URL",
+              "subItemsHeading": {
+                "key": "reason",
+                "valueType": "text"
+              }
+            },
+            {
+              "key": "totalBytes",
+              "valueType": "bytes",
+              "label": "Resource Size"
+            },
+            {
+              "key": "wastedBytes",
+              "valueType": "bytes",
+              "label": "Est Savings",
+              "subItemsHeading": {
+                "key": "wastedBytes",
+                "valueType": "bytes"
+              }
+            }
+          ],
+          "items": [
+            {
+              "node": {
+                "type": "node",
+                "lhId": "page-1-IMG",
+                "path": "1,HTML,1,BODY,0,DIV,16,HEADER,0,DIV,0,A,0,SPAN,0,IMG",
+                "selector": "div.container > a > span.brand-logo > img",
+                "boundingRect": {
+                  "top": 47,
+                  "bottom": 112,
+                  "left": 76,
+                  "right": 336,
+                  "width": 260,
+                  "height": 65
+                },
+                "snippet": "<img src=\"https://www.cloudssupply.site/brand/cloudssupply-wordmark-440.webp\" srcset=\"/brand/cloudssupply-wordmark-440.webp 440w, /brand/cloudssupply-wordmark-7…\" sizes=\"(max-width:400px) 174px, (max-width:760px) 220px, 260px\" alt=\"CloudsSupply\" width=\"700\" height=\"176\" decoding=\"async\">",
+                "nodeLabel": "CloudsSupply"
+              },
+              "url": "https://www.cloudssupply.site/brand/cloudssupply-wordmark-440.webp",
+              "totalBytes": 18746,
+              "wastedBytes": 10606,
+              "subItems": {
+                "type": "subitems",
+                "items": [
+                  {
+                    "reason": "Increasing the image compression factor could improve this image’s download size",
+                    "wastedBytes": 10606
+                  }
+                ]
+              }
+            }
+          ],
+          "debugData": {
+            "type": "debugdata",
+            "wastedBytes": 10606
+          }
+        }
+      },
+      {
+        "id": "lcp-discovery-insight",
+        "title": "LCP request discovery",
+        "score": 0,
+        "display": "",
+        "details": {
+          "type": "list",
+          "items": [
+            {
+              "type": "checklist",
+              "items": {
+                "priorityHinted": {
+                  "label": "fetchpriority=high should be applied",
+                  "value": false
+                },
+                "requestDiscoverable": {
+                  "label": "Request is discoverable in initial document",
+                  "value": true
+                },
+                "eagerlyLoaded": {
+                  "label": "LCP resources shouldn’t use loading=lazy",
+                  "value": false
+                }
+              }
+            },
+            {
+              "type": "node",
+              "lhId": "page-0-IMG",
+              "path": "1,HTML,1,BODY,0,DIV,17,MAIN,0,SECTION,4,DIV,1,ARTICLE,0,DIV,0,DIV,0,IMG",
+              "selector": "article.product > div.product-image > div.premium-artwork > img.product-artwork",
+              "boundingRect": {
+                "top": 619,
+                "bottom": 857,
+                "left": 489,
+                "right": 846,
+                "width": 357,
+                "height": 238
+              },
+              "snippet": "<img class=\"product-artwork premium-product-image\" src=\"https://www.cloudssupply.site/products/premium/cloud-console-v2-480.webp\" srcset=\"/products/premium/cloud-console-v2-480.webp 480w, /products/premium/cloud-…\" sizes=\"(max-width: 760px) 100vw, (max-width: 1100px) 50vw, 33vw\" alt=\"AWS 8VCPU — blue cloud-console cloud compute server stack illustration\" width=\"1200\" height=\"800\" loading=\"lazy\" decoding=\"async\">",
+              "nodeLabel": "AWS 8VCPU — blue cloud-console cloud compute server stack illustration"
+            }
+          ]
+        }
+      },
+      {
+        "id": "network-dependency-tree-insight",
+        "title": "Network dependency tree",
+        "score": 0,
+        "display": "",
+        "details": {
+          "type": "list",
+          "items": [
+            {
+              "type": "list-section",
+              "value": {
+                "type": "network-tree",
+                "chains": {
+                  "277E7B8E8E92B3683CD477B395FB661F": {
+                    "url": "https://www.cloudssupply.site/all-products/",
+                    "navStartToEndTime": 235,
+                    "transferSize": 12948,
+                    "isLongest": true,
+                    "children": {
+                      "32928.7": {
+                        "url": "https://www.cloudssupply.site/assets/index-BIDq6nTb.css",
+                        "navStartToEndTime": 332,
+                        "transferSize": 36202,
+                        "isLongest": true,
+                        "children": {
+                          "32928.207": {
+                            "url": "https://www.cloudssupply.site/fonts/ibm-plex-mono-600.woff2",
+                            "navStartToEndTime": 421,
+                            "transferSize": 10309,
+                            "isLongest": true,
+                            "children": {}
+                          },
+                          "32928.206": {
+                            "url": "https://www.cloudssupply.site/fonts/ibm-plex-mono-500.woff2",
+                            "navStartToEndTime": 418,
+                            "transferSize": 10256,
+                            "children": {}
+                          },
+                          "32928.205": {
+                            "url": "https://www.cloudssupply.site/fonts/ibm-plex-mono-400.woff2",
+                            "navStartToEndTime": 418,
+                            "transferSize": 10205,
+                            "children": {}
+                          }
+                        }
+                      },
+                      "32928.4": {
+                        "url": "https://www.cloudssupply.site/assets/index-By2UGA1O.js",
+                        "navStartToEndTime": 322,
+                        "transferSize": 77717,
+                        "children": {}
+                      }
+                    }
+                  }
+                },
+                "longestChain": {
+                  "duration": 421
+                }
+              }
+            },
+            {
+              "type": "list-section",
+              "title": "Preconnected origins",
+              "description": "[preconnect](https://developer.chrome.com/docs/lighthouse/performance/uses-rel-preconnect/) hints help the browser establish a connection earlier in the page load, saving time when the first request for that origin is made. The following are the origins that the page preconnected to.",
+              "value": {
+                "type": "text",
+                "value": "No origins were preconnected"
+              }
+            },
+            {
+              "type": "list-section",
+              "title": "Preconnect candidates",
+              "description": "Add [preconnect](https://developer.chrome.com/docs/lighthouse/performance/uses-rel-preconnect/) hints to your most important origins, but try to use no more than 4",
+              "value": {
+                "type": "text",
+                "value": "No additional origins are good candidates for preconnecting"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "render-blocking-insight",
+        "title": "Render-blocking requests",
+        "score": 0,
+        "display": "Est savings of 60 ms",
+        "details": {
+          "type": "table",
+          "headings": [
+            {
+              "key": "url",
+              "valueType": "url",
+              "label": "URL"
+            },
+            {
+              "key": "totalBytes",
+              "valueType": "bytes",
+              "label": "Transfer Size"
+            },
+            {
+              "key": "wastedMs",
+              "valueType": "timespanMs",
+              "label": "Duration"
+            }
+          ],
+          "items": [
+            {
+              "url": "https://www.cloudssupply.site/assets/index-BIDq6nTb.css",
+              "totalBytes": 36202,
+              "wastedMs": 80
+            }
+          ]
+        }
+      }
+    ],
+    "report": "seo/lighthouse/live-desktop-products.report.html",
+    "lighthouseVersion": "13.6.0",
+    "fetchTime": "2026-11-26T20:17:18.846Z"
+  }
+]

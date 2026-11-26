@@ -25,8 +25,8 @@ ${audit?.commercialMapped||0} commercial pages have distinct normalized primary 
 
 Provider pages target the provider family; product pages target one named specification. Starter services target setup/planning work and remain explicitly illustrative. Credit tiers use their actual names; the Azure $1K Tier 1 Claude label is not asserted to prove a credit balance.
 
-Remaining review: broad AWS/Bedrock pages necessarily share terms. Unique primary assignments and different page scopes reduce obvious duplication but cannot prove the absence of ranking cannibalization. Use Search Console query/page exports to check whether multiple URLs compete for the same queries before merging or redirecting pages. Support/FAQ/refund pages use non-commercial intent. No keyword-stuffed hidden copy or meta-keywords tag was added.`);
-const redirects=[['Old URL','New URL','Status','Decision','Reason'],...manifest.filter(p=>p.type!=='utility').map(p=>['https://buyaws-account.vercel.app'+p.path,origin+p.path,'308 configured','Domain consolidation','Restore canonical production domain; verify live HTTP evidence']),...manifest.filter(p=>p.type==='product').map(p=>[origin+p.path,origin+p.path,'200 retained','No slug migration','Established descriptive product URL retained; numeric catalog ID preserves routing and orders']),['https://cloudssupply.site/:path*',origin+'/:path*','308 project-domain redirect','Apex consolidation','Registered apex on existing production project; preserves path/query'],[origin+'/home/',origin+'/','308 configured','Legacy alias','Remove duplicate homepage route']];
+Remaining review: broad AWS/Bedrock pages necessarily share terms. Product 117 (quote-only Bedrock API 10K RPM / 256 vCPU) and product 119 (256 vCPU / 10K RPM with listed version/F5 labels) are especially close; their visible specifications and original guides retain that distinction. Monitor query/page data before consolidating these genuinely separate listings. Unique primary assignments and different page scopes reduce obvious duplication but cannot prove the absence of ranking cannibalization. Use Search Console query/page exports to check whether multiple URLs compete for the same queries before merging or redirecting pages. Support/FAQ/refund pages use non-commercial intent. No keyword-stuffed hidden copy or meta-keywords tag was added.`);
+const redirects=[['Old URL','New URL','Status','Decision','Reason'],...manifest.filter(p=>p.type!=='utility').map(p=>['https://buyaws-account.vercel.app'+p.path,origin+p.path,'308 configured','Domain consolidation','Restore canonical production domain; verify live HTTP evidence']),...manifest.filter(p=>p.type==='product').map(p=>[origin+p.path,origin+p.path,'200 retained','No slug migration','Established descriptive product URL retained; numeric catalog ID preserves routing and orders']),...['/cart/','/checkout/'].map(path=>['https://buyaws-account.vercel.app'+path,'https://buyaws-account.vercel.app'+path,'200 noindex retained','Private utility exception','Preserve browser-origin-local existing cart and payment drafts']),['https://cloudssupply.site/:path*',origin+'/:path*','308 project-domain redirect','Apex consolidation','Registered apex on existing production project; preserves path/query'],[origin+'/home/',origin+'/','308 configured','Legacy alias','Remove duplicate homepage route']];
 await writeFile('seo/URL-REDIRECT-MAPPING.csv',csv(redirects));
 await write('TECHNICAL-SEO-REPORT.md',`# Technical SEO report
 
@@ -47,6 +47,8 @@ Canonical production origin: ${origin}/. Inventory: ${audit?.providers} provider
 
 ## Hosting
 
+Social metadata now uses website for collection/home pages and product only for an individual account Product.
+
 Source: vercel.json. Vercel project: website, linked to moba342/Website- main. The existing authenticated account was used to add cloudssupply.site to the same project with a 308 redirect to www.cloudssupply.site. The response and live TLS/redirect chain are saved in evidence/apex-project-assignment.json and evidence/http-live.json. Do not disable certificate validation.
 
 Local HTTP audit: ${local?local.failures.length===0?'PASS':'FAIL':'NOT TESTED'}. Final production HTTP audit: ${live?live.failures.length===0?'PASS':'FAIL':'NOT TESTED'}. Production field Core Web Vitals are NOT TESTED; lab metrics are documented separately.
@@ -66,7 +68,7 @@ The initial HTML contains parseable Schema.org JSON-LD with Organization, WebSit
 
 No ProductGroup is forced across unrelated trial, credit, compute and Bedrock listings; these are distinct offers with materially different scope, not a verified single product family suitable for a shared variesBy assertion.
 
-Schema.org validity and Google eligibility are distinct: quote-only products lack the Offer/review/rating data required for a Google product snippet, and service pages are not asserted eligible for product snippets. FAQ rich results have restricted Google eligibility; no display is promised. The automated audit verifies schema identity, prices, canonical URLs, no unsupported offers, and exact visible/schema FAQ parity on every product.
+Schema.org validity and Google eligibility are distinct: quote-only products lack the Offer/review/rating data required for a Google product snippet, and service pages are not asserted eligible for product snippets. FAQ rich results have restricted Google eligibility; no display is promised. The automated audit verifies schema identity, prices, canonical URLs, no unsupported offers, and exact visible/schema FAQ parity on every product. A pinned official Schema.org vocabulary snapshot is also checked: 1,494 typed nodes and 4,570 properties across all 76 routes pass known-type/property and inherited domainIncludes validation. 43 priced Product pages satisfy the tested Google snippet name/Offer/price/currency fields; two quote-only Products and six Services are intentionally not asserted eligible. Literal range coercion and Google service-side rich-result testing remain outside this validator. Evidence: evidence/schema-validation.json and scripts/validate-schema.mjs.
 
 References: https://developers.google.com/search/docs/appearance/structured-data/product-snippet ; https://schema.org/Product ; https://schema.org/Service .`);
 await write('AUTOMATED-TEST-REPORT.md',`# Automated test report
@@ -105,14 +107,16 @@ ${lhRows(localLH,mode)||'| Not tested | | | | | | | |'}
 |---|---|---|---|---|---|---|---|
 ${lhRows(liveLH,mode)||'| Not tested yet | | | | | | | |'}
 
+A temporary uncompressed local preview produced reproducibly lower mobile scores on product/provider pages; text compression was added to represent actual Vercel delivery, and the complete suite was rerun. Intermediate reports are retained under baseline/intermediate-uncompressed-*.json.
+
 The baseline local mobile homepage was measured at Performance 74, Accessibility 100, Best Practices 96 and SEO 100; its raw files are in baseline/. Fonts, logo/favicon and responsive image delivery were optimized, and accessible heading/button labeling was corrected. INP is a field responsiveness metric and is not inferred from Lighthouse TBT. No real-user Core Web Vitals pass is claimed. See evidence/lighthouse-local.json and evidence/lighthouse-live.json for scores, metrics and remaining opportunities.`);
 await write('LIVE-SEO-AUDIT.md',`# Final live SEO audit
 
 Target: ${origin}/. Status: ${live?live.failures.length===0?'PASS':'FAIL':'NOT TESTED'}.
 
-${live?`${live.pages.length} intended pages were fetched from production. Failed page/HTTP checks: ${live.failures.length}. Unknown route response: ${live.missingPage.status}; noindex: ${live.missingPage.noindex}.`: 'Final production crawl has not run yet; no live-deployment success is claimed.'}
+${live?`${live.pages.length} intended pages were fetched from production. Failed page/HTTP checks: ${live.failures.length}. Every title, description, H1, primary/secondary keyword, visible-content hash and JSON-LD hash is compared with the validated build, with image alt checks and linked asset requests. Unknown route response: ${live.missingPage.status}; noindex: ${live.missingPage.noindex}.`: 'Final production crawl has not run yet; no live-deployment success is claimed.'}
 
-The production crawl checks 200 responses, initial-HTML canonical origin, robots directives, sitemap and verification endpoints, real 404s and alternate-host redirect chains. Local content/schema/link/keyword checks are separate and are cross-checked against the same production artifact by the browser/live test suite. Raw response summaries: evidence/http-live.json. Mobile/desktop lab results are in LIGHTHOUSE-MOBILE-REPORT.md and LIGHTHOUSE-DESKTOP-REPORT.md.
+The production crawl checks 200 responses, initial-HTML canonical origin, social page type, robots directives, complete visible content, JSON-LD, primary/secondary phrases, sitemap XML membership and origin, verification endpoints, real 404s and alternate-host redirect chains. HTTP-only apex requests use Vercel’s HTTPS upgrade followed by the apex-to-www redirect; this two-hop platform chain is measured, not hidden. Local content/schema/link/keyword checks are separate and are cross-checked against the same production artifact by the browser/live test suite. Raw response summaries: evidence/http-live.json. Mobile/desktop lab results are in LIGHTHOUSE-MOBILE-REPORT.md and LIGHTHOUSE-DESKTOP-REPORT.md.
 
 ${live?.redirects?.map(r=>'- '+r.url+': '+(r.error||r.chain.map(h=>h.status+(h.location?' → '+h.location:'')).join(' → '))).join('\n')||'Redirects: NOT TESTED after deployment.'}
 
@@ -174,5 +178,5 @@ ${table}
 
 Field INP/LCP/CLS and Google index membership are NOT TESTED. Lab Lighthouse scores are measurements, not real-user guarantees. Actual ranking cannibalization requires Search Console query/page data. Quote-only accounts and illustrative Service pages are not asserted to satisfy Google's product-snippet Offer requirements. The supplied static verification file remains available; owner account actions are documented in GOOGLE-SEARCH-CONSOLE-GUIDE.md.
 
-Run commands: npm run check:syntax; npm test; npm run build; npm run test:browser; node scripts/http-qa.mjs; npm run test:lighthouse; node scripts/write-seo-reports.mjs. Reports retain actual raw evidence in seo/evidence and seo/lighthouse. No cryptocurrency transfer, contact message, or indexing submission was made by tests.`);
+Run commands: npm run check:syntax; npm test; npm run build; npm run test:browser; node scripts/http-qa.mjs; npm run test:lighthouse; node scripts/write-seo-reports.mjs. Reports retain actual raw evidence in seo/evidence and seo/lighthouse. No cryptocurrency transfer, contact message, or indexing submission was made by tests. Production-browser representative and order-flow evidence is retained in evidence/browser-qa-live.json.`);
 console.log('Wrote all requested SEO launch documents and redirect mapping using current test evidence.');

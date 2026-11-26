@@ -26,11 +26,13 @@ for(const page of [...seoPages,...utilityPages]){
  let graph=[];for(const script of elements(head,'script')){if(attrs(script).type==='application/ld+json'){try{graph.push(...JSON.parse((script.childNodes||[]).map(x=>x.value||'').join(''))['@graph']);}catch{check(false,'invalid JSON-LD');}}}
  check(graph.some(n=>n['@type']==='Organization'),'missing Organization schema');check(graph.some(n=>n['@type']==='WebSite'),'missing WebSite schema');
  if(page.route!=='home')check(graph.some(n=>n['@type']==='BreadcrumbList'),'missing breadcrumbs');
+ check(a.find(a=>a.property==='og:type')?.content===meta.socialType,'incorrect social page type');
  check(a.some(a=>a.property==='og:image:alt')&&a.some(a=>a.name==='twitter:image:alt'),'missing social descriptions');
  const links=elements(doc,'a').map(attrs).filter(a=>a.href?.startsWith('/')&&!a.href.startsWith('//')).map(a=>a.href.split('#')[0].split('?')[0]||page.path);
  allLinks.set(page.path,new Set(links));for(const path of links)try{await access(path.endsWith('/')?fileFor(path):resolve('dist','.'+path));}catch{check(false,'broken internal link '+path);}
  const product=page.type==='product'?products.find(p=>page.route.endsWith('-'+p.id)):null,provider=page.type==='provider'?page.route.split('/')[1]:null,copy=product?productSeo[product.id]:provider?providerSeo[provider]:pageSeo[page.route];
  let primaryCovered=false,secondaryCovered=0;
+ if(isPublic&&['provider','product'].includes(page.type))check(!!copy,'commercial catalog record lacks SEO keyword configuration');
  if(isPublic){countMap(titles,title,page.path);countMap(descriptions,description,page.path);}
  if(copy&&isPublic){
   const primary=normalizeKeyword(copy.primaryKeyword),secondary=copy.secondaryKeywords||[];
@@ -59,7 +61,7 @@ for(const page of [...seoPages,...utilityPages]){
  if(isPublic){const h2=elements(main,'h2');check(h2.length>0,'missing secondary headings');}
  results.push({path:page.path,type:page.type,title,description,h1:text(h1[0]),canonical:canonical[0]?.href,robots,primaryKeyword:copy?.primaryKeyword||null,primaryCovered,secondaryCovered,issues:problems});
  reportRows.push([page.type,meta.url,title,title.length,description,description.length,text(h1[0]),graph.map(n=>n['@type']).join('; ')]);
- metadata.push({route:page.route,path:page.path,type:page.type,name:page.name,title,description,h1:text(h1[0]),robots,primary:copy?.primaryKeyword||'',secondary:copy?.secondaryKeywords||[],visibleHash:createHash('sha256').update(visible).digest('hex'),schemaHash:createHash('sha256').update(JSON.stringify(graph)).digest('hex')});
+ metadata.push({route:page.route,path:page.path,type:page.type,name:page.name,title,description,h1:text(h1[0]),robots,primary:copy?.primaryKeyword||'',secondary:copy?.secondaryKeywords||[],visibleHash:createHash('sha256').update(visible).digest('hex'),socialType:meta.socialType,schemaHash:createHash('sha256').update(JSON.stringify(graph)).digest('hex')});
 }
 for(const [label,map] of [['title',titles],['description',descriptions]])for(const [key,urls] of map)if(urls.length>1)failures.push('Duplicate '+label+': '+urls.join(', '));
 const depth=new Map([['/',0]]),queue=['/'];while(queue.length){const path=queue.shift();for(const link of allLinks.get(path)||[])if(allLinks.has(link)&&!depth.has(link)){depth.set(link,depth.get(path)+1);queue.push(link);}}

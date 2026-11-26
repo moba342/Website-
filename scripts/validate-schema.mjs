@@ -1,0 +1,17 @@
+import {readFile,writeFile} from 'node:fs/promises';
+import {seoPages,utilityPages,metadataFor} from '../.ssr/entry-server.js';
+const vocabulary=JSON.parse(await readFile('seo/evidence/schemaorg-vocabulary.json','utf8'));
+const short=s=>s.replace(/^schema:|^https?:\/\/schema.org\//,'');
+const nodes=new Map(vocabulary.nodes.map(n=>[short(n['@id']),n]));
+const ids=value=>(Array.isArray(value)?value:[value]).filter(Boolean).map(v=>short(v['@id']||v));
+const memo=new Map();function ancestors(type,seen=new Set()){if(memo.has(type))return memo.get(type);if(seen.has(type))return new Set([type]);seen.add(type);const result=new Set([type]);for(const parent of ids(nodes.get(type)?.['rdfs:subClassOf']))for(const t of ancestors(parent,seen))result.add(t);memo.set(type,result);return result;}
+const issues=[],eligibility=[],checkedTypes=new Set();let typedNodes=0,properties=0;
+function visit(value,path){if(!value||typeof value!=='object')return;if(Array.isArray(value)){value.forEach((v,i)=>visit(v,path+'['+i+']'));return;}
+ const types=(Array.isArray(value['@type'])?value['@type']:[value['@type']]).filter(Boolean).map(short);
+ if(types.length){typedNodes++;for(const type of types){checkedTypes.add(type);if(!nodes.has(type))issues.push(path+': unknown Schema.org type '+type);}
+ for(const prop of Object.keys(value).filter(p=>!p.startsWith('@'))){properties++;const def=nodes.get(prop);if(!def){issues.push(path+': unknown property '+prop);continue;}const domains=ids(def['schema:domainIncludes']);if(domains.length&&!types.some(type=>domains.some(d=>ancestors(type).has(d))))issues.push(path+': '+prop+' is outside the documented domain of '+types.join(','));}}
+ for(const [key,child] of Object.entries(value))if(!key.startsWith('@'))visit(child,path+'.'+key);
+}
+for(const page of [...seoPages,...utilityPages]){const graph=metadataFor(page.route).schema['@graph'];graph.forEach((node,i)=>visit(node,page.path+'#'+i));if(page.type==='product'){const product=graph.find(n=>['Product','Service'].includes(n['@type']));const eligible=product['@type']==='Product'&&typeof product.name==='string'&&product.offers&&Number.isFinite(product.offers.price)&&product.offers.priceCurrency==='USD';eligibility.push({path:page.path,type:product['@type'],productSnippetRequiredFields:eligible?'PASS':'NOT ELIGIBLE',reason:eligible?'name + supported priced Offer':product['@type']==='Service'?'Illustrative service; no Product rich-result assertion':'Quote-only Product; no invented Offer/review/rating'});}}
+const report={status:issues.length?'FAIL':'PASS',source:vocabulary.source,sourceSha256:vocabulary.sourceSha256,pages:seoPages.length+utilityPages.length,typedNodes,properties,types:[...checkedTypes].sort(),checks:['Known Schema.org types','Known Schema.org properties','Inherited property domainIncludes','Google product-snippet name/Offer price/currency required-field coverage'],issues,eligibility,limitations:['Literal range coercion is not exhaustively validated.','Google Rich Results Test service has not been run; no Google display eligibility guarantee.','Search-policy eligibility is separate from syntax and required-field checks.']};
+await writeFile('seo/evidence/schema-validation.json',JSON.stringify(report,null,2)+'\n');console.log('Schema.org vocabulary/domain validation:',report.status,';',typedNodes,'typed nodes;',properties,'properties;',eligibility.filter(p=>p.productSnippetRequiredFields==='PASS').length,'priced Product pages satisfy tested snippet fields.');if(issues.length){console.error(issues.join('\n'));process.exitCode=1;}

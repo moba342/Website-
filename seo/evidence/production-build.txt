@@ -1,6 +1,6 @@
 
 > cloudcart@1.0.0 build
-> vite build && vite build --ssr src/entry-server.jsx --outDir .ssr && node scripts/generate-seo.mjs && node scripts/audit-seo.mjs
+> vite build && vite build --ssr src/entry-server.jsx --outDir .ssr && node scripts/generate-seo.mjs && node scripts/audit-seo.mjs && node scripts/validate-schema.mjs
 
 vite v6.4.6 building for production...
 transforming...
@@ -11,14 +11,15 @@ dist/index.html                         1.04 kB │ gzip:  0.54 kB
 dist/assets/index-BIDq6nTb.css        163.72 kB │ gzip: 32.00 kB
 dist/assets/qr-code-Yk9eKAZd.js        16.69 kB │ gzip:  6.28 kB
 dist/assets/react-vendor-BDdCVDbo.js  222.44 kB │ gzip: 69.05 kB
-dist/assets/index-By2UGA1O.js         354.58 kB │ gzip: 75.59 kB
-✓ built in 813ms
+dist/assets/index-gVHGjTIv.js         354.57 kB │ gzip: 75.58 kB
+✓ built in 763ms
 vite v6.4.6 building SSR bundle for production...
 transforming...
 ✓ 55 modules transformed.
 rendering chunks...
 .ssr/entry-server.js  396.07 kB
-✓ built in 157ms
+✓ built in 154ms
 Pre-rendered 74 indexable pages and 2 noindex checkout pages with canonical metadata and three sitemaps.
 SEO audit passed: 74 public pages, 71 unique commercial primary keywords, 51 products, no duplicate metadata or orphan pages. Maximum crawl depth: 2.
 0 secondary-phrase coverage notes saved for editorial review.
+Schema.org vocabulary/domain validation: PASS ; 1494 typed nodes; 4570 properties; 43 priced Product pages satisfy tested snippet fields.

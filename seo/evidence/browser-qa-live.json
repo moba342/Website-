@@ -1,0 +1,97 @@
+{
+  "origin": "https://www.cloudssupply.site",
+  "viewportWidths": [
+    320,
+    375,
+    390,
+    768,
+    1024,
+    1440,
+    1920
+  ],
+  "pagesTested": 5,
+  "errors": [],
+  "results": [
+    {
+      "path": "/",
+      "responsiveWidths": [
+        320,
+        375,
+        390,
+        768,
+        1024,
+        1440,
+        1920
+      ],
+      "status": "TESTED"
+    },
+    {
+      "path": "/all-products/",
+      "responsiveWidths": [
+        320,
+        375,
+        390,
+        768,
+        1024,
+        1440,
+        1920
+      ],
+      "status": "TESTED"
+    },
+    {
+      "path": "/aws-standard/",
+      "responsiveWidths": [
+        320,
+        375,
+        390,
+        768,
+        1024,
+        1440,
+        1920
+      ],
+      "status": "TESTED"
+    },
+    {
+      "path": "/provider/google-cloud/",
+      "responsiveWidths": [
+        320,
+        375,
+        390,
+        768,
+        1024,
+        1440,
+        1920
+      ],
+      "status": "TESTED"
+    },
+    {
+      "path": "/product/aws-32-vcpu-103/",
+      "responsiveWidths": [
+        320,
+        375,
+        390,
+        768,
+        1024,
+        1440,
+        1920
+      ],
+      "status": "TESTED"
+    },
+    {
+      "test": "mobile menu and contact links",
+      "status": "PASS"
+    },
+    {
+      "test": "variation selection, quantity, cart persistence, checkout, TRC20, receipt draft without sending",
+      "status": "PASS"
+    },
+    {
+      "test": "remove item, quote-only cart blocks payment, tampered stored price ignored",
+      "status": "PASS"
+    },
+    {
+      "test": "homepage direct-checkout CTA retains selected product",
+      "status": "PASS"
+    }
+  ]
+}

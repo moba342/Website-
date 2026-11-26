@@ -73,10 +73,10 @@ export function metadataFor(route){
   crumbs.push([product?.name||provider?.name||title,routeHref(route)]);
   const breadcrumb={'@type':'BreadcrumbList','@id':url+'#breadcrumbs',itemListElement:crumbs.map(([name,path],index)=>({'@type':'ListItem',position:index+1,name,item:siteUrl+path}))};graph.push(breadcrumb);webPage.breadcrumb={'@id':breadcrumb['@id']};
  }
- return {title:pageTitle,description,url,image,imageAlt,robots:known&&indexingAllowed&&!utilityRoutes.includes(route)?'index, follow, max-image-preview:large':'noindex, follow',schema:{'@context':'https://schema.org','@graph':graph}};
+ return {title:pageTitle,description,url,image,imageAlt,socialType:product&&product.id>=100?'product':'website',robots:known&&indexingAllowed&&!utilityRoutes.includes(route)?'index, follow, max-image-preview:large':'noindex, follow',schema:{'@context':'https://schema.org','@graph':graph}};
 }
 export function socialMetadata(m){return {
- properties:{'og:title':m.title,'og:description':m.description,'og:url':m.url,'og:image':m.image,'og:image:alt':m.imageAlt,'og:type':m.schema['@graph'].some(node=>node['@type']==='Product')?'product':'website','og:site_name':siteName,'og:locale':'en_US'},
+ properties:{'og:title':m.title,'og:description':m.description,'og:url':m.url,'og:image':m.image,'og:image:alt':m.imageAlt,'og:type':m.socialType||'website','og:site_name':siteName,'og:locale':'en_US'},
  names:{'twitter:card':'summary_large_image','twitter:title':m.title,'twitter:description':m.description,'twitter:image':m.image,'twitter:image:alt':m.imageAlt}
 };}
 export function applyPageMetadata(route){

@@ -13,7 +13,7 @@
 | Cart normalization/quotes/storage/network receipts | PASS | npm test: 10 tests in tests/checkout.test.mjs |
 | JavaScript syntax | PASS | npm run check:syntax; JSX parsed in production build |
 | TypeScript and configured lint pipeline | NOT TESTED | JS/JSX repository, no TypeScript or existing lint configuration; no framework migration |
-| Final live responses | NOT TESTED | evidence/http-live.json |
+| Final live responses | PASS | evidence/http-live.json |
 
 No tests sign in as a customer, transfer cryptocurrency, or submit Telegram messages. The contact form opens a customer-sent Telegram draft; it does not create a server support ticket. Browser-local payment drafts still require manual merchant verification.
 

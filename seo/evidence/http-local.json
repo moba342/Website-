@@ -573,7 +573,7 @@
   ],
   "assets": [
     {
-      "path": "/assets/index-By2UGA1O.js",
+      "path": "/assets/index-gVHGjTIv.js",
       "status": 200,
       "error": null
     },
@@ -735,6 +735,7 @@
     }
   ],
   "aliasUtilities": [],
+  "indexValid": true,
   "sitemapValid": true,
   "sitemapCount": 74,
   "failures": []

@@ -30,11 +30,11 @@ Prices, internal product IDs, contact details, payment addresses, 1 USD = 1 USDT
 | Structured Data | PASS | Local schema/visible-content parity; Google rich-result display is not guaranteed. STRUCTURED-DATA-REPORT.md |
 | Production Build | PASS | npm run build succeeds and pre-renders 74 public + 2 noindex routes. |
 | Automated Tests | PASS | Browser QA at seven widths, 10 catalog/cart unit tests, static and HTTP tests. |
-| Mobile Lighthouse Testing | PARTIAL | Actual local/live results and HTML/JSON reports in LIGHTHOUSE-MOBILE-REPORT.md |
-| Desktop Lighthouse Testing | PARTIAL | Actual local/live results and HTML/JSON reports in LIGHTHOUSE-DESKTOP-REPORT.md |
-| Live Deployment | NOT TESTED | Production URL responses verified separately from owner-private Sites deployment. |
-| Hosting Redirect Optimization | PARTIAL | Apex assigned; source redirects configured. Only mark PASS after all live chains pass. |
-| Final Live Technical SEO Audit | NOT TESTED | LIVE-SEO-AUDIT.md and evidence/http-live.json |
+| Mobile Lighthouse Testing | PASS | Actual local/live results and HTML/JSON reports in LIGHTHOUSE-MOBILE-REPORT.md |
+| Desktop Lighthouse Testing | PASS | Actual local/live results and HTML/JSON reports in LIGHTHOUSE-DESKTOP-REPORT.md |
+| Live Deployment | PASS | Production URL responses verified separately from owner-private Sites deployment. |
+| Hosting Redirect Optimization | PASS | Apex assigned; source redirects configured. Only mark PASS after all live chains pass. |
+| Final Live Technical SEO Audit | PASS | LIVE-SEO-AUDIT.md and evidence/http-live.json |
 | Google Search Console Verification | MANUAL ACTION REQUIRED | Current signed-in ownership status not checked. Owner previously reported verification. |
 | XML Sitemap Submission | MANUAL ACTION REQUIRED | Sitemap generated and accessible; no new Search Console submission performed. |
 | Request Indexing | MANUAL ACTION REQUIRED | Prioritized URL list prepared; no Google indexing claim. |
@@ -43,4 +43,4 @@ Prices, internal product IDs, contact details, payment addresses, 1 USD = 1 USDT
 
 Field INP/LCP/CLS and Google index membership are NOT TESTED. Lab Lighthouse scores are measurements, not real-user guarantees. Actual ranking cannibalization requires Search Console query/page data. Quote-only accounts and illustrative Service pages are not asserted to satisfy Google's product-snippet Offer requirements. The supplied static verification file remains available; owner account actions are documented in GOOGLE-SEARCH-CONSOLE-GUIDE.md.
 
-Run commands: npm run check:syntax; npm test; npm run build; npm run test:browser; node scripts/http-qa.mjs; npm run test:lighthouse; node scripts/write-seo-reports.mjs. Reports retain actual raw evidence in seo/evidence and seo/lighthouse. No cryptocurrency transfer, contact message, or indexing submission was made by tests.
+Run commands: npm run check:syntax; npm test; npm run build; npm run test:browser; node scripts/http-qa.mjs; npm run test:lighthouse; node scripts/write-seo-reports.mjs. Reports retain actual raw evidence in seo/evidence and seo/lighthouse. No cryptocurrency transfer, contact message, or indexing submission was made by tests. Production-browser representative and order-flow evidence is retained in evidence/browser-qa-live.json.

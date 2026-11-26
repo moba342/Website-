@@ -27,6 +27,7 @@ for(const p of manifest){
  const doc=parse(r.body||''),head=elements(doc,'head')[0],main=elements(doc,'main')[0],metas=elements(head,'meta').map(attrs),h1=elements(main,'h1'),links=elements(head,'link').map(attrs).filter(a=>a.rel==='canonical'),visible=text(main);
  if(text(elements(head,'title')[0])!==p.title)issues.push('title mismatch');if(metas.find(a=>a.name==='description')?.content!==p.description)issues.push('description mismatch');if(h1.length!==1||text(h1[0])!==p.h1)issues.push('H1 mismatch');
  if(links.length!==1||links[0].href!==canonical+p.path)issues.push('canonical mismatch');if(metas.find(a=>a.name==='robots')?.content!==p.robots)issues.push('robots mismatch');if(/x-robots-tag:\s*noindex/i.test(r.headers||'')&&p.type!=='utility')issues.push('public noindex header');
+ if(metas.find(a=>a.property==='og:type')?.content!==p.socialType)issues.push('social page type mismatch');
  if(hash(visible)!==p.visibleHash)issues.push('visible content differs from tested production build');
  if(p.primary&&!normalize(visible).includes(normalize(p.primary)))issues.push('primary keyword not visible');
  for(const secondary of p.secondary||[])if(!normalize(visible).includes(normalize(secondary)))issues.push('secondary keyword not visible: '+secondary);
@@ -44,7 +45,11 @@ const redirects=[],candidates=label==='live'?['http://cloudssupply.site/','https
 for(const url of candidates){const r=request(url,true,'HEAD');redirects.push({url,status:r.status,effectiveUrl:r.effectiveUrl,chain:r.chain,error:r.error||null,loop:!!r.error?.includes('redirect')});}
 const xp=new XMLParser(),sitemapUrls=[];let sitemapValid=true;
 for(const f of files.filter(f=>/\/(pages|providers|products)-sitemap.xml/.test(f.path))){if(XMLValidator.validate(f.body||'')!==true){sitemapValid=false;continue;}const entries=xp.parse(f.body).urlset.url;for(const p of Array.isArray(entries)?entries:[entries])sitemapUrls.push(p.loc);}
+const sitemapIndex=files.find(f=>f.path==='/sitemap_index.xml')?.body||'';
+let indexValid=XMLValidator.validate(sitemapIndex)===true;
+if(indexValid){const entries=xp.parse(sitemapIndex).sitemapindex?.sitemap;const children=(Array.isArray(entries)?entries:[entries]).filter(Boolean).map(s=>s.loc);indexValid=children.length===3&&['pages','providers','products'].every(name=>children.includes(canonical+'/'+name+'-sitemap.xml'));}
 const failures=pages.filter(p=>p.result!=='PASS').map(p=>({path:p.path,issues:p.issues}));
+if(!indexValid)failures.push({reason:'Live sitemap index XML/origin mismatch'});
 if(missing.status!==404||!missing.body?.includes('noindex, follow'))failures.push({path:'/nonexistent-seo-test-route/',reason:'Expected genuine noindex 404'});
 if(!sitemapValid||sitemapUrls.length!==pageSet.size||new Set(sitemapUrls).size!==pageSet.size||sitemapUrls.some(url=>!pageSet.has(url)))failures.push({reason:'Live sitemap membership mismatch'});
 if(files.some(f=>f.status!==200))failures.push({reason:'Required robots/sitemap/verification file missing'});
@@ -52,6 +57,6 @@ if(!files.find(f=>f.path==='/robots.txt')?.body.includes('Sitemap: '+canonical+'
 for(const a of assetResults)if(a.status!==200)failures.push({path:a.path,reason:'Missing linked asset'});
 for(const r of redirects){if(r.status!==200||r.error||!r.chain?.slice(0,-1).every(h=>[301,308].includes(h.status)))failures.push({url:r.url,reason:'TLS/redirect chain failed'});if(r.effectiveUrl&&r.url.includes('utm_source=')&&!r.effectiveUrl.includes('utm_source=seo-test'))failures.push({url:r.url,reason:'Query parameter not preserved'});}
 const aliasUtilities=[];if(label==='live')for(const path of ['/cart/','/checkout/']){const r=request('https://buyaws-account.vercel.app'+path);aliasUtilities.push({path,status:r.status,noindex:r.body?.includes('noindex, follow')});if(r.status!==200||!r.body?.includes('noindex, follow'))failures.push({path,reason:'Existing alias browser-local cart/order route was not preserved'});}
-const results={origin,label,pages,missingPage:{status:missing.status,noindex:missing.body?.includes('noindex, follow')},files,assets:assetResults,redirects,aliasUtilities,sitemapValid,sitemapCount:sitemapUrls.length,failures};
+const results={origin,label,pages,missingPage:{status:missing.status,noindex:missing.body?.includes('noindex, follow')},files,assets:assetResults,redirects,aliasUtilities,indexValid,sitemapValid,sitemapCount:sitemapUrls.length,failures};
 await writeFile('seo/evidence/http-'+label+'.json',JSON.stringify(results,null,2)+'\n');console.log(label+' HTTP/content audit:',pages.length,'routes;',failures.length,'failures; assets:',assetResults.length,'; sitemap:',sitemapUrls.length,'; 404:',missing.status);
 if(failures.length){console.error(JSON.stringify(failures.slice(0,12)));process.exitCode=1;}

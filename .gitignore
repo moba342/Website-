@@ -5,3 +5,7 @@ dist/
 .ssr/
 
 .ssr-preview/
+
+.env
+.env.*
+!.env.example

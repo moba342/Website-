@@ -2,4 +2,4 @@
 > cloudcart@1.0.0 check:syntax
 > node scripts/check-syntax.mjs
 
-Syntax checks passed: 25 JavaScript modules. JSX is parsed by the production build. No TypeScript or configured lint pipeline is present.
+Syntax checks passed: 26 JavaScript modules. JSX is parsed by the production build. No TypeScript or configured lint pipeline is present.

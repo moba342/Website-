@@ -17,9 +17,11 @@ Canonical production origin: https://www.cloudssupply.site/. Inventory: 13 provi
 
 ## Hosting
 
+Social metadata now uses website for collection/home pages and product only for an individual account Product.
+
 Source: vercel.json. Vercel project: website, linked to moba342/Website- main. The existing authenticated account was used to add cloudssupply.site to the same project with a 308 redirect to www.cloudssupply.site. The response and live TLS/redirect chain are saved in evidence/apex-project-assignment.json and evidence/http-live.json. Do not disable certificate validation.
 
-Local HTTP audit: PASS. Final production HTTP audit: NOT TESTED. Production field Core Web Vitals are NOT TESTED; lab metrics are documented separately.
+Local HTTP audit: PASS. Final production HTTP audit: PASS. Production field Core Web Vitals are NOT TESTED; lab metrics are documented separately.
 
 If DNS becomes misconfigured: open Vercel team mo-ba2 → website → Settings → Domains, inspect both hostnames, and apply the exact A/CNAME values Vercel displays at your DNS provider. Verify the domain and wait for automatic TLS issuance. Do not move unrelated domains or change mail records.
 

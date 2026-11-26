@@ -1,0 +1,348 @@
+{
+  "status": "PASS",
+  "source": "https://schema.org/version/latest/schemaorg-current-https.jsonld",
+  "sourceSha256": "0a4b8c4c910fc831ec8695196510973390906a5ee34dc6b862dfec4d21a12f74",
+  "pages": 76,
+  "typedNodes": 1494,
+  "properties": 4570,
+  "types": [
+    "Answer",
+    "Brand",
+    "BreadcrumbList",
+    "CollectionPage",
+    "ContactPage",
+    "ContactPoint",
+    "FAQPage",
+    "ImageObject",
+    "ItemList",
+    "ItemPage",
+    "ListItem",
+    "Offer",
+    "Organization",
+    "Product",
+    "Question",
+    "Service",
+    "WebPage",
+    "WebSite"
+  ],
+  "checks": [
+    "Known Schema.org types",
+    "Known Schema.org properties",
+    "Inherited property domainIncludes",
+    "Google product-snippet name/Offer price/currency required-field coverage"
+  ],
+  "issues": [],
+  "eligibility": [
+    {
+      "path": "/product/aws-free-trial-101/",
+      "type": "Product",
+      "productSnippetRequiredFields": "PASS",
+      "reason": "name + supported priced Offer"
+    },
+    {
+      "path": "/product/aws-8vcpu-102/",
+      "type": "Product",
+      "productSnippetRequiredFields": "PASS",
+      "reason": "name + supported priced Offer"
+    },
+    {
+      "path": "/product/aws-32-vcpu-103/",
+      "type": "Product",
+      "productSnippetRequiredFields": "PASS",
+      "reason": "name + supported priced Offer"
+    },
+    {
+      "path": "/product/aws-64-vcpu-104/",
+      "type": "Product",
+      "productSnippetRequiredFields": "PASS",
+      "reason": "name + supported priced Offer"
+    },
+    {
+      "path": "/product/aws-128-vcpu-105/",
+      "type": "Product",
+      "productSnippetRequiredFields": "PASS",
+      "reason": "name + supported priced Offer"
+    },
+    {
+      "path": "/product/aws-256-vcpu-106/",
+      "type": "Product",
+      "productSnippetRequiredFields": "PASS",
+      "reason": "name + supported priced Offer"
+    },
+    {
+      "path": "/product/aws-512-vcpu-107/",
+      "type": "Product",
+      "productSnippetRequiredFields": "PASS",
+      "reason": "name + supported priced Offer"
+    },
+    {
+      "path": "/product/aws-1k-credit-108/",
+      "type": "Product",
+      "productSnippetRequiredFields": "PASS",
+      "reason": "name + supported priced Offer"
+    },
+    {
+      "path": "/product/aws-5k-credit-109/",
+      "type": "Product",
+      "productSnippetRequiredFields": "PASS",
+      "reason": "name + supported priced Offer"
+    },
+    {
+      "path": "/product/aws-10k-credit-110/",
+      "type": "Product",
+      "productSnippetRequiredFields": "PASS",
+      "reason": "name + supported priced Offer"
+    },
+    {
+      "path": "/product/aws-25k-credit-111/",
+      "type": "Product",
+      "productSnippetRequiredFields": "PASS",
+      "reason": "name + supported priced Offer"
+    },
+    {
+      "path": "/product/aws-50k-credit-112/",
+      "type": "Product",
+      "productSnippetRequiredFields": "PASS",
+      "reason": "name + supported priced Offer"
+    },
+    {
+      "path": "/product/aws-100k-credit-113/",
+      "type": "Product",
+      "productSnippetRequiredFields": "PASS",
+      "reason": "name + supported priced Offer"
+    },
+    {
+      "path": "/product/aws-ai-bedrock-10-rpm-5vcpu-114/",
+      "type": "Product",
+      "productSnippetRequiredFields": "PASS",
+      "reason": "name + supported priced Offer"
+    },
+    {
+      "path": "/product/aws-ai-bedrock-50-rpm-5vcpus-115/",
+      "type": "Product",
+      "productSnippetRequiredFields": "PASS",
+      "reason": "name + supported priced Offer"
+    },
+    {
+      "path": "/product/aws-ai-bedrock-10-rpm-32vcpus-124/",
+      "type": "Product",
+      "productSnippetRequiredFields": "PASS",
+      "reason": "name + supported priced Offer"
+    },
+    {
+      "path": "/product/aws-ai-bedrock-10k-rpm-32vcpus-116/",
+      "type": "Product",
+      "productSnippetRequiredFields": "PASS",
+      "reason": "name + supported priced Offer"
+    },
+    {
+      "path": "/product/aws-ai-bedrock-10k-rpm-256vcpus-117/",
+      "type": "Product",
+      "productSnippetRequiredFields": "NOT ELIGIBLE",
+      "reason": "Quote-only Product; no invented Offer/review/rating"
+    },
+    {
+      "path": "/product/kiro-enabled-account-118/",
+      "type": "Product",
+      "productSnippetRequiredFields": "PASS",
+      "reason": "name + supported priced Offer"
+    },
+    {
+      "path": "/product/aws-bedrock-256vcpus-10k-rpm-4-6-4-7-4-8-f5-supported-119/",
+      "type": "Product",
+      "productSnippetRequiredFields": "PASS",
+      "reason": "name + supported priced Offer"
+    },
+    {
+      "path": "/product/aws-bedrock-384vcpus-10k-rpm-4-6-4-7-4-8-f5-supported-120/",
+      "type": "Product",
+      "productSnippetRequiredFields": "PASS",
+      "reason": "name + supported priced Offer"
+    },
+    {
+      "path": "/product/aws-bedrock-512vcpus-10k-rpm-4-6-4-7-4-8-f5-supported-121/",
+      "type": "Product",
+      "productSnippetRequiredFields": "PASS",
+      "reason": "name + supported priced Offer"
+    },
+    {
+      "path": "/product/aws-bedrock-1024vcpus-10k-rpm-4-6-4-7-4-8-f5-supported-122/",
+      "type": "Product",
+      "productSnippetRequiredFields": "PASS",
+      "reason": "name + supported priced Offer"
+    },
+    {
+      "path": "/product/aws-bedrock-1920vcpus-10k-rpm-4-6-4-7-4-8-f5-supported-123/",
+      "type": "Product",
+      "productSnippetRequiredFields": "PASS",
+      "reason": "name + supported priced Offer"
+    },
+    {
+      "path": "/product/google-cloud-300-10-prepaid-301/",
+      "type": "Product",
+      "productSnippetRequiredFields": "PASS",
+      "reason": "name + supported priced Offer"
+    },
+    {
+      "path": "/product/google-cloud-pay-as-you-go-10-payment-required-302/",
+      "type": "Product",
+      "productSnippetRequiredFields": "PASS",
+      "reason": "name + supported priced Offer"
+    },
+    {
+      "path": "/product/google-cloud-pay-as-you-go-20-cad-payment-required-303/",
+      "type": "Product",
+      "productSnippetRequiredFields": "PASS",
+      "reason": "name + supported priced Offer"
+    },
+    {
+      "path": "/product/google-cloud-2-000-credits-account-304/",
+      "type": "Product",
+      "productSnippetRequiredFields": "NOT ELIGIBLE",
+      "reason": "Quote-only Product; no invented Offer/review/rating"
+    },
+    {
+      "path": "/product/google-cloud-5-000-credits-account-305/",
+      "type": "Product",
+      "productSnippetRequiredFields": "PASS",
+      "reason": "name + supported priced Offer"
+    },
+    {
+      "path": "/product/google-cloud-25-000-credits-account-306/",
+      "type": "Product",
+      "productSnippetRequiredFields": "PASS",
+      "reason": "name + supported priced Offer"
+    },
+    {
+      "path": "/product/azure-free-trial-with-200-credit-307/",
+      "type": "Product",
+      "productSnippetRequiredFields": "PASS",
+      "reason": "name + supported priced Offer"
+    },
+    {
+      "path": "/product/azure-pay-as-you-go-with-200-credit-308/",
+      "type": "Product",
+      "productSnippetRequiredFields": "PASS",
+      "reason": "name + supported priced Offer"
+    },
+    {
+      "path": "/product/azure-azure-1k-tier-1-support-claude-309/",
+      "type": "Product",
+      "productSnippetRequiredFields": "PASS",
+      "reason": "name + supported priced Offer"
+    },
+    {
+      "path": "/product/azure-azure-5k-credit-account-310/",
+      "type": "Product",
+      "productSnippetRequiredFields": "PASS",
+      "reason": "name + supported priced Offer"
+    },
+    {
+      "path": "/product/digitalocean-do-3-droplet-311/",
+      "type": "Product",
+      "productSnippetRequiredFields": "PASS",
+      "reason": "name + supported priced Offer"
+    },
+    {
+      "path": "/product/linode-free-trial-100-credit-312/",
+      "type": "Product",
+      "productSnippetRequiredFields": "PASS",
+      "reason": "name + supported priced Offer"
+    },
+    {
+      "path": "/product/ovhcloud-34-vcpus-313/",
+      "type": "Product",
+      "productSnippetRequiredFields": "PASS",
+      "reason": "name + supported priced Offer"
+    },
+    {
+      "path": "/product/oracle-cloud-free-trial-300-314/",
+      "type": "Product",
+      "productSnippetRequiredFields": "PASS",
+      "reason": "name + supported priced Offer"
+    },
+    {
+      "path": "/product/hetzner-hetzner-5-server-account-315/",
+      "type": "Product",
+      "productSnippetRequiredFields": "PASS",
+      "reason": "name + supported priced Offer"
+    },
+    {
+      "path": "/product/amazon-ses-smtp-50k-limits-316/",
+      "type": "Product",
+      "productSnippetRequiredFields": "PASS",
+      "reason": "name + supported priced Offer"
+    },
+    {
+      "path": "/product/amazon-ses-smtp-100k-limits-317/",
+      "type": "Product",
+      "productSnippetRequiredFields": "PASS",
+      "reason": "name + supported priced Offer"
+    },
+    {
+      "path": "/product/upcloud-500-credit-318/",
+      "type": "Product",
+      "productSnippetRequiredFields": "PASS",
+      "reason": "name + supported priced Offer"
+    },
+    {
+      "path": "/product/atlantic-atlantic-cloud-free-trial-319/",
+      "type": "Product",
+      "productSnippetRequiredFields": "PASS",
+      "reason": "name + supported priced Offer"
+    },
+    {
+      "path": "/product/alibaba-cloud-alibaba-cloud-free-trial-320/",
+      "type": "Product",
+      "productSnippetRequiredFields": "PASS",
+      "reason": "name + supported priced Offer"
+    },
+    {
+      "path": "/product/aws-marketplace-verified-marketplace-account-321/",
+      "type": "Product",
+      "productSnippetRequiredFields": "PASS",
+      "reason": "name + supported priced Offer"
+    },
+    {
+      "path": "/product/aws-cloud-starter-1/",
+      "type": "Service",
+      "productSnippetRequiredFields": "NOT ELIGIBLE",
+      "reason": "Illustrative service; no Product rich-result assertion"
+    },
+    {
+      "path": "/product/google-cloud-starter-2/",
+      "type": "Service",
+      "productSnippetRequiredFields": "NOT ELIGIBLE",
+      "reason": "Illustrative service; no Product rich-result assertion"
+    },
+    {
+      "path": "/product/azure-cloud-starter-3/",
+      "type": "Service",
+      "productSnippetRequiredFields": "NOT ELIGIBLE",
+      "reason": "Illustrative service; no Product rich-result assertion"
+    },
+    {
+      "path": "/product/digitalocean-starter-4/",
+      "type": "Service",
+      "productSnippetRequiredFields": "NOT ELIGIBLE",
+      "reason": "Illustrative service; no Product rich-result assertion"
+    },
+    {
+      "path": "/product/aws-launch-plus-5/",
+      "type": "Service",
+      "productSnippetRequiredFields": "NOT ELIGIBLE",
+      "reason": "Illustrative service; no Product rich-result assertion"
+    },
+    {
+      "path": "/product/google-cloud-launch-plus-6/",
+      "type": "Service",
+      "productSnippetRequiredFields": "NOT ELIGIBLE",
+      "reason": "Illustrative service; no Product rich-result assertion"
+    }
+  ],
+  "limitations": [
+    "Literal range coercion is not exhaustively validated.",
+    "Google Rich Results Test service has not been run; no Google display eligibility guarantee.",
+    "Search-policy eligibility is separate from syntax and required-field checks."
+  ]
+}
