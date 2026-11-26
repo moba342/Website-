@@ -1,6 +1,6 @@
 # CloudsSupply — production SEO implementation
 
-Date: 2026-11-27 (Asia/Dhaka). Canonical destination: https://www.cloudssupply.site/.
+Date: 2026-11-27 (Asia/Dhaka). Canonical destination: https://cloudssupply.site/.
 
 ## Inventory and preservation
 
@@ -17,7 +17,7 @@ Prices, internal product IDs, contact details, payment addresses, 1 USD = 1 USDT
 - Hydrated server HTML safely, preserving browser-local carts and checkout drafts.
 - Self-hosted active fonts, optimized favicon/wordmark, delivered responsive WebP imagery, added a skip link and corrected accessible heading/button names.
 - Added source-controlled redirects, a realistic production preview, comprehensive static/HTTP/browser tests, and repeatable mobile/desktop Lighthouse runners.
-- Registered the missing apex hostname on the existing production Vercel project with a permanent www redirect and verified TLS when live evidence is present.
+- Configured the apex hostname as primary on the existing production Vercel project with a permanent www-to-apex redirect and verified TLS when live evidence is present.
 
 ## Evidence-based checklist
 

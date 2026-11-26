@@ -1,6 +1,6 @@
 # Technical SEO report
 
-Canonical production origin: https://www.cloudssupply.site/. Inventory: 13 providers, 51 product pages, 64 catalog records and 74 public indexable URLs. Two noindex utility routes are separate.
+Canonical production origin: https://cloudssupply.site/. Inventory: 13 providers, 51 product pages, 64 catalog records and 74 public indexable URLs. Two noindex utility routes are separate.
 
 ## Implemented
 
@@ -19,7 +19,7 @@ Canonical production origin: https://www.cloudssupply.site/. Inventory: 13 provi
 
 Social metadata now uses website for collection/home pages and product only for an individual account Product.
 
-Source: vercel.json. Vercel project: website, linked to moba342/Website- main. The existing authenticated account was used to add cloudssupply.site to the same project with a 308 redirect to www.cloudssupply.site. The response and live TLS/redirect chain are saved in evidence/apex-project-assignment.json and evidence/http-live.json. Do not disable certificate validation.
+Source: vercel.json. Vercel project: website, linked to moba342/Website- main. The production primary hostname is cloudssupply.site; www.cloudssupply.site permanently redirects to it. The response and live TLS/redirect chain are saved in evidence/apex-project-assignment.json and evidence/http-live.json. Do not disable certificate validation.
 
 Local HTTP audit: PASS. Final production HTTP audit: PASS. Production field Core Web Vitals are NOT TESTED; lab metrics are documented separately.
 

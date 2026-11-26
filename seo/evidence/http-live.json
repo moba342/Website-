@@ -1,5 +1,5 @@
 {
-  "origin": "https://www.cloudssupply.site",
+  "origin": "https://cloudssupply.site",
   "label": "live",
   "pages": [
     {
@@ -543,27 +543,27 @@
     {
       "path": "/robots.txt",
       "status": 200,
-      "body": "User-agent: *\nAllow: /\n\nSitemap: https://www.cloudssupply.site/sitemap_index.xml\n"
+      "body": "User-agent: *\nAllow: /\n\nSitemap: https://cloudssupply.site/sitemap_index.xml\n"
     },
     {
       "path": "/sitemap_index.xml",
       "status": 200,
-      "body": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap><loc>https://www.cloudssupply.site/pages-sitemap.xml</loc></sitemap>\n  <sitemap><loc>https://www.cloudssupply.site/providers-sitemap.xml</loc></sitemap>\n  <sitemap><loc>https://www.cloudssupply.site/products-sitemap.xml</loc></sitemap>\n</sitemapindex>\n"
+      "body": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap><loc>https://cloudssupply.site/pages-sitemap.xml</loc></sitemap>\n  <sitemap><loc>https://cloudssupply.site/providers-sitemap.xml</loc></sitemap>\n  <sitemap><loc>https://cloudssupply.site/products-sitemap.xml</loc></sitemap>\n</sitemapindex>\n"
     },
     {
       "path": "/pages-sitemap.xml",
       "status": 200,
-      "body": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<urlset xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <url><loc>https://www.cloudssupply.site/</loc></url>\n  <url><loc>https://www.cloudssupply.site/all-products/</loc></url>\n  <url><loc>https://www.cloudssupply.site/cloud-service-accounts/</loc></url>\n  <url><loc>https://www.cloudssupply.site/aws-standard/</loc></url>\n  <url><loc>https://www.cloudssupply.site/bedrock-api/</loc></url>\n  <url><loc>https://www.cloudssupply.site/aws-bedrock-api-key/</loc></url>\n  <url><loc>https://www.cloudssupply.site/aws-account-configurator/</loc></url>\n  <url><loc>https://www.cloudssupply.site/contact/</loc></url>\n  <url><loc>https://www.cloudssupply.site/faq/</loc></url>\n  <url><loc>https://www.cloudssupply.site/refund/</loc></url>\n</urlset>\n"
+      "body": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<urlset xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <url><loc>https://cloudssupply.site/</loc></url>\n  <url><loc>https://cloudssupply.site/all-products/</loc></url>\n  <url><loc>https://cloudssupply.site/cloud-service-accounts/</loc></url>\n  <url><loc>https://cloudssupply.site/aws-standard/</loc></url>\n  <url><loc>https://cloudssupply.site/bedrock-api/</loc></url>\n  <url><loc>https://cloudssupply.site/aws-bedrock-api-key/</loc></url>\n  <url><loc>https://cloudssupply.site/aws-account-configurator/</loc></url>\n  <url><loc>https://cloudssupply.site/contact/</loc></url>\n  <url><loc>https://cloudssupply.site/faq/</loc></url>\n  <url><loc>https://cloudssupply.site/refund/</loc></url>\n</urlset>\n"
     },
     {
       "path": "/providers-sitemap.xml",
       "status": 200,
-      "body": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<urlset xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <url><loc>https://www.cloudssupply.site/provider/aws/</loc></url>\n  <url><loc>https://www.cloudssupply.site/provider/google-cloud/</loc></url>\n  <url><loc>https://www.cloudssupply.site/provider/azure/</loc></url>\n  <url><loc>https://www.cloudssupply.site/provider/digitalocean/</loc></url>\n  <url><loc>https://www.cloudssupply.site/provider/linode/</loc></url>\n  <url><loc>https://www.cloudssupply.site/provider/ovhcloud/</loc></url>\n  <url><loc>https://www.cloudssupply.site/provider/oracle/</loc></url>\n  <url><loc>https://www.cloudssupply.site/provider/hetzner/</loc></url>\n  <url><loc>https://www.cloudssupply.site/provider/amazon-ses/</loc></url>\n  <url><loc>https://www.cloudssupply.site/provider/upcloud/</loc></url>\n  <url><loc>https://www.cloudssupply.site/provider/atlantic/</loc></url>\n  <url><loc>https://www.cloudssupply.site/provider/alibaba/</loc></url>\n  <url><loc>https://www.cloudssupply.site/provider/aws-marketplace/</loc></url>\n</urlset>\n"
+      "body": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<urlset xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <url><loc>https://cloudssupply.site/provider/aws/</loc></url>\n  <url><loc>https://cloudssupply.site/provider/google-cloud/</loc></url>\n  <url><loc>https://cloudssupply.site/provider/azure/</loc></url>\n  <url><loc>https://cloudssupply.site/provider/digitalocean/</loc></url>\n  <url><loc>https://cloudssupply.site/provider/linode/</loc></url>\n  <url><loc>https://cloudssupply.site/provider/ovhcloud/</loc></url>\n  <url><loc>https://cloudssupply.site/provider/oracle/</loc></url>\n  <url><loc>https://cloudssupply.site/provider/hetzner/</loc></url>\n  <url><loc>https://cloudssupply.site/provider/amazon-ses/</loc></url>\n  <url><loc>https://cloudssupply.site/provider/upcloud/</loc></url>\n  <url><loc>https://cloudssupply.site/provider/atlantic/</loc></url>\n  <url><loc>https://cloudssupply.site/provider/alibaba/</loc></url>\n  <url><loc>https://cloudssupply.site/provider/aws-marketplace/</loc></url>\n</urlset>\n"
     },
     {
       "path": "/products-sitemap.xml",
       "status": 200,
-      "body": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<urlset xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <url><loc>https://www.cloudssupply.site/product/aws-free-trial-101/</loc></url>\n  <url><loc>https://www.cloudssupply.site/product/aws-8vcpu-102/</loc></url>\n  <url><loc>https://www.cloudssupply.site/product/aws-32-vcpu-103/</loc></url>\n  <url><loc>https://www.cloudssupply.site/product/aws-64-vcpu-104/</loc></url>\n  <url><loc>https://www.cloudssupply.site/product/aws-128-vcpu-105/</loc></url>\n  <url><loc>https://www.cloudssupply.site/product/aws-256-vcpu-106/</loc></url>\n  <url><loc>https://www.cloudssupply.site/product/aws-512-vcpu-107/</loc></url>\n  <url><loc>https://www.cloudssupply.site/product/aws-1k-credit-108/</loc></url>\n  <url><loc>https://www.cloudssupply.site/product/aws-5k-credit-109/</loc></url>\n  <url><loc>https://www.cloudssupply.site/product/aws-10k-credit-110/</loc></url>\n  <url><loc>https://www.cloudssupply.site/product/aws-25k-credit-111/</loc></url>\n  <url><loc>https://www.cloudssupply.site/product/aws-50k-credit-112/</loc></url>\n  <url><loc>https://www.cloudssupply.site/product/aws-100k-credit-113/</loc></url>\n  <url><loc>https://www.cloudssupply.site/product/aws-ai-bedrock-10-rpm-5vcpu-114/</loc></url>\n  <url><loc>https://www.cloudssupply.site/product/aws-ai-bedrock-50-rpm-5vcpus-115/</loc></url>\n  <url><loc>https://www.cloudssupply.site/product/aws-ai-bedrock-10-rpm-32vcpus-124/</loc></url>\n  <url><loc>https://www.cloudssupply.site/product/aws-ai-bedrock-10k-rpm-32vcpus-116/</loc></url>\n  <url><loc>https://www.cloudssupply.site/product/aws-ai-bedrock-10k-rpm-256vcpus-117/</loc></url>\n  <url><loc>https://www.cloudssupply.site/product/kiro-enabled-account-118/</loc></url>\n  <url><loc>https://www.cloudssupply.site/product/aws-bedrock-256vcpus-10k-rpm-4-6-4-7-4-8-f5-supported-119/</loc></url>\n  <url><loc>https://www.cloudssupply.site/product/aws-bedrock-384vcpus-10k-rpm-4-6-4-7-4-8-f5-supported-120/</loc></url>\n  <url><loc>https://www.cloudssupply.site/product/aws-bedrock-512vcpus-10k-rpm-4-6-4-7-4-8-f5-supported-121/</loc></url>\n  <url><loc>https://www.cloudssupply.site/product/aws-bedrock-1024vcpus-10k-rpm-4-6-4-7-4-8-f5-supported-122/</loc></url>\n  <url><loc>https://www.cloudssupply.site/product/aws-bedrock-1920vcpus-10k-rpm-4-6-4-7-4-8-f5-supported-123/</loc></url>\n  <url><loc>https://www.cloudssupply.site/product/google-cloud-300-10-prepaid-301/</loc></url>\n  <url><loc>https://www.cloudssupply.site/product/google-cloud-pay-as-you-go-10-payment-required-302/</loc></url>\n  <url><loc>https://www.cloudssupply.site/product/google-cloud-pay-as-you-go-20-cad-payment-required-303/</loc></url>\n  <url><loc>https://www.cloudssupply.site/product/google-cloud-2-000-credits-account-304/</loc></url>\n  <url><loc>https://www.cloudssupply.site/product/google-cloud-5-000-credits-account-305/</loc></url>\n  <url><loc>https://www.cloudssupply.site/product/google-cloud-25-000-credits-account-306/</loc></url>\n  <url><loc>https://www.cloudssupply.site/product/azure-free-trial-with-200-credit-307/</loc></url>\n  <url><loc>https://www.cloudssupply.site/product/azure-pay-as-you-go-with-200-credit-308/</loc></url>\n  <url><loc>https://www.cloudssupply.site/product/azure-azure-1k-tier-1-support-claude-309/</loc></url>\n  <url><loc>https://www.cloudssupply.site/product/azure-azure-5k-credit-account-310/</loc></url>\n  <url><loc>https://www.cloudssupply.site/product/digitalocean-do-3-droplet-311/</loc></url>\n  <url><loc>https://www.cloudssupply.site/product/linode-free-trial-100-credit-312/</loc></url>\n  <url><loc>https://www.cloudssupply.site/product/ovhcloud-34-vcpus-313/</loc></url>\n  <url><loc>https://www.cloudssupply.site/product/oracle-cloud-free-trial-300-314/</loc></url>\n  <url><loc>https://www.cloudssupply.site/product/hetzner-hetzner-5-server-account-315/</loc></url>\n  <url><loc>https://www.cloudssupply.site/product/amazon-ses-smtp-50k-limits-316/</loc></url>\n  <url><loc>https://www.cloudssupply.site/product/amazon-ses-smtp-100k-limits-317/</loc></url>\n  <url><loc>https://www.cloudssupply.site/product/upcloud-500-credit-318/</loc></url>\n  <url><loc>https://www.cloudssupply.site/product/atlantic-atlantic-cloud-free-trial-319/</loc></url>\n  <url><loc>https://www.cloudssupply.site/product/alibaba-cloud-alibaba-cloud-free-trial-320/</loc></url>\n  <url><loc>https://www.cloudssupply.site/product/aws-marketplace-verified-marketplace-account-321/</loc></url>\n  <url><loc>https://www.cloudssupply.site/product/aws-cloud-starter-1/</loc></url>\n  <url><loc>https://www.cloudssupply.site/product/google-cloud-starter-2/</loc></url>\n  <url><loc>https://www.cloudssupply.site/product/azure-cloud-starter-3/</loc></url>\n  <url><loc>https://www.cloudssupply.site/product/digitalocean-starter-4/</loc></url>\n  <url><loc>https://www.cloudssupply.site/product/aws-launch-plus-5/</loc></url>\n  <url><loc>https://www.cloudssupply.site/product/google-cloud-launch-plus-6/</loc></url>\n</urlset>\n"
+      "body": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<urlset xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <url><loc>https://cloudssupply.site/product/aws-free-trial-101/</loc></url>\n  <url><loc>https://cloudssupply.site/product/aws-8vcpu-102/</loc></url>\n  <url><loc>https://cloudssupply.site/product/aws-32-vcpu-103/</loc></url>\n  <url><loc>https://cloudssupply.site/product/aws-64-vcpu-104/</loc></url>\n  <url><loc>https://cloudssupply.site/product/aws-128-vcpu-105/</loc></url>\n  <url><loc>https://cloudssupply.site/product/aws-256-vcpu-106/</loc></url>\n  <url><loc>https://cloudssupply.site/product/aws-512-vcpu-107/</loc></url>\n  <url><loc>https://cloudssupply.site/product/aws-1k-credit-108/</loc></url>\n  <url><loc>https://cloudssupply.site/product/aws-5k-credit-109/</loc></url>\n  <url><loc>https://cloudssupply.site/product/aws-10k-credit-110/</loc></url>\n  <url><loc>https://cloudssupply.site/product/aws-25k-credit-111/</loc></url>\n  <url><loc>https://cloudssupply.site/product/aws-50k-credit-112/</loc></url>\n  <url><loc>https://cloudssupply.site/product/aws-100k-credit-113/</loc></url>\n  <url><loc>https://cloudssupply.site/product/aws-ai-bedrock-10-rpm-5vcpu-114/</loc></url>\n  <url><loc>https://cloudssupply.site/product/aws-ai-bedrock-50-rpm-5vcpus-115/</loc></url>\n  <url><loc>https://cloudssupply.site/product/aws-ai-bedrock-10-rpm-32vcpus-124/</loc></url>\n  <url><loc>https://cloudssupply.site/product/aws-ai-bedrock-10k-rpm-32vcpus-116/</loc></url>\n  <url><loc>https://cloudssupply.site/product/aws-ai-bedrock-10k-rpm-256vcpus-117/</loc></url>\n  <url><loc>https://cloudssupply.site/product/kiro-enabled-account-118/</loc></url>\n  <url><loc>https://cloudssupply.site/product/aws-bedrock-256vcpus-10k-rpm-4-6-4-7-4-8-f5-supported-119/</loc></url>\n  <url><loc>https://cloudssupply.site/product/aws-bedrock-384vcpus-10k-rpm-4-6-4-7-4-8-f5-supported-120/</loc></url>\n  <url><loc>https://cloudssupply.site/product/aws-bedrock-512vcpus-10k-rpm-4-6-4-7-4-8-f5-supported-121/</loc></url>\n  <url><loc>https://cloudssupply.site/product/aws-bedrock-1024vcpus-10k-rpm-4-6-4-7-4-8-f5-supported-122/</loc></url>\n  <url><loc>https://cloudssupply.site/product/aws-bedrock-1920vcpus-10k-rpm-4-6-4-7-4-8-f5-supported-123/</loc></url>\n  <url><loc>https://cloudssupply.site/product/google-cloud-300-10-prepaid-301/</loc></url>\n  <url><loc>https://cloudssupply.site/product/google-cloud-pay-as-you-go-10-payment-required-302/</loc></url>\n  <url><loc>https://cloudssupply.site/product/google-cloud-pay-as-you-go-20-cad-payment-required-303/</loc></url>\n  <url><loc>https://cloudssupply.site/product/google-cloud-2-000-credits-account-304/</loc></url>\n  <url><loc>https://cloudssupply.site/product/google-cloud-5-000-credits-account-305/</loc></url>\n  <url><loc>https://cloudssupply.site/product/google-cloud-25-000-credits-account-306/</loc></url>\n  <url><loc>https://cloudssupply.site/product/azure-free-trial-with-200-credit-307/</loc></url>\n  <url><loc>https://cloudssupply.site/product/azure-pay-as-you-go-with-200-credit-308/</loc></url>\n  <url><loc>https://cloudssupply.site/product/azure-azure-1k-tier-1-support-claude-309/</loc></url>\n  <url><loc>https://cloudssupply.site/product/azure-azure-5k-credit-account-310/</loc></url>\n  <url><loc>https://cloudssupply.site/product/digitalocean-do-3-droplet-311/</loc></url>\n  <url><loc>https://cloudssupply.site/product/linode-free-trial-100-credit-312/</loc></url>\n  <url><loc>https://cloudssupply.site/product/ovhcloud-34-vcpus-313/</loc></url>\n  <url><loc>https://cloudssupply.site/product/oracle-cloud-free-trial-300-314/</loc></url>\n  <url><loc>https://cloudssupply.site/product/hetzner-hetzner-5-server-account-315/</loc></url>\n  <url><loc>https://cloudssupply.site/product/amazon-ses-smtp-50k-limits-316/</loc></url>\n  <url><loc>https://cloudssupply.site/product/amazon-ses-smtp-100k-limits-317/</loc></url>\n  <url><loc>https://cloudssupply.site/product/upcloud-500-credit-318/</loc></url>\n  <url><loc>https://cloudssupply.site/product/atlantic-atlantic-cloud-free-trial-319/</loc></url>\n  <url><loc>https://cloudssupply.site/product/alibaba-cloud-alibaba-cloud-free-trial-320/</loc></url>\n  <url><loc>https://cloudssupply.site/product/aws-marketplace-verified-marketplace-account-321/</loc></url>\n  <url><loc>https://cloudssupply.site/product/aws-cloud-starter-1/</loc></url>\n  <url><loc>https://cloudssupply.site/product/google-cloud-starter-2/</loc></url>\n  <url><loc>https://cloudssupply.site/product/azure-cloud-starter-3/</loc></url>\n  <url><loc>https://cloudssupply.site/product/digitalocean-starter-4/</loc></url>\n  <url><loc>https://cloudssupply.site/product/aws-launch-plus-5/</loc></url>\n  <url><loc>https://cloudssupply.site/product/google-cloud-launch-plus-6/</loc></url>\n</urlset>\n"
     },
     {
       "path": "/googlee9c6c6adb26b90ba.html",
@@ -573,7 +573,7 @@
   ],
   "assets": [
     {
-      "path": "/assets/index-gVHGjTIv.js",
+      "path": "/assets/index-BBEmqzbu.js",
       "status": 200,
       "error": null
     },
@@ -702,11 +702,11 @@
     {
       "url": "https://buyaws-account.vercel.app/",
       "status": 200,
-      "effectiveUrl": "https://www.cloudssupply.site/",
+      "effectiveUrl": "https://cloudssupply.site/",
       "chain": [
         {
           "status": 308,
-          "location": "https://www.cloudssupply.site/"
+          "location": "https://cloudssupply.site/"
         },
         {
           "status": 200,
@@ -719,15 +719,11 @@
     {
       "url": "http://cloudssupply.site/",
       "status": 200,
-      "effectiveUrl": "https://www.cloudssupply.site/",
+      "effectiveUrl": "https://cloudssupply.site/",
       "chain": [
         {
           "status": 308,
           "location": "https://cloudssupply.site/"
-        },
-        {
-          "status": 308,
-          "location": "https://www.cloudssupply.site/"
         },
         {
           "status": 200,
@@ -738,13 +734,13 @@
       "loop": false
     },
     {
-      "url": "https://cloudssupply.site/",
+      "url": "https://www.cloudssupply.site/",
       "status": 200,
-      "effectiveUrl": "https://www.cloudssupply.site/",
+      "effectiveUrl": "https://cloudssupply.site/",
       "chain": [
         {
           "status": 308,
-          "location": "https://www.cloudssupply.site/"
+          "location": "https://cloudssupply.site/"
         },
         {
           "status": 200,
@@ -757,11 +753,15 @@
     {
       "url": "http://www.cloudssupply.site/",
       "status": 200,
-      "effectiveUrl": "https://www.cloudssupply.site/",
+      "effectiveUrl": "https://cloudssupply.site/",
       "chain": [
         {
           "status": 308,
           "location": "https://www.cloudssupply.site/"
+        },
+        {
+          "status": 308,
+          "location": "https://cloudssupply.site/"
         },
         {
           "status": 200,
@@ -772,13 +772,13 @@
       "loop": false
     },
     {
-      "url": "https://cloudssupply.site/product/aws-32-vcpu-103/?utm_source=seo-test",
+      "url": "https://www.cloudssupply.site/product/aws-32-vcpu-103/?utm_source=seo-test",
       "status": 200,
-      "effectiveUrl": "https://www.cloudssupply.site/product/aws-32-vcpu-103/?utm_source=seo-test",
+      "effectiveUrl": "https://cloudssupply.site/product/aws-32-vcpu-103/?utm_source=seo-test",
       "chain": [
         {
           "status": 308,
-          "location": "https://www.cloudssupply.site/product/aws-32-vcpu-103/?utm_source=seo-test"
+          "location": "https://cloudssupply.site/product/aws-32-vcpu-103/?utm_source=seo-test"
         },
         {
           "status": 200,
@@ -791,11 +791,11 @@
     {
       "url": "https://buyaws-account.vercel.app/product/aws-32-vcpu-103/?utm_source=seo-test",
       "status": 200,
-      "effectiveUrl": "https://www.cloudssupply.site/product/aws-32-vcpu-103/?utm_source=seo-test",
+      "effectiveUrl": "https://cloudssupply.site/product/aws-32-vcpu-103/?utm_source=seo-test",
       "chain": [
         {
           "status": 308,
-          "location": "https://www.cloudssupply.site/product/aws-32-vcpu-103/?utm_source=seo-test"
+          "location": "https://cloudssupply.site/product/aws-32-vcpu-103/?utm_source=seo-test"
         },
         {
           "status": 200,
@@ -806,13 +806,13 @@
       "loop": false
     },
     {
-      "url": "https://www.cloudssupply.site/home/?utm_source=seo-test",
+      "url": "https://cloudssupply.site/home/?utm_source=seo-test",
       "status": 200,
-      "effectiveUrl": "https://www.cloudssupply.site/?utm_source=seo-test",
+      "effectiveUrl": "https://cloudssupply.site/?utm_source=seo-test",
       "chain": [
         {
           "status": 308,
-          "location": "https://www.cloudssupply.site/?utm_source=seo-test"
+          "location": "https://cloudssupply.site/?utm_source=seo-test"
         },
         {
           "status": 200,
@@ -823,9 +823,9 @@
       "loop": false
     },
     {
-      "url": "https://www.cloudssupply.site/product/aws-32-vcpu-103",
+      "url": "https://cloudssupply.site/product/aws-32-vcpu-103",
       "status": 200,
-      "effectiveUrl": "https://www.cloudssupply.site/product/aws-32-vcpu-103/",
+      "effectiveUrl": "https://cloudssupply.site/product/aws-32-vcpu-103/",
       "chain": [
         {
           "status": 308,
