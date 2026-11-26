@@ -1,3 +1,4 @@
+import {artworkImage} from './artwork-types.js';
 import {allProducts,allProviders,findProduct,findProvider,productHref,providerHref} from './catalog-data.js';
 import {routeHref,pageRoutes,utilityRoutes} from './router.js';
 import {siteUrl,siteName,indexingAllowed} from './site-config.js';
@@ -45,13 +46,13 @@ export function metadataFor(route){
  const title=product?(data?.h1||product.name):provider?(providerCopy?.h1||provider.title):pages[route]?.[0]||utilityMetadata[route]?.[0]||'Page not found';
  const description=product?(data?.description||product.desc):provider?(providerCopy?.description||providerDescriptions[provider.slug]||provider.guide.summary):pages[route]?.[1]||utilityMetadata[route]?.[1]||'The requested page could not be found. Browse our cloud account catalog.';
  const pageTitle=product?(data?.title||product.name+' | '+siteName):providerCopy?providerCopy.title:pageSeo[route]?.title||title+' | '+siteName;
- const url=siteUrl+routeHref(route),image=siteUrl+(product?.image||provider?.image||'/products/premium/cloud-console-v2.jpg');
+ const url=siteUrl+routeHref(route),image=siteUrl+artworkImage(product||provider||{});
  const imageAlt=(product?.name||provider?.name||'CloudsSupply cloud accounts')+' — cloud infrastructure illustration';
  const organization={'@type':'Organization','@id':siteUrl+'/#organization',name:siteName,url:siteUrl+'/',logo:{'@type':'ImageObject',url:siteUrl+'/brand/cloudssupply-wordmark.webp',width:700,height:176},telephone:'+14582624274',sameAs:['https://t.me/Eljh_Miller'],contactPoint:{'@type':'ContactPoint',telephone:'+14582624274',contactType:'customer support',url:siteUrl+'/contact/'}};
  const items=collectionItems(route,provider);
  const webPage={'@type':product?'ItemPage':route==='contact'?'ContactPage':route==='faq'?'FAQPage':items.length?'CollectionPage':'WebPage','@id':url+'#webpage',url,name:pageTitle,description,inLanguage:'en',isPartOf:{'@id':siteUrl+'/#website'}};
  const graph=[organization,{'@type':'WebSite','@id':siteUrl+'/#website',url:siteUrl+'/',name:siteName,inLanguage:'en',publisher:{'@id':organization['@id']}},webPage];
- const productNode=p=>{const productUrl=siteUrl+productHref(p);const item={'@type':p.id<100?'Service':'Product','@id':productUrl+'#product',name:p.name,description:p.desc,image:siteUrl+p.image,sku:String(p.id),brand:{'@type':'Brand',name:p.provider},url:productUrl};if(p.id<100){delete item.sku;delete item.brand;item.identifier=String(p.id);item.provider={'@id':organization['@id']};item.serviceType=p.name;}if(p.price!=null&&p.id>=100)item.offers={'@type':'Offer',url:productUrl,price:p.price,priceCurrency:'USD',seller:{'@id':organization['@id']}};return item;};
+ const productNode=p=>{const productUrl=siteUrl+productHref(p);const item={'@type':p.id<100?'Service':'Product','@id':productUrl+'#product',name:p.name,description:p.desc,image:siteUrl+artworkImage(p),sku:String(p.id),brand:{'@type':'Brand',name:p.provider},url:productUrl};if(p.id<100){delete item.sku;delete item.brand;item.identifier=String(p.id);item.provider={'@id':organization['@id']};item.serviceType=p.name;}if(p.price!=null&&p.id>=100)item.offers={'@type':'Offer',url:productUrl,price:p.price,priceCurrency:'USD',seller:{'@id':organization['@id']}};return item;};
  if(product){const item=productNode(product);graph.push(item);webPage.mainEntity={'@id':item['@id']};const questions=productSeo[product.id]?.faqs||[];if(questions.length){const faq={'@type':'FAQPage','@id':url+'#product-faq',mainEntity:questions.map(([q,a])=>({'@type':'Question',name:q,acceptedAnswer:{'@type':'Answer',text:a}}))};graph.push(faq);webPage.hasPart={'@id':faq['@id']};}}
  if(route==='home'){
   graph.push(...items.map(productNode));

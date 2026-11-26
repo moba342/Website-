@@ -27,3 +27,7 @@ npm test; npm run build; node scripts/browser-qa.mjs http://localhost:4181; node
 - Homepage Lighthouse: mobile Performance 94; desktop Performance 100. Accessibility, Best Practices and SEO 100 on both. These are local production-preview lab measurements, not field Core Web Vitals or scores for every route. The first concurrent run is preserved separately as a diagnostic baseline.
 
 Production checks are recorded in seo/evidence/http-live.json and seo/evidence/browser-qa-live.json after the Vercel release is ready.
+
+## First production verification
+
+The Studio release deployed to the existing website and buyaws-account Vercel production projects successfully. Production HTTP/content checks passed 76 routes, 28 assets, 74 sitemap URLs and a genuine 404. Production browser smoke checks passed five representative routes at seven widths plus the complete manual-checkout flow. Social sharing and structured-data images are now connected to the same new artwork used on visible product pages.

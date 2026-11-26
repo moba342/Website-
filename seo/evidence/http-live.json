@@ -573,7 +573,7 @@
   ],
   "assets": [
     {
-      "path": "/assets/index-BBEmqzbu.js",
+      "path": "/assets/index-Dq1D7vhg.js",
       "status": 200,
       "error": null
     },
@@ -603,7 +603,7 @@
       "error": null
     },
     {
-      "path": "/assets/index-BIDq6nTb.css",
+      "path": "/assets/index-DP77VMc_.css",
       "status": 200,
       "error": null
     },
@@ -613,12 +613,7 @@
       "error": null
     },
     {
-      "path": "/cloud-network.svg",
-      "status": 200,
-      "error": null
-    },
-    {
-      "path": "/products/premium/cloud-console-v2-1200.webp",
+      "path": "/products/studio/cloud-infrastructure-1200.webp",
       "status": 200,
       "error": null
     },
@@ -644,6 +639,16 @@
     },
     {
       "path": "/logos/on-dark/linode.svg",
+      "status": 200,
+      "error": null
+    },
+    {
+      "path": "/products/studio/cloud-credits-1200.webp",
+      "status": 200,
+      "error": null
+    },
+    {
+      "path": "/products/studio/ai-processor-1200.webp",
       "status": 200,
       "error": null
     },
@@ -693,7 +698,17 @@
       "error": null
     },
     {
-      "path": "/products/premium/cloud-console-v2-480.webp",
+      "path": "/products/studio/cloud-credits-640.webp",
+      "status": 200,
+      "error": null
+    },
+    {
+      "path": "/products/studio/cloud-infrastructure-640.webp",
+      "status": 200,
+      "error": null
+    },
+    {
+      "path": "/products/studio/ai-processor-640.webp",
       "status": 200,
       "error": null
     }
