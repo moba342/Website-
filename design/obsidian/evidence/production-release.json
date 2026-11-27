@@ -1,0 +1,15 @@
+{
+  "origin": "https://cloudssupply.site",
+  "runtimeCommit": "8df830e",
+  "project": "website",
+  "deploymentUrl": "https://vercel.com/mo-ba2/website/ErQLHBHGMGMrNoEp2fX1NFDhpKEV",
+  "deploymentStatus": "READY",
+  "verifiedAt": "2026-11-27T01:21:11.265527+00:00",
+  "httpRoutes": 94,
+  "httpFailures": 0,
+  "publicSitemapUrls": 92,
+  "liveBrowserSmoke": "PASS: 5 page types \u00d7 9 widths, navigation, variations, cart, checkout and receipt validation",
+  "localFullBrowser": "PASS: 94 routes \u00d7 9 widths",
+  "catalog": "Unchanged: 14 providers and 68 variants",
+  "paymentsOrMessagesSent": false
+}

@@ -1,0 +1,1 @@
+Browser QA passed: 5 routes at 9 viewport widths, plus navigation, variations, cart, checkout and receipt tests. No payment or message was sent.

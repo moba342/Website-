@@ -14,3 +14,5 @@ Local production-build homepage Lighthouse, isolated final runs:
 Both recorded runs have zero measured cumulative layout shift. These are local lab results for the homepage, not field Core Web Vitals or claims about every route. Browser screenshots and raw audits are in evidence/. Initial concurrent audit runs were superseded by isolated final runs.
 
 All authoritative catalog, article, SEO metadata, payment, cart/order and routing source files match the preceding release byte for byte. Generated metadata/schema checks continue to pass. Public deployment is recorded separately after verification.
+
+Production: Vercel `website` deployment ErQLHBHGMGMrNoEp2fX1NFDhpKEV is READY for runtime commit 8df830e. https://cloudssupply.site passes all 94 HTTP/content routes with zero failures, 30 tested assets, 92 sitemap URLs and a genuine 404. Live browser smoke checks pass across five page types at all nine widths, including the complete cart/checkout/receipt flow. See evidence/production-release.json.

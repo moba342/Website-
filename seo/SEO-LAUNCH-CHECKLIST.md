@@ -9,8 +9,8 @@
 | Structured Data | PASS | Catalog-backed prices and visible FAQ/schema parity. |
 | Production Build | PASS | 92 public + 2 utility routes. |
 | Automated Tests | PASS | 12 unit tests, responsive routes, all variation prices and draft/cart safeguards. |
-| Mobile Lighthouse Testing | NOT TESTED | Historical reports retained; no current-release score claimed. |
-| Desktop Lighthouse Testing | NOT TESTED | Historical reports retained; no current-release score claimed. |
+| Mobile Lighthouse Testing | TESTED | Homepage local lab: 98 performance; other categories 100. |
+| Desktop Lighthouse Testing | TESTED | Homepage local lab: 100 performance; other categories 100. |
 | Live Deployment | PASS | Current source/content manifest matches production. |
 | Hosting Redirect Optimization | PASS | Canonical domain and listing redirects verified live. |
 | Final Live Technical SEO Audit | PASS | LIVE-SEO-AUDIT.md and current HTTP evidence. |

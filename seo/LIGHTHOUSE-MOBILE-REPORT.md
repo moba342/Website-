@@ -1,5 +1,5 @@
 # mobile Lighthouse report
 
-Current merchant-catalog release: NOT TESTED. Earlier Lighthouse JSON/HTML reports remain in lighthouse/ as historical evidence for their recorded designs and URLs. They are not current-release scores.
+Current Obsidian Platinum homepage, local production-build lab run: performance 98, accessibility 100, best practices 100, SEO 100.
 
-Use node scripts/lighthouse-audit.mjs with the production origin and a distinct release label to measure this catalog. Real-user LCP, INP and CLS remain NOT TESTED.
+Raw report: ../design/obsidian/evidence/lighthouse-mobile.json. Validation and manifest identity: ../design/obsidian/evidence/validation-summary.json. Other route performance and real-user LCP, INP and CLS are NOT TESTED. Historical results in lighthouse/ remain historical.
