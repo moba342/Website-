@@ -1,0 +1,21 @@
+{
+  "origin": "https://cloudssupply.site",
+  "runtimeCommit": "aa788ab",
+  "vercelProject": "website",
+  "deployment": "dpl_BtH9DxJ3ziJyTU6rExCJr8TtjZEk",
+  "deploymentStatus": "READY",
+  "providers": 14,
+  "variations": 68,
+  "liveVariationPrices": "PASS",
+  "legacyProductRedirects": 48,
+  "liveHttpRoutes": 94,
+  "httpFailures": 0,
+  "indexableUrls": 92,
+  "retiredAlias": {
+    "host": "buyaws-account.vercel.app",
+    "status": 404,
+    "result": "DEPLOYMENT_NOT_FOUND"
+  },
+  "paymentTransfersPerformed": false,
+  "verifiedAt": "2026-11-27T01:08:56.898012+00:00"
+}

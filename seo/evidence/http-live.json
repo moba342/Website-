@@ -5,7 +5,7 @@
     "status": 404,
     "result": "UNAVAILABLE"
   },
-  "manifestHash": "d9d73607b27a71473b5b72bcb29c5a759ad693dc19b7d9e45084957c1c990baa",
+  "manifestHash": "9b0cb7454a96dd08249397b74af89ae23a514d18a79ae38405058879987565fc",
   "origin": "https://cloudssupply.site",
   "label": "live",
   "pages": [
@@ -706,7 +706,7 @@
   ],
   "assets": [
     {
-      "path": "/assets/index-OG4y_fC5.js",
+      "path": "/assets/index-CdGbvjop.js",
       "status": 200,
       "error": null
     },
@@ -736,7 +736,7 @@
       "error": null
     },
     {
-      "path": "/assets/catalog-seo-CWiblwvK.js",
+      "path": "/assets/catalog-seo-D5b7C6um.js",
       "status": 200,
       "error": null
     },
