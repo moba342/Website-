@@ -26,4 +26,6 @@ Merchant model/version labels are displayed as supplied and must be confirmed fo
 | XML Sitemap Submission | MANUAL ACTION REQUIRED | https://cloudssupply.site/sitemap_index.xml; no new submission performed. |
 | Request Indexing | MANUAL ACTION REQUIRED | Owner URL Inspection; no actual indexing claim. |
 
+The older buyaws-account.vercel.app address currently reports DEPLOYMENT_NOT_FOUND and its project is not found in the connected Vercel team. The main-domain production audit is explicitly scoped to cloudssupply.site; full-alias failures are retained in evidence/merchant-catalog/http-with-retired-alias.json. No replacement legacy project was created.
+
 Historical audit/performance evidence is retained under baseline/, lighthouse/ and earlier release folders. Baseline SEO-AUDIT-BEFORE.md remains unchanged. Google indexing, Search Console submission and current-release field performance are not claimed.

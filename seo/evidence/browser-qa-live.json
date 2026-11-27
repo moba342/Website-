@@ -86,7 +86,7 @@
       "status": "PASS"
     },
     {
-      "test": "remove item, quote-only cart blocks payment, tampered stored price ignored",
+      "test": "retired cart item notice and current catalog prices replace tampered stored prices",
       "status": "PASS"
     },
     {

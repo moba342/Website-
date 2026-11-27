@@ -10,19 +10,19 @@ computing gzip size...
 dist/index.html                           1.21 kB │ gzip:  0.58 kB
 dist/assets/index-DLkn_Q3w.css          230.57 kB │ gzip: 44.44 kB
 dist/assets/qr-code-Yk9eKAZd.js          16.69 kB │ gzip:  6.28 kB
-dist/assets/catalog-seo-CWiblwvK.js     134.45 kB │ gzip: 10.27 kB
+dist/assets/catalog-seo-D5b7C6um.js     134.47 kB │ gzip: 10.26 kB
 dist/assets/catalog-guides-BCexGENs.js  177.19 kB │ gzip: 10.39 kB
-dist/assets/index-OG4y_fC5.js           210.86 kB │ gzip: 44.94 kB
+dist/assets/index-CdGbvjop.js           210.86 kB │ gzip: 44.94 kB
 dist/assets/react-vendor-BDdCVDbo.js    222.44 kB │ gzip: 69.05 kB
-✓ built in 872ms
+✓ built in 871ms
 vite v6.4.6 building SSR bundle for production...
 transforming...
 ✓ 59 modules transformed.
 rendering chunks...
-.ssr/assets/catalog-seo-CX6H0eAG.js     138.92 kB
+.ssr/assets/catalog-seo-BxU_MZYg.js     138.93 kB
 .ssr/assets/catalog-guides-kOJf6U8j.js  182.14 kB
 .ssr/entry-server.js                    249.34 kB
-✓ built in 186ms
+✓ built in 169ms
 Pre-rendered 92 indexable pages and 2 noindex checkout pages with canonical metadata and three sitemaps.
 SEO audit passed: 92 public pages, 89 unique commercial primary keywords, 68 products, no duplicate metadata or orphan pages. Maximum crawl depth: 2.
 0 secondary-phrase coverage notes saved for editorial review.

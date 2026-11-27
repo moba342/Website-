@@ -3,8 +3,10 @@ import {readFile,writeFile} from 'node:fs/promises';
 import {createHash} from 'node:crypto';
 import {parse} from 'parse5';
 import {XMLParser,XMLValidator} from 'fast-xml-parser';
+const primaryOnly=process.argv.includes('--primary-only');
 const origin=process.argv[2]||'http://localhost:4173',label=process.argv[3]||'local',canonical='https://cloudssupply.site';
-const manifest=JSON.parse(await readFile('seo/evidence/page-manifest.json','utf8')),pages=[];
+const manifestContent=await readFile('seo/evidence/page-manifest.json','utf8');
+const manifest=JSON.parse(manifestContent),pages=[];
 const hash=s=>createHash('sha256').update(s).digest('hex');
 function walk(n,fn){fn(n);for(const c of n.childNodes||[])walk(c,fn);}
 function elements(n,tag){const out=[];walk(n,c=>{if(c.tagName===tag)out.push(c)});return out;}
@@ -42,7 +44,7 @@ const missing=request(origin+'/nonexistent-seo-test-route/'),files=[];
 for(const path of ['/robots.txt','/sitemap_index.xml','/pages-sitemap.xml','/providers-sitemap.xml','/products-sitemap.xml','/googlee9c6c6adb26b90ba.html']){const r=request(origin+path);files.push({path,status:r.status,body:r.body,error:r.error});}
 const assetResults=[];for(const path of assets){const r=request(origin+path,false,'HEAD');assetResults.push({path,status:r.status,error:r.error||null});}
 const redirects=[],candidates=label==='live'?['https://buyaws-account.vercel.app/','http://cloudssupply.site/','https://www.cloudssupply.site/','http://www.cloudssupply.site/','https://www.cloudssupply.site/product/aws-32-vcpu-103/?utm_source=seo-test','https://buyaws-account.vercel.app/product/aws-32-vcpu-103/?utm_source=seo-test',origin+'/home/?utm_source=seo-test',origin+'/product/aws-32-vcpu-103']: [origin+'/home/?utm_source=seo-test',origin+'/product/aws-32-vcpu-103'];
-for(const url of candidates){const r=request(url,true,'HEAD');redirects.push({url,status:r.status,effectiveUrl:r.effectiveUrl,chain:r.chain,error:r.error||null,loop:!!r.error?.includes('redirect')});}
+for(const url of candidates.filter(url=>!primaryOnly||!url.includes('buyaws-account.vercel.app'))){const r=request(url,true,'HEAD');redirects.push({url,status:r.status,effectiveUrl:r.effectiveUrl,chain:r.chain,error:r.error||null,loop:!!r.error?.includes('redirect')});}
 const xp=new XMLParser(),sitemapUrls=[];let sitemapValid=true;
 for(const f of files.filter(f=>/\/(pages|providers|products)-sitemap.xml/.test(f.path))){if(XMLValidator.validate(f.body||'')!==true){sitemapValid=false;continue;}const entries=xp.parse(f.body).urlset.url;for(const p of Array.isArray(entries)?entries:[entries])sitemapUrls.push(p.loc);}
 const sitemapIndex=files.find(f=>f.path==='/sitemap_index.xml')?.body||'';
@@ -56,7 +58,8 @@ if(files.some(f=>f.status!==200))failures.push({reason:'Required robots/sitemap/
 if(!files.find(f=>f.path==='/robots.txt')?.body.includes('Sitemap: '+canonical+'/sitemap_index.xml'))failures.push({reason:'robots.txt sitemap mismatch'});
 for(const a of assetResults)if(a.status!==200)failures.push({path:a.path,reason:'Missing linked asset'});
 for(const r of redirects){if(r.status!==200||r.error||!r.chain?.slice(0,-1).every(h=>[301,308].includes(h.status)))failures.push({url:r.url,reason:'TLS/redirect chain failed'});if(r.effectiveUrl&&r.url.includes('utm_source=')&&!r.effectiveUrl.includes('utm_source=seo-test'))failures.push({url:r.url,reason:'Query parameter not preserved'});}
-const aliasUtilities=[];if(label==='live')for(const path of ['/cart/','/checkout/']){const r=request('https://buyaws-account.vercel.app'+path);aliasUtilities.push({path,status:r.status,noindex:r.body?.includes('noindex, follow')});if(r.status!==200||!r.body?.includes('noindex, follow'))failures.push({path,reason:'Existing alias browser-local cart/order route was not preserved'});}
-const results={manifestHash:hash(await readFile('seo/evidence/page-manifest.json','utf8')),origin,label,pages,missingPage:{status:missing.status,noindex:missing.body?.includes('noindex, follow')},files,assets:assetResults,redirects,aliasUtilities,indexValid,sitemapValid,sitemapCount:sitemapUrls.length,failures};
+const aliasUtilities=[];if(label==='live'&&!primaryOnly)for(const path of ['/cart/','/checkout/']){const r=request('https://buyaws-account.vercel.app'+path);aliasUtilities.push({path,status:r.status,noindex:r.body?.includes('noindex, follow')});if(r.status!==200||!r.body?.includes('noindex, follow'))failures.push({path,reason:'Existing alias browser-local cart/order route was not preserved'});}
+const legacyAlias=primaryOnly&&label==='live'?request('https://buyaws-account.vercel.app/'):null;
+const results={scope:primaryOnly?'primary-domain':'primary-and-legacy-alias',legacyAlias:legacyAlias?{url:'https://buyaws-account.vercel.app/',status:legacyAlias.status,result:legacyAlias.status===404?'UNAVAILABLE':'NOT IN THIS AUDIT SCOPE'}:null,manifestHash:hash(manifestContent),origin,label,pages,missingPage:{status:missing.status,noindex:missing.body?.includes('noindex, follow')},files,assets:assetResults,redirects,aliasUtilities,indexValid,sitemapValid,sitemapCount:sitemapUrls.length,failures};
 await writeFile('seo/evidence/http-'+label+'.json',JSON.stringify(results,null,2)+'\n');console.log(label+' HTTP/content audit:',pages.length,'routes;',failures.length,'failures; assets:',assetResults.length,'; sitemap:',sitemapUrls.length,'; 404:',missing.status);
 if(failures.length){console.error(JSON.stringify(failures.slice(0,12)));process.exitCode=1;}
