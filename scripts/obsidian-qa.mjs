@@ -12,17 +12,12 @@ assert.equal(await page.locator('.marquee-group').count(),2);assert.equal(await 
 await page.getByRole('button',{name:'Credits',exact:true}).click();assert.equal(await page.locator('.infra-metrics strong').innerText(),'5K — 100K');
 await page.getByRole('button',{name:'AI access',exact:true}).click();assert.equal(await page.locator('.infra-metrics strong').innerText(),'10 — 10K RPM');
 await page.getByRole('button',{name:'Compute',exact:true}).click();checks.push('Category preview shows catalog ranges');
-await page.getByRole('button',{name:'Pause dashboard animation',exact:true}).click();assert.equal(await page.locator('.infra-dashboard').evaluate(e=>getComputedStyle(e).animationPlayState),'paused');
-await page.getByRole('button',{name:'Play dashboard animation',exact:true}).click();
-await page.getByRole('button',{name:'Pause provider animation',exact:true}).click();assert.equal(await page.locator('.marquee-track').evaluate(e=>getComputedStyle(e).animationPlayState),'paused');
-await page.getByRole('button',{name:'Play provider animation',exact:true}).click();
-await page.locator('.marquee-group:not([aria-hidden]) a').first().focus();assert.equal(await page.locator('.marquee-track').evaluate(e=>getComputedStyle(e).animationPlayState),'paused');checks.push('Dashboard and marquee pause, keyboard focus pause, duplicate rail untabbable');
-await page.getByRole('button',{name:'Pause motion',exact:true}).click();assert.equal(await page.locator('.infra-dashboard').evaluate(e=>getComputedStyle(e).animationPlayState),'paused');checks.push('Global motion pause');
+assert.equal(await page.locator('.motion-toggle,.infra-title button,.ribbon-heading button,.premium-footer-art,.delivery-bottom-dock').count(),0);checks.push('Requested footer art, pause controls and floating delivery box removed');
 for(const path of ['/','/all-products/','/product/aws-32-vcpu-103/','/provider/google-cloud/','/contact/','/faq/','/refund/','/cart/','/checkout/']){
  await page.goto(origin+path,{waitUntil:'networkidle'});
  for(const w of [320,375,390,430,768,1024,1280,1440,1920]){await page.setViewportSize({width:w,height:900});assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth+1),false,path+' overflow '+w)}
  if(['/', '/all-products/','/product/aws-32-vcpu-103/'].includes(path)){
-  await page.getByRole('button',{name:'Pause motion',exact:true}).click();await page.evaluate(async()=>{await Promise.all([...document.images].map(async img=>{img.loading='eager';try{await img.decode()}catch{}}))});await page.setViewportSize({width:1440,height:1000});await page.screenshot({path:'design/obsidian/evidence/'+(path==='/'?'home':path.includes('product/aws')?'product':'catalog')+'-desktop.png',fullPage:true});await page.setViewportSize({width:390,height:844});await page.screenshot({path:'design/obsidian/evidence/'+(path==='/'?'home':path.includes('product/aws')?'product':'catalog')+'-mobile.png',fullPage:true});
+  await page.evaluate(()=>document.querySelectorAll('.will-reveal').forEach(e=>e.classList.add('is-revealed')));await page.evaluate(async()=>{await Promise.all([...document.images].map(async img=>{img.loading='eager';try{await img.decode()}catch{}}))});await page.setViewportSize({width:1440,height:1000});await page.screenshot({path:'design/obsidian/evidence/'+(path==='/'?'home':path.includes('product/aws')?'product':'catalog')+'-desktop.png',fullPage:true});await page.setViewportSize({width:390,height:844});await page.screenshot({path:'design/obsidian/evidence/'+(path==='/'?'home':path.includes('product/aws')?'product':'catalog')+'-mobile.png',fullPage:true});
  }
 }
 checks.push('Nine page types at all nine requested widths');

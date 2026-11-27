@@ -1,8 +1,6 @@
-import React,{useEffect,useState} from 'react';
+import React,{useEffect} from 'react';
 /** Progressive enhancement: the server-rendered storefront stays visible without JS. */
 export default function StudioMotion({route}){
- const[paused,setPaused]=useState(false);
- useEffect(()=>{document.documentElement.classList.toggle('motion-paused',paused);return()=>document.documentElement.classList.remove('motion-paused')},[paused]);
  useEffect(()=>{
   const reduced=window.matchMedia('(prefers-reduced-motion: reduce)');
   const fine=window.matchMedia('(hover: hover) and (pointer: fine)');
@@ -11,7 +9,7 @@ export default function StudioMotion({route}){
   let frame=0,scrollFrame=0;
   const halos=new Map();
   const click=e=>{
-   if(root.classList.contains('motion-paused')||!clickLayer||reduced.matches||e.button!==0||e.target.closest('input,textarea,select'))return;
+   if(!clickLayer||reduced.matches||e.button!==0||e.target.closest('input,textarea,select'))return;
    if(halos.size>=5){const [node,timer]=halos.entries().next().value;clearTimeout(timer);node.remove();halos.delete(node);}
    const halo=document.createElement('span');halo.className='studio-click-halo';halo.setAttribute('aria-hidden','true');halo.style.setProperty('--click-x',e.clientX+'px');halo.style.setProperty('--click-y',e.clientY+'px');clickLayer.appendChild(halo);
    const timer=setTimeout(()=>{halo.remove();halos.delete(halo);},700);halos.set(halo,timer);
@@ -28,5 +26,5 @@ export default function StudioMotion({route}){
   if(!reduced.matches&&'IntersectionObserver' in window){observer=new IntersectionObserver(entries=>{for(const entry of entries)if(entry.isIntersecting){entry.target.classList.add('is-revealed');observer.unobserve(entry.target);}},{threshold:.06});targets.forEach((el,i)=>{el.style.setProperty('--reveal-delay',Math.min(i%3,2)*65+'ms');el.classList.add('will-reveal');observer.observe(el);});}
   return()=>{window.removeEventListener('pointerdown',click);halos.forEach((timer,node)=>{clearTimeout(timer);node.remove();});halos.clear();observer?.disconnect();targets.forEach(el=>el.classList.remove('will-reveal','is-revealed'));window.removeEventListener('pointermove',move);window.removeEventListener('scroll',scroll);cancelAnimationFrame(frame);cancelAnimationFrame(scrollFrame);};
  },[route]);
- return <><button className="motion-toggle" aria-pressed={paused} onClick={()=>setPaused(!paused)}>{paused?'Resume motion':'Pause motion'}</button><div className="studio-click-layer" aria-hidden="true"/><div className="studio-pointer-glow" aria-hidden="true"/><div className="studio-reading-progress" aria-hidden="true"/></>;
+ return <><div className="studio-click-layer" aria-hidden="true"/><div className="studio-pointer-glow" aria-hidden="true"/><div className="studio-reading-progress" aria-hidden="true"/></>;
 }

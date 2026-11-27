@@ -1,5 +1,7 @@
 # CloudsSupply — Obsidian Platinum
 
+Latest owner-requested cleanup: footer artwork, pause controls and floating delivery dock removed. See CLEANUP.md. Original design decisions and validation below describe the initial redesign release.
+
 The owner requested an independent identity and preservation of all catalog/checkout/SEO behavior.
 
 Three explored directions: (1) terminal-first technical utility, (2) editorial metallic product journal, (3) infrastructure control room. Selected (3), with asymmetric editorial sections from (2). The homepage is a catalog instrument, not fabricated operational telemetry. Native category controls preview the merchant's actual ranges. No testimonials or customer activity have been invented.
