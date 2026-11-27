@@ -4,7 +4,7 @@ An original React storefront with pre-rendered HTML for every public route. The 
 
 ## Design
 
-Light editorial layouts, navy navigation and product stages, cobalt calls to action, distinct compute/credit/AI artwork, compact provider directory, a consistent system for collections, providers, articles, contact, FAQs, refund policy, cart and checkout. The existing CloudsSupply logo is retained.
+Dark editorial layouts, obsidian backgrounds, sapphire product stages and blue-to-violet calls to action, distinct compute/credit/AI artwork, compact provider directory, a consistent system for collections, providers, articles, contact, FAQs, refund policy, cart and checkout. The existing CloudsSupply logo is retained.
 
 ## Motion
 
@@ -31,3 +31,11 @@ Production checks are recorded in seo/evidence/http-live.json and seo/evidence/b
 ## First production verification
 
 The Studio release deployed to the existing website and buyaws-account Vercel production projects successfully. Production HTTP/content checks passed 76 routes, 28 assets, 74 sitemap URLs and a genuine 404. Production browser smoke checks passed five representative routes at seven widths plus the complete manual-checkout flow. Social sharing and structured-data images are now connected to the same new artwork used on visible product pages.
+
+## Nocturne dark theme update
+
+The current design uses obsidian backgrounds (#080e1b), sapphire surfaces, ice-blue text and violet highlights across all routes. Card lighting follows pointer position; supported desktop browsers show a rotating luminous border on hover or keyboard focus. Click halos are short-lived, capped at five, never intercept events, and are cleaned up on route changes. Inputs, text areas and selects do not trigger halos. Reduced-motion preferences suppress halos and ambient animation; touch interfaces skip cursor tracking and animated border layers. QR codes deliberately retain white backing for readability.
+
+The prior Studio Lighthouse reports describe the earlier light release. Dark-release lab results, when run, are saved separately under seo/lighthouse/nocturne/.
+
+Nocturne validation: production build, schema/SEO generation and all 10 unit tests passed. All 76 routes passed seven viewport widths; final representative browser, checkout and effects checks passed. Click halo creation/cleanup, viewport-edge clipping, pointer-following card illumination, animated border and reduced-motion suppression were verified in the browser. No payment or message was sent. New local homepage Lighthouse: mobile Performance 93, desktop Performance 100; Accessibility, Best Practices and SEO 100 for both. These measurements apply to the dark homepage production preview, not every page or real-user Core Web Vitals.

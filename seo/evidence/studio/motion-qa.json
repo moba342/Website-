@@ -2,6 +2,14 @@
   "errors": [],
   "results": [
     {
+      "test": "click halo appears then cleans up without blocking interaction",
+      "status": "PASS"
+    },
+    {
+      "test": "pointer-following card glow and animated border",
+      "status": "PASS"
+    },
+    {
       "page": "/",
       "status": "PASS"
     },

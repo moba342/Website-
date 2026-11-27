@@ -216,7 +216,7 @@ The old Vercel alias redirects public URLs to the production origin; its noindex
 
 ## CloudsSupply Studio redesign
 
-The current storefront uses an original light editorial design with navy product stages and cobalt accents, shared across all pages. Product artwork has separate compute, credits and AI treatments in `public/products/studio/`, with original provider SVG logos layered in HTML.
+The current storefront uses an original dark editorial design with obsidian backgrounds, sapphire panels and violet accents, shared across all pages. Product artwork has separate compute, credits and AI treatments in `public/products/studio/`, with original provider SVG logos layered in HTML.
 
 `src/studio-design.css` contains the shared responsive design system. `src/StudioMotion.jsx` adds progressive scroll reveals, pointer-aware card lighting and reading progress. Ambient motion and pointer effects respect reduced-motion and touch preferences. Server-rendered content remains visible without JavaScript.
 

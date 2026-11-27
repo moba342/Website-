@@ -1,0 +1,28 @@
+[
+  {
+    "mode": "mobile",
+    "url": "http://localhost:4181/",
+    "scores": {
+      "performance": 93,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100
+    },
+    "fetchTime": "2026-11-27T00:04:51.216Z",
+    "lighthouseVersion": "13.6.0",
+    "report": "seo/lighthouse/nocturne/home-mobile.report.html"
+  },
+  {
+    "mode": "desktop",
+    "url": "http://localhost:4181/",
+    "scores": {
+      "performance": 100,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100
+    },
+    "fetchTime": "2026-11-27T00:05:01.229Z",
+    "lighthouseVersion": "13.6.0",
+    "report": "seo/lighthouse/nocturne/home-desktop.report.html"
+  }
+]
