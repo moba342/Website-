@@ -5,12 +5,12 @@
 | Product SEO | PASS | 68 product pages; product descriptions, guides, FAQs and prices match the merchant catalog. |
 | Primary & Secondary Buying Keywords | PASS | 89 unique primary mappings and three secondaries per commercial page. |
 | SEO-Friendly URLs | PASS | 48 legacy redirects; URL-REDIRECT-MAPPING.csv. |
-| Technical SEO | PASS | Static and current-manifest HTTP evidence; field Core Web Vitals not tested. |
+| Technical SEO | PARTIAL | Static and current-manifest HTTP evidence; field Core Web Vitals not tested. |
 | Structured Data | PASS | Catalog-backed prices and visible FAQ/schema parity. |
 | Production Build | PASS | 92 public + 2 utility routes. |
 | Automated Tests | PASS | 12 unit tests, responsive routes, all variation prices and draft/cart safeguards. |
 | Mobile Lighthouse Testing | TESTED | AWS provider page local lab: 96 performance; other categories 100. |
-| Desktop Lighthouse Testing | TESTED | AWS 32 vCPU product page local lab: 100 performance; other categories 100. |
+| Desktop Lighthouse Testing | NOT TESTED | No current-release score claimed. |
 | Live Deployment | PASS | Current source/content manifest matches production. |
 | Hosting Redirect Optimization | PASS | Canonical domain and listing redirects verified live. |
 | Final Live Technical SEO Audit | PASS | LIVE-SEO-AUDIT.md and current HTTP evidence. |

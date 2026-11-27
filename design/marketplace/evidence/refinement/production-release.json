@@ -1,0 +1,32 @@
+{
+  "origin": "https://cloudssupply.site",
+  "runtimeCommit": "26bbc9a",
+  "deployment": "https://vercel.com/mo-ba2/website/Gzr3E4crLZT5Wz2vtvKC14bChZoo",
+  "status": "READY",
+  "verifiedAt": "2026-11-27T02:09:06.705417+00:00",
+  "publicUrls": 92,
+  "httpRoutes": 94,
+  "httpFailures": 0,
+  "liveBrowserSmoke": "PASS: five routes at nine widths plus navigation, cart, checkout and receipt validation",
+  "localProductPurchases": 68,
+  "localResponsiveRoutes": 94,
+  "viewportWidths": [
+    320,
+    375,
+    390,
+    430,
+    768,
+    1024,
+    1280,
+    1440,
+    1920
+  ],
+  "catalogData": "Unchanged: 14 providers, 68 products",
+  "localMobileProviderLighthouse": {
+    "performance": 96,
+    "accessibility": 100,
+    "best-practices": 100,
+    "seo": 100
+  },
+  "paymentsOrMessagesSent": false
+}

@@ -6,7 +6,7 @@ Canonical origin: https://cloudssupply.site/.
 - 92 indexable routes plus 2 noindex utility routes.
 - Static metadata, schema identity, image assets, canonical URLs, sitemap membership and internal links: PASS.
 - Maximum crawl depth: 2; orphan pages: 0.
-- Current local HTTP/content crawl: PASS.
+- Current local HTTP/content crawl: NOT TESTED.
 - Current production HTTP/content crawl: PASS.
 - 48 renamed/retired listing redirects are configured in vercel.json and tested by merchant-catalog-qa.mjs.
 
