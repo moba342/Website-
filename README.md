@@ -231,3 +231,9 @@ The current complete catalog has 14 providers and 68 variations, supplied by the
 ## Obsidian Platinum redesign
 
 Original CloudsSupply control-room identity, self-hosted Manrope/Geist typography, custom SVG infrastructure/credit/AI artwork, responsive split product tiles and accessible pausable motion. See [design notes](design/obsidian/DESIGN-NOTES.md). Rebuild the original vector-derived WebP assets with `node scripts/create-platinum-art.mjs`. Run `node scripts/obsidian-qa.mjs http://localhost:4181` for motion, no-JS and nine-width checks. Production remains on the existing Vercel `website` project and `https://cloudssupply.site/`; all catalog and payment data are unchanged.
+
+## Unified marketplace products
+
+`src/ProductCard.jsx` renders one authoritative SKU with price, original description, complete specifications and independent purchasing/Details controls. `src/ProductCatalog.jsx` renders category filters, search, sort and a compact responsive two-column grid. `src/marketplace-products.css` owns global product tokens and metallic surfaces; `src/product-animations.js` enhances static/dynamic cards with progressive 550ms entrances. All existing product surfaces use these components; adding a catalog record automatically uses the same UI. Shared variation panels are no longer mounted. Existing cart, checkout, data, SEO and URL modules remain unchanged.
+
+After the production build, start `npm run preview -- --port 4181`. Run `npm run test:products` for all 68 purchasing actions, catalog integrity, filters, Details links and motion; `npm run test:product-layout` checks nine widths for price/button clipping and captures tablet views. See [marketplace design notes](design/marketplace/DESIGN.md).

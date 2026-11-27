@@ -1,0 +1,70 @@
+{
+  "origin": "http://localhost:4181",
+  "products": 68,
+  "results": [
+    {
+      "width": 320,
+      "overflow": false,
+      "clipped": [],
+      "columns": 1,
+      "misaligned": 0
+    },
+    {
+      "width": 375,
+      "overflow": false,
+      "clipped": [],
+      "columns": 1,
+      "misaligned": 0
+    },
+    {
+      "width": 390,
+      "overflow": false,
+      "clipped": [],
+      "columns": 1,
+      "misaligned": 0
+    },
+    {
+      "width": 430,
+      "overflow": false,
+      "clipped": [],
+      "columns": 1,
+      "misaligned": 0
+    },
+    {
+      "width": 768,
+      "overflow": false,
+      "clipped": [],
+      "columns": 2,
+      "misaligned": 0
+    },
+    {
+      "width": 1024,
+      "overflow": false,
+      "clipped": [],
+      "columns": 2,
+      "misaligned": 0
+    },
+    {
+      "width": 1280,
+      "overflow": false,
+      "clipped": [],
+      "columns": 2,
+      "misaligned": 0
+    },
+    {
+      "width": 1440,
+      "overflow": false,
+      "clipped": [],
+      "columns": 2,
+      "misaligned": 0
+    },
+    {
+      "width": 1920,
+      "overflow": false,
+      "clipped": [],
+      "columns": 2,
+      "misaligned": 0
+    }
+  ],
+  "status": "PASS"
+}

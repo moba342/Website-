@@ -11,7 +11,9 @@
     "check:syntax": "node scripts/check-syntax.mjs",
     "test:browser": "node scripts/browser-qa.mjs",
     "test:lighthouse": "node scripts/lighthouse-audit.mjs",
-    "check:schema": "node scripts/validate-schema.mjs"
+    "check:schema": "node scripts/validate-schema.mjs",
+    "test:products": "node scripts/marketplace-products-qa.mjs",
+    "test:product-layout": "node scripts/marketplace-layout-qa.mjs"
   },
   "dependencies": {
     "@vercel/speed-insights": "^2.1.0",

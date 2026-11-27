@@ -1,0 +1,24 @@
+
+> cloudcart@1.0.0 test
+> node --test tests/*.test.mjs
+
+✔ complete catalog matches all 68 merchant prices across 14 providers (2.91525ms)
+✔ updated product links redirect to live catalog URLs and retired providers have replacements (1.032166ms)
+✔ canonical host redirects exclude existing noindex alias payment drafts (0.37175ms)
+✔ stored cart uses current catalog prices and rejects unknown or invalid entries (0.550875ms)
+✔ cart persistence migrates legacy data, handles corruption and stores only IDs and quantities (0.370542ms)
+✔ unpriced or retired products cannot produce a payable order (0.161209ms)
+✔ authorized network addresses are enabled; drafts freeze exact catalog totals (0.42225ms)
+✔ receipt includes complete order and hash but does not declare payment confirmed (0.363584ms)
+✔ draft storage resumes reference, retains transaction hash and surfaces write errors (0.137875ms)
+✔ malformed saved drafts are ignored instead of rendered as payment instructions (0.03675ms)
+✔ TRC20 instructions and receipt use the TRON receiver and hash format (0.105375ms)
+✔ retired carts are identified and old payment drafts are not silently repriced (0.087458ms)
+ℹ tests 12
+ℹ suites 0
+ℹ pass 12
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 192.209333

@@ -1,0 +1,21 @@
+{
+  "unchangedSourceFiles": [
+    "src/aws-products.json",
+    "src/cloud-service-products.json",
+    "src/product-articles.json",
+    "src/product-seo.json",
+    "src/provider-seo.json",
+    "src/page-seo.json",
+    "src/provider-guides.json",
+    "src/payment-config.js",
+    "src/cart-state.js",
+    "src/order-draft.js",
+    "src/router.js",
+    "vercel.json"
+  ],
+  "catalogProducts": 68,
+  "providers": 14,
+  "allPreRenderedRoutes": 94,
+  "sharedVariationPanels": 0,
+  "result": "PASS"
+}

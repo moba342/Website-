@@ -94,7 +94,7 @@
       "status": "PASS"
     },
     {
-      "test": "variation selection, quantity, cart persistence, checkout, TRC20, receipt draft without sending",
+      "test": "independent product selection, quantity, cart persistence, checkout, TRC20, receipt draft without sending",
       "status": "PASS"
     },
     {

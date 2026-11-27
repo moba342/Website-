@@ -13,7 +13,7 @@ try{
  for(const slug of new Set(expected.map(p=>p.providerSlug))){
   await page.goto(origin+'/provider/'+slug+'/',{waitUntil:'networkidle'});
   for(const item of expected.filter(p=>p.providerSlug===slug)){
-   await page.locator('.variation-list input[value="'+item.id+'"]').check();assert.equal(await page.locator('.variation-price').innerText(),money(item.price),item.name);assert.ok((await page.locator('.variation-name').innerText()).includes(item.name.replace(item.provider+' — ','')));
+   const card=page.locator('.marketplace-catalog [data-product-id="'+item.id+'"]');assert.equal(await card.locator('.mp-price strong').innerText(),money(item.price),item.name);assert.equal(await card.locator('.mp-title').innerText(),item.name);
    results.push({id:item.id,name:item.name,price:item.price,status:'PASS'});
   }
   await page.locator('.premium-artwork-logo img').first().evaluate(e=>e.decode());

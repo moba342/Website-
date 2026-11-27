@@ -1,0 +1,1 @@
+Layout QA PASS: 68 cards × 9 widths; no clipped prices/buttons, aligned actions, correct columns and category controls.

@@ -1,0 +1,1 @@
+Atelier layout, variants, cart, guide navigation and pricing checks PASS

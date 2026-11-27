@@ -1,0 +1,17 @@
+{
+  "origin": "http://localhost:4181",
+  "products": 68,
+  "providers": 14,
+  "checks": [
+    "All 68 independent cards match merchant fixture: IDs, names, prices, specifications and Details URLs; no fabricated stock",
+    "Search, empty state, reset, category counts and numeric price sorting",
+    "Accessible mobile category dropdown",
+    "All 14 provider pages contain independent product grids without shared variation panels",
+    "All 68 actual Add to cart workflows preserve correct product, current price and quantity",
+    "Initial and dynamically filtered cards complete the 550ms entrance",
+    "Changing reduced-motion preference reveals content and disables animation",
+    "Server-rendered cards remain visible without JavaScript"
+  ],
+  "errors": [],
+  "status": "PASS"
+}

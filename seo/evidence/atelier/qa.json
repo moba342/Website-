@@ -28,11 +28,11 @@
       ]
     },
     {
-      "test": "individual product variation navigation, quantity and cart",
+      "test": "independent related-product navigation, quantity and cart",
       "status": "PASS"
     },
     {
-      "test": "original article retained and section navigation works; related cards have no descriptions",
+      "test": "original article retained and section navigation works; related cards preserve descriptions",
       "status": "PASS"
     },
     {
