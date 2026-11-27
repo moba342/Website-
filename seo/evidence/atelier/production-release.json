@@ -1,0 +1,25 @@
+{
+  "origin": "https://cloudssupply.site/",
+  "runtimeCommit": "3fc09bd",
+  "productionDeployments": [
+    {
+      "project": "website",
+      "id": "dpl_AcaQCCVQpmMCWkK6STb24CmvzMzX",
+      "status": "READY"
+    },
+    {
+      "project": "buyaws-account",
+      "id": "dpl_DBiNiyeRmszXgkHjSQdjL1RhSLbp",
+      "status": "READY"
+    }
+  ],
+  "http": {
+    "routes": 76,
+    "assets": 28,
+    "sitemapUrls": 74,
+    "failures": []
+  },
+  "liveProductLayoutChecks": "PASS: responsive catalog/product pages, variation navigation, quantities, cart, actual article navigation, original articles retained and quote-only checkout blocking",
+  "liveBrowserSmoke": "PASS: 5 representative routes at seven widths and checkout flow",
+  "paymentsOrMessagesSent": false
+}
