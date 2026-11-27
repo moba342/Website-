@@ -30,8 +30,8 @@ try{
  await page.setViewportSize({width:390,height:900});await page.goto(origin+'/');
  const toggle=page.getByRole('button',{name:'Toggle navigation'});await toggle.click();assert.equal(await toggle.getAttribute('aria-expanded'),'true');
  await page.locator('#main-navigation').getByRole('link',{name:'Contact',exact:true}).click();await page.waitForURL('**/contact/');
- assert.equal(await page.getByRole('link',{name:/PHONE/}).getAttribute('href'),'tel:+14582624274');
- assert.ok((await page.getByRole('link',{name:/TELEGRAM/}).getAttribute('href')).startsWith('https://t.me/Eljh_Miller'));
+ assert.equal(await page.locator('.contact-methods').getByRole('link',{name:/PHONE/}).getAttribute('href'),'tel:+14582624274');
+ assert.ok((await page.locator('.contact-methods').getByRole('link',{name:/TELEGRAM/}).getAttribute('href')).startsWith('https://t.me/Eljh_Miller'));
  results.push({test:'mobile menu and contact links',status:'PASS'});
  await page.goto(origin+'/provider/aws/');
  const options=page.locator('.variation-list input[type="radio"]');await options.nth(2).check();

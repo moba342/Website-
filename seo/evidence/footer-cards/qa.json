@@ -1,0 +1,31 @@
+{
+  "origin": "http://localhost:4181",
+  "results": [
+    {
+      "path": "/",
+      "status": "PASS"
+    },
+    {
+      "path": "/all-products/",
+      "status": "PASS"
+    },
+    {
+      "path": "/cloud-service-accounts/",
+      "status": "PASS"
+    },
+    {
+      "path": "/product/aws-32-vcpu-103/",
+      "status": "PASS"
+    }
+  ],
+  "errors": [],
+  "widths": [
+    320,
+    375,
+    390,
+    768,
+    1024,
+    1440,
+    1920
+  ]
+}

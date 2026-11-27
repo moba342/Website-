@@ -39,3 +39,13 @@ The current design uses obsidian backgrounds (#080e1b), sapphire surfaces, ice-b
 The prior Studio Lighthouse reports describe the earlier light release. Dark-release lab results, when run, are saved separately under seo/lighthouse/nocturne/.
 
 Nocturne validation: production build, schema/SEO generation and all 10 unit tests passed. All 76 routes passed seven viewport widths; final representative browser, checkout and effects checks passed. Click halo creation/cleanup, viewport-edge clipping, pointer-following card illumination, animated border and reduced-motion suppression were verified in the browser. No payment or message was sent. New local homepage Lighthouse: mobile Performance 93, desktop Performance 100; Accessibility, Best Practices and SEO 100 for both. These measurements apply to the dark homepage production preview, not every page or real-user Core Web Vitals.
+
+## Illustrated footer and compact cards
+
+Replaced the original footer with an illustrated four-column design: CloudsSupply brand/cloud artwork, all 13 provider links with their original logos, helpful internal links, and the supplied phone/Telegram contacts. Only supported USDT BEP20/TRC20 payment badges are displayed. The layout becomes two columns and then stacked sections on small screens. No contact details from the reference screenshot were copied.
+
+Removed description paragraphs from home product cards, catalog cards, cloud-provider cards and related-product cards. Product names, specifications, prices and purchase actions remain; complete product introductions and original articles stay on individual product pages. Updated box surfaces with layered dark gradients, rounded image frames, inset specification panels, stronger hover illumination and a restrained image shine. Reduced-motion and touch modes suppress the shine/elevation effects.
+
+Run node scripts/footer-cards-qa.mjs http://localhost:4181 to verify footer links/artwork, description-free cards, preserved individual descriptions and seven viewport widths. Screenshots and results are under seo/evidence/footer-cards/.
+
+Footer/cards validation: production build, 74 public-page SEO checks, schema validation and all 10 catalog/payment tests pass. Full browser QA passes 76 routes at seven screen widths. Dedicated checks verify all 13 provider footer links, actual phone/Telegram contacts, footer artwork, absence of descriptions on product cards and retention of full individual product descriptions. Motion/reduced-motion and payment-panel tests also pass.
