@@ -1,0 +1,7 @@
+# Strict-reference visual refinement — 2026-11-27
+
+The existing centralized product design now has denser card proportions, shorter visual description previews (the original description remains in the DOM and full product guide), stronger controlled platinum edge lighting, aligned sidebar/grid origins and a single search surface. Provider pages retain their breadcrumb, H1, introduction, artwork, featured purchase offer, catalog, guide and pricing sections; the hero arranges its existing introduction/artwork/offer into the reference's three desktop columns. Tablet/mobile reflow those same elements. Branding is unchanged.
+
+All 68 products inherit the same compact independent card design. Titles/prices, specifications and horizontal Add to cart/Details controls retain their existing semantics. Shared variation panels, the removed footer artwork, floating delivery dock and pause buttons remain absent. The owner's latest 32–64px footer separation remains.
+
+Validation: production build, SEO/schema checks and 12 unit tests pass. Full browser sweep: 94 routes at nine requested widths, no overflow/browser errors; purchase and checkout/receipt tests pass. All 68 actual product purchase actions and all 14 provider grids pass. Dedicated assertions verify unclipped prices/buttons and correct column counts for all cards at nine widths. Current desktop/tablet/mobile captures and immutable-data checks are in evidence/refinement/. No payment or message was sent. Existing product, pricing, SEO, cart/order, wallet and URL configuration files remain unchanged.

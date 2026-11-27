@@ -1,0 +1,29 @@
+
+> cloudcart@1.0.0 build
+> vite build && vite build --ssr src/entry-server.jsx --outDir .ssr && node scripts/generate-seo.mjs && node scripts/audit-seo.mjs && node scripts/validate-schema.mjs
+
+vite v6.4.6 building for production...
+transforming...
+✓ 1637 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                           1.20 kB │ gzip:  0.57 kB
+dist/assets/index-Dw8IXUtk.css          268.35 kB │ gzip: 50.36 kB
+dist/assets/qr-code-Yk9eKAZd.js          16.69 kB │ gzip:  6.28 kB
+dist/assets/catalog-seo-D5b7C6um.js     134.47 kB │ gzip: 10.26 kB
+dist/assets/catalog-guides-BCexGENs.js  177.19 kB │ gzip: 10.39 kB
+dist/assets/index-C8Ow7yu0.js           206.64 kB │ gzip: 44.63 kB
+dist/assets/react-vendor-BDdCVDbo.js    222.44 kB │ gzip: 69.05 kB
+✓ built in 816ms
+vite v6.4.6 building SSR bundle for production...
+transforming...
+✓ 64 modules transformed.
+rendering chunks...
+.ssr/assets/catalog-seo-BxU_MZYg.js     138.93 kB
+.ssr/assets/catalog-guides-kOJf6U8j.js  182.14 kB
+.ssr/entry-server.js                    243.02 kB
+✓ built in 169ms
+Pre-rendered 92 indexable pages and 2 noindex checkout pages with canonical metadata and three sitemaps.
+SEO audit passed: 92 public pages, 89 unique commercial primary keywords, 68 products, no duplicate metadata or orphan pages. Maximum crawl depth: 2.
+0 secondary-phrase coverage notes saved for editorial review.
+Schema.org vocabulary/domain validation: PASS ; 1892 typed nodes; 5750 properties; 68 priced Product pages satisfy tested snippet fields.
