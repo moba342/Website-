@@ -1,7 +1,7 @@
 {
   "scope": "primary-and-legacy-alias",
   "legacyAlias": null,
-  "manifestHash": "9b0cb7454a96dd08249397b74af89ae23a514d18a79ae38405058879987565fc",
+  "manifestHash": "bf336540d0047c3f04ed1723955db562407d7d1061a2fb8b2273747d9a6c8bd4",
   "origin": "http://localhost:4181",
   "label": "local",
   "pages": [
@@ -702,7 +702,7 @@
   ],
   "assets": [
     {
-      "path": "/assets/index-CdGbvjop.js",
+      "path": "/assets/index-iFT704Fe.js",
       "status": 200,
       "error": null
     },
@@ -712,12 +712,12 @@
       "error": null
     },
     {
-      "path": "/fonts/plus-jakarta-sans-400-700.woff2",
+      "path": "/fonts/geist-variable.woff2",
       "status": 200,
       "error": null
     },
     {
-      "path": "/fonts/outfit-400-700.woff2",
+      "path": "/fonts/manrope-variable.woff2",
       "status": 200,
       "error": null
     },
@@ -742,17 +742,12 @@
       "error": null
     },
     {
-      "path": "/assets/index-DLkn_Q3w.css",
+      "path": "/assets/index-C_m8yJXc.css",
       "status": 200,
       "error": null
     },
     {
       "path": "/brand/cloudssupply-wordmark-700.webp",
-      "status": 200,
-      "error": null
-    },
-    {
-      "path": "/products/studio/cloud-infrastructure-1200.webp",
       "status": 200,
       "error": null
     },
@@ -778,16 +773,6 @@
     },
     {
       "path": "/logos/on-dark/hetzner.svg",
-      "status": 200,
-      "error": null
-    },
-    {
-      "path": "/products/studio/cloud-credits-1200.webp",
-      "status": 200,
-      "error": null
-    },
-    {
-      "path": "/products/studio/ai-processor-1200.webp",
       "status": 200,
       "error": null
     },
@@ -837,17 +822,32 @@
       "error": null
     },
     {
-      "path": "/products/studio/cloud-infrastructure-640.webp",
+      "path": "/products/platinum/cloud-credits-1200.webp",
       "status": 200,
       "error": null
     },
     {
-      "path": "/products/studio/cloud-credits-640.webp",
+      "path": "/products/platinum/cloud-infrastructure-1200.webp",
       "status": 200,
       "error": null
     },
     {
-      "path": "/products/studio/ai-processor-640.webp",
+      "path": "/products/platinum/ai-processor-1200.webp",
+      "status": 200,
+      "error": null
+    },
+    {
+      "path": "/products/platinum/cloud-infrastructure-640.webp",
+      "status": 200,
+      "error": null
+    },
+    {
+      "path": "/products/platinum/cloud-credits-640.webp",
+      "status": 200,
+      "error": null
+    },
+    {
+      "path": "/products/platinum/ai-processor-640.webp",
       "status": 200,
       "error": null
     }

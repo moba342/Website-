@@ -9,3 +9,6 @@ dist/
 .env
 .env.*
 !.env.example
+
+# Reference captures are local design research, not shipped brand assets.
+design/obsidian/evidence/reference-*.png

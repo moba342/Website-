@@ -34,6 +34,8 @@ import CheckoutPage from './CheckoutPage.jsx';
 import {CART_KEY,loadCart,loadCartReview,saveCart,normalizeCart,addCartItem,updateCartQuantity,cartSummary,validQuantity} from './cart-state.js';
 import './premium-footer.css';
 import './product-atelier.css';
+import './obsidian-fonts.css';
+import './obsidian.css';
 const products=[...awsProducts,...starterProducts];
 const money=value=>new Intl.NumberFormat('en-US',{style:'currency',currency:'USD'}).format(value);
 function Price({p}){return p.price==null?<strong className="quote-price">Contact for pricing</strong>:<><strong>{money(p.price)}</strong><span>{p.userPrice?'Listed price · USD':p.referencePrice?'Reference price · USD':'one-time · sample price'}</span></>}

@@ -6,11 +6,11 @@
 #root header{position:relative;z-index:30}
 @media(max-width:1150px){
   #root .nav{gap:16px}
-  #root .nav nav{display:none;position:absolute;top:100%;left:0;right:0;z-index:30;padding:15px 28px;background:#0c1729;border-bottom:1px solid #263b5b;box-shadow:0 14px 24px #0004}
+  #root .nav nav{display:none;position:absolute;top:100%;left:0;right:0;z-index:30;padding:15px 28px;background:#1a1a1c;border-bottom:1px solid #3f3f41;box-shadow:0 14px 24px #0004}
   #root .nav nav.open{display:flex;flex-direction:column;align-items:stretch;gap:0}
   #root .nav nav a{padding:14px 0;min-height:48px;line-height:1.5}
   #root .nav nav a.active:after{bottom:6px}
-  #root .mobile-toggle{display:grid;place-items:center;background:none;padding:8px;color:#b4d3ff;min-width:40px;min-height:44px}
+  #root .mobile-toggle{display:grid;place-items:center;background:none;padding:8px;color:#d8d8da;min-width:40px;min-height:44px}
 }
 @media(max-width:760px){
   #root .brand-logo{width:220px}

@@ -1,0 +1,14 @@
+{
+  "origin": "http://localhost:4181",
+  "checks": [
+    "Category preview shows catalog ranges",
+    "Dashboard and marquee pause, keyboard focus pause, duplicate rail untabbable",
+    "Global motion pause",
+    "Nine page types at all nine requested widths",
+    "Reduced motion: static dashboard, wrapped rail, visible content",
+    "Scroll reveal completes",
+    "Server-rendered content visible without JavaScript"
+  ],
+  "errors": [],
+  "status": "PASS"
+}

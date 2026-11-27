@@ -1,0 +1,5 @@
+import React from 'react';
+import {Pause,Play} from 'lucide-react';
+import PlatformLogo from './PlatformLogo.jsx';
+import {providerHref} from './catalog-data.js';
+export default function ProviderMarquee({providers}){const[paused,setPaused]=React.useState(false);return <section className={'provider-ribbon marquee-container'+(paused?' is-paused':'')} aria-label="Cloud provider collection"><div className="container ribbon-heading"><span>INDEPENDENT MARKETPLACE / YOUR PLATFORM, YOUR CHOICE</span><button onClick={()=>setPaused(!paused)} aria-label={paused?'Play provider animation':'Pause provider animation'}>{paused?<Play size={14}/>:<Pause size={14}/>}<span>{paused?'Play':'Pause'}</span></button></div><div className="marquee-track">{[0,1].map(copy=><div className="marquee-group" key={copy} aria-hidden={copy===1?true:undefined}>{providers.map(p=><a key={p.slug} href={providerHref(p)} tabIndex={copy===1?-1:undefined}><PlatformLogo slug={p.slug}/><span>{p.name.replace('Amazon Web Services','AWS').replace('Microsoft ','')}</span></a>)}</div>)}</div></section>}

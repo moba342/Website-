@@ -1,0 +1,47 @@
+{
+  "verifiedAt": "2026-11-27T01:19:02.226152+00:00",
+  "manifestHash": "bf336540d0047c3f04ed1723955db562407d7d1061a2fb8b2273747d9a6c8bd4",
+  "routes": 94,
+  "viewportWidths": [
+    320,
+    375,
+    390,
+    430,
+    768,
+    1024,
+    1280,
+    1440,
+    1920
+  ],
+  "unitTests": 12,
+  "httpFailures": 0,
+  "motionChecks": "PASS",
+  "lighthouseLocalHomepage": {
+    "mobile": {
+      "performance": 98,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100
+    },
+    "desktop": {
+      "performance": 100,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100
+    }
+  },
+  "businessAndSeoFilesUnchanged": {
+    "src/aws-products.json": true,
+    "src/cloud-service-products.json": true,
+    "src/product-seo.json": true,
+    "src/provider-seo.json": true,
+    "src/page-seo.json": true,
+    "src/product-articles.json": true,
+    "src/payment-config.js": true,
+    "src/order-draft.js": true,
+    "src/cart-state.js": true,
+    "src/router.js": true,
+    "vercel.json": true
+  },
+  "noRealPaymentOrMessageSent": true
+}

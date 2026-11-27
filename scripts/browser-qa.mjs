@@ -5,7 +5,7 @@ const origin=process.argv[2]||'http://localhost:4173';
 const allPages=JSON.parse(await readFile('seo/evidence/page-manifest.json','utf8'));
 const manifest=process.argv.includes('--smoke')?allPages.filter(p=>['/','/aws-standard/','/provider/google-cloud/','/product/aws-32-vcpu-103/','/all-products/'].includes(p.path)):allPages;
 const output=origin.startsWith('http://localhost')?'seo/evidence/browser-qa.json':'seo/evidence/browser-qa-live.json';
-const widths=[320,375,390,768,1024,1440,1920],results=[],errors=[];
+const widths=[320,375,390,430,768,1024,1280,1440,1920],results=[],errors=[];
 const browser=await chromium.launch({executablePath:'/Applications/Google Chrome.app/Contents/MacOS/Google Chrome',headless:true});
 const ctx=await browser.newContext({viewport:{width:1440,height:1000},permissions:['clipboard-read','clipboard-write']});
 const page=await ctx.newPage();page.on('pageerror',e=>errors.push(e.message));
