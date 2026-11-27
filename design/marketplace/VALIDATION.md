@@ -9,3 +9,7 @@
 - Existing unit tests: 12 PASS. Syntax checks and production JSX compilation: PASS.
 
 Local Lighthouse audit results and the main-domain deployment check are recorded with the release evidence. Lab measurements are not field Core Web Vitals or guarantees about every route. Google index membership is not claimed.
+
+Production release: product redesign b6d8626 plus footer spacing 8aec2a0 are deployed on the existing Vercel website project. The main domain passes all 94 HTTP/content routes, 27 tested assets, 92 sitemap URLs and a genuine 404. Live browser smoke passes five page types at nine widths, cart/checkout and receipt validation. The added 32–64px page-to-footer gap was verified at all nine widths on the live Bedrock page.
+
+Targeted local production-build Lighthouse: AWS provider page on mobile — performance 96, accessibility 100, best practices 100, SEO 100; AWS 32-vCPU product page on desktop — 100 in all four categories. These are scoped lab results, not homepage/all-page scores or field metrics. Raw reports and summary are under evidence/.

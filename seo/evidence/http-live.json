@@ -5,7 +5,7 @@
     "status": 404,
     "result": "UNAVAILABLE"
   },
-  "manifestHash": "bf336540d0047c3f04ed1723955db562407d7d1061a2fb8b2273747d9a6c8bd4",
+  "manifestHash": "8825a54c9dcd74eb791a8c943449b392d1b7f3cc9f45f515de87fd83fd7d72e1",
   "origin": "https://cloudssupply.site",
   "label": "live",
   "pages": [
@@ -706,7 +706,7 @@
   ],
   "assets": [
     {
-      "path": "/assets/index-iFT704Fe.js",
+      "path": "/assets/index-DVFxGOoU.js",
       "status": 200,
       "error": null
     },
@@ -746,7 +746,7 @@
       "error": null
     },
     {
-      "path": "/assets/index-C_m8yJXc.css",
+      "path": "/assets/index-ScN96bUQ.css",
       "status": 200,
       "error": null
     },
@@ -826,7 +826,7 @@
       "error": null
     },
     {
-      "path": "/products/platinum/cloud-credits-1200.webp",
+      "path": "/products/platinum/ai-processor-1200.webp",
       "status": 200,
       "error": null
     },
@@ -836,22 +836,7 @@
       "error": null
     },
     {
-      "path": "/products/platinum/ai-processor-1200.webp",
-      "status": 200,
-      "error": null
-    },
-    {
-      "path": "/products/platinum/cloud-infrastructure-640.webp",
-      "status": 200,
-      "error": null
-    },
-    {
-      "path": "/products/platinum/cloud-credits-640.webp",
-      "status": 200,
-      "error": null
-    },
-    {
-      "path": "/products/platinum/ai-processor-640.webp",
+      "path": "/products/platinum/cloud-credits-1200.webp",
       "status": 200,
       "error": null
     }

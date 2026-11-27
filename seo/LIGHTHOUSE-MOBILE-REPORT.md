@@ -1,5 +1,5 @@
 # mobile Lighthouse report
 
-Current Obsidian Platinum homepage, local production-build lab run: performance 98, accessibility 100, best practices 100, SEO 100.
+Current AWS provider page, local production-build lab run: performance 96, accessibility 100, best practices 100, SEO 100.
 
-Raw report: ../design/obsidian/evidence/lighthouse-mobile.json. Validation and manifest identity: ../design/obsidian/evidence/validation-summary.json. Other route performance and real-user LCP, INP and CLS are NOT TESTED. Historical results in lighthouse/ remain historical.
+Raw report: ../design/marketplace/evidence/lighthouse-provider-mobile.json. Validation and manifest identity: ../design/marketplace/evidence/lighthouse-summary.json. Other route performance and real-user LCP, INP and CLS are NOT TESTED. Historical results in lighthouse/ remain historical.

@@ -1,0 +1,17 @@
+{
+  "origin": "https://cloudssupply.site",
+  "productRedesignCommit": "b6d8626",
+  "runtimeCommit": "8aec2a0",
+  "deployment": "https://vercel.com/mo-ba2/website/5HmNZCTptub2yUMKZWcunWmNvyUT",
+  "status": "READY",
+  "verifiedAt": "2026-11-27T01:58:37.678147+00:00",
+  "httpRoutes": 94,
+  "httpFailures": 0,
+  "indexableUrls": 92,
+  "providers": 14,
+  "productVariants": 68,
+  "liveBrowserSmoke": "PASS: five page types at nine widths, navigation, quantity, cart, checkout and receipt validation",
+  "liveFooterSpacing": "PASS: 32\u201364px separation at nine widths",
+  "localProductPurchases": "PASS: all 68 authoritative products",
+  "paymentTransfersOrMessagesSent": false
+}
