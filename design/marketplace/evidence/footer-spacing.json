@@ -1,0 +1,50 @@
+{
+  "results": [
+    {
+      "width": 320,
+      "gap": 32,
+      "overflow": false
+    },
+    {
+      "width": 375,
+      "gap": 32,
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "gap": 32,
+      "overflow": false
+    },
+    {
+      "width": 430,
+      "gap": 32,
+      "overflow": false
+    },
+    {
+      "width": 768,
+      "gap": 32,
+      "overflow": false
+    },
+    {
+      "width": 1024,
+      "gap": 40.953125,
+      "overflow": false
+    },
+    {
+      "width": 1280,
+      "gap": 51.1875,
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "gap": 57.59375,
+      "overflow": false
+    },
+    {
+      "width": 1920,
+      "gap": 64,
+      "overflow": false
+    }
+  ],
+  "status": "PASS"
+}

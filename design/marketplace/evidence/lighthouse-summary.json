@@ -1,0 +1,27 @@
+{
+  "mobile": {
+    "scope": "AWS provider page",
+    "path": "/provider/aws/",
+    "scores": {
+      "performance": 96,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100
+    },
+    "report": "design/marketplace/evidence/lighthouse-provider-mobile.json",
+    "cumulativeLayoutShift": 0
+  },
+  "desktop": {
+    "scope": "AWS 32 vCPU product page",
+    "path": "/product/aws-32-vcpu-103/",
+    "scores": {
+      "performance": 100,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100
+    },
+    "report": "design/marketplace/evidence/lighthouse-product-desktop.json",
+    "cumulativeLayoutShift": 0
+  },
+  "manifestHash": "8825a54c9dcd74eb791a8c943449b392d1b7f3cc9f45f515de87fd83fd7d72e1"
+}

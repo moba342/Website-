@@ -85,3 +85,5 @@ body.midnight-site #root .delivery-bottom-dock{background:#18181bf5!important;bo
 body.midnight-site #root .atelier-content .editorial-guide{background:transparent!important;box-shadow:none!important;border:0!important;border-radius:0!important}
 body.midnight-site #root .atelier-content .editorial-guide>section{background:transparent!important;border:0!important;border-top:1px solid #343438!important;border-radius:0!important;box-shadow:none!important;padding:30px 0!important}
 body.midnight-site #root .atelier-content .editorial-guide>section h3{font-size:22px!important}
+/* Breathing room between the final page content and the footer invitation. */
+body.midnight-site #root main{padding-bottom:clamp(32px,4vw,64px)}
