@@ -49,3 +49,11 @@ Removed description paragraphs from home product cards, catalog cards, cloud-pro
 Run node scripts/footer-cards-qa.mjs http://localhost:4181 to verify footer links/artwork, description-free cards, preserved individual descriptions and seven viewport widths. Screenshots and results are under seo/evidence/footer-cards/.
 
 Footer/cards validation: production build, 74 public-page SEO checks, schema validation and all 10 catalog/payment tests pass. Full browser QA passes 76 routes at seven screen widths. Dedicated checks verify all 13 provider footer links, actual phone/Telegram contacts, footer artwork, absence of descriptions on product cards and retention of full individual product descriptions. Motion/reduced-motion and payment-panel tests also pass.
+
+## Product Atelier layout
+
+Individual product pages now use a full-width editorial heading, framed artwork showcase, specification tiles, a separate sticky configuration desk and an article navigation bar. Original article sections have distinct reading panels with a field-guide sidebar; FAQs, ordering details and related-product links remain. Mobile layouts stack naturally and keep the order controls accessible. The All Products index uses a curated mixed-width opening card and a refined filter toolbar. Product cards remain free of description paragraphs.
+
+New styling is in src/product-atelier.css; page composition is in src/ProductPages.jsx. Product IDs, prices, eligibility statements, quotas, original descriptions/articles, metadata, provider variations, manual payment review and quote-only checkout protection remain intact. In-page navigation uses explicit scrolling to coexist with the existing application router and respects reduced-motion preferences.
+
+Validation: production build and schema/SEO checks pass; all 10 unit tests pass; all 76 routes pass seven widths. Final representative browser checks and dedicated individual-product variation/quantity/cart, actual article scrolling and quote-only checks pass. Tests and screenshots: scripts/product-atelier-qa.mjs and seo/evidence/atelier/. Prior Lighthouse scores apply to the earlier measured releases, not this new layout.

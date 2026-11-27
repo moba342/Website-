@@ -1,0 +1,44 @@
+{
+  "origin": "http://localhost:4181",
+  "results": [
+    {
+      "path": "/product/aws-32-vcpu-103/",
+      "status": "PASS",
+      "widths": [
+        320,
+        375,
+        390,
+        768,
+        1024,
+        1440,
+        1920
+      ]
+    },
+    {
+      "path": "/all-products/",
+      "status": "PASS",
+      "widths": [
+        320,
+        375,
+        390,
+        768,
+        1024,
+        1440,
+        1920
+      ]
+    },
+    {
+      "test": "individual product variation navigation, quantity and cart",
+      "status": "PASS"
+    },
+    {
+      "test": "original article retained and section navigation works; related cards have no descriptions",
+      "status": "PASS"
+    },
+    {
+      "test": "quote-only purchase remains blocked at checkout",
+      "status": "PASS"
+    }
+  ],
+  "errors": []
+}
