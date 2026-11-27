@@ -1,0 +1,33 @@
+{
+  "fonts": {
+    "body": "\"Plus Jakarta Sans\", sans-serif",
+    "heading": "Outfit, sans-serif",
+    "faces": [
+      {
+        "family": "JetBrains Mono",
+        "status": "loaded"
+      },
+      {
+        "family": "Outfit",
+        "status": "loaded"
+      },
+      {
+        "family": "Plus Jakarta Sans",
+        "status": "loaded"
+      }
+    ]
+  },
+  "sitemapFooterLink": "REMOVED",
+  "largeTotals": [
+    {
+      "path": "/cart/",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "path": "/checkout/",
+      "width": 320,
+      "overflow": false
+    }
+  ]
+}

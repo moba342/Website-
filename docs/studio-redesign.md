@@ -57,3 +57,7 @@ Individual product pages now use a full-width editorial heading, framed artwork 
 New styling is in src/product-atelier.css; page composition is in src/ProductPages.jsx. Product IDs, prices, eligibility statements, quotas, original descriptions/articles, metadata, provider variations, manual payment review and quote-only checkout protection remain intact. In-page navigation uses explicit scrolling to coexist with the existing application router and respects reduced-motion preferences.
 
 Validation: production build and schema/SEO checks pass; all 10 unit tests pass; all 76 routes pass seven widths. Final representative browser checks and dedicated individual-product variation/quantity/cart, actual article scrolling and quote-only checks pass. Tests and screenshots: scripts/product-atelier-qa.mjs and seo/evidence/atelier/. Prior Lighthouse scores apply to the earlier measured releases, not this new layout.
+
+## Premium typography refresh
+
+Headings use Outfit, body/navigation use Plus Jakarta Sans, and prices/technical labels use JetBrains Mono. Fonts are self-hosted Latin variable WOFF2 assets with font-display: swap and included OFL licenses. The heading/body faces are preloaded. Browser checks confirm all three faces load, the intended families are applied, and large cart/checkout totals fit a 320px viewport. The Sitemap link was removed from the footer menu; the XML sitemap remains available to crawlers.

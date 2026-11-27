@@ -1,7 +1,7 @@
 .variation-box{border:1px solid #2b3f60;border-radius:14px;background:#14213a;overflow:hidden;width:100%;min-width:0;color:#dce9ff;box-shadow:0 16px 45px #0002}
 .variation-summary{display:flex;flex-direction:column;gap:7px;padding:22px;background:linear-gradient(125deg,#1b2d4d,#17243d);border-bottom:1px solid #293c5a;min-width:0}
-.variation-kicker{font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:1.6px;color:#93add0;line-height:1.6}
-.variation-price{font-family:'Space Grotesk',sans-serif;font-size:32px;font-weight:600;letter-spacing:-1px;line-height:1.25;color:#eef5ff}
+.variation-kicker{font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:1.6px;color:#93add0;line-height:1.6}
+.variation-price{font-family:'Outfit',sans-serif;font-size:32px;font-weight:600;letter-spacing:-1px;line-height:1.25;color:#eef5ff}
 .variation-name{font-size:14px;line-height:1.6;color:#a6bbd9;overflow-wrap:anywhere}
 .variation-list{display:flex;flex-direction:column;gap:7px;margin:0;padding:12px;border:0;min-width:0;max-height:320px;overflow-y:auto;overscroll-behavior-y:contain;scrollbar-width:thin;scrollbar-color:#5a79a5 #111c30;scrollbar-gutter:stable}
 .variation-list::-webkit-scrollbar{width:7px}.variation-list::-webkit-scrollbar-track{background:#111c30}.variation-list::-webkit-scrollbar-thumb{background:#5a79a5;border-radius:6px}
@@ -13,7 +13,7 @@
 .variation-option>input:checked{border:1px solid #5ea5ff;background:radial-gradient(circle,#5ea5ff 0 38%,#102442 44%)}
 .variation-option>span{flex:1;min-width:0;overflow-wrap:anywhere;font-size:13px;line-height:1.6;color:#a7bfdf}
 .variation-option:has(input:checked)>span{color:#e7f0ff;font-weight:600}
-.variation-option>strong{font-family:'IBM Plex Mono',monospace;font-size:13px;font-weight:500;line-height:1.6;color:#e4efff;text-align:right;flex-shrink:0;max-width:105px;overflow-wrap:anywhere}
+.variation-option>strong{font-family:'JetBrains Mono',monospace;font-size:13px;font-weight:500;line-height:1.6;color:#e4efff;text-align:right;flex-shrink:0;max-width:105px;overflow-wrap:anywhere}
 .variation-actions{padding:16px;border-top:1px solid #2b3f5f;background:#17243d;display:flex;flex-direction:column;gap:10px}
 .variation-quantity-row{display:flex;justify-content:space-between;align-items:center;gap:12px;font-size:13px;color:#a5bedf;margin-bottom:4px}
 .variation-quantity-row>label{display:flex;align-items:center;gap:10px}
