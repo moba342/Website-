@@ -1,3 +1,4 @@
+import catalogRedirects from './catalog-redirects.json';
 export const pageRoutes=['home','all-products','cloud-service-accounts','aws-standard','bedrock-api','aws-bedrock-api-key','aws-account-configurator','contact','faq','refund'];
 export const utilityRoutes=['cart','checkout'];
 export const isPageRoute=route=>pageRoutes.includes(route)||utilityRoutes.includes(route)||/^(product|provider)\/[a-z0-9-]+$/.test(route);
@@ -9,13 +10,18 @@ export function readRoute(){
   return window.location.pathname.replace(/^\/+|\/+$/g,'')||'home';
 }
 export function navigate(target){
+  const cleanPath='/'+target.replace(/^#|^\/+|\/+$/g,'')+'/';
+  const redirected=catalogRedirects.find(rule=>rule.source===cleanPath);
+  if(redirected)target=redirected.destination;
   const route=target.replace(/^#|^\/+|\/+$/g,'')||'home';
   window.history.pushState(null,'',routeHref(route));
   window.dispatchEvent(new PopStateEvent('popstate'));
 }
 export function installNavigation(onRoute){
   const update=()=>{
-    const route=readRoute();
+    let route=readRoute();
+    const redirected=catalogRedirects.find(rule=>rule.source===routeHref(route));
+    if(redirected){route=redirected.destination.replace(/^\/+|\/+$/g,'')||'home';window.history.replaceState(null,'',routeHref(route));}
     if(isPageRoute(window.location.hash.slice(1)))window.history.replaceState(null,'',routeHref(route));
     onRoute(route);
   };

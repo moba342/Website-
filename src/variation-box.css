@@ -39,3 +39,4 @@
 .detail-purchase>.variation-box{margin:24px 0}
 .service-buy>.variation-box{margin:22px 0}
 @media(max-width:760px){.variation-summary{padding:18px}.variation-list{max-height:300px;padding:10px;gap:7px}.variation-option{padding:11px 9px;gap:8px}.variation-option>strong{font-size:12px;max-width:88px}.variation-option>span{font-size:13px}.variation-actions{padding:14px}.variation-benefits{padding:15px 16px}.variation-price{font-size:30px}}
+.variation-group-heading{flex:0 0 auto;padding:13px 5px 5px;color:#b6cbef;font:500 10px/1.6 'JetBrains Mono',monospace;letter-spacing:.6px;text-transform:uppercase;border-top:1px solid #304867;margin-top:3px}.variation-group-heading:first-of-type{border-top:0;margin-top:0;padding-top:3px}

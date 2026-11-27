@@ -1,0 +1,1254 @@
+{
+  "origin": "http://localhost:4181",
+  "viewportWidths": [
+    320,
+    375,
+    390,
+    768,
+    1024,
+    1440,
+    1920
+  ],
+  "pagesTested": 94,
+  "errors": [],
+  "results": [
+    {
+      "path": "/",
+      "responsiveWidths": [
+        320,
+        375,
+        390,
+        768,
+        1024,
+        1440,
+        1920
+      ],
+      "status": "TESTED"
+    },
+    {
+      "path": "/all-products/",
+      "responsiveWidths": [
+        320,
+        375,
+        390,
+        768,
+        1024,
+        1440,
+        1920
+      ],
+      "status": "TESTED"
+    },
+    {
+      "path": "/cloud-service-accounts/",
+      "responsiveWidths": [
+        320,
+        375,
+        390,
+        768,
+        1024,
+        1440,
+        1920
+      ],
+      "status": "TESTED"
+    },
+    {
+      "path": "/aws-standard/",
+      "responsiveWidths": [
+        320,
+        375,
+        390,
+        768,
+        1024,
+        1440,
+        1920
+      ],
+      "status": "TESTED"
+    },
+    {
+      "path": "/bedrock-api/",
+      "responsiveWidths": [
+        320,
+        375,
+        390,
+        768,
+        1024,
+        1440,
+        1920
+      ],
+      "status": "TESTED"
+    },
+    {
+      "path": "/aws-bedrock-api-key/",
+      "responsiveWidths": [
+        320,
+        375,
+        390,
+        768,
+        1024,
+        1440,
+        1920
+      ],
+      "status": "TESTED"
+    },
+    {
+      "path": "/aws-account-configurator/",
+      "responsiveWidths": [
+        320,
+        375,
+        390,
+        768,
+        1024,
+        1440,
+        1920
+      ],
+      "status": "TESTED"
+    },
+    {
+      "path": "/contact/",
+      "responsiveWidths": [
+        320,
+        375,
+        390,
+        768,
+        1024,
+        1440,
+        1920
+      ],
+      "status": "TESTED"
+    },
+    {
+      "path": "/faq/",
+      "responsiveWidths": [
+        320,
+        375,
+        390,
+        768,
+        1024,
+        1440,
+        1920
+      ],
+      "status": "TESTED"
+    },
+    {
+      "path": "/refund/",
+      "responsiveWidths": [
+        320,
+        375,
+        390,
+        768,
+        1024,
+        1440,
+        1920
+      ],
+      "status": "TESTED"
+    },
+    {
+      "path": "/provider/aws/",
+      "responsiveWidths": [
+        320,
+        375,
+        390,
+        768,
+        1024,
+        1440,
+        1920
+      ],
+      "status": "TESTED"
+    },
+    {
+      "path": "/provider/azure/",
+      "responsiveWidths": [
+        320,
+        375,
+        390,
+        768,
+        1024,
+        1440,
+        1920
+      ],
+      "status": "TESTED"
+    },
+    {
+      "path": "/provider/digitalocean/",
+      "responsiveWidths": [
+        320,
+        375,
+        390,
+        768,
+        1024,
+        1440,
+        1920
+      ],
+      "status": "TESTED"
+    },
+    {
+      "path": "/provider/google-cloud/",
+      "responsiveWidths": [
+        320,
+        375,
+        390,
+        768,
+        1024,
+        1440,
+        1920
+      ],
+      "status": "TESTED"
+    },
+    {
+      "path": "/provider/hetzner/",
+      "responsiveWidths": [
+        320,
+        375,
+        390,
+        768,
+        1024,
+        1440,
+        1920
+      ],
+      "status": "TESTED"
+    },
+    {
+      "path": "/provider/kamatera/",
+      "responsiveWidths": [
+        320,
+        375,
+        390,
+        768,
+        1024,
+        1440,
+        1920
+      ],
+      "status": "TESTED"
+    },
+    {
+      "path": "/provider/linode/",
+      "responsiveWidths": [
+        320,
+        375,
+        390,
+        768,
+        1024,
+        1440,
+        1920
+      ],
+      "status": "TESTED"
+    },
+    {
+      "path": "/provider/oracle/",
+      "responsiveWidths": [
+        320,
+        375,
+        390,
+        768,
+        1024,
+        1440,
+        1920
+      ],
+      "status": "TESTED"
+    },
+    {
+      "path": "/provider/ovhcloud/",
+      "responsiveWidths": [
+        320,
+        375,
+        390,
+        768,
+        1024,
+        1440,
+        1920
+      ],
+      "status": "TESTED"
+    },
+    {
+      "path": "/provider/amazon-ses/",
+      "responsiveWidths": [
+        320,
+        375,
+        390,
+        768,
+        1024,
+        1440,
+        1920
+      ],
+      "status": "TESTED"
+    },
+    {
+      "path": "/provider/upcloud/",
+      "responsiveWidths": [
+        320,
+        375,
+        390,
+        768,
+        1024,
+        1440,
+        1920
+      ],
+      "status": "TESTED"
+    },
+    {
+      "path": "/provider/ibm-cloud/",
+      "responsiveWidths": [
+        320,
+        375,
+        390,
+        768,
+        1024,
+        1440,
+        1920
+      ],
+      "status": "TESTED"
+    },
+    {
+      "path": "/provider/heroku/",
+      "responsiveWidths": [
+        320,
+        375,
+        390,
+        768,
+        1024,
+        1440,
+        1920
+      ],
+      "status": "TESTED"
+    },
+    {
+      "path": "/provider/vultr/",
+      "responsiveWidths": [
+        320,
+        375,
+        390,
+        768,
+        1024,
+        1440,
+        1920
+      ],
+      "status": "TESTED"
+    },
+    {
+      "path": "/product/aws-free-trial-101/",
+      "responsiveWidths": [
+        320,
+        375,
+        390,
+        768,
+        1024,
+        1440,
+        1920
+      ],
+      "status": "TESTED"
+    },
+    {
+      "path": "/product/aws-8-vcpu-102/",
+      "responsiveWidths": [
+        320,
+        375,
+        390,
+        768,
+        1024,
+        1440,
+        1920
+      ],
+      "status": "TESTED"
+    },
+    {
+      "path": "/product/aws-32-vcpu-103/",
+      "responsiveWidths": [
+        320,
+        375,
+        390,
+        768,
+        1024,
+        1440,
+        1920
+      ],
+      "status": "TESTED"
+    },
+    {
+      "path": "/product/aws-64-vcpu-104/",
+      "responsiveWidths": [
+        320,
+        375,
+        390,
+        768,
+        1024,
+        1440,
+        1920
+      ],
+      "status": "TESTED"
+    },
+    {
+      "path": "/product/aws-128-vcpu-105/",
+      "responsiveWidths": [
+        320,
+        375,
+        390,
+        768,
+        1024,
+        1440,
+        1920
+      ],
+      "status": "TESTED"
+    },
+    {
+      "path": "/product/aws-256-vcpu-106/",
+      "responsiveWidths": [
+        320,
+        375,
+        390,
+        768,
+        1024,
+        1440,
+        1920
+      ],
+      "status": "TESTED"
+    },
+    {
+      "path": "/product/aws-512-vcpu-107/",
+      "responsiveWidths": [
+        320,
+        375,
+        390,
+        768,
+        1024,
+        1440,
+        1920
+      ],
+      "status": "TESTED"
+    },
+    {
+      "path": "/product/aws-640-vcpu-125/",
+      "responsiveWidths": [
+        320,
+        375,
+        390,
+        768,
+        1024,
+        1440,
+        1920
+      ],
+      "status": "TESTED"
+    },
+    {
+      "path": "/product/aws-1920-vcpu-126/",
+      "responsiveWidths": [
+        320,
+        375,
+        390,
+        768,
+        1024,
+        1440,
+        1920
+      ],
+      "status": "TESTED"
+    },
+    {
+      "path": "/product/aws-5k-credits-109/",
+      "responsiveWidths": [
+        320,
+        375,
+        390,
+        768,
+        1024,
+        1440,
+        1920
+      ],
+      "status": "TESTED"
+    },
+    {
+      "path": "/product/aws-10k-credits-110/",
+      "responsiveWidths": [
+        320,
+        375,
+        390,
+        768,
+        1024,
+        1440,
+        1920
+      ],
+      "status": "TESTED"
+    },
+    {
+      "path": "/product/aws-25k-credits-111/",
+      "responsiveWidths": [
+        320,
+        375,
+        390,
+        768,
+        1024,
+        1440,
+        1920
+      ],
+      "status": "TESTED"
+    },
+    {
+      "path": "/product/aws-100k-credits-113/",
+      "responsiveWidths": [
+        320,
+        375,
+        390,
+        768,
+        1024,
+        1440,
+        1920
+      ],
+      "status": "TESTED"
+    },
+    {
+      "path": "/product/aws-bedrock-32-vcpus-10-rpm-124/",
+      "responsiveWidths": [
+        320,
+        375,
+        390,
+        768,
+        1024,
+        1440,
+        1920
+      ],
+      "status": "TESTED"
+    },
+    {
+      "path": "/product/aws-bedrock-32-vcpus-50-rpm-127/",
+      "responsiveWidths": [
+        320,
+        375,
+        390,
+        768,
+        1024,
+        1440,
+        1920
+      ],
+      "status": "TESTED"
+    },
+    {
+      "path": "/product/aws-bedrock-256-vcpus-10k-rpm-117/",
+      "responsiveWidths": [
+        320,
+        375,
+        390,
+        768,
+        1024,
+        1440,
+        1920
+      ],
+      "status": "TESTED"
+    },
+    {
+      "path": "/product/aws-bedrock-512-vcpus-10k-rpm-high-tpm-121/",
+      "responsiveWidths": [
+        320,
+        375,
+        390,
+        768,
+        1024,
+        1440,
+        1920
+      ],
+      "status": "TESTED"
+    },
+    {
+      "path": "/product/aws-bedrock-640-vcpus-10k-rpm-high-tpm-f5-2-128/",
+      "responsiveWidths": [
+        320,
+        375,
+        390,
+        768,
+        1024,
+        1440,
+        1920
+      ],
+      "status": "TESTED"
+    },
+    {
+      "path": "/product/aws-bedrock-1920-vcpus-10k-rpm-high-tpm-123/",
+      "responsiveWidths": [
+        320,
+        375,
+        390,
+        768,
+        1024,
+        1440,
+        1920
+      ],
+      "status": "TESTED"
+    },
+    {
+      "path": "/product/aws-bedrock-5k-credits-10k-rpm-129/",
+      "responsiveWidths": [
+        320,
+        375,
+        390,
+        768,
+        1024,
+        1440,
+        1920
+      ],
+      "status": "TESTED"
+    },
+    {
+      "path": "/product/aws-bedrock-10k-credits-10k-rpm-130/",
+      "responsiveWidths": [
+        320,
+        375,
+        390,
+        768,
+        1024,
+        1440,
+        1920
+      ],
+      "status": "TESTED"
+    },
+    {
+      "path": "/product/aws-bedrock-25k-credits-10k-rpm-131/",
+      "responsiveWidths": [
+        320,
+        375,
+        390,
+        768,
+        1024,
+        1440,
+        1920
+      ],
+      "status": "TESTED"
+    },
+    {
+      "path": "/product/azure-free-trial-with-200-credits-307/",
+      "responsiveWidths": [
+        320,
+        375,
+        390,
+        768,
+        1024,
+        1440,
+        1920
+      ],
+      "status": "TESTED"
+    },
+    {
+      "path": "/product/azure-pay-as-you-go-308/",
+      "responsiveWidths": [
+        320,
+        375,
+        390,
+        768,
+        1024,
+        1440,
+        1920
+      ],
+      "status": "TESTED"
+    },
+    {
+      "path": "/product/azure-5k-credits-310/",
+      "responsiveWidths": [
+        320,
+        375,
+        390,
+        768,
+        1024,
+        1440,
+        1920
+      ],
+      "status": "TESTED"
+    },
+    {
+      "path": "/product/azure-10k-credits-with-gpt-enabled-406/",
+      "responsiveWidths": [
+        320,
+        375,
+        390,
+        768,
+        1024,
+        1440,
+        1920
+      ],
+      "status": "TESTED"
+    },
+    {
+      "path": "/product/azure-5k-credits-gpt-6-astra-high-tpm-t5-407/",
+      "responsiveWidths": [
+        320,
+        375,
+        390,
+        768,
+        1024,
+        1440,
+        1920
+      ],
+      "status": "TESTED"
+    },
+    {
+      "path": "/product/azure-10k-credits-gpt-6-astra-high-tpm-t5-408/",
+      "responsiveWidths": [
+        320,
+        375,
+        390,
+        768,
+        1024,
+        1440,
+        1920
+      ],
+      "status": "TESTED"
+    },
+    {
+      "path": "/product/azure-25k-credits-gpt-6-astra-high-tpm-t5-409/",
+      "responsiveWidths": [
+        320,
+        375,
+        390,
+        768,
+        1024,
+        1440,
+        1920
+      ],
+      "status": "TESTED"
+    },
+    {
+      "path": "/product/azure-100k-credits-gpt-6-astra-high-tpm-t5-410/",
+      "responsiveWidths": [
+        320,
+        375,
+        390,
+        768,
+        1024,
+        1440,
+        1920
+      ],
+      "status": "TESTED"
+    },
+    {
+      "path": "/product/digitalocean-3-droplets-free-trial-311/",
+      "responsiveWidths": [
+        320,
+        375,
+        390,
+        768,
+        1024,
+        1440,
+        1920
+      ],
+      "status": "TESTED"
+    },
+    {
+      "path": "/product/digitalocean-10-droplets-free-trial-411/",
+      "responsiveWidths": [
+        320,
+        375,
+        390,
+        768,
+        1024,
+        1440,
+        1920
+      ],
+      "status": "TESTED"
+    },
+    {
+      "path": "/product/digitalocean-port-25-open-200-droplets-412/",
+      "responsiveWidths": [
+        320,
+        375,
+        390,
+        768,
+        1024,
+        1440,
+        1920
+      ],
+      "status": "TESTED"
+    },
+    {
+      "path": "/product/digitalocean-port-25-open-500-droplets-413/",
+      "responsiveWidths": [
+        320,
+        375,
+        390,
+        768,
+        1024,
+        1440,
+        1920
+      ],
+      "status": "TESTED"
+    },
+    {
+      "path": "/product/google-cloud-free-trial-300-credits-400/",
+      "responsiveWidths": [
+        320,
+        375,
+        390,
+        768,
+        1024,
+        1440,
+        1920
+      ],
+      "status": "TESTED"
+    },
+    {
+      "path": "/product/google-cloud-300-credits-paid-account-301/",
+      "responsiveWidths": [
+        320,
+        375,
+        390,
+        768,
+        1024,
+        1440,
+        1920
+      ],
+      "status": "TESTED"
+    },
+    {
+      "path": "/product/google-cloud-2k-credits-paid-account-304/",
+      "responsiveWidths": [
+        320,
+        375,
+        390,
+        768,
+        1024,
+        1440,
+        1920
+      ],
+      "status": "TESTED"
+    },
+    {
+      "path": "/product/google-cloud-5k-credits-paid-account-305/",
+      "responsiveWidths": [
+        320,
+        375,
+        390,
+        768,
+        1024,
+        1440,
+        1920
+      ],
+      "status": "TESTED"
+    },
+    {
+      "path": "/product/google-cloud-10k-credits-paid-account-401/",
+      "responsiveWidths": [
+        320,
+        375,
+        390,
+        768,
+        1024,
+        1440,
+        1920
+      ],
+      "status": "TESTED"
+    },
+    {
+      "path": "/product/google-cloud-25k-credits-paid-account-306/",
+      "responsiveWidths": [
+        320,
+        375,
+        390,
+        768,
+        1024,
+        1440,
+        1920
+      ],
+      "status": "TESTED"
+    },
+    {
+      "path": "/product/google-cloud-2k-credits-vt-gemini-ai-f5-2-402/",
+      "responsiveWidths": [
+        320,
+        375,
+        390,
+        768,
+        1024,
+        1440,
+        1920
+      ],
+      "status": "TESTED"
+    },
+    {
+      "path": "/product/google-cloud-5k-credits-vt-gemini-ai-f5-2-403/",
+      "responsiveWidths": [
+        320,
+        375,
+        390,
+        768,
+        1024,
+        1440,
+        1920
+      ],
+      "status": "TESTED"
+    },
+    {
+      "path": "/product/google-cloud-10k-credits-vt-gemini-ai-f5-2-404/",
+      "responsiveWidths": [
+        320,
+        375,
+        390,
+        768,
+        1024,
+        1440,
+        1920
+      ],
+      "status": "TESTED"
+    },
+    {
+      "path": "/product/google-cloud-25k-credits-vt-gemini-ai-f5-2-405/",
+      "responsiveWidths": [
+        320,
+        375,
+        390,
+        768,
+        1024,
+        1440,
+        1920
+      ],
+      "status": "TESTED"
+    },
+    {
+      "path": "/product/hetzner-free-trial-414/",
+      "responsiveWidths": [
+        320,
+        375,
+        390,
+        768,
+        1024,
+        1440,
+        1920
+      ],
+      "status": "TESTED"
+    },
+    {
+      "path": "/product/hetzner-port-limit-50-servers-415/",
+      "responsiveWidths": [
+        320,
+        375,
+        390,
+        768,
+        1024,
+        1440,
+        1920
+      ],
+      "status": "TESTED"
+    },
+    {
+      "path": "/product/kamatera-free-trial-423/",
+      "responsiveWidths": [
+        320,
+        375,
+        390,
+        768,
+        1024,
+        1440,
+        1920
+      ],
+      "status": "TESTED"
+    },
+    {
+      "path": "/product/kamatera-port-25-open-424/",
+      "responsiveWidths": [
+        320,
+        375,
+        390,
+        768,
+        1024,
+        1440,
+        1920
+      ],
+      "status": "TESTED"
+    },
+    {
+      "path": "/product/linode-free-trial-312/",
+      "responsiveWidths": [
+        320,
+        375,
+        390,
+        768,
+        1024,
+        1440,
+        1920
+      ],
+      "status": "TESTED"
+    },
+    {
+      "path": "/product/linode-port-25-open-10-ips-416/",
+      "responsiveWidths": [
+        320,
+        375,
+        390,
+        768,
+        1024,
+        1440,
+        1920
+      ],
+      "status": "TESTED"
+    },
+    {
+      "path": "/product/linode-port-25-open-50-ips-417/",
+      "responsiveWidths": [
+        320,
+        375,
+        390,
+        768,
+        1024,
+        1440,
+        1920
+      ],
+      "status": "TESTED"
+    },
+    {
+      "path": "/product/oracle-cloud-free-trial-314/",
+      "responsiveWidths": [
+        320,
+        375,
+        390,
+        768,
+        1024,
+        1440,
+        1920
+      ],
+      "status": "TESTED"
+    },
+    {
+      "path": "/product/oracle-cloud-pay-as-you-go-418/",
+      "responsiveWidths": [
+        320,
+        375,
+        390,
+        768,
+        1024,
+        1440,
+        1920
+      ],
+      "status": "TESTED"
+    },
+    {
+      "path": "/product/ovhcloud-free-trial-34-vcpus-313/",
+      "responsiveWidths": [
+        320,
+        375,
+        390,
+        768,
+        1024,
+        1440,
+        1920
+      ],
+      "status": "TESTED"
+    },
+    {
+      "path": "/product/ovhcloud-paid-34-vcpus-419/",
+      "responsiveWidths": [
+        320,
+        375,
+        390,
+        768,
+        1024,
+        1440,
+        1920
+      ],
+      "status": "TESTED"
+    },
+    {
+      "path": "/product/amazon-ses-smtp-50k-daily-limits-316/",
+      "responsiveWidths": [
+        320,
+        375,
+        390,
+        768,
+        1024,
+        1440,
+        1920
+      ],
+      "status": "TESTED"
+    },
+    {
+      "path": "/product/amazon-ses-smtp-50k-daily-limits-with-3-regions-420/",
+      "responsiveWidths": [
+        320,
+        375,
+        390,
+        768,
+        1024,
+        1440,
+        1920
+      ],
+      "status": "TESTED"
+    },
+    {
+      "path": "/product/amazon-ses-smtp-100k-daily-limits-317/",
+      "responsiveWidths": [
+        320,
+        375,
+        390,
+        768,
+        1024,
+        1440,
+        1920
+      ],
+      "status": "TESTED"
+    },
+    {
+      "path": "/product/upcloud-free-trial-421/",
+      "responsiveWidths": [
+        320,
+        375,
+        390,
+        768,
+        1024,
+        1440,
+        1920
+      ],
+      "status": "TESTED"
+    },
+    {
+      "path": "/product/upcloud-paid-account-422/",
+      "responsiveWidths": [
+        320,
+        375,
+        390,
+        768,
+        1024,
+        1440,
+        1920
+      ],
+      "status": "TESTED"
+    },
+    {
+      "path": "/product/ibm-cloud-free-trial-425/",
+      "responsiveWidths": [
+        320,
+        375,
+        390,
+        768,
+        1024,
+        1440,
+        1920
+      ],
+      "status": "TESTED"
+    },
+    {
+      "path": "/product/ibm-cloud-pay-as-you-go-426/",
+      "responsiveWidths": [
+        320,
+        375,
+        390,
+        768,
+        1024,
+        1440,
+        1920
+      ],
+      "status": "TESTED"
+    },
+    {
+      "path": "/product/ibm-cloud-port-25-open-427/",
+      "responsiveWidths": [
+        320,
+        375,
+        390,
+        768,
+        1024,
+        1440,
+        1920
+      ],
+      "status": "TESTED"
+    },
+    {
+      "path": "/product/heroku-free-trial-and-port-25-open-428/",
+      "responsiveWidths": [
+        320,
+        375,
+        390,
+        768,
+        1024,
+        1440,
+        1920
+      ],
+      "status": "TESTED"
+    },
+    {
+      "path": "/product/heroku-port-25-open-429/",
+      "responsiveWidths": [
+        320,
+        375,
+        390,
+        768,
+        1024,
+        1440,
+        1920
+      ],
+      "status": "TESTED"
+    },
+    {
+      "path": "/product/vultr-200-credits-430/",
+      "responsiveWidths": [
+        320,
+        375,
+        390,
+        768,
+        1024,
+        1440,
+        1920
+      ],
+      "status": "TESTED"
+    },
+    {
+      "path": "/product/vultr-250-credits-431/",
+      "responsiveWidths": [
+        320,
+        375,
+        390,
+        768,
+        1024,
+        1440,
+        1920
+      ],
+      "status": "TESTED"
+    },
+    {
+      "path": "/product/vultr-95-credits-432/",
+      "responsiveWidths": [
+        320,
+        375,
+        390,
+        768,
+        1024,
+        1440,
+        1920
+      ],
+      "status": "TESTED"
+    },
+    {
+      "path": "/cart/",
+      "responsiveWidths": [
+        320,
+        375,
+        390,
+        768,
+        1024,
+        1440,
+        1920
+      ],
+      "status": "TESTED"
+    },
+    {
+      "path": "/checkout/",
+      "responsiveWidths": [
+        320,
+        375,
+        390,
+        768,
+        1024,
+        1440,
+        1920
+      ],
+      "status": "TESTED"
+    },
+    {
+      "test": "mobile menu and contact links",
+      "status": "PASS"
+    },
+    {
+      "test": "variation selection, quantity, cart persistence, checkout, TRC20, receipt draft without sending",
+      "status": "PASS"
+    },
+    {
+      "test": "retired cart item notice and current catalog prices replace tampered stored prices",
+      "status": "PASS"
+    },
+    {
+      "test": "homepage direct-checkout CTA retains selected product",
+      "status": "PASS"
+    }
+  ]
+}

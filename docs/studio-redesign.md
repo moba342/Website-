@@ -61,3 +61,13 @@ Validation: production build and schema/SEO checks pass; all 10 unit tests pass;
 ## Premium typography refresh
 
 Headings use Outfit, body/navigation use Plus Jakarta Sans, and prices/technical labels use JetBrains Mono. Fonts are self-hosted Latin variable WOFF2 assets with font-display: swap and included OFL licenses. The heading/body faces are preloaded. Browser checks confirm all three faces load, the intended families are applied, and large cart/checkout totals fit a 320px viewport. The Sitemap link was removed from the footer menu; the XML sitemap remains available to crawlers.
+
+## Complete merchant catalog replacement — 2026-11-27
+
+The owner supplied and confirmed a complete catalog of 14 providers and 68 priced variations (82 provider/product records). The independent price authority is tests/fixtures/merchant-catalog-2026-11-27.json; the human-review table is seo/CATALOG-PRICE-UPDATE.csv. All supplied amounts are preserved, including Azure 5K at $7,550 and both AWS 5K/10K Bedrock credit options at $1,099. The repeated GCP F5.2 label was normalized once, without inventing a second model. Model names, High TPM and T5 remain seller-specified labels requiring order confirmation.
+
+Unlisted products and illustrative starter services are removed from the active catalog. Existing records are preserved in seo/baseline/catalog-before-2026-11-27-price-update.json. Same-tier products retain their IDs. Renamed/retired URLs use 48 permanent redirects, defined in src/catalog-redirects.json and vercel.json; retired products redirect to their current provider collection, and retired providers to the cloud-service collection. New configurations receive new IDs.
+
+Variation selectors now show the requested group headings. New Kamatera, IBM Cloud, Heroku and Vultr provider logos are included with source notes. Product articles, metadata, FAQ price answers, schema, internal links, provider counts and sitemap entries use the new catalog. All prices are merchant prices rather than earlier competitor references.
+
+Stored carts resolve current catalog prices and display a notice when retired items are removed. Existing saved payment drafts retain original amounts; changed names/prices/retired records prevent new receiving instructions and require support review. Customers can still submit an already-sent transaction for manual review. No payment or contact message was sent during verification. Catalog guides/SEO data are split into separate client chunks to keep the production entry bundle small.

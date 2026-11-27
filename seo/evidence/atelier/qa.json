@@ -1,5 +1,5 @@
 {
-  "origin": "https://cloudssupply.site",
+  "origin": "http://localhost:4181",
   "results": [
     {
       "path": "/product/aws-32-vcpu-103/",
@@ -36,7 +36,7 @@
       "status": "PASS"
     },
     {
-      "test": "quote-only purchase remains blocked at checkout",
+      "test": "updated Bedrock variation price shown",
       "status": "PASS"
     }
   ],

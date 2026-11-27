@@ -24,7 +24,7 @@
     "description": "Buy cloud account products and compare AWS, Azure, Google Cloud, hosting and API listings. Review prices, specifications, and individual guides at CloudsSupply.",
     "h1": "Buy Cloud Account Products & Compare Prices",
     "intent": "commercial",
-    "scope": "Complete product-level inventory including account variations and setup services",
+    "scope": "Complete product-level inventory including all merchant account variations",
     "intro": "Compare cloud account products, review cloud account prices, and explore cloud API products for sale. Choose a provider and read its individual specification guide before payment."
   },
   "cloud-service-accounts": {
@@ -52,7 +52,7 @@
     "description": "Buy AWS Standard accounts with free trial, vCPU and cloud credit options. Compare available AWS account specifications, pricing and plans at CloudsSupply.",
     "h1": "Buy AWS Standard Accounts & Credits",
     "intent": "commercial",
-    "scope": "Standard trial, compute and credit listings; excludes Bedrock and Kiro",
+    "scope": "Standard trial, compute and credit listings; excludes Bedrock AI accounts",
     "intro": "Review AWS Standard accounts for sale, compare AWS vCPU account pricing, and check the conditions for an AWS credit account purchase. Trial, compute, and credit listings describe different benefits; compare each against your project requirements."
   },
   "bedrock-api": {

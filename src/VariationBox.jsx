@@ -18,11 +18,11 @@ export default function VariationBox({variants, value, onChange, onAdd, label='A
     </div>
     <fieldset className="variation-list">
       <legend className="visually-hidden">{label}</legend>
-      {variants.map(p => <label className="variation-option" key={p.id}>
+      {variants.map((p,index) => <React.Fragment key={p.id}>{p.group&&p.group!==variants[index-1]?.group&&<div className="variation-group-heading">{p.group}</div>}<label className="variation-option">
         <input type="radio" name={id} value={p.id} checked={p.id === selected.id} onChange={() => onChange(p.id)}/>
         <span>{p.variant || p.name}</span>
         <strong>{p.price == null ? 'Request quote' : money(p.price)}</strong>
-      </label>)}
+      </label></React.Fragment>)}
     </fieldset>
     <div className="variation-actions">
       <div className="variation-quantity-row">

@@ -52,9 +52,8 @@ try{
  assert.ok(receipt.includes(ref)&&receipt.includes('105.00 USDT')&&receipt.includes('TRC20'));
  results.push({test:'variation selection, quantity, cart persistence, checkout, TRC20, receipt draft without sending',status:'PASS'});
  await page.goto(origin+'/cart/');await page.getByRole('button',{name:'Remove AWS 32 vCPU'}).click();await page.getByRole('heading',{name:'Your cart is ready for your next idea.'}).waitFor();
- await page.evaluate(()=>localStorage.setItem('cloudssupply-cart-v1',JSON.stringify([{id:117,qty:1},{id:103,qty:1,price:0}])));await page.reload();assert.equal(await page.locator('.shop-summary .shop-main-action').getAttribute('aria-disabled'),'true');
- await page.goto(origin+'/checkout/');await page.getByRole('heading',{name:'Your order needs a price confirmation.'}).waitFor();
- results.push({test:'remove item, quote-only cart blocks payment, tampered stored price ignored',status:'PASS'});
+ await page.evaluate(()=>localStorage.setItem('cloudssupply-cart-v1',JSON.stringify([{id:108,qty:1},{id:103,qty:1,price:0}])));await page.reload();await page.locator('.catalog-change-notice').waitFor();assert.ok((await page.locator('.shop-summary').innerText()).includes('35.00 USDT'));assert.equal(await page.locator('.shop-summary .shop-main-action').getAttribute('aria-disabled'),'false');
+ results.push({test:'retired cart item notice and current catalog prices replace tampered stored prices',status:'PASS'});
  await page.goto(origin+'/cart/');await page.evaluate(()=>{localStorage.clear();});await page.goto(origin+'/');
  await page.locator('.studio-product-card').first().getByRole('button',{name:/^Add To Card:/}).click();await page.waitForURL('**/checkout/');assert.ok((await page.locator('.payment-order-lines').innerText()).length>0);
  results.push({test:'homepage direct-checkout CTA retains selected product',status:'PASS'});

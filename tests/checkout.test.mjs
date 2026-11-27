@@ -25,7 +25,9 @@ test('cart persistence migrates legacy data, handles corruption and stores only 
  assert.deepEqual(JSON.parse(storage.get(cart.CART_KEY)),[line]);assert.equal(storage.has('cloudcart-cart'),false);
  storage.set(cart.CART_KEY,'broken');assert.deepEqual(cart.loadCart(),[]);
 });
-test('quote and scope confirmation items block the entire payment',()=>{
+test('unpriced or retired products cannot produce a payable order',()=>{
+ assert.equal(cart.needsConfirmation({price:null,id:999}),true);assert.throws(()=>orders.createOrderDraft([{id:1,qty:1}],'BEP20'));
+ assert.equal(allProducts.length,68);assert.ok(allProducts.every(p=>p.price!=null&&p.id>=100));
  for(const p of allProducts.filter(p=>p.price==null||p.id<100)){
   const items=[line,{id:p.id,qty:1}];assert.equal(cart.cartSummary(items).canPay,false);
   assert.throws(()=>orders.createOrderDraft(items,'BEP20'));
@@ -76,4 +78,11 @@ test('TRC20 instructions and receipt use the TRON receiver and hash format',()=>
  const text=new URL(orders.paymentReceiptUrl(order,hash)).searchParams.get('text');
  for(const value of [order.address,'TRC20',hash,cart.usdt(order.totalCents)])assert.ok(text.includes(value));
  assert.ok(!text.includes(config.findPaymentNetwork('BEP20').address));
+});
+
+test('retired carts are identified and old payment drafts are not silently repriced',()=>{
+ storage.clear();storage.set(cart.CART_KEY,JSON.stringify([{id:108,qty:1},{id:104,qty:2,price:45}]));
+ const restored=cart.loadCartReview();assert.equal(restored.retiredCount,1);assert.equal(restored.items.length,1);assert.equal(restored.items[0].price,110);assert.equal(cart.cartSummary(restored.items).totalCents,22000);
+ const current=orders.createOrderDraft([{id:104,qty:1}],'BEP20');const old={...current,totalCents:4500,items:[{...current.items[0],unitCents:4500}]};assert.match(orders.draftPaymentIssue(old),/price have changed/);assert.equal(old.totalCents,4500);
+ const retired={...current,items:[{...current.items[0],id:108}]};assert.match(orders.draftPaymentIssue(retired),/catalog details or price have changed/);
 });

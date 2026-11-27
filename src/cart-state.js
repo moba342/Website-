@@ -9,7 +9,8 @@ export function normalizeCart(value){
  for(const item of value){const id=Number(item?.id),qty=Number(item?.qty);if(!catalog.has(id)||!validQuantity(qty))continue;quantities.set(id,Math.min(MAX_QUANTITY,(quantities.get(id)||0)+qty));}
  return [...quantities].map(([id,qty])=>({...catalog.get(id),qty}));
 }
-export function loadCart(){try{const saved=localStorage.getItem(CART_KEY);return normalizeCart(JSON.parse(saved??localStorage.getItem('cloudcart-cart')??'[]'));}catch{return [];}}
+export function loadCartReview(){try{const saved=localStorage.getItem(CART_KEY);const raw=JSON.parse(saved??localStorage.getItem('cloudcart-cart')??'[]');return {items:normalizeCart(raw),retiredCount:Array.isArray(raw)?raw.filter(p=>Number.isInteger(Number(p?.id))&&!catalog.has(Number(p.id))).length:0};}catch{return {items:[],retiredCount:0};}}
+export function loadCart(){return loadCartReview().items;}
 export function saveCart(items){localStorage.setItem(CART_KEY,JSON.stringify(normalizeCart(items).map(({id,qty})=>({id,qty}))));localStorage.removeItem('cloudcart-cart');}
 export function addCartItem(items,product,quantity=1){
  const id=Number(product?.id);if(!catalog.has(id)||!validQuantity(quantity))throw new Error('Choose a valid product and a whole-number quantity from 1 to 99.');

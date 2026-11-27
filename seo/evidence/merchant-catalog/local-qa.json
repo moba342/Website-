@@ -1,0 +1,659 @@
+{
+  "origin": "http://localhost:4181",
+  "providers": 14,
+  "variations": [
+    {
+      "id": 101,
+      "name": "AWS Free Trial",
+      "price": 15,
+      "status": "PASS"
+    },
+    {
+      "id": 102,
+      "name": "AWS 8 vCPU",
+      "price": 25,
+      "status": "PASS"
+    },
+    {
+      "id": 103,
+      "name": "AWS 32 vCPU",
+      "price": 35,
+      "status": "PASS"
+    },
+    {
+      "id": 104,
+      "name": "AWS 64 vCPU",
+      "price": 110,
+      "status": "PASS"
+    },
+    {
+      "id": 105,
+      "name": "AWS 128 vCPU",
+      "price": 145,
+      "status": "PASS"
+    },
+    {
+      "id": 106,
+      "name": "AWS 256 vCPU",
+      "price": 199,
+      "status": "PASS"
+    },
+    {
+      "id": 107,
+      "name": "AWS 512 vCPU",
+      "price": 299,
+      "status": "PASS"
+    },
+    {
+      "id": 125,
+      "name": "AWS 640 vCPU",
+      "price": 499,
+      "status": "PASS"
+    },
+    {
+      "id": 126,
+      "name": "AWS 1920 vCPU",
+      "price": 1299,
+      "status": "PASS"
+    },
+    {
+      "id": 109,
+      "name": "AWS 5K Credits",
+      "price": 1250,
+      "status": "PASS"
+    },
+    {
+      "id": 110,
+      "name": "AWS 10K Credits",
+      "price": 2500,
+      "status": "PASS"
+    },
+    {
+      "id": 111,
+      "name": "AWS 25K Credits",
+      "price": 6500,
+      "status": "PASS"
+    },
+    {
+      "id": 113,
+      "name": "AWS 100K Credits",
+      "price": 18000,
+      "status": "PASS"
+    },
+    {
+      "id": 124,
+      "name": "AWS Bedrock 32 vCPUs 10 RPM",
+      "price": 70,
+      "status": "PASS"
+    },
+    {
+      "id": 127,
+      "name": "AWS Bedrock 32 vCPUs 50 RPM",
+      "price": 70,
+      "status": "PASS"
+    },
+    {
+      "id": 117,
+      "name": "AWS Bedrock 256 vCPUs 10K RPM",
+      "price": 900,
+      "status": "PASS"
+    },
+    {
+      "id": 121,
+      "name": "AWS Bedrock 512 vCPUs 10K RPM High TPM",
+      "price": 5500,
+      "status": "PASS"
+    },
+    {
+      "id": 128,
+      "name": "AWS Bedrock 640 vCPUs 10K RPM High TPM F5.2",
+      "price": 6500,
+      "status": "PASS"
+    },
+    {
+      "id": 123,
+      "name": "AWS Bedrock 1920 vCPUs 10K RPM High TPM",
+      "price": 9999,
+      "status": "PASS"
+    },
+    {
+      "id": 129,
+      "name": "AWS Bedrock 5K Credits 10K RPM",
+      "price": 1099,
+      "status": "PASS"
+    },
+    {
+      "id": 130,
+      "name": "AWS Bedrock 10K Credits 10K RPM",
+      "price": 1099,
+      "status": "PASS"
+    },
+    {
+      "id": 131,
+      "name": "AWS Bedrock 25K Credits 10K RPM",
+      "price": 2500,
+      "status": "PASS"
+    },
+    {
+      "id": 307,
+      "name": "Azure — Free Trial with $200 Credits",
+      "price": 35,
+      "status": "PASS"
+    },
+    {
+      "id": 308,
+      "name": "Azure — Pay As You Go",
+      "price": 55,
+      "status": "PASS"
+    },
+    {
+      "id": 310,
+      "name": "Azure — 5K Credits",
+      "price": 7550,
+      "status": "PASS"
+    },
+    {
+      "id": 406,
+      "name": "Azure — 10K Credits with GPT Enabled",
+      "price": 1500,
+      "status": "PASS"
+    },
+    {
+      "id": 407,
+      "name": "Azure — 5K Credits GPT 6 Astra High TPM T5",
+      "price": 999,
+      "status": "PASS"
+    },
+    {
+      "id": 408,
+      "name": "Azure — 10K Credits GPT 6 Astra High TPM T5",
+      "price": 1999,
+      "status": "PASS"
+    },
+    {
+      "id": 409,
+      "name": "Azure — 25K Credits GPT 6 Astra High TPM T5",
+      "price": 5500,
+      "status": "PASS"
+    },
+    {
+      "id": 410,
+      "name": "Azure — 100K Credits GPT 6 Astra High TPM T5",
+      "price": 14500,
+      "status": "PASS"
+    },
+    {
+      "id": 311,
+      "name": "DigitalOcean — 3 Droplets Free Trial",
+      "price": 20,
+      "status": "PASS"
+    },
+    {
+      "id": 411,
+      "name": "DigitalOcean — 10 Droplets Free Trial",
+      "price": 30,
+      "status": "PASS"
+    },
+    {
+      "id": 412,
+      "name": "DigitalOcean — Port 25 Open 200 Droplets",
+      "price": 5800,
+      "status": "PASS"
+    },
+    {
+      "id": 413,
+      "name": "DigitalOcean — Port 25 Open 500 Droplets",
+      "price": 9800,
+      "status": "PASS"
+    },
+    {
+      "id": 400,
+      "name": "Google Cloud — Free Trial $300 Credits",
+      "price": 55,
+      "status": "PASS"
+    },
+    {
+      "id": 301,
+      "name": "Google Cloud — $300 Credits Paid Account",
+      "price": 80,
+      "status": "PASS"
+    },
+    {
+      "id": 304,
+      "name": "Google Cloud — 2K Credits Paid Account",
+      "price": 199,
+      "status": "PASS"
+    },
+    {
+      "id": 305,
+      "name": "Google Cloud — 5K Credits Paid Account",
+      "price": 699,
+      "status": "PASS"
+    },
+    {
+      "id": 401,
+      "name": "Google Cloud — 10K Credits Paid Account",
+      "price": 1299,
+      "status": "PASS"
+    },
+    {
+      "id": 306,
+      "name": "Google Cloud — 25K Credits Paid Account",
+      "price": 2999,
+      "status": "PASS"
+    },
+    {
+      "id": 402,
+      "name": "Google Cloud — 2K Credits VT Gemini AI F5.2",
+      "price": 299,
+      "status": "PASS"
+    },
+    {
+      "id": 403,
+      "name": "Google Cloud — 5K Credits VT Gemini AI F5.2",
+      "price": 999,
+      "status": "PASS"
+    },
+    {
+      "id": 404,
+      "name": "Google Cloud — 10K Credits VT Gemini AI F5.2",
+      "price": 1899,
+      "status": "PASS"
+    },
+    {
+      "id": 405,
+      "name": "Google Cloud — 25K Credits VT Gemini AI F5.2",
+      "price": 5500,
+      "status": "PASS"
+    },
+    {
+      "id": 414,
+      "name": "Hetzner — Free Trial",
+      "price": 30,
+      "status": "PASS"
+    },
+    {
+      "id": 415,
+      "name": "Hetzner — Port Limit 50 Servers",
+      "price": 35,
+      "status": "PASS"
+    },
+    {
+      "id": 423,
+      "name": "Kamatera — Free Trial",
+      "price": 30,
+      "status": "PASS"
+    },
+    {
+      "id": 424,
+      "name": "Kamatera — Port 25 Open",
+      "price": 50,
+      "status": "PASS"
+    },
+    {
+      "id": 312,
+      "name": "Linode — Free Trial",
+      "price": 30,
+      "status": "PASS"
+    },
+    {
+      "id": 416,
+      "name": "Linode — Port 25 Open 10 IPs",
+      "price": 120,
+      "status": "PASS"
+    },
+    {
+      "id": 417,
+      "name": "Linode — Port 25 Open 50 IPs",
+      "price": 480,
+      "status": "PASS"
+    },
+    {
+      "id": 314,
+      "name": "Oracle Cloud — Free Trial",
+      "price": 45,
+      "status": "PASS"
+    },
+    {
+      "id": 418,
+      "name": "Oracle Cloud — Pay As You Go",
+      "price": 120,
+      "status": "PASS"
+    },
+    {
+      "id": 313,
+      "name": "OVHcloud — Free Trial 34 vCPUs",
+      "price": 30,
+      "status": "PASS"
+    },
+    {
+      "id": 419,
+      "name": "OVHcloud — Paid 34 vCPUs",
+      "price": 80,
+      "status": "PASS"
+    },
+    {
+      "id": 316,
+      "name": "Amazon SES — SMTP 50K Daily Limits",
+      "price": 500,
+      "status": "PASS"
+    },
+    {
+      "id": 420,
+      "name": "Amazon SES — SMTP 50K Daily Limits with 3 Regions",
+      "price": 899,
+      "status": "PASS"
+    },
+    {
+      "id": 317,
+      "name": "Amazon SES — SMTP 100K Daily Limits",
+      "price": 1599,
+      "status": "PASS"
+    },
+    {
+      "id": 421,
+      "name": "UpCloud — Free Trial",
+      "price": 30,
+      "status": "PASS"
+    },
+    {
+      "id": 422,
+      "name": "UpCloud — Paid Account",
+      "price": 75,
+      "status": "PASS"
+    },
+    {
+      "id": 425,
+      "name": "IBM Cloud — Free Trial",
+      "price": 45,
+      "status": "PASS"
+    },
+    {
+      "id": 426,
+      "name": "IBM Cloud — Pay As You Go",
+      "price": 120,
+      "status": "PASS"
+    },
+    {
+      "id": 427,
+      "name": "IBM Cloud — Port 25 Open",
+      "price": 80,
+      "status": "PASS"
+    },
+    {
+      "id": 428,
+      "name": "Heroku — Free Trial and Port 25 Open",
+      "price": 50,
+      "status": "PASS"
+    },
+    {
+      "id": 429,
+      "name": "Heroku — Port 25 Open",
+      "price": 85,
+      "status": "PASS"
+    },
+    {
+      "id": 430,
+      "name": "Vultr — $200 Credits",
+      "price": 30,
+      "status": "PASS"
+    },
+    {
+      "id": 431,
+      "name": "Vultr — $250 Credits",
+      "price": 55,
+      "status": "PASS"
+    },
+    {
+      "id": 432,
+      "name": "Vultr — $95 Credits",
+      "price": 55,
+      "status": "PASS"
+    }
+  ],
+  "redirects": [
+    {
+      "source": "/product/aws-8vcpu-102/",
+      "destination": "/product/aws-8-vcpu-102/",
+      "status": 308
+    },
+    {
+      "source": "/product/aws-1k-credit-108/",
+      "destination": "/provider/aws/",
+      "status": 308
+    },
+    {
+      "source": "/product/aws-5k-credit-109/",
+      "destination": "/product/aws-5k-credits-109/",
+      "status": 308
+    },
+    {
+      "source": "/product/aws-10k-credit-110/",
+      "destination": "/product/aws-10k-credits-110/",
+      "status": 308
+    },
+    {
+      "source": "/product/aws-25k-credit-111/",
+      "destination": "/product/aws-25k-credits-111/",
+      "status": 308
+    },
+    {
+      "source": "/product/aws-50k-credit-112/",
+      "destination": "/provider/aws/",
+      "status": 308
+    },
+    {
+      "source": "/product/aws-100k-credit-113/",
+      "destination": "/product/aws-100k-credits-113/",
+      "status": 308
+    },
+    {
+      "source": "/product/aws-ai-bedrock-10-rpm-5vcpu-114/",
+      "destination": "/provider/aws/",
+      "status": 308
+    },
+    {
+      "source": "/product/aws-ai-bedrock-50-rpm-5vcpus-115/",
+      "destination": "/provider/aws/",
+      "status": 308
+    },
+    {
+      "source": "/product/aws-ai-bedrock-10-rpm-32vcpus-124/",
+      "destination": "/product/aws-bedrock-32-vcpus-10-rpm-124/",
+      "status": 308
+    },
+    {
+      "source": "/product/aws-ai-bedrock-10k-rpm-32vcpus-116/",
+      "destination": "/provider/aws/",
+      "status": 308
+    },
+    {
+      "source": "/product/aws-ai-bedrock-10k-rpm-256vcpus-117/",
+      "destination": "/product/aws-bedrock-256-vcpus-10k-rpm-117/",
+      "status": 308
+    },
+    {
+      "source": "/product/kiro-enabled-account-118/",
+      "destination": "/provider/aws/",
+      "status": 308
+    },
+    {
+      "source": "/product/aws-bedrock-256vcpus-10k-rpm-4-6-4-7-4-8-f5-supported-119/",
+      "destination": "/provider/aws/",
+      "status": 308
+    },
+    {
+      "source": "/product/aws-bedrock-384vcpus-10k-rpm-4-6-4-7-4-8-f5-supported-120/",
+      "destination": "/provider/aws/",
+      "status": 308
+    },
+    {
+      "source": "/product/aws-bedrock-512vcpus-10k-rpm-4-6-4-7-4-8-f5-supported-121/",
+      "destination": "/product/aws-bedrock-512-vcpus-10k-rpm-high-tpm-121/",
+      "status": 308
+    },
+    {
+      "source": "/product/aws-bedrock-1024vcpus-10k-rpm-4-6-4-7-4-8-f5-supported-122/",
+      "destination": "/provider/aws/",
+      "status": 308
+    },
+    {
+      "source": "/product/aws-bedrock-1920vcpus-10k-rpm-4-6-4-7-4-8-f5-supported-123/",
+      "destination": "/product/aws-bedrock-1920-vcpus-10k-rpm-high-tpm-123/",
+      "status": 308
+    },
+    {
+      "source": "/product/google-cloud-300-10-prepaid-301/",
+      "destination": "/product/google-cloud-300-credits-paid-account-301/",
+      "status": 308
+    },
+    {
+      "source": "/product/google-cloud-pay-as-you-go-10-payment-required-302/",
+      "destination": "/provider/google-cloud/",
+      "status": 308
+    },
+    {
+      "source": "/product/google-cloud-pay-as-you-go-20-cad-payment-required-303/",
+      "destination": "/provider/google-cloud/",
+      "status": 308
+    },
+    {
+      "source": "/product/google-cloud-2-000-credits-account-304/",
+      "destination": "/product/google-cloud-2k-credits-paid-account-304/",
+      "status": 308
+    },
+    {
+      "source": "/product/google-cloud-5-000-credits-account-305/",
+      "destination": "/product/google-cloud-5k-credits-paid-account-305/",
+      "status": 308
+    },
+    {
+      "source": "/product/google-cloud-25-000-credits-account-306/",
+      "destination": "/product/google-cloud-25k-credits-paid-account-306/",
+      "status": 308
+    },
+    {
+      "source": "/product/azure-free-trial-with-200-credit-307/",
+      "destination": "/product/azure-free-trial-with-200-credits-307/",
+      "status": 308
+    },
+    {
+      "source": "/product/azure-pay-as-you-go-with-200-credit-308/",
+      "destination": "/product/azure-pay-as-you-go-308/",
+      "status": 308
+    },
+    {
+      "source": "/product/azure-azure-1k-tier-1-support-claude-309/",
+      "destination": "/provider/azure/",
+      "status": 308
+    },
+    {
+      "source": "/product/azure-azure-5k-credit-account-310/",
+      "destination": "/product/azure-5k-credits-310/",
+      "status": 308
+    },
+    {
+      "source": "/product/digitalocean-do-3-droplet-311/",
+      "destination": "/product/digitalocean-3-droplets-free-trial-311/",
+      "status": 308
+    },
+    {
+      "source": "/product/linode-free-trial-100-credit-312/",
+      "destination": "/product/linode-free-trial-312/",
+      "status": 308
+    },
+    {
+      "source": "/product/ovhcloud-34-vcpus-313/",
+      "destination": "/product/ovhcloud-free-trial-34-vcpus-313/",
+      "status": 308
+    },
+    {
+      "source": "/product/oracle-cloud-free-trial-300-314/",
+      "destination": "/product/oracle-cloud-free-trial-314/",
+      "status": 308
+    },
+    {
+      "source": "/product/hetzner-hetzner-5-server-account-315/",
+      "destination": "/provider/hetzner/",
+      "status": 308
+    },
+    {
+      "source": "/product/amazon-ses-smtp-50k-limits-316/",
+      "destination": "/product/amazon-ses-smtp-50k-daily-limits-316/",
+      "status": 308
+    },
+    {
+      "source": "/product/amazon-ses-smtp-100k-limits-317/",
+      "destination": "/product/amazon-ses-smtp-100k-daily-limits-317/",
+      "status": 308
+    },
+    {
+      "source": "/product/upcloud-500-credit-318/",
+      "destination": "/provider/upcloud/",
+      "status": 308
+    },
+    {
+      "source": "/product/atlantic-atlantic-cloud-free-trial-319/",
+      "destination": "/cloud-service-accounts/",
+      "status": 308
+    },
+    {
+      "source": "/product/alibaba-cloud-alibaba-cloud-free-trial-320/",
+      "destination": "/cloud-service-accounts/",
+      "status": 308
+    },
+    {
+      "source": "/product/aws-marketplace-verified-marketplace-account-321/",
+      "destination": "/cloud-service-accounts/",
+      "status": 308
+    },
+    {
+      "source": "/product/aws-cloud-starter-1/",
+      "destination": "/provider/aws/",
+      "status": 308
+    },
+    {
+      "source": "/product/google-cloud-starter-2/",
+      "destination": "/provider/aws/",
+      "status": 308
+    },
+    {
+      "source": "/product/azure-cloud-starter-3/",
+      "destination": "/provider/aws/",
+      "status": 308
+    },
+    {
+      "source": "/product/digitalocean-starter-4/",
+      "destination": "/provider/aws/",
+      "status": 308
+    },
+    {
+      "source": "/product/aws-launch-plus-5/",
+      "destination": "/provider/aws/",
+      "status": 308
+    },
+    {
+      "source": "/product/google-cloud-launch-plus-6/",
+      "destination": "/provider/aws/",
+      "status": 308
+    },
+    {
+      "source": "/provider/atlantic/",
+      "destination": "/cloud-service-accounts/",
+      "status": 308
+    },
+    {
+      "source": "/provider/alibaba/",
+      "destination": "/cloud-service-accounts/",
+      "status": 308
+    },
+    {
+      "source": "/provider/aws-marketplace/",
+      "destination": "/cloud-service-accounts/",
+      "status": 308
+    }
+  ],
+  "oldCartRepricing": "PASS",
+  "oldDraftReview": "PASS",
+  "errors": []
+}

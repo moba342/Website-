@@ -1,0 +1,69 @@
+Provider,Group,ID,Product,Account Price USD
+Amazon Web Services,AWS vCPU accounts,101,AWS Free Trial,15
+Amazon Web Services,AWS vCPU accounts,102,AWS 8 vCPU,25
+Amazon Web Services,AWS vCPU accounts,103,AWS 32 vCPU,35
+Amazon Web Services,AWS vCPU accounts,104,AWS 64 vCPU,110
+Amazon Web Services,AWS vCPU accounts,105,AWS 128 vCPU,145
+Amazon Web Services,AWS vCPU accounts,106,AWS 256 vCPU,199
+Amazon Web Services,AWS vCPU accounts,107,AWS 512 vCPU,299
+Amazon Web Services,AWS vCPU accounts,125,AWS 640 vCPU,499
+Amazon Web Services,AWS vCPU accounts,126,AWS 1920 vCPU,1299
+Amazon Web Services,AWS credit accounts,109,AWS 5K Credits,1250
+Amazon Web Services,AWS credit accounts,110,AWS 10K Credits,2500
+Amazon Web Services,AWS credit accounts,111,AWS 25K Credits,6500
+Amazon Web Services,AWS credit accounts,113,AWS 100K Credits,18000
+Amazon Web Services,AWS Bedrock AI accounts,124,AWS Bedrock 32 vCPUs 10 RPM,70
+Amazon Web Services,AWS Bedrock AI accounts,127,AWS Bedrock 32 vCPUs 50 RPM,70
+Amazon Web Services,AWS Bedrock AI accounts,117,AWS Bedrock 256 vCPUs 10K RPM,900
+Amazon Web Services,AWS Bedrock AI accounts,121,AWS Bedrock 512 vCPUs 10K RPM High TPM,5500
+Amazon Web Services,AWS Bedrock AI accounts,128,AWS Bedrock 640 vCPUs 10K RPM High TPM F5.2,6500
+Amazon Web Services,AWS Bedrock AI accounts,123,AWS Bedrock 1920 vCPUs 10K RPM High TPM,9999
+Amazon Web Services,AWS Bedrock AI accounts,129,AWS Bedrock 5K Credits 10K RPM,1099
+Amazon Web Services,AWS Bedrock AI accounts,130,AWS Bedrock 10K Credits 10K RPM,1099
+Amazon Web Services,AWS Bedrock AI accounts,131,AWS Bedrock 25K Credits 10K RPM,2500
+Azure,Account options,307,Azure — Free Trial with $200 Credits,35
+Azure,Account options,308,Azure — Pay As You Go,55
+Azure,Credit accounts,310,Azure — 5K Credits,7550
+Azure,Credit accounts,406,Azure — 10K Credits with GPT Enabled,1500
+Azure,Azure GPT AI accounts,407,Azure — 5K Credits GPT 6 Astra High TPM T5,999
+Azure,Azure GPT AI accounts,408,Azure — 10K Credits GPT 6 Astra High TPM T5,1999
+Azure,Azure GPT AI accounts,409,Azure — 25K Credits GPT 6 Astra High TPM T5,5500
+Azure,Azure GPT AI accounts,410,Azure — 100K Credits GPT 6 Astra High TPM T5,14500
+DigitalOcean,Account options,311,DigitalOcean — 3 Droplets Free Trial,20
+DigitalOcean,Account options,411,DigitalOcean — 10 Droplets Free Trial,30
+DigitalOcean,Account options,412,DigitalOcean — Port 25 Open 200 Droplets,5800
+DigitalOcean,Account options,413,DigitalOcean — Port 25 Open 500 Droplets,9800
+Google Cloud,Free trial and credit accounts,400,Google Cloud — Free Trial $300 Credits,55
+Google Cloud,Free trial and credit accounts,301,Google Cloud — $300 Credits Paid Account,80
+Google Cloud,Free trial and credit accounts,304,Google Cloud — 2K Credits Paid Account,199
+Google Cloud,Free trial and credit accounts,305,Google Cloud — 5K Credits Paid Account,699
+Google Cloud,Free trial and credit accounts,401,Google Cloud — 10K Credits Paid Account,1299
+Google Cloud,Free trial and credit accounts,306,Google Cloud — 25K Credits Paid Account,2999
+Google Cloud,GCP VT Gemini AI accounts,402,Google Cloud — 2K Credits VT Gemini AI F5.2,299
+Google Cloud,GCP VT Gemini AI accounts,403,Google Cloud — 5K Credits VT Gemini AI F5.2,999
+Google Cloud,GCP VT Gemini AI accounts,404,Google Cloud — 10K Credits VT Gemini AI F5.2,1899
+Google Cloud,GCP VT Gemini AI accounts,405,Google Cloud — 25K Credits VT Gemini AI F5.2,5500
+Hetzner,Account options,414,Hetzner — Free Trial,30
+Hetzner,Account options,415,Hetzner — Port Limit 50 Servers,35
+Kamatera,Account options,423,Kamatera — Free Trial,30
+Kamatera,Account options,424,Kamatera — Port 25 Open,50
+Linode,Account options,312,Linode — Free Trial,30
+Linode,Account options,416,Linode — Port 25 Open 10 IPs,120
+Linode,Account options,417,Linode — Port 25 Open 50 IPs,480
+Oracle Cloud,Account options,314,Oracle Cloud — Free Trial,45
+Oracle Cloud,Account options,418,Oracle Cloud — Pay As You Go,120
+OVHcloud,Account options,313,OVHcloud — Free Trial 34 vCPUs,30
+OVHcloud,Account options,419,OVHcloud — Paid 34 vCPUs,80
+Amazon SES,SMTP sending accounts,316,Amazon SES — SMTP 50K Daily Limits,500
+Amazon SES,SMTP sending accounts,420,Amazon SES — SMTP 50K Daily Limits with 3 Regions,899
+Amazon SES,SMTP sending accounts,317,Amazon SES — SMTP 100K Daily Limits,1599
+UpCloud,Account options,421,UpCloud — Free Trial,30
+UpCloud,Account options,422,UpCloud — Paid Account,75
+IBM Cloud,Account options,425,IBM Cloud — Free Trial,45
+IBM Cloud,Account options,426,IBM Cloud — Pay As You Go,120
+IBM Cloud,Account options,427,IBM Cloud — Port 25 Open,80
+Heroku,Account options,428,Heroku — Free Trial and Port 25 Open,50
+Heroku,Account options,429,Heroku — Port 25 Open,85
+Vultr,Cloud credit accounts,430,Vultr — $200 Credits,30
+Vultr,Cloud credit accounts,431,Vultr — $250 Credits,55
+Vultr,Cloud credit accounts,432,Vultr — $95 Credits,55

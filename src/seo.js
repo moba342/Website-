@@ -11,21 +11,7 @@ import {homepageTitle,homepageDescription,featuredAwsIds,homepageFaqs} from './h
 const pages=Object.fromEntries(Object.entries(pageSeo).map(([route,copy])=>[route,[copy.h1,copy.description]]));
 const utilityMetadata={cart:['Shopping Cart','Review your cloud account products and quantities before USDT checkout.'],checkout:['USDT Checkout','Review your order, select an available USDT network, and submit the transaction hash for manual confirmation.']};
 export const utilityPages=utilityRoutes.map(route=>({route,path:routeHref(route),type:'utility'}));
-const providerDescriptions={
- aws:'Compare AWS trial, compute, credit, Bedrock API, and Kiro account variations. Review prices and choose an original guide for your intended configuration.',
- 'google-cloud':'Compare Google Cloud prepaid, Pay As You Go, and credit account variations. Review account prices, required provider payments, and individual guides.',
- azure:'Explore Azure trial, Pay-As-You-Go, $1K Tier 1, and $5K credit account options. Compare listed prices, account conditions, and original product guides.',
- digitalocean:'Review the DigitalOcean three-Droplet account option, listed price, resource allowances, billing considerations, and the original product guide.',
- linode:'Explore the Linode trial account with a listed $100 credit benefit. Review account pricing, trial eligibility, credit conditions, and product guidance.',
- ovhcloud:'Compare the OVHcloud account option labeled 34 vCPUs. Review its listed price and the compute, regional, and billing details to clarify before ordering.',
- oracle:'Review the Oracle Cloud free-trial account listing labeled $300. Explore the account price, trial conditions, and original guide before ordering.',
- hetzner:'Explore the Hetzner five-server account listing. Review account pricing, resource allowances, billing conditions, and the individual product guide.',
- 'amazon-ses':'Compare Amazon SES SMTP account listings with 50K and 100K sending-limit labels. Review prices, limit conditions, and email setup guides.',
- upcloud:'Review the UpCloud account with a listed $500 credit benefit. Explore pricing, funding conditions, billing requirements, and the original product guide.',
- atlantic:'Explore the Atlantic Cloud free-trial account option. Review pricing, trial requirements, resource allowances, and the original product guide.',
- alibaba:'Review the Alibaba Cloud free-trial account listing. Explore its price, regional and billing requirements, and original guidance for account selection.',
- 'aws-marketplace':'Explore the AWS Marketplace account option and listed price. Review purchasing permissions, account requirements, and the original product guide.'
-};
+const providerDescriptions=Object.fromEntries(allProviders.map(p=>[p.slug,p.guide.summary]));
 const money=value=>new Intl.NumberFormat('en-US',{style:'currency',currency:'USD'}).format(value);
 export const seoPages=[...pageRoutes.map(route=>({route,path:routeHref(route),type:'page',name:pages[route][0]})),...allProviders.map(p=>({route:'provider/'+p.slug,path:providerHref(p),type:'provider',name:p.title})),...allProducts.map(p=>({route:'product/'+p.pageSlug,path:productHref(p),type:'product',name:p.name}))];
 function collectionItems(route,provider){

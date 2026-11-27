@@ -1,3 +1,4 @@
+import catalogRedirects from '../src/catalog-redirects.json' with {type:'json'};
 import {createServer} from 'node:http';
 import {readFile,stat} from 'node:fs/promises';
 import {resolve,extname} from 'node:path';
@@ -8,6 +9,7 @@ createServer(async(req,res)=>{try{
  const url=new URL(req.url,'http://localhost'),host=req.headers.host?.split(':')[0],pathname=decodeURIComponent(url.pathname);
  if(['www.cloudssupply.site','buyaws-account.vercel.app'].includes(host)){res.writeHead(308,{Location:'https://cloudssupply.site'+pathname+url.search});res.end();return;}
  if(pathname==='/home/'||pathname==='/home'){res.writeHead(308,{Location:'/'+url.search});res.end();return;}
+ const legacy=catalogRedirects.find(rule=>rule.source===pathname||rule.source===pathname+'/');if(legacy){res.writeHead(308,{Location:legacy.destination+url.search});res.end();return;}
  let path=resolve(root,'.'+pathname);if(!path.startsWith(root+'/')&&path!==root){res.writeHead(403);res.end();return;}
  let info;try{info=await stat(path);}catch{}
  if(info?.isDirectory()){if(!pathname.endsWith('/')){res.writeHead(308,{Location:pathname+'/'+url.search});res.end();return;}path=resolve(path,'index.html');}

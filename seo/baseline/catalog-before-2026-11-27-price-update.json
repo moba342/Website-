@@ -1,0 +1,1115 @@
+{
+  "aws": [
+    {
+      "id": 101,
+      "provider": "Amazon Web Services",
+      "short": "aws",
+      "name": "AWS Free Trial",
+      "category": "AWS",
+      "price": 15,
+      "color": "#2c9b81",
+      "desc": "An AWS trial account option for a focused first experiment. Review eligibility, billing requirements, and trial conditions before making a purchase.",
+      "features": [
+        "AWS trial account option",
+        "Eligibility and provider terms apply"
+      ],
+      "tag": null,
+      "image": "/products/premium/cloud-console-v2.jpg",
+      "kind": "Getting started",
+      "referencePrice": true,
+      "regularPrice": 20
+    },
+    {
+      "id": 102,
+      "provider": "Amazon Web Services",
+      "short": "aws",
+      "name": "AWS 8VCPU",
+      "category": "AWS",
+      "price": 18,
+      "color": "#ec9a30",
+      "desc": "Explore the AWS 8-vCPU account tier for a compact project. Confirm the quota scope, region, and ongoing resource charges with the seller.",
+      "features": [
+        "8 vCPU account tier",
+        "Confirm regions and service quotas"
+      ],
+      "tag": null,
+      "image": "/products/premium/cloud-console-v2.jpg",
+      "kind": "Cloud compute",
+      "referencePrice": true,
+      "regularPrice": 25
+    },
+    {
+      "id": 103,
+      "provider": "Amazon Web Services",
+      "short": "aws",
+      "name": "AWS 32 vCPU",
+      "category": "AWS",
+      "price": 35,
+      "color": "#ec9a30",
+      "desc": "Compare the AWS 32-vCPU account option for a project with several planned components. Check quota applicability and deployment requirements before ordering.",
+      "features": [
+        "32 vCPU account tier",
+        "Confirm regions and service quotas"
+      ],
+      "tag": null,
+      "image": "/products/premium/cloud-console-v2.jpg",
+      "kind": "Cloud compute",
+      "referencePrice": true,
+      "regularPrice": 40
+    },
+    {
+      "id": 104,
+      "provider": "Amazon Web Services",
+      "short": "aws",
+      "name": "AWS 64 vCPU",
+      "category": "AWS",
+      "price": 45,
+      "color": "#ec9a30",
+      "desc": "Review the AWS 64-vCPU account tier for a broader compute plan. Discuss concurrent jobs, regional quotas, and usage billing before purchase.",
+      "features": [
+        "64 vCPU account tier",
+        "Confirm regions and service quotas"
+      ],
+      "tag": null,
+      "image": "/products/premium/cloud-console-v2.jpg",
+      "kind": "Cloud compute",
+      "referencePrice": true,
+      "regularPrice": 55
+    },
+    {
+      "id": 105,
+      "provider": "Amazon Web Services",
+      "short": "aws",
+      "name": "AWS 128 vCPU",
+      "category": "AWS",
+      "price": 120,
+      "color": "#ec9a30",
+      "desc": "An AWS 128-vCPU account listing for a larger capacity requirement. Verify service quotas and account details against your own deployment plan.",
+      "features": [
+        "128 vCPU account tier",
+        "Confirm regions and service quotas"
+      ],
+      "tag": null,
+      "image": "/products/premium/cloud-console-v2.jpg",
+      "kind": "Cloud compute",
+      "referencePrice": true,
+      "regularPrice": 120
+    },
+    {
+      "id": 106,
+      "provider": "Amazon Web Services",
+      "short": "aws",
+      "name": "AWS 256 vCPU",
+      "category": "AWS",
+      "price": 190,
+      "color": "#ec9a30",
+      "desc": "Explore the AWS 256-vCPU account tier with a detailed resource plan. Confirm quota scope, regional availability, and account handover terms.",
+      "features": [
+        "256 vCPU account tier",
+        "Confirm regions and service quotas"
+      ],
+      "tag": null,
+      "image": "/products/premium/cloud-console-v2.jpg",
+      "kind": "Cloud compute",
+      "referencePrice": true,
+      "regularPrice": 190
+    },
+    {
+      "id": 107,
+      "provider": "Amazon Web Services",
+      "short": "aws",
+      "name": "AWS 512 vCPU",
+      "category": "AWS",
+      "price": 299,
+      "color": "#ec9a30",
+      "desc": "Review the AWS 512-vCPU option for a substantial compute requirement. Request precise account and quota details before choosing this tier.",
+      "features": [
+        "512 vCPU account tier",
+        "Confirm regions and service quotas"
+      ],
+      "tag": null,
+      "image": "/products/premium/cloud-console-v2.jpg",
+      "kind": "Cloud compute",
+      "referencePrice": true,
+      "regularPrice": 299
+    },
+    {
+      "id": 108,
+      "provider": "Amazon Web Services",
+      "short": "aws",
+      "name": "AWS 1k Credit",
+      "category": "AWS",
+      "price": 250,
+      "color": "#c18a25",
+      "desc": "An AWS 1k-credit account option for a limited cloud spending plan. Confirm the balance, expiration, eligible services, and account purchase price separately.",
+      "features": [
+        "1K credit tier",
+        "Confirm eligibility and credit terms"
+      ],
+      "tag": null,
+      "image": "/products/premium/cloud-console-v2.jpg",
+      "kind": "Cloud credits",
+      "referencePrice": true,
+      "regularPrice": 250
+    },
+    {
+      "id": 109,
+      "provider": "Amazon Web Services",
+      "short": "aws",
+      "name": "AWS 5k Credit",
+      "category": "AWS",
+      "price": 999,
+      "color": "#c18a25",
+      "desc": "Compare the AWS 5k-credit account tier for a phased pilot. Review credit restrictions and remaining validity before assigning a project budget.",
+      "features": [
+        "5K credit tier",
+        "Confirm eligibility and credit terms"
+      ],
+      "tag": null,
+      "image": "/products/premium/cloud-console-v2.jpg",
+      "kind": "Cloud credits",
+      "referencePrice": true,
+      "regularPrice": 999
+    },
+    {
+      "id": 110,
+      "provider": "Amazon Web Services",
+      "short": "aws",
+      "name": "AWS 10k Credit",
+      "category": "AWS",
+      "price": 2499,
+      "color": "#c18a25",
+      "desc": "An AWS 10k-credit account listing for a project with several spending categories. Confirm eligible usage and credit terms before purchase.",
+      "features": [
+        "10K credit tier",
+        "Confirm eligibility and credit terms"
+      ],
+      "tag": null,
+      "image": "/products/premium/cloud-console-v2.jpg",
+      "kind": "Cloud credits",
+      "referencePrice": true,
+      "regularPrice": 2499
+    },
+    {
+      "id": 111,
+      "provider": "Amazon Web Services",
+      "short": "aws",
+      "name": "AWS 25k Credit",
+      "category": "AWS",
+      "price": 4999,
+      "color": "#c18a25",
+      "desc": "Review the AWS 25k-credit account option for a longer project schedule. Match the remaining credit validity to your planned milestones.",
+      "features": [
+        "25K credit tier",
+        "Confirm eligibility and credit terms"
+      ],
+      "tag": null,
+      "image": "/products/premium/cloud-console-v2.jpg",
+      "kind": "Cloud credits",
+      "referencePrice": true,
+      "regularPrice": 4999
+    },
+    {
+      "id": 112,
+      "provider": "Amazon Web Services",
+      "short": "aws",
+      "name": "AWS 50k Credit",
+      "category": "AWS",
+      "price": 7500,
+      "color": "#c18a25",
+      "desc": "An AWS 50k-credit account tier for a substantial project budget. Review account responsibilities, credit conditions, and ongoing charges before ordering.",
+      "features": [
+        "50K credit tier",
+        "Confirm eligibility and credit terms"
+      ],
+      "tag": null,
+      "image": "/products/premium/cloud-console-v2.jpg",
+      "kind": "Cloud credits",
+      "referencePrice": true,
+      "regularPrice": 7500
+    },
+    {
+      "id": 113,
+      "provider": "Amazon Web Services",
+      "short": "aws",
+      "name": "AWS 100k Credit",
+      "category": "AWS",
+      "price": 13000,
+      "color": "#c18a25",
+      "desc": "Explore the AWS 100k-credit account listing with a formal purchasing review. Confirm the exact balance, validity, eligibility, and account terms.",
+      "features": [
+        "100K credit tier",
+        "Confirm eligibility and credit terms"
+      ],
+      "tag": null,
+      "image": "/products/premium/cloud-console-v2.jpg",
+      "kind": "Cloud credits",
+      "referencePrice": true,
+      "regularPrice": 13000
+    },
+    {
+      "id": 114,
+      "provider": "Amazon Web Services",
+      "short": "aws",
+      "name": "AWS Ai Bedrock 10 RPM 5vCPU",
+      "category": "AWS",
+      "price": 70,
+      "color": "#8b5cde",
+      "desc": "A Bedrock account listing labeled 10 RPM and 5 vCPUs. Confirm the applicable models, quota scope, and request conditions before ordering.",
+      "features": [
+        "10 RPM \u00b7 5 vCPUs",
+        "Confirm model access and quotas"
+      ],
+      "tag": null,
+      "image": "/products/premium/cloud-console-v2.jpg",
+      "kind": "Amazon Bedrock",
+      "referencePrice": true,
+      "regularPrice": 70
+    },
+    {
+      "id": 115,
+      "provider": "Amazon Web Services",
+      "short": "aws",
+      "name": "AWS Ai Bedrock 50 RPM 5vCPUs",
+      "category": "AWS",
+      "price": 90,
+      "color": "#8b5cde",
+      "desc": "Compare the Bedrock option labeled 50 RPM and 5 vCPUs for a more active evaluation. Confirm model access and quota details directly.",
+      "features": [
+        "50 RPM \u00b7 5 vCPUs",
+        "Confirm model access and quotas"
+      ],
+      "tag": null,
+      "image": "/products/premium/cloud-console-v2.jpg",
+      "kind": "Amazon Bedrock",
+      "referencePrice": true,
+      "regularPrice": 90
+    },
+    {
+      "id": 124,
+      "provider": "Amazon Web Services",
+      "short": "aws",
+      "name": "AWS Ai Bedrock 10 RPM 32vCPUs",
+      "category": "AWS",
+      "price": 120,
+      "regularPrice": 120,
+      "userPrice": true,
+      "referencePrice": false,
+      "color": "#8b5cde",
+      "desc": "Explore a Bedrock account option labeled 10 RPM and 32 vCPUs. Confirm the applicable model, region, request quota, and compute allocation before ordering.",
+      "features": [
+        "10 RPM \u00b7 32 vCPUs",
+        "Confirm model access and quotas"
+      ],
+      "tag": null,
+      "image": "/products/premium/cloud-console-v2.jpg",
+      "kind": "Amazon Bedrock"
+    },
+    {
+      "id": 116,
+      "provider": "Amazon Web Services",
+      "short": "aws",
+      "name": "AWS Ai Bedrock 10K RPM 32vCPUs",
+      "category": "AWS",
+      "price": 299,
+      "color": "#8b5cde",
+      "desc": "A Bedrock listing labeled 10K RPM and 32 vCPUs. Review request quotas, model permissions, and the meaning of each capacity label.",
+      "features": [
+        "10K RPM \u00b7 32 vCPUs",
+        "Confirm model access and quotas"
+      ],
+      "tag": null,
+      "image": "/products/premium/cloud-console-v2.jpg",
+      "kind": "Amazon Bedrock",
+      "referencePrice": false,
+      "regularPrice": 299,
+      "userPrice": true
+    },
+    {
+      "id": 117,
+      "provider": "Amazon Web Services",
+      "short": "aws",
+      "name": "AWS Ai Bedrock 10K RPM 256vCPUs",
+      "category": "AWS",
+      "price": null,
+      "color": "#8b5cde",
+      "desc": "An unpriced Bedrock option labeled 10K RPM and 256 vCPUs. Request an exact quote and written specifications for this distinct listing.",
+      "features": [
+        "10K RPM \u00b7 256 vCPUs",
+        "Confirm model access and quotas"
+      ],
+      "tag": null,
+      "image": "/products/premium/cloud-console-v2.jpg",
+      "kind": "Amazon Bedrock",
+      "referencePrice": false,
+      "regularPrice": null
+    },
+    {
+      "id": 118,
+      "provider": "Amazon Web Services",
+      "short": "aws",
+      "name": "Kiro Enabled Account",
+      "category": "AWS",
+      "price": 180,
+      "color": "#6159dd",
+      "desc": "Explore the Kiro-enabled account option for a development workflow. Confirm the access level, eligibility, and billing arrangements before purchase.",
+      "features": [
+        "Kiro-enabled account option",
+        "Confirm access and eligibility"
+      ],
+      "tag": null,
+      "image": "/products/premium/cloud-console-v2.jpg",
+      "kind": "AI development",
+      "referencePrice": true,
+      "regularPrice": 180
+    },
+    {
+      "id": 119,
+      "provider": "Amazon Web Services",
+      "short": "aws",
+      "name": "AWS Bedrock 256vCPUs 10K RPM \u2014 4.6, 4.7, 4.8, F5 Supported",
+      "category": "AWS",
+      "price": 2499,
+      "color": "#8b5cde",
+      "desc": "A 256-vCPU, 10K-RPM Bedrock listing carrying the supplied 4.6, 4.7, 4.8 and F5 support label. Confirm those labels for your intended setup.",
+      "features": [
+        "10K RPM \u00b7 256 vCPUs",
+        "4.6, 4.7, 4.8, F5 Supported"
+      ],
+      "tag": null,
+      "image": "/products/premium/cloud-console-v2.jpg",
+      "kind": "Amazon Bedrock",
+      "referencePrice": true,
+      "regularPrice": 2499
+    },
+    {
+      "id": 120,
+      "provider": "Amazon Web Services",
+      "short": "aws",
+      "name": "AWS Bedrock 384vCPUs 10K RPM \u2014 4.6, 4.7, 4.8, F5 Supported",
+      "category": "AWS",
+      "price": 4500,
+      "color": "#8b5cde",
+      "desc": "Compare the 384-vCPU, 10K-RPM Bedrock option and its listed support labels. Review its differences from adjacent tiers before ordering.",
+      "features": [
+        "10K RPM \u00b7 384 vCPUs",
+        "4.6, 4.7, 4.8, F5 Supported"
+      ],
+      "tag": null,
+      "image": "/products/premium/cloud-console-v2.jpg",
+      "kind": "Amazon Bedrock",
+      "referencePrice": true,
+      "regularPrice": 4500
+    },
+    {
+      "id": 121,
+      "provider": "Amazon Web Services",
+      "short": "aws",
+      "name": "AWS Bedrock 512vCPUs 10K RPM \u2014 4.6, 4.7, 4.8, F5 Supported",
+      "category": "AWS",
+      "price": 5500,
+      "color": "#8b5cde",
+      "desc": "A Bedrock account option labeled 512 vCPUs and 10K RPM, with supplied version-support wording. Confirm the complete account specification.",
+      "features": [
+        "10K RPM \u00b7 512 vCPUs",
+        "4.6, 4.7, 4.8, F5 Supported"
+      ],
+      "tag": null,
+      "image": "/products/premium/cloud-console-v2.jpg",
+      "kind": "Amazon Bedrock",
+      "referencePrice": true,
+      "regularPrice": 5500
+    },
+    {
+      "id": 122,
+      "provider": "Amazon Web Services",
+      "short": "aws",
+      "name": "AWS Bedrock 1024vCPUs 10K RPM \u2014 4.6, 4.7, 4.8, F5 Supported",
+      "category": "AWS",
+      "price": 8000,
+      "color": "#8b5cde",
+      "desc": "Review the 1024-vCPU, 10K-RPM Bedrock listing for a documented capacity requirement. Confirm model support, regional scope, and account terms.",
+      "features": [
+        "10K RPM \u00b7 1024 vCPUs",
+        "4.6, 4.7, 4.8, F5 Supported"
+      ],
+      "tag": null,
+      "image": "/products/premium/cloud-console-v2.jpg",
+      "kind": "Amazon Bedrock",
+      "referencePrice": true,
+      "regularPrice": 8000
+    },
+    {
+      "id": 123,
+      "provider": "Amazon Web Services",
+      "short": "aws",
+      "name": "AWS Bedrock 1920vCPUs 10K RPM \u2014 4.6, 4.7, 4.8, F5 Supported",
+      "category": "AWS",
+      "price": 9500,
+      "color": "#8b5cde",
+      "desc": "The catalog\u2019s 1920-vCPU, 10K-RPM Bedrock option with listed support wording. Review the specification and rollout requirements before purchase.",
+      "features": [
+        "10K RPM \u00b7 1920 vCPUs",
+        "4.6, 4.7, 4.8, F5 Supported"
+      ],
+      "tag": null,
+      "image": "/products/premium/cloud-console-v2.jpg",
+      "kind": "Amazon Bedrock",
+      "referencePrice": true,
+      "regularPrice": 9500
+    }
+  ],
+  "providers": [
+    {
+      "slug": "google-cloud",
+      "name": "Google Cloud",
+      "title": "Buy Google Cloud Account",
+      "color": "#4285f4",
+      "initials": "GCP",
+      "description": "Review Google Cloud prepaid, pay-as-you-go, and credit account options with separate purchase and provider-payment details.",
+      "image": "/products/premium/cloud-console-v2.jpg",
+      "variants": [
+        {
+          "id": 301,
+          "name": "Google Cloud \u2014 $300 + $10 Prepaid",
+          "variant": "$300 + $10 Prepaid",
+          "category": "Google Cloud",
+          "provider": "Google Cloud",
+          "short": "GCP",
+          "kind": "Cloud service account",
+          "price": 70,
+          "color": "#4285f4",
+          "desc": "Google Cloud account option labeled $300 plus $10 prepaid. The credit or funding amounts in the tier name are separate from the listed account price.",
+          "features": [
+            "$300 + $10 Prepaid",
+            "Confirm account details before purchase"
+          ],
+          "image": "/products/premium/cloud-console-v2.jpg",
+          "referencePrice": true,
+          "userPrice": false,
+          "sourceUrl": "https://accsmarket.shop/cloud-service/"
+        },
+        {
+          "id": 302,
+          "name": "Google Cloud \u2014 Pay As You Go $10 Payment Required",
+          "variant": "Pay As You Go $10 Payment Required",
+          "category": "Google Cloud",
+          "provider": "Google Cloud",
+          "short": "GCP",
+          "kind": "Cloud service account",
+          "price": 55,
+          "color": "#4285f4",
+          "desc": "A Google Cloud pay-as-you-go option with a stated $10 provider payment requirement. Account purchase and ongoing usage charges are separate.",
+          "features": [
+            "Pay As You Go $10 Payment Required",
+            "Confirm account details before purchase"
+          ],
+          "image": "/products/premium/cloud-console-v2.jpg",
+          "referencePrice": true,
+          "userPrice": false,
+          "sourceUrl": "https://accsmarket.shop/cloud-service/"
+        },
+        {
+          "id": 303,
+          "name": "Google Cloud \u2014 Pay As You Go 20 CAD Payment Required",
+          "variant": "Pay As You Go 20 CAD Payment Required",
+          "category": "Google Cloud",
+          "provider": "Google Cloud",
+          "short": "GCP",
+          "kind": "Cloud service account",
+          "price": 60,
+          "color": "#4285f4",
+          "desc": "Google Cloud pay-as-you-go account option with a 20 CAD provider payment requirement. Review the currency and billing arrangement before ordering.",
+          "features": [
+            "Pay As You Go 20 CAD Payment Required",
+            "Confirm account details before purchase"
+          ],
+          "image": "/products/premium/cloud-console-v2.jpg",
+          "referencePrice": true,
+          "userPrice": false,
+          "sourceUrl": "https://accsmarket.shop/cloud-service/"
+        },
+        {
+          "id": 304,
+          "name": "Google Cloud \u2014 $2,000 Credits Account",
+          "variant": "$2,000 Credits Account",
+          "category": "Google Cloud",
+          "provider": "Google Cloud",
+          "short": "GCP",
+          "kind": "Cloud service account",
+          "price": null,
+          "color": "#4285f4",
+          "desc": "A requested Google Cloud $2,000-credit tier with quote-only pricing. Confirm the exact balance and terms rather than substituting another credit amount.",
+          "features": [
+            "$2,000 Credits Account",
+            "Confirm account details before purchase"
+          ],
+          "image": "/products/premium/cloud-console-v2.jpg",
+          "referencePrice": false,
+          "userPrice": false,
+          "sourceUrl": null,
+          "priceNote": "No exact reference match. The reference lists $1,300 Credits Account; the requested $2,000 tier requires a quote."
+        },
+        {
+          "id": 305,
+          "name": "Google Cloud \u2014 $5,000 Credits Account",
+          "variant": "$5,000 Credits Account",
+          "category": "Google Cloud",
+          "provider": "Google Cloud",
+          "short": "GCP",
+          "kind": "Cloud service account",
+          "price": 1050,
+          "color": "#4285f4",
+          "desc": "Explore the Google Cloud $5,000-credit account tier for a planned project budget. Confirm credit validity, eligible charges, and billing ownership.",
+          "features": [
+            "$5,000 Credits Account",
+            "Confirm account details before purchase"
+          ],
+          "image": "/products/premium/cloud-console-v2.jpg",
+          "referencePrice": true,
+          "userPrice": false,
+          "sourceUrl": "https://accsmarket.shop/cloud-service/"
+        },
+        {
+          "id": 306,
+          "name": "Google Cloud \u2014 $25,000 Credits Account",
+          "variant": "$25,000 Credits Account",
+          "category": "Google Cloud",
+          "provider": "Google Cloud",
+          "short": "GCP",
+          "kind": "Cloud service account",
+          "price": 5500,
+          "color": "#4285f4",
+          "desc": "A Google Cloud $25,000-credit account option for a larger spending plan. Review the balance, timing, eligible usage, and account responsibilities.",
+          "features": [
+            "$25,000 Credits Account",
+            "Confirm account details before purchase"
+          ],
+          "image": "/products/premium/cloud-console-v2.jpg",
+          "referencePrice": true,
+          "userPrice": false,
+          "sourceUrl": "https://accsmarket.shop/cloud-service/"
+        }
+      ]
+    },
+    {
+      "slug": "azure",
+      "name": "Azure",
+      "title": "Buy Azure Account",
+      "color": "#0089d6",
+      "initials": "AZ",
+      "description": "Explore Azure trial, pay-as-you-go, and credit listings, including the separately labeled Claude-related option.",
+      "image": "/products/premium/cloud-console-v2.jpg",
+      "variants": [
+        {
+          "id": 307,
+          "name": "Azure \u2014 Free Trial with $200 Credit",
+          "variant": "Free Trial with $200 Credit",
+          "category": "Azure",
+          "provider": "Azure",
+          "short": "AZ",
+          "kind": "Cloud service account",
+          "price": 25,
+          "color": "#0089d6",
+          "desc": "Azure trial account option labeled with $200 credit. Confirm trial eligibility, credit conditions, and what happens when the trial ends.",
+          "features": [
+            "Free Trial with $200 Credit",
+            "Confirm account details before purchase"
+          ],
+          "image": "/products/premium/cloud-console-v2.jpg",
+          "referencePrice": true,
+          "userPrice": false,
+          "sourceUrl": "https://accsmarket.shop/cloud-service/"
+        },
+        {
+          "id": 308,
+          "name": "Azure \u2014 Pay-As-You-Go with $200 Credit",
+          "variant": "Pay-As-You-Go with $200 Credit",
+          "category": "Azure",
+          "provider": "Azure",
+          "short": "AZ",
+          "kind": "Cloud service account",
+          "price": 25,
+          "color": "#0089d6",
+          "desc": "Azure pay-as-you-go account listing carrying a $200-credit label. Confirm the relationship between credit eligibility and the account\u2019s billing setup.",
+          "features": [
+            "Pay-As-You-Go with $200 Credit",
+            "Confirm account details before purchase"
+          ],
+          "image": "/products/premium/cloud-console-v2.jpg",
+          "referencePrice": true,
+          "userPrice": false,
+          "sourceUrl": "https://accsmarket.shop/cloud-service/"
+        },
+        {
+          "id": 309,
+          "name": "Azure \u2014 Azure $1K Tier 1 Support Claude",
+          "variant": "Azure $1K Tier 1 Support Claude",
+          "category": "Azure",
+          "provider": "Azure",
+          "short": "AZ",
+          "kind": "Cloud service account",
+          "price": 180,
+          "color": "#0089d6",
+          "desc": "Azure account option labeled $1K Tier 1 Support Claude. Confirm the meaning of the credit, support tier, and model-access wording before purchase.",
+          "features": [
+            "Azure $1K Tier 1 Support Claude",
+            "Confirm account details before purchase"
+          ],
+          "image": "/products/premium/cloud-console-v2.jpg",
+          "referencePrice": true,
+          "userPrice": false,
+          "sourceUrl": "https://accsmarket.shop/cloud-service/"
+        },
+        {
+          "id": 310,
+          "name": "Azure \u2014 Azure $5K Credit Account",
+          "variant": "Azure $5K Credit Account",
+          "category": "Azure",
+          "provider": "Azure",
+          "short": "AZ",
+          "kind": "Cloud service account",
+          "price": 750,
+          "color": "#0089d6",
+          "desc": "Explore the Azure $5K-credit account option for a defined cloud project. Confirm credit validity, eligible usage, and any additional billing conditions.",
+          "features": [
+            "Azure $5K Credit Account",
+            "Confirm account details before purchase"
+          ],
+          "image": "/products/premium/cloud-console-v2.jpg",
+          "referencePrice": true,
+          "userPrice": false,
+          "sourceUrl": "https://accsmarket.shop/cloud-service/"
+        }
+      ]
+    },
+    {
+      "slug": "digitalocean",
+      "name": "DigitalOcean",
+      "title": "Buy DigitalOcean Account",
+      "color": "#0080ff",
+      "initials": "DO",
+      "description": "Review the three-Droplet DigitalOcean account option and distinguish the account limit from paid running resources.",
+      "image": "/products/premium/cloud-console-v2.jpg",
+      "variants": [
+        {
+          "id": 311,
+          "name": "DigitalOcean \u2014 DO 3 Droplet",
+          "variant": "DO 3 Droplet",
+          "category": "DigitalOcean",
+          "provider": "DigitalOcean",
+          "short": "DO",
+          "kind": "Cloud service account",
+          "price": 25,
+          "color": "#0080ff",
+          "desc": "DigitalOcean account option labeled for three Droplets. Confirm the actual account limit, region requirements, and resource billing before purchase.",
+          "features": [
+            "DO 3 Droplet",
+            "Confirm account details before purchase"
+          ],
+          "image": "/products/premium/cloud-console-v2.jpg",
+          "referencePrice": true,
+          "userPrice": false,
+          "sourceUrl": "https://accsmarket.shop/cloud-service/"
+        }
+      ]
+    },
+    {
+      "slug": "linode",
+      "name": "Linode",
+      "title": "Buy Linode Account",
+      "color": "#24a65a",
+      "initials": "LN",
+      "description": "Explore the Linode trial account option with its stated $100-credit label and account-specific eligibility conditions.",
+      "image": "/products/premium/cloud-console-v2.jpg",
+      "variants": [
+        {
+          "id": 312,
+          "name": "Linode \u2014 Free Trial $100 Credit",
+          "variant": "Free Trial $100 Credit",
+          "category": "Linode",
+          "provider": "Linode",
+          "short": "LN",
+          "kind": "Cloud service account",
+          "price": 25,
+          "color": "#24a65a",
+          "desc": "Linode trial account option carrying a $100-credit label. Confirm eligibility, remaining credit, trial conditions, and any required payment steps.",
+          "features": [
+            "Free Trial $100 Credit",
+            "Confirm account details before purchase"
+          ],
+          "image": "/products/premium/cloud-console-v2.jpg",
+          "referencePrice": true,
+          "userPrice": false,
+          "sourceUrl": "https://accsmarket.shop/cloud-service/"
+        }
+      ]
+    },
+    {
+      "slug": "ovhcloud",
+      "name": "OVHcloud",
+      "title": "Buy OVHcloud Account",
+      "color": "#253fa6",
+      "initials": "OVH",
+      "description": "Assess the OVHcloud 34-vCPU account label against the service and region your project needs.",
+      "image": "/products/premium/cloud-console-v2.jpg",
+      "variants": [
+        {
+          "id": 313,
+          "name": "OVHcloud \u2014 34 vCPUs",
+          "variant": "34 vCPUs",
+          "category": "OVHcloud",
+          "provider": "OVHcloud",
+          "short": "OVH",
+          "kind": "Cloud service account",
+          "price": 30,
+          "color": "#253fa6",
+          "desc": "OVHcloud account listing labeled 34 vCPUs. Verify the resource or quota meaning, regional scope, and applicable service conditions before ordering.",
+          "features": [
+            "34 vCPUs",
+            "Confirm account details before purchase"
+          ],
+          "image": "/products/premium/cloud-console-v2.jpg",
+          "referencePrice": true,
+          "userPrice": false,
+          "sourceUrl": "https://accsmarket.shop/cloud-service/"
+        }
+      ]
+    },
+    {
+      "slug": "oracle",
+      "name": "Oracle Cloud",
+      "title": "Buy Oracle Cloud Account",
+      "color": "#bb4735",
+      "initials": "OCI",
+      "description": "Review the Oracle Cloud trial account option and clarify the $300 label before committing to an evaluation.",
+      "image": "/products/premium/cloud-console-v2.jpg",
+      "variants": [
+        {
+          "id": 314,
+          "name": "Oracle Cloud \u2014 Free Trial $300",
+          "variant": "Free Trial $300",
+          "category": "Oracle Cloud",
+          "provider": "Oracle Cloud",
+          "short": "OCI",
+          "kind": "Cloud service account",
+          "price": 45,
+          "color": "#bb4735",
+          "desc": "Oracle Cloud trial account option labeled with $300. Confirm what the amount represents, its validity, and the account\u2019s eligibility conditions.",
+          "features": [
+            "Free Trial $300",
+            "Confirm account details before purchase"
+          ],
+          "image": "/products/premium/cloud-console-v2.jpg",
+          "referencePrice": true,
+          "userPrice": false,
+          "sourceUrl": "https://accsmarket.shop/cloud-service/"
+        }
+      ]
+    },
+    {
+      "slug": "hetzner",
+      "name": "Hetzner",
+      "title": "Buy Hetzner Account",
+      "color": "#d73647",
+      "initials": "HZ",
+      "description": "Explore the Hetzner five-server account option with a clear distinction between account capacity and infrastructure charges.",
+      "image": "/products/premium/cloud-console-v2.jpg",
+      "variants": [
+        {
+          "id": 315,
+          "name": "Hetzner \u2014 Hetzner 5 Server Account",
+          "variant": "Hetzner 5 Server Account",
+          "category": "Hetzner",
+          "provider": "Hetzner",
+          "short": "HZ",
+          "kind": "Cloud service account",
+          "price": 50,
+          "color": "#d73647",
+          "desc": "Hetzner account option labeled for five servers. Confirm the account limit, resource eligibility, and normal usage billing before purchase.",
+          "features": [
+            "Hetzner 5 Server Account",
+            "Confirm account details before purchase"
+          ],
+          "image": "/products/premium/cloud-console-v2.jpg",
+          "referencePrice": true,
+          "userPrice": false,
+          "sourceUrl": "https://accsmarket.shop/cloud-service/"
+        }
+      ]
+    },
+    {
+      "slug": "amazon-ses",
+      "name": "Amazon SES",
+      "title": "Buy Amazon SES Account",
+      "color": "#ec9a30",
+      "initials": "SES",
+      "description": "Compare the SES 50K and 100K SMTP limit options after confirming the allowance period and sending conditions.",
+      "image": "/products/premium/cloud-console-v2.jpg",
+      "variants": [
+        {
+          "id": 316,
+          "name": "Amazon SES \u2014 SMTP 50K Limits",
+          "variant": "SMTP 50K Limits",
+          "category": "Amazon SES",
+          "provider": "Amazon SES",
+          "short": "SES",
+          "kind": "Cloud service account",
+          "price": 750,
+          "color": "#ec9a30",
+          "desc": "Amazon SES account option labeled SMTP 50K Limits. Confirm the sending allowance, applicable period, region, and account access before ordering.",
+          "features": [
+            "SMTP 50K Limits",
+            "Confirm account details before purchase"
+          ],
+          "image": "/products/premium/cloud-console-v2.jpg",
+          "referencePrice": true,
+          "userPrice": false,
+          "sourceUrl": "https://accsmarket.shop/cloud-service/"
+        },
+        {
+          "id": 317,
+          "name": "Amazon SES \u2014 SMTP 100K Limits",
+          "variant": "SMTP 100K Limits",
+          "category": "Amazon SES",
+          "provider": "Amazon SES",
+          "short": "SES",
+          "kind": "Cloud service account",
+          "price": 1250,
+          "color": "#ec9a30",
+          "desc": "An Amazon SES option labeled SMTP 100K Limits. Review the allowance period, sending rate, regional details, and operating responsibilities.",
+          "features": [
+            "SMTP 100K Limits",
+            "Confirm account details before purchase"
+          ],
+          "image": "/products/premium/cloud-console-v2.jpg",
+          "referencePrice": true,
+          "userPrice": false,
+          "sourceUrl": "https://accsmarket.shop/cloud-service/"
+        }
+      ]
+    },
+    {
+      "slug": "upcloud",
+      "name": "UpCloud",
+      "title": "Buy UpCloud Account",
+      "color": "#8056d9",
+      "initials": "UP",
+      "description": "Review the UpCloud account option carrying a $500-credit label and confirm the actual funding conditions.",
+      "image": "/products/premium/cloud-console-v2.jpg",
+      "variants": [
+        {
+          "id": 318,
+          "name": "UpCloud \u2014 $500 Credit",
+          "variant": "$500 Credit",
+          "category": "UpCloud",
+          "provider": "UpCloud",
+          "short": "UP",
+          "kind": "Cloud service account",
+          "price": 30,
+          "color": "#8056d9",
+          "desc": "UpCloud account option carrying a $500-credit label. Confirm the available balance, validity, eligible usage, and provider billing requirements.",
+          "features": [
+            "$500 Credit",
+            "Confirm account details before purchase"
+          ],
+          "image": "/products/premium/cloud-console-v2.jpg",
+          "referencePrice": true,
+          "userPrice": false,
+          "sourceUrl": "https://accsmarket.shop/cloud-service/"
+        }
+      ]
+    },
+    {
+      "slug": "atlantic",
+      "name": "Atlantic",
+      "title": "Buy Atlantic Account",
+      "color": "#2b7f99",
+      "initials": "ATL",
+      "description": "Explore the Atlantic cloud trial account option for a limited hosting evaluation with a planned review point.",
+      "image": "/products/premium/cloud-console-v2.jpg",
+      "variants": [
+        {
+          "id": 319,
+          "name": "Atlantic \u2014 Atlantic Cloud Free Trial",
+          "variant": "Atlantic Cloud Free Trial",
+          "category": "Atlantic",
+          "provider": "Atlantic",
+          "short": "ATL",
+          "kind": "Cloud service account",
+          "price": 30,
+          "color": "#2b7f99",
+          "desc": "Atlantic account option described as a cloud free trial. Confirm trial scope, account requirements, and any costs outside the account purchase.",
+          "features": [
+            "Atlantic Cloud Free Trial",
+            "Confirm account details before purchase"
+          ],
+          "image": "/products/premium/cloud-console-v2.jpg",
+          "referencePrice": true,
+          "userPrice": false,
+          "sourceUrl": "https://accsmarket.shop/cloud-service/"
+        }
+      ]
+    },
+    {
+      "slug": "alibaba",
+      "name": "Alibaba Cloud",
+      "title": "Buy Alibaba Cloud Account",
+      "color": "#f18a29",
+      "initials": "ALI",
+      "description": "Review the Alibaba Cloud trial account option against the account requirements and regional needs of your project.",
+      "image": "/products/premium/cloud-console-v2.jpg",
+      "variants": [
+        {
+          "id": 320,
+          "name": "Alibaba Cloud \u2014 Alibaba Cloud Free Trial",
+          "variant": "Alibaba Cloud Free Trial",
+          "category": "Alibaba Cloud",
+          "provider": "Alibaba Cloud",
+          "short": "ALI",
+          "kind": "Cloud service account",
+          "price": 50,
+          "color": "#f18a29",
+          "desc": "Alibaba Cloud account option described as a free trial. Review eligibility, account requirements, regional needs, and the trial\u2019s actual terms.",
+          "features": [
+            "Alibaba Cloud Free Trial",
+            "Confirm account details before purchase"
+          ],
+          "image": "/products/premium/cloud-console-v2.jpg",
+          "referencePrice": true,
+          "userPrice": false,
+          "sourceUrl": "https://accsmarket.shop/cloud-service/"
+        }
+      ]
+    },
+    {
+      "slug": "aws-marketplace",
+      "name": "AWS Marketplace",
+      "title": "Buy AWS Marketplace Account",
+      "color": "#687c49",
+      "initials": "AWS",
+      "description": "Explore the AWS Marketplace account listing and ask what the verified label establishes for your intended activity.",
+      "image": "/products/premium/cloud-console-v2.jpg",
+      "variants": [
+        {
+          "id": 321,
+          "name": "AWS Marketplace \u2014 Verified Marketplace Account",
+          "variant": "Verified Marketplace Account",
+          "category": "AWS Marketplace",
+          "provider": "AWS Marketplace",
+          "short": "AWS",
+          "kind": "Cloud service account",
+          "price": 90,
+          "color": "#687c49",
+          "desc": "AWS Marketplace account listing labeled Verified Marketplace Account. Confirm the exact verification scope and permitted account use before purchase.",
+          "features": [
+            "Verified Marketplace Account",
+            "Confirm account details before purchase"
+          ],
+          "image": "/products/premium/cloud-console-v2.jpg",
+          "referencePrice": true,
+          "userPrice": false,
+          "sourceUrl": "https://accsmarket.shop/cloud-service/"
+        }
+      ]
+    }
+  ],
+  "starters": [
+    {
+      "id": 1,
+      "provider": "Amazon Web Services",
+      "short": "aws",
+      "name": "AWS Cloud Starter",
+      "category": "AWS",
+      "price": 49,
+      "color": "#ff9900",
+      "desc": "An illustrative AWS onboarding service covering setup guidance, billing review, and a security checklist. Confirm the final service scope before ordering.",
+      "features": [
+        "Account setup guidance",
+        "Billing & security checklist",
+        "Getting-started support"
+      ],
+      "tag": "POPULAR"
+    },
+    {
+      "id": 2,
+      "provider": "Google Cloud",
+      "short": "Google Cloud",
+      "name": "Google Cloud Starter",
+      "category": "Google Cloud",
+      "price": 39,
+      "color": "#4285f4",
+      "desc": "An illustrative Google Cloud setup service with project guidance and an onboarding checklist. Agree on deliverables and support scope before purchase.",
+      "features": [
+        "Account setup guidance",
+        "Project configuration guide",
+        "Getting-started support"
+      ],
+      "tag": null
+    },
+    {
+      "id": 3,
+      "provider": "Microsoft Azure",
+      "short": "Azure",
+      "name": "Azure Cloud Starter",
+      "category": "Azure",
+      "price": 45,
+      "color": "#0089d6",
+      "desc": "An illustrative Azure onboarding package with account and subscription setup guidance. Confirm deliverables, boundaries, and provider charges before ordering.",
+      "features": [
+        "Account setup guidance",
+        "Subscription setup checklist",
+        "Getting-started support"
+      ],
+      "tag": null
+    },
+    {
+      "id": 4,
+      "provider": "DigitalOcean",
+      "short": "DigitalOcean",
+      "name": "DigitalOcean Starter",
+      "category": "DigitalOcean",
+      "price": 29,
+      "color": "#0080ff",
+      "desc": "An illustrative DigitalOcean onboarding service with account guidance and a Droplet launch walkthrough. Confirm the walkthrough\u2019s scope before purchase.",
+      "features": [
+        "Account setup guidance",
+        "Droplet launch walkthrough",
+        "Getting-started support"
+      ],
+      "tag": "GREAT VALUE"
+    },
+    {
+      "id": 5,
+      "provider": "Amazon Web Services",
+      "short": "aws",
+      "name": "AWS Launch Plus",
+      "category": "AWS",
+      "price": 89,
+      "color": "#ff9900",
+      "desc": "An illustrative expanded AWS onboarding service with planning and deployment guidance. Confirm the agreed deliverables and session scope before ordering.",
+      "features": [
+        "Everything in Cloud Starter",
+        "Architecture planning session",
+        "Deployment walkthrough"
+      ],
+      "tag": null
+    },
+    {
+      "id": 6,
+      "provider": "Google Cloud",
+      "short": "Google Cloud",
+      "name": "Google Cloud Launch Plus",
+      "category": "Google Cloud",
+      "price": 79,
+      "color": "#4285f4",
+      "desc": "An illustrative Google Cloud planning and onboarding service with a deployment walkthrough. Agree on the project brief and final scope before purchase.",
+      "features": [
+        "Everything in Cloud Starter",
+        "Architecture planning session",
+        "Deployment walkthrough"
+      ],
+      "tag": null
+    }
+  ]
+}

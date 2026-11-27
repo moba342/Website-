@@ -11,7 +11,7 @@ try{
  for(const [name,path] of [['home','/'],['products','/all-products/'],['cloud','/cloud-service-accounts/'],['product','/product/aws-32-vcpu-103/']]){
   await page.goto(origin+path,{waitUntil:'networkidle'});
   assert.equal(await page.locator('.studio-card-content>p,.product-body>p,.cloud-provider-body>p,.detail-related>div>p').count(),0,'No product card descriptions');
-  assert.equal(await page.locator('.premium-footer-services>a').count(),13);
+  assert.equal(await page.locator('.premium-footer-services>a').count(),14);
   assert.equal(await page.locator('.premium-footer-contact a[href="tel:+14582624274"]').count(),1);
   assert.equal(await page.locator('.premium-footer-contact a[href="https://t.me/Eljh_Miller"]').count(),1);
   await page.locator('.premium-footer-art img').scrollIntoViewIfNeeded();await page.locator('.premium-footer-art img').evaluate(e=>e.decode());assert.equal(await page.locator('.premium-footer-art img').evaluate(e=>e.complete&&e.naturalWidth>0),true);

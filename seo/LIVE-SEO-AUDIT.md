@@ -1,18 +1,7 @@
-# Final live SEO audit
+# Current production SEO audit
 
-Target: https://cloudssupply.site/. Status: PASS.
+Status: NOT TESTED for 92 public plus 2 utility routes. Production origin: https://cloudssupply.site/.
 
-76 intended pages were fetched from production. Failed page/HTTP checks: 0. Every title, description, H1, primary/secondary keyword, visible-content hash and JSON-LD hash is compared with the validated build, with image alt checks and linked asset requests. Unknown route response: 404; noindex: true.
+The live checker compares initial HTML titles, descriptions, H1, canonical/robots, complete visible-content hash and schema hash against the current build; it also checks static assets, robots, sitemap membership, redirects and genuine 404. Matching manifest hash: d9d73607b27a71473b5b72bcb29c5a759ad693dc19b7d9e45084957c1c990baa.
 
-The production crawl checks 200 responses, initial-HTML canonical origin, social page type, robots directives, complete visible content, JSON-LD, primary/secondary phrases, sitemap XML membership and origin, verification endpoints, real 404s and alternate-host redirect chains. HTTP requests upgrade to HTTPS; www requests permanently redirect to the canonical apex domain. Local content/schema/link/keyword checks are separate and are cross-checked against the same production artifact by the browser/live test suite. Raw response summaries: evidence/http-live.json. Mobile/desktop lab results are in LIGHTHOUSE-MOBILE-REPORT.md and LIGHTHOUSE-DESKTOP-REPORT.md.
-
-- https://buyaws-account.vercel.app/: 308 → https://cloudssupply.site/ → 200
-- http://cloudssupply.site/: 308 → https://cloudssupply.site/ → 200
-- https://www.cloudssupply.site/: 308 → https://cloudssupply.site/ → 200
-- http://www.cloudssupply.site/: 308 → https://www.cloudssupply.site/ → 308 → https://cloudssupply.site/ → 200
-- https://www.cloudssupply.site/product/aws-32-vcpu-103/?utm_source=seo-test: 308 → https://cloudssupply.site/product/aws-32-vcpu-103/?utm_source=seo-test → 200
-- https://buyaws-account.vercel.app/product/aws-32-vcpu-103/?utm_source=seo-test: 308 → https://cloudssupply.site/product/aws-32-vcpu-103/?utm_source=seo-test → 200
-- https://cloudssupply.site/home/?utm_source=seo-test: 308 → https://cloudssupply.site/?utm_source=seo-test → 200
-- https://cloudssupply.site/product/aws-32-vcpu-103: 308 → /product/aws-32-vcpu-103/ → 200
-
-Google index membership, rankings, Search Console verification and sitemap submission are not established by this crawl.
+Merchant-specific live checks cover all 68 variation prices, 48 legacy URLs, updated cart prices and blocked outdated payment instructions. See evidence/http-live.json and evidence/merchant-catalog/live-qa.json. Google indexing is not established by these tests.

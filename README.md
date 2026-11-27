@@ -221,3 +221,9 @@ The current storefront uses an original dark editorial design with obsidian back
 `src/studio-design.css` contains the shared responsive design system. `src/StudioMotion.jsx` adds progressive scroll reveals, pointer-aware card lighting and reading progress. Ambient motion and pointer effects respect reduced-motion and touch preferences. Server-rendered content remains visible without JavaScript.
 
 See `docs/studio-redesign.md` for implementation/validation notes and `docs/studio-artwork.md` for the built-in image-generation prompt set and saved assets. Run `node scripts/studio-motion-qa.mjs http://localhost:4181` against the production preview for motion and payment-panel checks. Historical Lighthouse reports predate this design; new homepage reports are in `seo/lighthouse/studio/`.
+
+## Merchant catalog — November 27, 2026
+
+The current complete catalog has 14 providers and 68 variations, supplied by the merchant. Source prices are independently recorded in `tests/fixtures/merchant-catalog-2026-11-27.json`; review `seo/CATALOG-PRICE-UPDATE.csv` for the full price table. Current inventory is 82 provider/product records and 92 public URLs plus two noindex checkout/cart routes. Old unlisted products and starter packages are retired; 48 changed/retired URLs are permanently redirected using `src/catalog-redirects.json` and `vercel.json`. Historical source is preserved under `seo/baseline/`.
+
+`node scripts/merchant-catalog-qa.mjs <origin>` checks every live variation price, all legacy redirects, restored cart prices and old-order payment safeguards. `node scripts/write-seo-reports.mjs` builds current catalog reports without treating historical Lighthouse evidence as a new-release measurement. HTTP report freshness is tied to the source content-manifest hash.
