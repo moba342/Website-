@@ -87,3 +87,6 @@ body.midnight-site #root .atelier-content .editorial-guide>section{background:tr
 body.midnight-site #root .atelier-content .editorial-guide>section h3{font-size:22px!important}
 /* Breathing room between the final page content and the footer invitation. */
 body.midnight-site #root main{padding-bottom:clamp(32px,4vw,64px)}
+/* Separate the provider rail from the hero statistics and following collection. */
+body.midnight-site #root .provider-ribbon{margin-block:clamp(24px,3vw,40px);padding-block:clamp(24px,2vw,32px)}
+body.midnight-site #root .provider-ribbon .ribbon-heading{margin-bottom:16px}
