@@ -573,7 +573,7 @@
   ],
   "assets": [
     {
-      "path": "/assets/index-0Lp7OSP_.js",
+      "path": "/assets/index-BP_eWy9b.js",
       "status": 200,
       "error": null
     },
@@ -603,7 +603,7 @@
       "error": null
     },
     {
-      "path": "/assets/index-CIiuQcFO.css",
+      "path": "/assets/index-jeYISelE.css",
       "status": 200,
       "error": null
     },
@@ -693,17 +693,17 @@
       "error": null
     },
     {
+      "path": "/products/studio/cloud-infrastructure-640.webp",
+      "status": 200,
+      "error": null
+    },
+    {
       "path": "/sitemap_index.xml",
       "status": 200,
       "error": null
     },
     {
       "path": "/products/studio/cloud-credits-640.webp",
-      "status": 200,
-      "error": null
-    },
-    {
-      "path": "/products/studio/cloud-infrastructure-640.webp",
       "status": 200,
       "error": null
     },

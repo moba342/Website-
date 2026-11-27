@@ -1,0 +1,27 @@
+{
+  "origin": "https://cloudssupply.site/",
+  "runtimeCommit": "1ca4758",
+  "productionDeployments": [
+    {
+      "project": "website",
+      "id": "dpl_ANtMXrZUgRmMS5Npk3HnDhNgkrLZ",
+      "status": "READY"
+    },
+    {
+      "project": "buyaws-account",
+      "id": "dpl_DD7apVFnYt1RP2mFGVHcHVZ9J6G9",
+      "status": "READY"
+    }
+  ],
+  "http": {
+    "routes": 76,
+    "assets": 28,
+    "sitemapUrls": 74,
+    "failures": []
+  },
+  "responsive": "76 routes at seven widths PASS",
+  "liveBrowserSmoke": "PASS",
+  "liveFooterCards": "PASS: provider links, actual contacts, artwork, no card descriptions, full product descriptions preserved",
+  "unitTests": "10 PASS",
+  "paymentsOrMessagesSent": false
+}
