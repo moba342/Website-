@@ -1,15 +1,15 @@
 {
   "domain": "https://cloudssupply.site/",
-  "runtimeCommit": "9412324",
+  "runtimeCommit": "e304fad",
   "projects": [
     {
       "name": "website",
-      "deployment": "dpl_4w7xHjojgqK76uUZY6L3yzxzKTHR",
+      "deployment": "dpl_FLksaUsSCFtShE96rd9aEYUbu6re",
       "state": "READY"
     },
     {
       "name": "buyaws-account",
-      "deployment": "dpl_8FUQ4gQaDBQDvsABTmpXraqebSgk",
+      "deployment": "dpl_AaUH7jgrnVXjXbGPoa4hvYrjpzBR",
       "state": "READY"
     }
   ],
@@ -35,5 +35,7 @@
   },
   "liveBrowserSmoke": "PASS: 5 representative routes at 7 widths plus navigation, cart, variation, checkout and receipt tests",
   "paymentsOrMessagesSent": false,
-  "notes": "Homepage Lighthouse reports are local lab results. Historical audits predate this design. Google indexing and field Core Web Vitals are not claimed."
+  "notes": "Homepage Lighthouse reports are local lab results. Historical audits predate this design. Google indexing and field Core Web Vitals are not claimed.",
+  "theme": "Studio Nocturne \u2014 obsidian, sapphire and violet",
+  "liveEffectsAudit": "PASS: click halo creation and cleanup, animated card edge, pointer lighting, reduced motion, viewport edge clipping and BEP20 instructions"
 }
